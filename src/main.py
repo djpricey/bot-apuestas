@@ -72,6 +72,7 @@ def main():
     print(f"  {len(res)} partidos jugados en {res['liga'].nunique()} ligas")
     print("Descargando próximos partidos…")
     prox = descargar_proximos()
+    print(f"  próximos sin filtrar: {len(prox)}" + (f" ({prox['fecha'].min()} a {prox['fecha'].max()})" if not prox.empty else ""))
     if not prox.empty:
         prox = prox[(prox["fecha"] >= hoy) & (prox["fecha"] <= hoy + pd.Timedelta(days=7))]
     print(f"  {len(prox)} partidos próximos")

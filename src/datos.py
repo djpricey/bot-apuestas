@@ -90,12 +90,18 @@ def descargar_proximos():
     c = _get(f"{BASE}/fixtures.csv")
     if c:
         raw = _leer_csv(c)
+        print(f"  fixtures.csv: {len(raw)} filas; columnas: {list(raw.columns)[:12]}")
+        if "Date" in raw.columns:
+            print(f"  fechas: {raw['Date'].head(3).tolist()} ... {raw['Date'].tail(2).tolist()}")
         if "Div" in raw.columns:
             for cod, nombre in LIGAS_PRINCIPALES.items():
                 partes.append(normalizar(raw[raw["Div"] == cod], nombre))
     c = _get(f"{BASE}/new_league_fixtures.csv")
     if c:
         raw = _leer_csv(c)
+        print(f"  new_league_fixtures.csv: {len(raw)} filas; columnas: {list(raw.columns)[:12]}")
+        if "Country" in raw.columns:
+            print(f"  países: {raw['Country'].value_counts().head(8).to_dict()}")
         if "Country" in raw.columns:
             mapa = {"Argentina": "Argentina", "Brazil": "Brasil", "Mexico": "México", "USA": "MLS"}
             for pais, nombre in mapa.items():
