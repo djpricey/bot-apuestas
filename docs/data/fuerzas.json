@@ -1,0 +1,2244 @@
+{
+ "actualizado": "2026-11-11T18:23-05:00",
+ "edge_min": 0.05,
+ "ligas": {
+  "Argentina": {
+   "local": 1.09,
+   "goles_partido": 2.16,
+   "equipos": [
+    {
+     "equipo": "Boca Juniors",
+     "ataque": 1.35,
+     "defensa": 0.69,
+     "fuerza": 1.94
+    },
+    {
+     "equipo": "Rosario Central",
+     "ataque": 1.29,
+     "defensa": 0.77,
+     "fuerza": 1.67
+    },
+    {
+     "equipo": "River Plate",
+     "ataque": 1.26,
+     "defensa": 0.8,
+     "fuerza": 1.57
+    },
+    {
+     "equipo": "Argentinos Jrs",
+     "ataque": 1.09,
+     "defensa": 0.78,
+     "fuerza": 1.41
+    },
+    {
+     "equipo": "Lanus",
+     "ataque": 1.03,
+     "defensa": 0.78,
+     "fuerza": 1.32
+    },
+    {
+     "equipo": "Velez Sarsfield",
+     "ataque": 1.19,
+     "defensa": 0.93,
+     "fuerza": 1.28
+    },
+    {
+     "equipo": "Instituto",
+     "ataque": 1.2,
+     "defensa": 1.0,
+     "fuerza": 1.19
+    },
+    {
+     "equipo": "Belgrano",
+     "ataque": 0.99,
+     "defensa": 0.86,
+     "fuerza": 1.15
+    },
+    {
+     "equipo": "Estudiantes L.P.",
+     "ataque": 1.14,
+     "defensa": 0.99,
+     "fuerza": 1.15
+    },
+    {
+     "equipo": "Gimnasia L.P.",
+     "ataque": 1.16,
+     "defensa": 1.04,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "Barracas Central",
+     "ataque": 0.98,
+     "defensa": 0.89,
+     "fuerza": 1.1
+    },
+    {
+     "equipo": "Ind. Rivadavia",
+     "ataque": 1.25,
+     "defensa": 1.15,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Independiente",
+     "ataque": 1.05,
+     "defensa": 0.96,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Defensa y Justicia",
+     "ataque": 1.1,
+     "defensa": 1.04,
+     "fuerza": 1.06
+    },
+    {
+     "equipo": "Tigre",
+     "ataque": 0.91,
+     "defensa": 0.87,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Union de Santa Fe",
+     "ataque": 1.25,
+     "defensa": 1.19,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Huracan",
+     "ataque": 0.87,
+     "defensa": 0.88,
+     "fuerza": 0.99
+    },
+    {
+     "equipo": "Racing Club",
+     "ataque": 1.01,
+     "defensa": 1.04,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Talleres Cordoba",
+     "ataque": 0.93,
+     "defensa": 1.0,
+     "fuerza": 0.93
+    },
+    {
+     "equipo": "Gimnasia Mendoza",
+     "ataque": 0.98,
+     "defensa": 1.06,
+     "fuerza": 0.92
+    },
+    {
+     "equipo": "Newells Old Boys",
+     "ataque": 0.91,
+     "defensa": 1.02,
+     "fuerza": 0.89
+    },
+    {
+     "equipo": "Platense",
+     "ataque": 0.91,
+     "defensa": 1.03,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Atl. Tucuman",
+     "ataque": 0.95,
+     "defensa": 1.1,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Sarmiento Junin",
+     "ataque": 1.02,
+     "defensa": 1.19,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "San Lorenzo",
+     "ataque": 0.72,
+     "defensa": 0.88,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Banfield",
+     "ataque": 1.01,
+     "defensa": 1.26,
+     "fuerza": 0.8
+    },
+    {
+     "equipo": "Godoy Cruz",
+     "ataque": 0.8,
+     "defensa": 1.04,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "San Martin S.J.",
+     "ataque": 0.79,
+     "defensa": 1.02,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "Dep. Riestra",
+     "ataque": 0.67,
+     "defensa": 0.9,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "Central Cordoba",
+     "ataque": 0.83,
+     "defensa": 1.28,
+     "fuerza": 0.65
+    },
+    {
+     "equipo": "Aldosivi",
+     "ataque": 0.8,
+     "defensa": 1.27,
+     "fuerza": 0.63
+    },
+    {
+     "equipo": "Estudiantes Rio Cuarto",
+     "ataque": 0.59,
+     "defensa": 1.29,
+     "fuerza": 0.46
+    }
+   ]
+  },
+  "Brasil": {
+   "local": 1.19,
+   "goles_partido": 2.61,
+   "equipos": [
+    {
+     "equipo": "Flamengo RJ",
+     "ataque": 1.59,
+     "defensa": 0.62,
+     "fuerza": 2.56
+    },
+    {
+     "equipo": "Palmeiras",
+     "ataque": 1.37,
+     "defensa": 0.59,
+     "fuerza": 2.32
+    },
+    {
+     "equipo": "Cruzeiro",
+     "ataque": 1.21,
+     "defensa": 0.84,
+     "fuerza": 1.44
+    },
+    {
+     "equipo": "Fluminense",
+     "ataque": 1.15,
+     "defensa": 0.81,
+     "fuerza": 1.41
+    },
+    {
+     "equipo": "Athletico-PR",
+     "ataque": 1.15,
+     "defensa": 0.92,
+     "fuerza": 1.25
+    },
+    {
+     "equipo": "Mirassol",
+     "ataque": 1.09,
+     "defensa": 0.9,
+     "fuerza": 1.22
+    },
+    {
+     "equipo": "Botafogo RJ",
+     "ataque": 1.12,
+     "defensa": 0.93,
+     "fuerza": 1.21
+    },
+    {
+     "equipo": "Bahia",
+     "ataque": 1.11,
+     "defensa": 0.94,
+     "fuerza": 1.19
+    },
+    {
+     "equipo": "Atletico-MG",
+     "ataque": 0.95,
+     "defensa": 0.84,
+     "fuerza": 1.14
+    },
+    {
+     "equipo": "Santos",
+     "ataque": 1.09,
+     "defensa": 0.98,
+     "fuerza": 1.1
+    },
+    {
+     "equipo": "Bragantino",
+     "ataque": 1.02,
+     "defensa": 0.96,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Corinthians",
+     "ataque": 0.93,
+     "defensa": 0.89,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Sao Paulo",
+     "ataque": 0.91,
+     "defensa": 0.89,
+     "fuerza": 1.02
+    },
+    {
+     "equipo": "Vasco",
+     "ataque": 1.11,
+     "defensa": 1.11,
+     "fuerza": 1.01
+    },
+    {
+     "equipo": "Gremio",
+     "ataque": 0.95,
+     "defensa": 0.99,
+     "fuerza": 0.96
+    },
+    {
+     "equipo": "Internacional",
+     "ataque": 0.93,
+     "defensa": 0.98,
+     "fuerza": 0.95
+    },
+    {
+     "equipo": "Ceara",
+     "ataque": 0.74,
+     "defensa": 0.79,
+     "fuerza": 0.93
+    },
+    {
+     "equipo": "Fortaleza",
+     "ataque": 0.95,
+     "defensa": 1.1,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Coritiba",
+     "ataque": 0.93,
+     "defensa": 1.1,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Vitoria",
+     "ataque": 0.81,
+     "defensa": 1.01,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "Remo",
+     "ataque": 0.9,
+     "defensa": 1.16,
+     "fuerza": 0.78
+    },
+    {
+     "equipo": "Juventude",
+     "ataque": 0.83,
+     "defensa": 1.26,
+     "fuerza": 0.66
+    },
+    {
+     "equipo": "Chapecoense-SC",
+     "ataque": 0.83,
+     "defensa": 1.45,
+     "fuerza": 0.58
+    },
+    {
+     "equipo": "Sport Recife",
+     "ataque": 0.66,
+     "defensa": 1.41,
+     "fuerza": 0.47
+    }
+   ]
+  },
+  "Bundesliga": {
+   "local": 1.06,
+   "goles_partido": 3.25,
+   "equipos": [
+    {
+     "equipo": "Bayern Munich",
+     "ataque": 2.05,
+     "defensa": 0.7,
+     "fuerza": 2.94
+    },
+    {
+     "equipo": "Dortmund",
+     "ataque": 1.28,
+     "defensa": 0.66,
+     "fuerza": 1.94
+    },
+    {
+     "equipo": "Leverkusen",
+     "ataque": 1.3,
+     "defensa": 0.89,
+     "fuerza": 1.47
+    },
+    {
+     "equipo": "RB Leipzig",
+     "ataque": 1.29,
+     "defensa": 0.92,
+     "fuerza": 1.4
+    },
+    {
+     "equipo": "Stuttgart",
+     "ataque": 1.26,
+     "defensa": 0.92,
+     "fuerza": 1.36
+    },
+    {
+     "equipo": "Elversberg",
+     "ataque": 1.28,
+     "defensa": 1.14,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "Freiburg",
+     "ataque": 1.05,
+     "defensa": 0.98,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Hoffenheim",
+     "ataque": 1.13,
+     "defensa": 1.08,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Mainz",
+     "ataque": 0.99,
+     "defensa": 0.95,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "Ein Frankfurt",
+     "ataque": 1.13,
+     "defensa": 1.12,
+     "fuerza": 1.01
+    },
+    {
+     "equipo": "Augsburg",
+     "ataque": 0.9,
+     "defensa": 1.03,
+     "fuerza": 0.87
+    },
+    {
+     "equipo": "Werder Bremen",
+     "ataque": 0.88,
+     "defensa": 1.02,
+     "fuerza": 0.87
+    },
+    {
+     "equipo": "Paderborn",
+     "ataque": 0.68,
+     "defensa": 0.82,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "M'gladbach",
+     "ataque": 0.9,
+     "defensa": 1.11,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "Wolfsburg",
+     "ataque": 0.9,
+     "defensa": 1.12,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "FC Koln",
+     "ataque": 0.88,
+     "defensa": 1.11,
+     "fuerza": 0.79
+    },
+    {
+     "equipo": "Holstein Kiel",
+     "ataque": 1.02,
+     "defensa": 1.36,
+     "fuerza": 0.75
+    },
+    {
+     "equipo": "Hamburg",
+     "ataque": 0.78,
+     "defensa": 1.05,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "Union Berlin",
+     "ataque": 0.76,
+     "defensa": 1.1,
+     "fuerza": 0.69
+    },
+    {
+     "equipo": "Bochum",
+     "ataque": 0.68,
+     "defensa": 1.0,
+     "fuerza": 0.68
+    },
+    {
+     "equipo": "Schalke 04",
+     "ataque": 0.51,
+     "defensa": 0.76,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Heidenheim",
+     "ataque": 0.77,
+     "defensa": 1.23,
+     "fuerza": 0.63
+    },
+    {
+     "equipo": "St Pauli",
+     "ataque": 0.57,
+     "defensa": 0.95,
+     "fuerza": 0.6
+    }
+   ]
+  },
+  "Bélgica": {
+   "local": 1.11,
+   "goles_partido": 2.82,
+   "equipos": [
+    {
+     "equipo": "St. Gilloise",
+     "ataque": 1.39,
+     "defensa": 0.47,
+     "fuerza": 2.96
+    },
+    {
+     "equipo": "Club Brugge",
+     "ataque": 1.71,
+     "defensa": 0.74,
+     "fuerza": 2.33
+    },
+    {
+     "equipo": "Genk",
+     "ataque": 1.1,
+     "defensa": 0.84,
+     "fuerza": 1.31
+    },
+    {
+     "equipo": "Charleroi",
+     "ataque": 1.11,
+     "defensa": 0.87,
+     "fuerza": 1.28
+    },
+    {
+     "equipo": "Lommel SK",
+     "ataque": 1.0,
+     "defensa": 0.82,
+     "fuerza": 1.22
+    },
+    {
+     "equipo": "Anderlecht",
+     "ataque": 1.07,
+     "defensa": 0.89,
+     "fuerza": 1.2
+    },
+    {
+     "equipo": "St Truiden",
+     "ataque": 1.16,
+     "defensa": 1.0,
+     "fuerza": 1.16
+    },
+    {
+     "equipo": "Gent",
+     "ataque": 0.97,
+     "defensa": 0.93,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "Standard",
+     "ataque": 0.78,
+     "defensa": 0.81,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Westerlo",
+     "ataque": 1.18,
+     "defensa": 1.21,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Waregem",
+     "ataque": 1.0,
+     "defensa": 1.07,
+     "fuerza": 0.93
+    },
+    {
+     "equipo": "Antwerp",
+     "ataque": 0.9,
+     "defensa": 0.98,
+     "fuerza": 0.92
+    },
+    {
+     "equipo": "Mechelen",
+     "ataque": 0.92,
+     "defensa": 1.07,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Cercle Brugge",
+     "ataque": 0.98,
+     "defensa": 1.15,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Oud-Heverlee Leuven",
+     "ataque": 0.77,
+     "defensa": 0.99,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "RAAL La Louviere",
+     "ataque": 0.77,
+     "defensa": 1.11,
+     "fuerza": 0.69
+    },
+    {
+     "equipo": "Beerschot VA",
+     "ataque": 0.81,
+     "defensa": 1.2,
+     "fuerza": 0.68
+    },
+    {
+     "equipo": "Beveren",
+     "ataque": 0.93,
+     "defensa": 1.38,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Dender",
+     "ataque": 0.77,
+     "defensa": 1.22,
+     "fuerza": 0.63
+    },
+    {
+     "equipo": "Kortrijk",
+     "ataque": 0.68,
+     "defensa": 1.26,
+     "fuerza": 0.54
+    }
+   ]
+  },
+  "Championship": {
+   "local": 1.14,
+   "goles_partido": 2.74,
+   "equipos": [
+    {
+     "equipo": "Leeds",
+     "ataque": 1.36,
+     "defensa": 0.75,
+     "fuerza": 1.81
+    },
+    {
+     "equipo": "Coventry",
+     "ataque": 1.35,
+     "defensa": 0.77,
+     "fuerza": 1.75
+    },
+    {
+     "equipo": "Southampton",
+     "ataque": 1.32,
+     "defensa": 0.81,
+     "fuerza": 1.63
+    },
+    {
+     "equipo": "Ipswich",
+     "ataque": 1.23,
+     "defensa": 0.8,
+     "fuerza": 1.55
+    },
+    {
+     "equipo": "West Ham",
+     "ataque": 1.59,
+     "defensa": 1.12,
+     "fuerza": 1.42
+    },
+    {
+     "equipo": "Middlesbrough",
+     "ataque": 1.21,
+     "defensa": 0.86,
+     "fuerza": 1.4
+    },
+    {
+     "equipo": "Birmingham",
+     "ataque": 1.09,
+     "defensa": 0.79,
+     "fuerza": 1.38
+    },
+    {
+     "equipo": "Wolves",
+     "ataque": 1.15,
+     "defensa": 0.85,
+     "fuerza": 1.35
+    },
+    {
+     "equipo": "Norwich",
+     "ataque": 1.24,
+     "defensa": 1.0,
+     "fuerza": 1.24
+    },
+    {
+     "equipo": "West Brom",
+     "ataque": 0.93,
+     "defensa": 0.82,
+     "fuerza": 1.13
+    },
+    {
+     "equipo": "Sheffield United",
+     "ataque": 1.03,
+     "defensa": 0.98,
+     "fuerza": 1.06
+    },
+    {
+     "equipo": "Swansea",
+     "ataque": 0.98,
+     "defensa": 0.93,
+     "fuerza": 1.06
+    },
+    {
+     "equipo": "Millwall",
+     "ataque": 1.03,
+     "defensa": 0.97,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Hull",
+     "ataque": 1.01,
+     "defensa": 0.99,
+     "fuerza": 1.02
+    },
+    {
+     "equipo": "Wrexham",
+     "ataque": 1.0,
+     "defensa": 0.99,
+     "fuerza": 1.02
+    },
+    {
+     "equipo": "QPR",
+     "ataque": 1.02,
+     "defensa": 1.02,
+     "fuerza": 0.99
+    },
+    {
+     "equipo": "Stoke",
+     "ataque": 0.91,
+     "defensa": 0.94,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Sunderland",
+     "ataque": 0.86,
+     "defensa": 0.9,
+     "fuerza": 0.96
+    },
+    {
+     "equipo": "Cardiff",
+     "ataque": 1.17,
+     "defensa": 1.24,
+     "fuerza": 0.94
+    },
+    {
+     "equipo": "Portsmouth",
+     "ataque": 0.89,
+     "defensa": 0.95,
+     "fuerza": 0.94
+    },
+    {
+     "equipo": "Burnley",
+     "ataque": 1.08,
+     "defensa": 1.19,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "Blackburn",
+     "ataque": 0.84,
+     "defensa": 0.95,
+     "fuerza": 0.89
+    },
+    {
+     "equipo": "Leicester",
+     "ataque": 0.92,
+     "defensa": 1.08,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Luton",
+     "ataque": 0.84,
+     "defensa": 1.01,
+     "fuerza": 0.83
+    },
+    {
+     "equipo": "Bristol City",
+     "ataque": 0.85,
+     "defensa": 1.04,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Derby",
+     "ataque": 0.88,
+     "defensa": 1.1,
+     "fuerza": 0.8
+    },
+    {
+     "equipo": "Oxford",
+     "ataque": 0.76,
+     "defensa": 0.95,
+     "fuerza": 0.8
+    },
+    {
+     "equipo": "Plymouth",
+     "ataque": 0.94,
+     "defensa": 1.22,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "Bolton",
+     "ataque": 0.95,
+     "defensa": 1.28,
+     "fuerza": 0.75
+    },
+    {
+     "equipo": "Watford",
+     "ataque": 0.72,
+     "defensa": 1.05,
+     "fuerza": 0.69
+    },
+    {
+     "equipo": "Charlton",
+     "ataque": 0.67,
+     "defensa": 1.01,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Preston",
+     "ataque": 0.78,
+     "defensa": 1.19,
+     "fuerza": 0.66
+    },
+    {
+     "equipo": "Lincoln",
+     "ataque": 0.77,
+     "defensa": 1.2,
+     "fuerza": 0.65
+    },
+    {
+     "equipo": "Sheffield Weds",
+     "ataque": 0.61,
+     "defensa": 1.27,
+     "fuerza": 0.48
+    }
+   ]
+  },
+  "Eredivisie": {
+   "local": 1.08,
+   "goles_partido": 3.3,
+   "equipos": [
+    {
+     "equipo": "PSV Eindhoven",
+     "ataque": 1.86,
+     "defensa": 0.81,
+     "fuerza": 2.31
+    },
+    {
+     "equipo": "Feyenoord",
+     "ataque": 1.41,
+     "defensa": 0.77,
+     "fuerza": 1.84
+    },
+    {
+     "equipo": "Ajax",
+     "ataque": 1.24,
+     "defensa": 0.7,
+     "fuerza": 1.78
+    },
+    {
+     "equipo": "Twente",
+     "ataque": 1.2,
+     "defensa": 0.75,
+     "fuerza": 1.61
+    },
+    {
+     "equipo": "AZ Alkmaar",
+     "ataque": 1.09,
+     "defensa": 0.8,
+     "fuerza": 1.35
+    },
+    {
+     "equipo": "Nijmegen",
+     "ataque": 1.18,
+     "defensa": 0.96,
+     "fuerza": 1.23
+    },
+    {
+     "equipo": "Heerenveen",
+     "ataque": 1.05,
+     "defensa": 0.88,
+     "fuerza": 1.2
+    },
+    {
+     "equipo": "Utrecht",
+     "ataque": 1.07,
+     "defensa": 0.96,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "Groningen",
+     "ataque": 1.04,
+     "defensa": 0.95,
+     "fuerza": 1.1
+    },
+    {
+     "equipo": "Go Ahead Eagles",
+     "ataque": 1.09,
+     "defensa": 1.03,
+     "fuerza": 1.06
+    },
+    {
+     "equipo": "Cambuur",
+     "ataque": 1.25,
+     "defensa": 1.24,
+     "fuerza": 1.01
+    },
+    {
+     "equipo": "Telstar",
+     "ataque": 0.96,
+     "defensa": 1.01,
+     "fuerza": 0.95
+    },
+    {
+     "equipo": "For Sittard",
+     "ataque": 0.89,
+     "defensa": 1.01,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Waalwijk",
+     "ataque": 0.97,
+     "defensa": 1.15,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "Sparta Rotterdam",
+     "ataque": 0.85,
+     "defensa": 1.04,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Den Haag",
+     "ataque": 0.89,
+     "defensa": 1.11,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "Excelsior",
+     "ataque": 0.84,
+     "defensa": 1.07,
+     "fuerza": 0.78
+    },
+    {
+     "equipo": "Volendam",
+     "ataque": 0.69,
+     "defensa": 0.93,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "Zwolle",
+     "ataque": 0.8,
+     "defensa": 1.09,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "NAC Breda",
+     "ataque": 0.67,
+     "defensa": 1.0,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Almere City",
+     "ataque": 0.58,
+     "defensa": 0.98,
+     "fuerza": 0.59
+    },
+    {
+     "equipo": "Heracles",
+     "ataque": 0.74,
+     "defensa": 1.29,
+     "fuerza": 0.57
+    },
+    {
+     "equipo": "Willem II",
+     "ataque": 0.63,
+     "defensa": 1.48,
+     "fuerza": 0.43
+    }
+   ]
+  },
+  "Escocia": {
+   "local": 1.12,
+   "goles_partido": 2.87,
+   "equipos": [
+    {
+     "equipo": "Celtic",
+     "ataque": 1.57,
+     "defensa": 0.69,
+     "fuerza": 2.26
+    },
+    {
+     "equipo": "Rangers",
+     "ataque": 1.46,
+     "defensa": 0.78,
+     "fuerza": 1.87
+    },
+    {
+     "equipo": "Hearts",
+     "ataque": 1.25,
+     "defensa": 0.8,
+     "fuerza": 1.56
+    },
+    {
+     "equipo": "Hibernian",
+     "ataque": 1.13,
+     "defensa": 0.84,
+     "fuerza": 1.35
+    },
+    {
+     "equipo": "Motherwell",
+     "ataque": 0.98,
+     "defensa": 0.9,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Falkirk",
+     "ataque": 1.03,
+     "defensa": 0.96,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Dundee United",
+     "ataque": 0.9,
+     "defensa": 1.05,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Dundee",
+     "ataque": 0.94,
+     "defensa": 1.12,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "St Johnstone",
+     "ataque": 0.79,
+     "defensa": 1.08,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "Kilmarnock",
+     "ataque": 0.89,
+     "defensa": 1.23,
+     "fuerza": 0.72
+    },
+    {
+     "equipo": "Ross County",
+     "ataque": 0.82,
+     "defensa": 1.16,
+     "fuerza": 0.71
+    },
+    {
+     "equipo": "St Mirren",
+     "ataque": 0.72,
+     "defensa": 1.01,
+     "fuerza": 0.71
+    },
+    {
+     "equipo": "Aberdeen",
+     "ataque": 0.74,
+     "defensa": 1.06,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Livingston",
+     "ataque": 0.78,
+     "defensa": 1.32,
+     "fuerza": 0.59
+    }
+   ]
+  },
+  "LaLiga": {
+   "local": 1.15,
+   "goles_partido": 2.73,
+   "equipos": [
+    {
+     "equipo": "Barcelona",
+     "ataque": 2.08,
+     "defensa": 0.74,
+     "fuerza": 2.82
+    },
+    {
+     "equipo": "Real Madrid",
+     "ataque": 1.59,
+     "defensa": 0.67,
+     "fuerza": 2.38
+    },
+    {
+     "equipo": "Ath Madrid",
+     "ataque": 1.33,
+     "defensa": 0.73,
+     "fuerza": 1.82
+    },
+    {
+     "equipo": "Villarreal",
+     "ataque": 1.34,
+     "defensa": 0.87,
+     "fuerza": 1.53
+    },
+    {
+     "equipo": "Betis",
+     "ataque": 1.24,
+     "defensa": 0.91,
+     "fuerza": 1.35
+    },
+    {
+     "equipo": "Ath Bilbao",
+     "ataque": 0.97,
+     "defensa": 0.83,
+     "fuerza": 1.17
+    },
+    {
+     "equipo": "Celta",
+     "ataque": 1.0,
+     "defensa": 0.86,
+     "fuerza": 1.17
+    },
+    {
+     "equipo": "La Coruna",
+     "ataque": 0.94,
+     "defensa": 0.88,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Sociedad",
+     "ataque": 1.13,
+     "defensa": 1.1,
+     "fuerza": 1.03
+    },
+    {
+     "equipo": "Vallecano",
+     "ataque": 0.89,
+     "defensa": 0.9,
+     "fuerza": 0.99
+    },
+    {
+     "equipo": "Elche",
+     "ataque": 0.99,
+     "defensa": 1.03,
+     "fuerza": 0.95
+    },
+    {
+     "equipo": "Alaves",
+     "ataque": 0.88,
+     "defensa": 0.94,
+     "fuerza": 0.94
+    },
+    {
+     "equipo": "Espanol",
+     "ataque": 0.85,
+     "defensa": 0.91,
+     "fuerza": 0.94
+    },
+    {
+     "equipo": "Sevilla",
+     "ataque": 0.99,
+     "defensa": 1.06,
+     "fuerza": 0.93
+    },
+    {
+     "equipo": "Levante",
+     "ataque": 1.0,
+     "defensa": 1.1,
+     "fuerza": 0.92
+    },
+    {
+     "equipo": "Mallorca",
+     "ataque": 0.91,
+     "defensa": 0.99,
+     "fuerza": 0.92
+    },
+    {
+     "equipo": "Osasuna",
+     "ataque": 0.9,
+     "defensa": 1.0,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "Valencia",
+     "ataque": 0.88,
+     "defensa": 0.99,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "Getafe",
+     "ataque": 0.67,
+     "defensa": 0.78,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Leganes",
+     "ataque": 0.86,
+     "defensa": 1.04,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Girona",
+     "ataque": 0.83,
+     "defensa": 1.03,
+     "fuerza": 0.8
+    },
+    {
+     "equipo": "Las Palmas",
+     "ataque": 0.76,
+     "defensa": 1.08,
+     "fuerza": 0.71
+    },
+    {
+     "equipo": "Santander",
+     "ataque": 1.11,
+     "defensa": 1.58,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Oviedo",
+     "ataque": 0.59,
+     "defensa": 1.06,
+     "fuerza": 0.56
+    },
+    {
+     "equipo": "Malaga",
+     "ataque": 0.67,
+     "defensa": 1.23,
+     "fuerza": 0.54
+    },
+    {
+     "equipo": "Valladolid",
+     "ataque": 0.61,
+     "defensa": 1.69,
+     "fuerza": 0.36
+    }
+   ]
+  },
+  "Ligue 1": {
+   "local": 1.09,
+   "goles_partido": 2.88,
+   "equipos": [
+    {
+     "equipo": "Paris SG",
+     "ataque": 1.62,
+     "defensa": 0.66,
+     "fuerza": 2.46
+    },
+    {
+     "equipo": "Lille",
+     "ataque": 1.06,
+     "defensa": 0.68,
+     "fuerza": 1.56
+    },
+    {
+     "equipo": "Marseille",
+     "ataque": 1.44,
+     "defensa": 0.92,
+     "fuerza": 1.56
+    },
+    {
+     "equipo": "Lens",
+     "ataque": 1.26,
+     "defensa": 0.83,
+     "fuerza": 1.52
+    },
+    {
+     "equipo": "Lyon",
+     "ataque": 1.21,
+     "defensa": 0.8,
+     "fuerza": 1.51
+    },
+    {
+     "equipo": "Monaco",
+     "ataque": 1.28,
+     "defensa": 0.95,
+     "fuerza": 1.34
+    },
+    {
+     "equipo": "Strasbourg",
+     "ataque": 1.24,
+     "defensa": 0.96,
+     "fuerza": 1.29
+    },
+    {
+     "equipo": "Paris FC",
+     "ataque": 1.09,
+     "defensa": 0.87,
+     "fuerza": 1.26
+    },
+    {
+     "equipo": "Rennes",
+     "ataque": 1.32,
+     "defensa": 1.06,
+     "fuerza": 1.25
+    },
+    {
+     "equipo": "Toulouse",
+     "ataque": 1.03,
+     "defensa": 0.91,
+     "fuerza": 1.13
+    },
+    {
+     "equipo": "Lorient",
+     "ataque": 0.94,
+     "defensa": 0.87,
+     "fuerza": 1.08
+    },
+    {
+     "equipo": "Brest",
+     "ataque": 1.1,
+     "defensa": 1.05,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "Nice",
+     "ataque": 1.03,
+     "defensa": 1.02,
+     "fuerza": 1.01
+    },
+    {
+     "equipo": "Auxerre",
+     "ataque": 0.85,
+     "defensa": 1.0,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Le Mans",
+     "ataque": 0.93,
+     "defensa": 1.18,
+     "fuerza": 0.79
+    },
+    {
+     "equipo": "Le Havre",
+     "ataque": 0.81,
+     "defensa": 1.1,
+     "fuerza": 0.74
+    },
+    {
+     "equipo": "Nantes",
+     "ataque": 0.71,
+     "defensa": 0.98,
+     "fuerza": 0.73
+    },
+    {
+     "equipo": "St Etienne",
+     "ataque": 0.96,
+     "defensa": 1.44,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Angers",
+     "ataque": 0.65,
+     "defensa": 1.01,
+     "fuerza": 0.64
+    },
+    {
+     "equipo": "Troyes",
+     "ataque": 0.67,
+     "defensa": 1.06,
+     "fuerza": 0.64
+    },
+    {
+     "equipo": "Reims",
+     "ataque": 0.55,
+     "defensa": 0.92,
+     "fuerza": 0.59
+    },
+    {
+     "equipo": "Metz",
+     "ataque": 0.75,
+     "defensa": 1.4,
+     "fuerza": 0.54
+    },
+    {
+     "equipo": "Montpellier",
+     "ataque": 0.5,
+     "defensa": 1.34,
+     "fuerza": 0.37
+    }
+   ]
+  },
+  "MLS": {
+   "local": 1.12,
+   "goles_partido": 3.16,
+   "equipos": [
+    {
+     "equipo": "Nashville SC",
+     "ataque": 1.17,
+     "defensa": 0.66,
+     "fuerza": 1.77
+    },
+    {
+     "equipo": "Vancouver Whitecaps",
+     "ataque": 1.27,
+     "defensa": 0.72,
+     "fuerza": 1.77
+    },
+    {
+     "equipo": "Inter Miami",
+     "ataque": 1.56,
+     "defensa": 1.04,
+     "fuerza": 1.51
+    },
+    {
+     "equipo": "Philadelphia Union",
+     "ataque": 1.16,
+     "defensa": 0.83,
+     "fuerza": 1.4
+    },
+    {
+     "equipo": "Los Angeles FC",
+     "ataque": 1.07,
+     "defensa": 0.79,
+     "fuerza": 1.36
+    },
+    {
+     "equipo": "Charlotte",
+     "ataque": 1.11,
+     "defensa": 0.92,
+     "fuerza": 1.21
+    },
+    {
+     "equipo": "Chicago Fire",
+     "ataque": 1.23,
+     "defensa": 1.05,
+     "fuerza": 1.17
+    },
+    {
+     "equipo": "Columbus Crew",
+     "ataque": 1.07,
+     "defensa": 0.94,
+     "fuerza": 1.14
+    },
+    {
+     "equipo": "New York City",
+     "ataque": 0.91,
+     "defensa": 0.81,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "San Diego FC",
+     "ataque": 1.11,
+     "defensa": 1.01,
+     "fuerza": 1.1
+    },
+    {
+     "equipo": "FC Dallas",
+     "ataque": 1.07,
+     "defensa": 1.0,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Seattle Sounders",
+     "ataque": 0.94,
+     "defensa": 0.9,
+     "fuerza": 1.05
+    },
+    {
+     "equipo": "Minnesota United",
+     "ataque": 1.04,
+     "defensa": 1.01,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "New England Revolution",
+     "ataque": 0.94,
+     "defensa": 0.91,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "St. Louis City",
+     "ataque": 1.01,
+     "defensa": 1.0,
+     "fuerza": 1.01
+    },
+    {
+     "equipo": "San Jose Earthquakes",
+     "ataque": 1.07,
+     "defensa": 1.08,
+     "fuerza": 1.0
+    },
+    {
+     "equipo": "FC Cincinnati",
+     "ataque": 1.1,
+     "defensa": 1.11,
+     "fuerza": 0.99
+    },
+    {
+     "equipo": "Orlando City",
+     "ataque": 1.17,
+     "defensa": 1.21,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Portland Timbers",
+     "ataque": 0.99,
+     "defensa": 1.06,
+     "fuerza": 0.93
+    },
+    {
+     "equipo": "New York Red Bulls",
+     "ataque": 0.9,
+     "defensa": 1.0,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "Real Salt Lake",
+     "ataque": 0.87,
+     "defensa": 0.97,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "Houston Dynamo",
+     "ataque": 0.8,
+     "defensa": 0.9,
+     "fuerza": 0.89
+    },
+    {
+     "equipo": "Colorado Rapids",
+     "ataque": 0.85,
+     "defensa": 0.99,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Toronto FC",
+     "ataque": 0.88,
+     "defensa": 1.04,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "Los Angeles Galaxy",
+     "ataque": 0.95,
+     "defensa": 1.14,
+     "fuerza": 0.83
+    },
+    {
+     "equipo": "Atlanta Utd",
+     "ataque": 0.77,
+     "defensa": 1.1,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Austin FC",
+     "ataque": 0.77,
+     "defensa": 1.09,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "CF Montreal",
+     "ataque": 0.69,
+     "defensa": 1.16,
+     "fuerza": 0.6
+    },
+    {
+     "equipo": "DC United",
+     "ataque": 0.68,
+     "defensa": 1.14,
+     "fuerza": 0.59
+    },
+    {
+     "equipo": "Sporting Kansas City",
+     "ataque": 0.83,
+     "defensa": 1.42,
+     "fuerza": 0.58
+    }
+   ]
+  },
+  "México": {
+   "local": 1.1,
+   "goles_partido": 2.94,
+   "equipos": [
+    {
+     "equipo": "Toluca",
+     "ataque": 1.31,
+     "defensa": 0.83,
+     "fuerza": 1.59
+    },
+    {
+     "equipo": "Cruz Azul",
+     "ataque": 1.35,
+     "defensa": 0.89,
+     "fuerza": 1.52
+    },
+    {
+     "equipo": "Club America",
+     "ataque": 1.31,
+     "defensa": 0.88,
+     "fuerza": 1.5
+    },
+    {
+     "equipo": "Guadalajara Chivas",
+     "ataque": 1.13,
+     "defensa": 0.76,
+     "fuerza": 1.49
+    },
+    {
+     "equipo": "Pachuca",
+     "ataque": 1.09,
+     "defensa": 0.8,
+     "fuerza": 1.37
+    },
+    {
+     "equipo": "Club Tijuana",
+     "ataque": 1.03,
+     "defensa": 0.91,
+     "fuerza": 1.13
+    },
+    {
+     "equipo": "UNAM Pumas",
+     "ataque": 1.1,
+     "defensa": 0.97,
+     "fuerza": 1.13
+    },
+    {
+     "equipo": "Tigres UANL",
+     "ataque": 0.96,
+     "defensa": 0.86,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "Monterrey",
+     "ataque": 1.13,
+     "defensa": 1.05,
+     "fuerza": 1.08
+    },
+    {
+     "equipo": "Atlas",
+     "ataque": 0.99,
+     "defensa": 1.12,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Club Leon",
+     "ataque": 0.92,
+     "defensa": 1.04,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Santos Laguna",
+     "ataque": 0.94,
+     "defensa": 1.06,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Atl. San Luis",
+     "ataque": 0.89,
+     "defensa": 1.04,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Queretaro",
+     "ataque": 0.79,
+     "defensa": 1.0,
+     "fuerza": 0.79
+    },
+    {
+     "equipo": "Necaxa",
+     "ataque": 0.84,
+     "defensa": 1.11,
+     "fuerza": 0.76
+    },
+    {
+     "equipo": "Mazatlan FC",
+     "ataque": 0.89,
+     "defensa": 1.26,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Puebla",
+     "ataque": 0.76,
+     "defensa": 1.09,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Atlante",
+     "ataque": 0.74,
+     "defensa": 1.1,
+     "fuerza": 0.67
+    },
+    {
+     "equipo": "Juarez",
+     "ataque": 0.82,
+     "defensa": 1.23,
+     "fuerza": 0.67
+    }
+   ]
+  },
+  "Portugal": {
+   "local": 1.06,
+   "goles_partido": 2.64,
+   "equipos": [
+    {
+     "equipo": "Porto",
+     "ataque": 1.49,
+     "defensa": 0.53,
+     "fuerza": 2.82
+    },
+    {
+     "equipo": "Benfica",
+     "ataque": 1.76,
+     "defensa": 0.7,
+     "fuerza": 2.5
+    },
+    {
+     "equipo": "Sp Lisbon",
+     "ataque": 1.72,
+     "defensa": 0.72,
+     "fuerza": 2.4
+    },
+    {
+     "equipo": "Sp Braga",
+     "ataque": 1.18,
+     "defensa": 0.8,
+     "fuerza": 1.48
+    },
+    {
+     "equipo": "Academico Viseu",
+     "ataque": 1.05,
+     "defensa": 0.85,
+     "fuerza": 1.24
+    },
+    {
+     "equipo": "Famalicao",
+     "ataque": 1.01,
+     "defensa": 0.83,
+     "fuerza": 1.22
+    },
+    {
+     "equipo": "Santa Clara",
+     "ataque": 0.92,
+     "defensa": 0.77,
+     "fuerza": 1.19
+    },
+    {
+     "equipo": "Gil Vicente",
+     "ataque": 0.9,
+     "defensa": 0.79,
+     "fuerza": 1.14
+    },
+    {
+     "equipo": "Arouca",
+     "ataque": 1.02,
+     "defensa": 0.96,
+     "fuerza": 1.07
+    },
+    {
+     "equipo": "Guimaraes",
+     "ataque": 0.92,
+     "defensa": 0.94,
+     "fuerza": 0.98
+    },
+    {
+     "equipo": "Alverca",
+     "ataque": 0.92,
+     "defensa": 1.0,
+     "fuerza": 0.91
+    },
+    {
+     "equipo": "Moreirense",
+     "ataque": 0.88,
+     "defensa": 1.06,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Nacional",
+     "ataque": 0.83,
+     "defensa": 1.07,
+     "fuerza": 0.78
+    },
+    {
+     "equipo": "Estoril",
+     "ataque": 0.96,
+     "defensa": 1.25,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "Estrela",
+     "ataque": 0.96,
+     "defensa": 1.25,
+     "fuerza": 0.77
+    },
+    {
+     "equipo": "Tondela",
+     "ataque": 0.74,
+     "defensa": 1.15,
+     "fuerza": 0.65
+    },
+    {
+     "equipo": "Rio Ave",
+     "ataque": 0.8,
+     "defensa": 1.31,
+     "fuerza": 0.61
+    },
+    {
+     "equipo": "Casa Pia",
+     "ataque": 0.67,
+     "defensa": 1.14,
+     "fuerza": 0.59
+    },
+    {
+     "equipo": "Maritimo",
+     "ataque": 0.84,
+     "defensa": 1.42,
+     "fuerza": 0.59
+    },
+    {
+     "equipo": "AVS",
+     "ataque": 0.71,
+     "defensa": 1.28,
+     "fuerza": 0.56
+    }
+   ]
+  },
+  "Premier League": {
+   "local": 1.1,
+   "goles_partido": 2.78,
+   "equipos": [
+    {
+     "equipo": "Arsenal",
+     "ataque": 1.29,
+     "defensa": 0.51,
+     "fuerza": 2.5
+    },
+    {
+     "equipo": "Man City",
+     "ataque": 1.43,
+     "defensa": 0.75,
+     "fuerza": 1.9
+    },
+    {
+     "equipo": "Brighton",
+     "ataque": 1.29,
+     "defensa": 0.81,
+     "fuerza": 1.59
+    },
+    {
+     "equipo": "Liverpool",
+     "ataque": 1.29,
+     "defensa": 0.89,
+     "fuerza": 1.46
+    },
+    {
+     "equipo": "Brentford",
+     "ataque": 1.14,
+     "defensa": 0.89,
+     "fuerza": 1.29
+    },
+    {
+     "equipo": "Bournemouth",
+     "ataque": 1.15,
+     "defensa": 0.91,
+     "fuerza": 1.26
+    },
+    {
+     "equipo": "Chelsea",
+     "ataque": 1.19,
+     "defensa": 0.96,
+     "fuerza": 1.24
+    },
+    {
+     "equipo": "Aston Villa",
+     "ataque": 1.14,
+     "defensa": 0.95,
+     "fuerza": 1.2
+    },
+    {
+     "equipo": "Man United",
+     "ataque": 1.19,
+     "defensa": 1.02,
+     "fuerza": 1.16
+    },
+    {
+     "equipo": "Everton",
+     "ataque": 0.92,
+     "defensa": 0.82,
+     "fuerza": 1.12
+    },
+    {
+     "equipo": "Leeds",
+     "ataque": 0.93,
+     "defensa": 0.85,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Newcastle",
+     "ataque": 1.12,
+     "defensa": 1.02,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Nott'm Forest",
+     "ataque": 0.96,
+     "defensa": 0.89,
+     "fuerza": 1.08
+    },
+    {
+     "equipo": "Hull",
+     "ataque": 0.86,
+     "defensa": 0.81,
+     "fuerza": 1.06
+    },
+    {
+     "equipo": "Fulham",
+     "ataque": 0.89,
+     "defensa": 0.91,
+     "fuerza": 0.98
+    },
+    {
+     "equipo": "Tottenham",
+     "ataque": 0.92,
+     "defensa": 1.03,
+     "fuerza": 0.9
+    },
+    {
+     "equipo": "West Ham",
+     "ataque": 0.94,
+     "defensa": 1.1,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Sunderland",
+     "ataque": 0.8,
+     "defensa": 0.95,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "Crystal Palace",
+     "ataque": 0.89,
+     "defensa": 1.09,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "Coventry",
+     "ataque": 0.91,
+     "defensa": 1.24,
+     "fuerza": 0.73
+    },
+    {
+     "equipo": "Ipswich",
+     "ataque": 0.95,
+     "defensa": 1.39,
+     "fuerza": 0.68
+    },
+    {
+     "equipo": "Burnley",
+     "ataque": 0.8,
+     "defensa": 1.29,
+     "fuerza": 0.62
+    },
+    {
+     "equipo": "Wolves",
+     "ataque": 0.71,
+     "defensa": 1.14,
+     "fuerza": 0.62
+    },
+    {
+     "equipo": "Leicester",
+     "ataque": 0.65,
+     "defensa": 1.32,
+     "fuerza": 0.49
+    },
+    {
+     "equipo": "Southampton",
+     "ataque": 0.65,
+     "defensa": 1.46,
+     "fuerza": 0.45
+    }
+   ]
+  },
+  "Serie A": {
+   "local": 1.07,
+   "goles_partido": 2.58,
+   "equipos": [
+    {
+     "equipo": "Inter",
+     "ataque": 1.76,
+     "defensa": 0.75,
+     "fuerza": 2.35
+    },
+    {
+     "equipo": "Roma",
+     "ataque": 1.43,
+     "defensa": 0.63,
+     "fuerza": 2.26
+    },
+    {
+     "equipo": "Como",
+     "ataque": 1.25,
+     "defensa": 0.67,
+     "fuerza": 1.86
+    },
+    {
+     "equipo": "Napoli",
+     "ataque": 1.21,
+     "defensa": 0.71,
+     "fuerza": 1.7
+    },
+    {
+     "equipo": "Juventus",
+     "ataque": 1.17,
+     "defensa": 0.75,
+     "fuerza": 1.55
+    },
+    {
+     "equipo": "Milan",
+     "ataque": 1.22,
+     "defensa": 0.78,
+     "fuerza": 1.55
+    },
+    {
+     "equipo": "Frosinone",
+     "ataque": 1.57,
+     "defensa": 1.05,
+     "fuerza": 1.5
+    },
+    {
+     "equipo": "Atalanta",
+     "ataque": 1.17,
+     "defensa": 0.83,
+     "fuerza": 1.41
+    },
+    {
+     "equipo": "Lazio",
+     "ataque": 1.09,
+     "defensa": 0.83,
+     "fuerza": 1.32
+    },
+    {
+     "equipo": "Bologna",
+     "ataque": 1.09,
+     "defensa": 0.93,
+     "fuerza": 1.17
+    },
+    {
+     "equipo": "Fiorentina",
+     "ataque": 1.02,
+     "defensa": 1.05,
+     "fuerza": 0.97
+    },
+    {
+     "equipo": "Genoa",
+     "ataque": 0.86,
+     "defensa": 0.95,
+     "fuerza": 0.91
+    },
+    {
+     "equipo": "Sassuolo",
+     "ataque": 1.03,
+     "defensa": 1.2,
+     "fuerza": 0.86
+    },
+    {
+     "equipo": "Cagliari",
+     "ataque": 0.82,
+     "defensa": 1.0,
+     "fuerza": 0.83
+    },
+    {
+     "equipo": "Torino",
+     "ataque": 0.9,
+     "defensa": 1.09,
+     "fuerza": 0.82
+    },
+    {
+     "equipo": "Udinese",
+     "ataque": 0.89,
+     "defensa": 1.12,
+     "fuerza": 0.79
+    },
+    {
+     "equipo": "Parma",
+     "ataque": 0.69,
+     "defensa": 0.98,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Cremonese",
+     "ataque": 0.7,
+     "defensa": 1.11,
+     "fuerza": 0.63
+    },
+    {
+     "equipo": "Lecce",
+     "ataque": 0.68,
+     "defensa": 1.08,
+     "fuerza": 0.63
+    },
+    {
+     "equipo": "Venezia",
+     "ataque": 0.67,
+     "defensa": 1.1,
+     "fuerza": 0.61
+    },
+    {
+     "equipo": "Empoli",
+     "ataque": 0.78,
+     "defensa": 1.36,
+     "fuerza": 0.57
+    },
+    {
+     "equipo": "Monza",
+     "ataque": 0.86,
+     "defensa": 1.55,
+     "fuerza": 0.56
+    },
+    {
+     "equipo": "Verona",
+     "ataque": 0.55,
+     "defensa": 1.13,
+     "fuerza": 0.49
+    },
+    {
+     "equipo": "Pisa",
+     "ataque": 0.6,
+     "defensa": 1.36,
+     "fuerza": 0.44
+    }
+   ]
+  },
+  "Turquía": {
+   "local": 1.15,
+   "goles_partido": 2.86,
+   "equipos": [
+    {
+     "equipo": "Galatasaray",
+     "ataque": 1.62,
+     "defensa": 0.76,
+     "fuerza": 2.14
+    },
+    {
+     "equipo": "Fenerbahce",
+     "ataque": 1.63,
+     "defensa": 0.77,
+     "fuerza": 2.11
+    },
+    {
+     "equipo": "Trabzonspor",
+     "ataque": 1.37,
+     "defensa": 0.72,
+     "fuerza": 1.92
+    },
+    {
+     "equipo": "Amedspor",
+     "ataque": 1.7,
+     "defensa": 0.97,
+     "fuerza": 1.76
+    },
+    {
+     "equipo": "Besiktas",
+     "ataque": 1.28,
+     "defensa": 0.77,
+     "fuerza": 1.67
+    },
+    {
+     "equipo": "Buyuksehyr",
+     "ataque": 1.24,
+     "defensa": 0.88,
+     "fuerza": 1.42
+    },
+    {
+     "equipo": "Goztep",
+     "ataque": 1.09,
+     "defensa": 0.92,
+     "fuerza": 1.19
+    },
+    {
+     "equipo": "Kasimpasa",
+     "ataque": 0.96,
+     "defensa": 0.88,
+     "fuerza": 1.09
+    },
+    {
+     "equipo": "Corum",
+     "ataque": 1.26,
+     "defensa": 1.21,
+     "fuerza": 1.04
+    },
+    {
+     "equipo": "Kocaelispor",
+     "ataque": 0.69,
+     "defensa": 0.69,
+     "fuerza": 1.0
+    },
+    {
+     "equipo": "Rizespor",
+     "ataque": 0.98,
+     "defensa": 1.07,
+     "fuerza": 0.92
+    },
+    {
+     "equipo": "Konyaspor",
+     "ataque": 0.74,
+     "defensa": 0.88,
+     "fuerza": 0.84
+    },
+    {
+     "equipo": "Genclerbirligi",
+     "ataque": 0.84,
+     "defensa": 1.01,
+     "fuerza": 0.83
+    },
+    {
+     "equipo": "Alanyaspor",
+     "ataque": 0.8,
+     "defensa": 0.99,
+     "fuerza": 0.81
+    },
+    {
+     "equipo": "Samsunspor",
+     "ataque": 0.91,
+     "defensa": 1.14,
+     "fuerza": 0.8
+    },
+    {
+     "equipo": "Erzurumspor",
+     "ataque": 0.72,
+     "defensa": 1.0,
+     "fuerza": 0.72
+    },
+    {
+     "equipo": "Karagumruk",
+     "ataque": 0.74,
+     "defensa": 1.02,
+     "fuerza": 0.72
+    },
+    {
+     "equipo": "Gaziantep",
+     "ataque": 0.77,
+     "defensa": 1.12,
+     "fuerza": 0.69
+    },
+    {
+     "equipo": "Antalyaspor",
+     "ataque": 0.73,
+     "defensa": 1.08,
+     "fuerza": 0.68
+    },
+    {
+     "equipo": "Kayserispor",
+     "ataque": 0.71,
+     "defensa": 1.16,
+     "fuerza": 0.61
+    },
+    {
+     "equipo": "Eyupspor",
+     "ataque": 0.63,
+     "defensa": 1.25,
+     "fuerza": 0.5
+    }
+   ]
+  }
+ }
+}
