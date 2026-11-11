@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo del bot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Layout: vista móvil del modelo — pestañas fijas, tarjetas por partido con barra 1X2 */
+  :root{
+    --bg:#F2F4F7; --surface:#FFFFFF; --surface-2:#EAEEF3; --line:#DCE2EA;
+    --text:#0F1720; --muted:#5E6B7A; --accent:#1F6FEB; --good:#12A150; --warn:#D98A00; --bad:#E5484D;
+    --c1:#1F6FEB; --cx:#8C9AAB; --c2:#E5484D;
+    --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+    --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){:root{
+    --bg:#0B1118; --surface:#121A24; --surface-2:#1A2431; --line:#243142;
+    --text:#E8EEF5; --muted:#8C9AAB; --accent:#4C8DFF; --good:#2FD07A; --warn:#F2B13C; --bad:#FF6B6E;
+    --c1:#4C8DFF; --cx:#5E6B7A; --c2:#FF6B6E; color-scheme:dark;}}
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.45}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px 64px}
+  header{padding:20px 0 4px;display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+  h1{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
+  .muted{color:var(--muted);font-size:12px;font-weight:600}
+  .tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+  .tab{appearance:none;border:0;background:var(--surface-2);color:var(--muted);font:700 13px var(--body);padding:10px 4px;border-radius:999px;cursor:pointer}
+  .tab[aria-selected="true"]{background:var(--text);color:var(--bg)}
+  .tab:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  select{width:100%;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:11px;font:600 14px var(--body);margin-bottom:10px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px}
+  .stack{display:flex;flex-direction:column;gap:10px}
+  .day{font:800 18px var(--display);text-transform:uppercase;margin:16px 0 6px;letter-spacing:.02em}
+  .row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+  .teams{font-weight:800;font-size:15px}
+  .tri{display:flex;height:24px;border-radius:8px;overflow:hidden;margin-top:10px;font:800 12px var(--body);color:#fff;font-variant-numeric:tabular-nums}
+  .tri div{display:flex;align-items:center;justify-content:center;min-width:30px}
+  .lab{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);font-weight:700;margin-top:3px}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
+  .f{background:var(--surface-2);border-radius:10px;padding:6px 8px}
+  .f small{display:block;font-size:10px;font-weight:800;color:var(--muted);text-transform:uppercase}
+  .f b{font:800 17px var(--display);font-variant-numeric:tabular-nums}
+  .cmp{font-size:12px;color:var(--muted);margin-top:8px;font-variant-numeric:tabular-nums}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .chip{font-size:12px;font-weight:800;padding:5px 10px;border-radius:999px;background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}
+  table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+  th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left}
+  th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .scroll{overflow-x:auto}
+  .good{color:var(--good);font-weight:800}.bad{color:var(--bad);font-weight:800}
+  .note{font-size:13px;color:var(--muted)}
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .kpi{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px}
+  .kpi small{display:block;font-size:11px;font-weight:800;color:var(--muted)}
+  .kpi b{font:800 24px var(--display);font-variant-numeric:tabular-nums}
+  .hidden{display:none}
+  .empty{color:var(--muted);padding:14px;border:1px dashed var(--line);border-radius:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>Modelo del bot</h1><div class="muted" id="upd">Cargando…</div></header>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-v="p" aria-selected="true">Partidos</button>
+    <button class="tab" role="tab" data-v="r" aria-selected="false">Récord</button>
+    <button class="tab" role="tab" data-v="e" aria-selected="false">Equipos</button>
+  </nav>
+  <section id="v-p"><label class="hidden" for="liga">Liga</label><select id="liga"></select><div id="partidos"></div></section>
+  <section id="v-r" class="hidden"><div id="record" class="stack"></div></section>
+  <section id="v-e" class="hidden"><label class="hidden" for="liga2">Liga</label><select id="liga2"></select><div id="equipos"></div></section>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct=p=>p==null?'—':Math.round(p*100)+'%';
+const n2=n=>n==null?'—':Number(n).toFixed(2);
+let HOY=null,EV=null,FZ=null;
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b?'true':'false'));
+  ['p','r','e'].forEach(v=>$('#v-'+v).classList.toggle('hidden',v!==b.dataset.v));
+}));
+const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function fdia(s){const d=new Date(s+'T12:00:00');return DIAS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);}
+function renderPartidos(){
+  const L=$('#liga').value; const ps=(HOY.partidos||[]).filter(p=>!L||p.liga===L);
+  if(!ps.length){$('#partidos').innerHTML='<div class="empty">No hay partidos próximos para mostrar.</div>';return;}
+  let h='',dia='';
+  ps.forEach(p=>{
+    if(p.fecha!==dia){dia=p.fecha;h+=`<div class="day">${fdia(dia)}</div>`;}
+    const f=p.final||[p.p1,p.px,p.p2];
+    h+=`<div class="card" style="margin-bottom:10px"><div class="row"><span class="teams">${esc(p.local)} vs ${esc(p.visita)}</span><span class="muted">${esc(p.liga)}${p.hora_uk?' · '+esc(p.hora_uk)+' (UK)':''}</span></div>
+    <div class="tri" role="img" aria-label="Local ${pct(f[0])}, empate ${pct(f[1])}, visita ${pct(f[2])}"><div style="width:${f[0]*100}%;background:var(--c1)">${pct(f[0])}</div><div style="width:${f[1]*100}%;background:var(--cx)">${pct(f[1])}</div><div style="width:${f[2]*100}%;background:var(--c2)">${pct(f[2])}</div></div>
+    <div class="lab"><span>Local</span><span>Empate</span><span>Visita</span></div>
+    <div class="facts"><div class="f"><small>Goles esp.</small><b>${n2(p.goles_local)}–${n2(p.goles_visita)}</b></div><div class="f"><small>+2.5</small><b>${pct(p.over25)}</b></div><div class="f"><small>Ambos</small><b>${pct(p.btts)}</b></div><div class="f"><small>Marcador</small><b>${esc(p.marcador)}</b></div></div>
+    <div class="cmp">Modelo ${pct(p.p1)} · ${pct(p.px)} · ${pct(p.p2)}${p.mercado?` — Mercado ${pct(p.mercado[0])} · ${pct(p.mercado[1])} · ${pct(p.mercado[2])} — Cuotas ${n2(p.c1)} / ${n2(p.cx)} / ${n2(p.c2)} — Confianza en el modelo ${Math.round((p.peso_modelo||0)*100)}%`:''}</div>
+    ${(p.valor||[]).length?`<div class="chips">${p.valor.map(v=>`<span class="chip">Valor: ${esc(v.seleccion)} ${n2(v.cuota)} (${pct(v.prob)}, EV +${Math.round(v.ev*100)}%)</span>`).join('')}</div>`:''}</div>`;
+  });
+  $('#partidos').innerHTML=h;
+}
+function renderRecord(){
+  const v=EV.en_vivo||{}, g=EV.backtest_global||{};
+  let h=`<div class="card"><b>Cómo leer esto.</b> <span class="note">La "pérdida logarítmica" mide qué tan bien predice: más baja es mejor. Si el modelo queda por encima del mercado, las casas predicen mejor que él, y su "confianza en el modelo" baja sola para no inventar apuestas de valor.</span></div>
+  <div class="kpis"><div class="kpi"><small>En vivo</small><b>${v.n||0}</b><div class="muted">partidos calificados</div></div>
+  <div class="kpi"><small>Prueba 12 meses</small><b>${g.n||0}</b><div class="muted">partidos</div></div>
+  <div class="kpi"><small>Apuestas de valor (prueba)</small><b class="${(g.roi_valor||0)>=0?'good':'bad'}">${g.roi_valor==null?'—':(g.roi_valor>=0?'+':'')+Math.round(g.roi_valor*1000)/10+'%'}</b><div class="muted">${g.apuestas_valor||0} apuestas</div></div></div>`;
+  const rows=Object.entries(EV.por_liga||{}).sort((a,b)=>a[0].localeCompare(b[0]));
+  h+=`<div class="card scroll"><table><tr><th>Liga</th><th>Partidos</th><th>Modelo</th><th>Mercado</th><th>Confianza</th><th>Valor</th></tr>${rows.map(([l,m])=>{
+    const gana=m.logloss_modelo_mismos!=null&&m.logloss_mercado!=null&&m.logloss_modelo_mismos<m.logloss_mercado;
+    return `<tr><td>${esc(l)}</td><td>${m.n||0}</td><td class="${gana?'good':''}">${n2(m.logloss_modelo_mismos)}</td><td class="${gana?'':'good'}">${n2(m.logloss_mercado)}</td><td>${Math.round((m.peso_modelo||0)*100)}%</td><td>${m.roi_valor==null?'—':(m.roi_valor>=0?'+':'')+Math.round(m.roi_valor*1000)/10+'% ('+m.apuestas_valor+')'}</td></tr>`}).join('')}</table>
+  <div class="note" style="margin-top:8px">En verde, quién predijo mejor en cada liga. "Valor" es el resultado de haber apostado lo que el bot marcó como valor (prueba con cuotas de cierre, sin ver el futuro).</div></div>`;
+  if(v.n){h+=`<div class="card"><b>Calibración en vivo</b><div class="scroll"><table><tr><th>Dijo</th><th>Pasó</th><th>Casos</th></tr>${(v.calibracion||[]).filter(c=>c.n).map(c=>`<tr><td>${pct(c.esperado)}</td><td>${pct(c.real)}</td><td>${c.n}</td></tr>`).join('')}</table></div></div>`;}
+  $('#record').innerHTML=h;
+}
+function renderEquipos(){
+  const L=$('#liga2').value; const d=(FZ.ligas||{})[L]; if(!d){$('#equipos').innerHTML='';return;}
+  $('#equipos').innerHTML=`<div class="card scroll"><div class="note" style="margin-bottom:8px">Ventaja de local: ×${n2(d.local)} · Goles por partido: ${n2(d.goles_partido)}. Ataque > 1 marca más que el promedio; defensa < 1 recibe menos.</div>
+  <table><tr><th>#</th><th>Equipo</th><th>Fuerza</th><th>Ataque</th><th>Defensa</th></tr>${d.equipos.map((e,i)=>`<tr><td>${i+1}</td><td>${esc(e.equipo)}</td><td><b>${n2(e.fuerza)}</b></td><td>${n2(e.ataque)}</td><td>${n2(e.defensa)}</td></tr>`).join('')}</table></div>`;
+}
+Promise.all(['data/hoy.json','data/evaluacion.json','data/fuerzas.json'].map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null))).then(([h,e,f])=>{
+  if(!h){$('#upd').textContent='Todavía no hay datos: espera la primera corrida.';return;}
+  HOY=h;EV=e||{};FZ=f||{ligas:{}};
+  $('#upd').textContent='Actualizado '+new Date(h.actualizado).toLocaleString('es-CO',{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});
+  const ligas=[...new Set((h.partidos||[]).map(p=>p.liga))].sort();
+  $('#liga').innerHTML='<option value="">Todas las ligas</option>'+ligas.map(l=>`<option>${esc(l)}</option>`).join('');
+  $('#liga').onchange=renderPartidos;
+  const l2=Object.keys(FZ.ligas||{}).sort(); $('#liga2').innerHTML=l2.map(l=>`<option>${esc(l)}</option>`).join(''); $('#liga2').onchange=renderEquipos;
+  renderPartidos();renderRecord();renderEquipos();
+});
+</script>
+</body>
+</html>

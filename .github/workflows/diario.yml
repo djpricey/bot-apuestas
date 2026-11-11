@@ -1,0 +1,33 @@
+name: Actualización diaria
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 6:00 a. m. hora Colombia
+  workflow_dispatch:        # botón para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diario
+  cancel-in-progress: false
+
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m src.main
+      - name: Guardar resultados
+        run: |
+          git config user.name "bot-apuestas"
+          git config user.email "bot-apuestas@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Actualización diaria $(date -u +%F)"
+          git pull --rebase
+          git push
