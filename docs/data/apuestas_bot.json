@@ -1,13 +1,31 @@
 {
  "bankroll_inicial": 100.0,
- "apuestas": [],
+ "apuestas": [
+  {
+   "id": "2026-11-12|Selecciones|Benin|Central African Republic|Más de 2.5",
+   "fecha": "2026-11-12",
+   "inicio": "2026-11-12T14:00-05:00",
+   "liga": "Selecciones",
+   "local": "Benin",
+   "visita": "Central African Republic",
+   "seleccion": "Más de 2.5",
+   "cuota": 2.11,
+   "prob": 0.553,
+   "ev": 0.164,
+   "stake": 3.0,
+   "estado": "pendiente",
+   "resultado": "",
+   "ganancia": 0.0,
+   "creada": "2026-11-12T12:44-05:00"
+  }
+ ],
  "resumen": {
   "bankroll": 100.0,
   "ganancia": 0,
   "roi": null,
   "cerradas": 0,
   "ganadas": 0,
-  "pendientes": 0
+  "pendientes": 1
  },
  "actualizado": "2026-11-12T12:44-05:00"
 }
