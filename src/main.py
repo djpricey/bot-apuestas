@@ -11,6 +11,10 @@ from .config import DIAS_HISTORIA, XI_CANDIDATOS, EDGE_MIN
 from .datos import descargar_resultados, descargar_proximos, descargar_selecciones, leer_manual
 from .modelo import ajustar, goles_esperados, probabilidades, implicitas, logloss, resultado
 from .evaluar import walk_forward, metricas, mejor_peso
+from .libro import correr as correr_libro
+from zoneinfo import ZoneInfo
+
+PESO_SIN_HISTORIA = 0.5  # cuando no hay cuotas pasadas para aprender, confía mitad y mitad
 
 SALIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 TZ = timezone(timedelta(hours=-5))  # Colombia
@@ -129,11 +133,14 @@ def main():
         params[liga] = p
         bt = walk_forward(d, xi, hoy - pd.Timedelta(days=365), paso_dias=7)
         w = mejor_peso(bt)
+        sin_hist = w is None
+        w = PESO_SIN_HISTORIA if sin_hist else w
         pesos[liga] = w
         bt = bt.assign(w=w)
         todas_pred.append(bt)
         m = metricas(bt, w)
         m["xi"] = xi
+        m["peso_aprendido"] = not sin_hist
         m["partidos_usados"] = int(len(d))
         evaluacion[liga] = m
         inv = {v: k for k, v in p["idx"].items()}
@@ -171,7 +178,7 @@ def main():
             continue
         pr = probabilidades(lam, mu)
         mk = implicitas(r.c1, r.cx, r.c2)
-        w = pesos.get(r.liga, 0.0)
+        w = pesos.get(r.liga, PESO_SIN_HISTORIA)
         valor = []
         comb = None
         if mk is not None:
@@ -185,7 +192,17 @@ def main():
                 ev = pj * float(c) - 1
                 if ev >= EDGE_MIN:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
+        inicio = None
+        hs = str(r.hora) if pd.notna(r.hora) else ""
+        if len(hs) >= 4 and ":" in hs:
+            zona = ZoneInfo("America/Bogota") if r.liga == "Selecciones" else ZoneInfo("Europe/London")
+            try:
+                hh, mm = hs.split(":")[:2]
+                inicio = datetime(r.fecha.year, r.fecha.month, r.fecha.day, int(hh), int(mm), tzinfo=zona).astimezone(TZ).isoformat(timespec="minutes")
+            except ValueError:
+                inicio = None
         partidos.append({
+            "inicio": inicio,
             "fecha": r.fecha.strftime("%Y-%m-%d"),
             "hora_uk": str(r.hora) if (pd.notna(r.hora) and r.liga != "Selecciones") else "",
             "hora_col": str(r.hora) if (pd.notna(r.hora) and r.liga == "Selecciones" and str(r.hora) not in ("", "nan")) else "",
@@ -208,6 +225,7 @@ def main():
     with open(os.path.join(SALIDA, "predicciones", f"{hoy.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "partidos": partidos}, fh, ensure_ascii=False)
 
+    correr_libro(os.path.join(SALIDA, "apuestas_bot.json"), partidos, res, ahora)
     vivo = calificar_en_vivo(res)
     en_vivo = metricas(vivo) if not vivo.empty else {"n": 0}
     with open(os.path.join(SALIDA, "evaluacion.json"), "w", encoding="utf-8") as fh:

@@ -38,7 +38,7 @@ def mejor_peso(pred):
     filas = [(np.array([r.p1, r.px, r.p2]), implicitas(r.c1, r.cx, r.c2), resultado(r.hg, r.ag)) for r in pred.itertuples()]
     filas = [f for f in filas if f[1] is not None]
     if len(filas) < 80:
-        return 0.0
+        return None  # sin historia de cuotas para aprender
     mejor, mejor_ll = 0.0, None
     for w in (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0):
         ll = np.mean([logloss(w * pm + (1 - w) * mk, res) for pm, mk, res in filas])

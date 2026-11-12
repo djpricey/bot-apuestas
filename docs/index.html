@@ -27,7 +27,7 @@
   header{padding:20px 0 4px;display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
   h1{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
   .muted{color:var(--muted);font-size:12px;font-weight:600}
-  .tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+  .tabs{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
   .tab{appearance:none;border:0;background:var(--surface-2);color:var(--muted);font:700 13px var(--body);padding:10px 4px;border-radius:999px;cursor:pointer}
   .tab[aria-selected="true"]{background:var(--text);color:var(--bg)}
   .tab:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -66,10 +66,12 @@
   <header><h1>Modelo del bot</h1><div class="muted" id="upd">Cargando…</div></header>
   <nav class="tabs" role="tablist">
     <button class="tab" role="tab" data-v="p" aria-selected="true">Partidos</button>
+    <button class="tab" role="tab" data-v="b" aria-selected="false">Bot apuesta</button>
     <button class="tab" role="tab" data-v="r" aria-selected="false">Récord</button>
     <button class="tab" role="tab" data-v="e" aria-selected="false">Equipos</button>
   </nav>
   <section id="v-p"><div id="esc"></div><label class="hidden" for="liga">Liga</label><select id="liga"></select><div id="partidos"></div></section>
+  <section id="v-b" class="hidden"><div id="libro" class="stack"></div></section>
   <section id="v-r" class="hidden"><div id="record" class="stack"></div></section>
   <section id="v-e" class="hidden"><label class="hidden" for="liga2">Liga</label><select id="liga2"></select><div id="equipos"></div></section>
 </div>
@@ -78,10 +80,10 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pct=p=>p==null?'—':Math.round(p*100)+'%';
 const n2=n=>n==null?'—':Number(n).toFixed(2);
-let HOY=null,EV=null,FZ=null;
+let HOY=null,EV=null,FZ=null,LB=null;
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b?'true':'false'));
-  ['p','r','e'].forEach(v=>$('#v-'+v).classList.toggle('hidden',v!==b.dataset.v));
+  ['p','b','r','e'].forEach(v=>$('#v-'+v).classList.toggle('hidden',v!==b.dataset.v));
 }));
 const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
 function fdia(s){const d=new Date(s+'T12:00:00');return DIAS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);}
@@ -110,6 +112,20 @@ function renderEsc(){
    ${(e.alternativas||[]).length?`<div class="cmp">Alternativas: ${e.alternativas.map(a=>`${esc(a.seleccion)} (${pct(a.prob)}, mín. ${n2(a.cuota_minima)})`).join(' · ')}</div>`:''}
    <div class="note" style="margin-top:6px">${esc(e.nota||'')}</div></div>`;
 }
+function renderLibro(){
+  const el=$('#libro'); if(!LB){el.innerHTML='<div class="empty">El bot todavía no ha hecho apuestas ficticias.</div>';return;}
+  const r=LB.resumen||{}; const A=(LB.apuestas||[]).slice().sort((a,b)=>String(b.inicio||b.fecha).localeCompare(String(a.inicio||a.fecha)));
+  const pend=A.filter(a=>a.estado==='pendiente'), cer=A.filter(a=>a.estado!=='pendiente');
+  const fila=a=>`<div class="card"><div class="row"><span class="teams">${esc(a.local)} vs ${esc(a.visita)}</span><span class="muted">${esc(a.liga)} · ${a.inicio?new Date(a.inicio).toLocaleString('es-CO',{weekday:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):esc(a.fecha)}</span></div>
+    <div style="font:800 20px var(--display);text-transform:uppercase;margin:6px 0">${esc(a.seleccion)} · ${n2(a.cuota)}</div>
+    <div class="facts"><div class="f"><small>Prob.</small><b>${pct(a.prob)}</b></div><div class="f"><small>EV</small><b>+${Math.round(a.ev*100)}%</b></div><div class="f"><small>Stake</small><b>${a.stake}u</b></div><div class="f"><small>${a.estado==='pendiente'?'Estado':'Resultado'}</small><b class="${a.estado==='ganada'?'good':a.estado==='perdida'?'bad':''}">${a.estado==='pendiente'?'Pend.':esc(a.resultado)+(a.ganancia>=0?' +':' ')+a.ganancia}</b></div></div></div>`;
+  el.innerHTML=`<div class="card"><b>Apuestas ficticias del bot.</b> <span class="note">Apuesta solo cuando su análisis ve valor (cuota mayor a lo que vale), nunca después de que empieza el partido, y se liquida solo. Empezó con 100 unidades. Si quieres copiar una, revisa primero la cuota en BetPlay: debe ser igual o mayor.</span></div>
+  <div class="kpis"><div class="kpi"><small>Bankroll</small><b class="${(r.bankroll||100)>=100?'good':'bad'}">${n2(r.bankroll)}u</b><div class="muted">empezó en 100u</div></div>
+  <div class="kpi"><small>Acierto</small><b>${r.cerradas?Math.round(r.ganadas/r.cerradas*100)+'%':'—'}</b><div class="muted">${r.ganadas||0} de ${r.cerradas||0}</div></div>
+  <div class="kpi"><small>Rendimiento</small><b class="${(r.roi||0)>=0?'good':'bad'}">${r.roi==null?'—':(r.roi>=0?'+':'')+Math.round(r.roi*1000)/10+'%'}</b><div class="muted">${r.pendientes||0} pendientes</div></div></div>
+  <div class="day">Por jugarse</div>${pend.length?pend.map(fila).join(''):'<div class="empty">Ninguna apuesta pendiente: hoy no vio valor o no hay cuotas.</div>'}
+  ${cer.length?'<div class="day">Cerradas</div>'+cer.map(fila).join(''):''}`;
+}
 function renderRecord(){
   const v=EV.en_vivo||{}, g=EV.backtest_global||{};
   let h=`<div class="card"><b>Cómo leer esto.</b> <span class="note">La "pérdida logarítmica" mide qué tan bien predice: más baja es mejor. Si el modelo queda por encima del mercado, las casas predicen mejor que él, y su "confianza en el modelo" baja sola para no inventar apuestas de valor.</span></div>
@@ -129,15 +145,15 @@ function renderEquipos(){
   $('#equipos').innerHTML=`<div class="card scroll"><div class="note" style="margin-bottom:8px">Ventaja de local: ×${n2(d.local)} · Goles por partido: ${n2(d.goles_partido)}. Ataque > 1 marca más que el promedio; defensa < 1 recibe menos.</div>
   <table><tr><th>#</th><th>Equipo</th><th>Fuerza</th><th>Ataque</th><th>Defensa</th></tr>${d.equipos.map((e,i)=>`<tr><td>${i+1}</td><td>${esc(e.equipo)}</td><td><b>${n2(e.fuerza)}</b></td><td>${n2(e.ataque)}</td><td>${n2(e.defensa)}</td></tr>`).join('')}</table></div>`;
 }
-Promise.all(['data/hoy.json','data/evaluacion.json','data/fuerzas.json'].map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null))).then(([h,e,f])=>{
+Promise.all(['data/hoy.json','data/evaluacion.json','data/fuerzas.json','data/apuestas_bot.json'].map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null))).then(([h,e,f,lb])=>{
   if(!h){$('#upd').textContent='Todavía no hay datos: espera la primera corrida.';return;}
-  HOY=h;EV=e||{};FZ=f||{ligas:{}};
+  HOY=h;EV=e||{};FZ=f||{ligas:{}};LB=lb;
   $('#upd').textContent='Actualizado '+new Date(h.actualizado).toLocaleString('es-CO',{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});
   const ligas=[...new Set((h.partidos||[]).map(p=>p.liga))].sort();
   $('#liga').innerHTML='<option value="">Todas las ligas</option>'+ligas.map(l=>`<option>${esc(l)}</option>`).join('');
   $('#liga').onchange=renderPartidos;
   const l2=Object.keys(FZ.ligas||{}).sort(); $('#liga2').innerHTML=l2.map(l=>`<option>${esc(l)}</option>`).join(''); $('#liga2').onchange=renderEquipos;
-  renderEsc();renderPartidos();renderRecord();renderEquipos();
+  renderEsc();renderPartidos();renderLibro();renderRecord();renderEquipos();
 });
 </script>
 </body>

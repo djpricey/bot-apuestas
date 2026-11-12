@@ -157,5 +157,5 @@ def leer_manual(ruta):
     out["peso"] = out["torneo"].map(PESO_TORNEO).fillna(1.0)
     out["liga"] = "Selecciones"
     for col in ["c1", "cx", "c2", "o25", "u25"]:
-        out[col] = pd.NA
+        out[col] = pd.to_numeric(m[col], errors="coerce") if col in m.columns else pd.NA
     return out.dropna(subset=["hg", "ag"]).reset_index(drop=True), out[out["hg"].isna()].reset_index(drop=True)
