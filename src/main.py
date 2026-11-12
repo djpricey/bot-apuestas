@@ -60,6 +60,36 @@ def calificar_en_vivo(resultados):
     return pd.DataFrame(filas).drop_duplicates(subset=["liga", "home", "away", "fecha"]) if filas else pd.DataFrame()
 
 
+def elegir_escalera(partidos):
+    """Pick del reto escalera: lo más probable con cuota entre 1.25 y 1.60, del día más cercano."""
+    cands = []
+    for p in partidos:
+        f = p.get("final") or [p["p1"], p["px"], p["p2"]]
+        nom = f"{p['local']} vs {p['visita']}"
+        base = {"fecha": p["fecha"], "liga": p["liga"], "partido": nom}
+        for lab, pj, c in ((f"Gana {p['local']}", f[0], p.get("c1")), (f"Gana {p['visita']}", f[2], p.get("c2"))):
+            if c and 1.25 <= c <= 1.60 and pj >= 0.65 and pj * c - 1 >= -0.04:
+                cands.append({**base, "seleccion": lab, "prob": _r(pj), "cuota_ref": c, "cuota_minima": _r(1.04 / pj, 2)})
+        for lab, pj in ((f"{p['local']} o empate", f[0] + f[1]), (f"{p['visita']} o empate", f[2] + f[1])):
+            if 0.70 <= pj <= 0.80:
+                cands.append({**base, "seleccion": lab, "prob": _r(pj), "cuota_ref": None, "cuota_minima": _r(1.04 / pj, 2)})
+        if p.get("co25") and p.get("cu25"):
+            mk = 1 / p["co25"] / (1 / p["co25"] + 1 / p["cu25"])
+            w = p.get("peso_modelo") or 0
+            po = w * p["over25"] + (1 - w) * mk
+            for lab, pj, c in (("Más de 2.5 goles", po, p["co25"]), ("Menos de 2.5 goles", 1 - po, p["cu25"])):
+                if 1.25 <= c <= 1.60 and pj >= 0.65 and pj * c - 1 >= -0.04:
+                    cands.append({**base, "seleccion": f"{lab} ({nom})", "prob": _r(pj), "cuota_ref": c, "cuota_minima": _r(1.04 / pj, 2)})
+    if not cands:
+        return None
+    dia = min(c["fecha"] for c in cands)
+    del_dia = sorted([c for c in cands if c["fecha"] == dia], key=lambda c: -c["prob"])
+    elegido = dict(del_dia[0])
+    elegido["alternativas"] = del_dia[1:3]
+    elegido["nota"] = "Solo estadística: revisa bajas y alineaciones antes de jugarlo."
+    return elegido
+
+
 def main():
     os.makedirs(os.path.join(SALIDA, "predicciones"), exist_ok=True)
     ahora = datetime.now(TZ)
@@ -154,9 +184,10 @@ def main():
             "valor": valor,
         })
 
+    escalera = elegir_escalera(partidos)
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
     with open(os.path.join(SALIDA, "hoy.json"), "w", encoding="utf-8") as fh:
-        json.dump({**meta, "partidos": partidos}, fh, ensure_ascii=False, indent=1)
+        json.dump({**meta, "escalera": escalera, "partidos": partidos}, fh, ensure_ascii=False, indent=1)
     # Guarda la foto de hoy para calificarla cuando se jueguen los partidos
     with open(os.path.join(SALIDA, "predicciones", f"{hoy.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "partidos": partidos}, fh, ensure_ascii=False)

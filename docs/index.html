@@ -69,7 +69,7 @@
     <button class="tab" role="tab" data-v="r" aria-selected="false">Récord</button>
     <button class="tab" role="tab" data-v="e" aria-selected="false">Equipos</button>
   </nav>
-  <section id="v-p"><label class="hidden" for="liga">Liga</label><select id="liga"></select><div id="partidos"></div></section>
+  <section id="v-p"><div id="esc"></div><label class="hidden" for="liga">Liga</label><select id="liga"></select><div id="partidos"></div></section>
   <section id="v-r" class="hidden"><div id="record" class="stack"></div></section>
   <section id="v-e" class="hidden"><label class="hidden" for="liga2">Liga</label><select id="liga2"></select><div id="equipos"></div></section>
 </div>
@@ -101,6 +101,15 @@ function renderPartidos(){
   });
   $('#partidos').innerHTML=h;
 }
+function renderEsc(){
+  const e=HOY.escalera; const el=$('#esc');
+  if(!e){el.innerHTML='<div class="card" style="margin-bottom:10px"><b>Escalera de hoy</b><div class="note">Hoy no hay un pick que cumpla (cuota 1.25–1.60 y probabilidad alta). No subas escalón por subir.</div></div>';return;}
+  el.innerHTML=`<div class="card" style="margin-bottom:10px;border-left:4px solid #7C5CFF"><div class="row"><b>Escalera · ${fdia(e.fecha)}</b><span class="muted">${esc(e.liga)}</span></div>
+   <div style="font:800 22px var(--display);text-transform:uppercase;margin:6px 0 2px">${esc(e.seleccion)}</div><div class="note">${esc(e.partido)}</div>
+   <div class="facts"><div class="f"><small>Prob.</small><b>${pct(e.prob)}</b></div><div class="f"><small>Cuota ref.</small><b>${n2(e.cuota_ref)}</b></div><div class="f"><small>Cuota mín.</small><b>${n2(e.cuota_minima)}</b></div><div class="f"><small>Tipo</small><b>Auto</b></div></div>
+   ${(e.alternativas||[]).length?`<div class="cmp">Alternativas: ${e.alternativas.map(a=>`${esc(a.seleccion)} (${pct(a.prob)}, mín. ${n2(a.cuota_minima)})`).join(' · ')}</div>`:''}
+   <div class="note" style="margin-top:6px">${esc(e.nota||'')}</div></div>`;
+}
 function renderRecord(){
   const v=EV.en_vivo||{}, g=EV.backtest_global||{};
   let h=`<div class="card"><b>Cómo leer esto.</b> <span class="note">La "pérdida logarítmica" mide qué tan bien predice: más baja es mejor. Si el modelo queda por encima del mercado, las casas predicen mejor que él, y su "confianza en el modelo" baja sola para no inventar apuestas de valor.</span></div>
@@ -128,7 +137,7 @@ Promise.all(['data/hoy.json','data/evaluacion.json','data/fuerzas.json'].map(u=>
   $('#liga').innerHTML='<option value="">Todas las ligas</option>'+ligas.map(l=>`<option>${esc(l)}</option>`).join('');
   $('#liga').onchange=renderPartidos;
   const l2=Object.keys(FZ.ligas||{}).sort(); $('#liga2').innerHTML=l2.map(l=>`<option>${esc(l)}</option>`).join(''); $('#liga2').onchange=renderEquipos;
-  renderPartidos();renderRecord();renderEquipos();
+  renderEsc();renderPartidos();renderRecord();renderEquipos();
 });
 </script>
 </body>
