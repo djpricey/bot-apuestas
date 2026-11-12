@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T12:16-05:00",
+ "actualizado": "2026-11-12T12:22-05:00",
  "edge_min": 0.05,
  "escalera": {
   "fecha": "2026-11-12",
@@ -15,9 +15,9 @@
     "liga": "Selecciones",
     "partido": "Turkey vs Belgium",
     "seleccion": "Belgium o empate",
-    "prob": 0.741,
+    "prob": 0.746,
     "cuota_ref": null,
-    "cuota_minima": 1.4
+    "cuota_minima": 1.39
    },
    {
     "fecha": "2026-11-12",
@@ -33,6 +33,7 @@
  },
  "partidos": [
   {
+   "inicio": "2026-11-12T12:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "12:00",
@@ -48,17 +49,26 @@
    "marcador": "1-1",
    "goles_local": 1.28,
    "goles_visita": 1.86,
-   "c1": null,
-   "cx": null,
-   "c2": null,
+   "c1": 3.8,
+   "cx": 4.0,
+   "c2": 1.86,
    "co25": null,
    "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
+   "mercado": [
+    0.25,
+    0.238,
+    0.512
+   ],
+   "final": [
+    0.255,
+    0.239,
+    0.507
+   ],
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T12:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "12:00",
@@ -81,10 +91,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T12:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "12:00",
@@ -107,10 +118,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T12:30-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "12:30",
@@ -133,10 +145,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:00",
@@ -159,10 +172,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:00",
@@ -185,10 +199,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -204,17 +219,26 @@
    "marcador": "0-2",
    "goles_local": 0.79,
    "goles_visita": 2.58,
-   "c1": null,
-   "cx": null,
-   "c2": null,
+   "c1": 14.0,
+   "cx": 7.0,
+   "c2": 1.18,
    "co25": null,
    "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
+   "mercado": [
+    0.067,
+    0.135,
+    0.798
+   ],
+   "final": [
+    0.078,
+    0.146,
+    0.776
+   ],
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -230,17 +254,26 @@
    "marcador": "2-0",
    "goles_local": 2.66,
    "goles_visita": 0.91,
-   "c1": null,
-   "cx": null,
-   "c2": null,
+   "c1": 1.23,
+   "cx": 6.3,
+   "c2": 11.0,
    "co25": null,
    "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
+   "mercado": [
+    0.765,
+    0.149,
+    0.086
+   ],
+   "final": [
+    0.753,
+    0.154,
+    0.093
+   ],
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -256,17 +289,26 @@
    "marcador": "1-1",
    "goles_local": 1.28,
    "goles_visita": 1.75,
-   "c1": null,
-   "cx": null,
-   "c2": null,
+   "c1": 3.45,
+   "cx": 3.45,
+   "c2": 1.92,
    "co25": null,
    "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
+   "mercado": [
+    0.263,
+    0.263,
+    0.473
+   ],
+   "final": [
+    0.269,
+    0.255,
+    0.475
+   ],
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -289,10 +331,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -315,10 +358,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "14:45",
@@ -341,10 +385,11 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   },
   {
+   "inicio": "2026-11-12T19:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
    "hora_col": "19:00",
@@ -367,7 +412,7 @@
    "cu25": null,
    "mercado": null,
    "final": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "valor": []
   }
  ]

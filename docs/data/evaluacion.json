@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T12:16-05:00",
+ "actualizado": "2026-11-12T12:22-05:00",
  "edge_min": 0.05,
  "en_vivo": {
   "n": 0
@@ -12,8 +12,8 @@
   "logloss_combinado": 0.9906,
   "peso_modelo": 1.0,
   "n_con_cuotas": 1836,
-  "apuestas_valor": 86,
-  "roi_valor": -0.0949,
+  "apuestas_valor": 147,
+  "roi_valor": -0.0981,
   "calibracion": [
    {
     "rango": "0-10%",
@@ -76,7 +76,7 @@
     "n": 18
    }
   ],
-  "peso_modelo_promedio": 0.06
+  "peso_modelo_promedio": 0.24
  },
  "por_liga": {
   "Argentina": {
@@ -84,11 +84,11 @@
    "logloss_modelo": 1.0579,
    "logloss_mercado": 1.1612,
    "logloss_modelo_mismos": 1.1673,
-   "logloss_combinado": 1.1612,
-   "peso_modelo": 0.0,
+   "logloss_combinado": 1.1592,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 15,
-   "apuestas_valor": 0,
-   "roi_valor": null,
+   "apuestas_valor": 10,
+   "roi_valor": 0.083,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -152,6 +152,7 @@
     }
    ],
    "xi": 0.0035,
+   "peso_aprendido": false,
    "partidos_usados": 1076
   },
   "Brasil": {
@@ -159,11 +160,11 @@
    "logloss_modelo": 1.0134,
    "logloss_mercado": 0.8461,
    "logloss_modelo_mismos": 0.9386,
-   "logloss_combinado": 0.8461,
-   "peso_modelo": 0.0,
+   "logloss_combinado": 0.8783,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 40,
-   "apuestas_valor": 0,
-   "roi_valor": null,
+   "apuestas_valor": 27,
+   "roi_valor": -0.1896,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -227,6 +228,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": false,
    "partidos_usados": 771
   },
   "Bundesliga": {
@@ -302,6 +304,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 603
   },
   "Bélgica": {
@@ -377,6 +380,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 610
   },
   "Championship": {
@@ -452,6 +456,7 @@
     }
    ],
    "xi": 0.0035,
+   "peso_aprendido": true,
    "partidos_usados": 1104
   },
   "Eredivisie": {
@@ -527,6 +532,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 613
   },
   "Escocia": {
@@ -534,11 +540,11 @@
    "logloss_modelo": 0.9821,
    "logloss_mercado": 1.0,
    "logloss_modelo_mismos": 1.0142,
-   "logloss_combinado": 1.0,
-   "peso_modelo": 0.0,
+   "logloss_combinado": 1.0018,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 75,
-   "apuestas_valor": 0,
-   "roi_valor": null,
+   "apuestas_valor": 20,
+   "roi_valor": -0.149,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -602,6 +608,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": false,
    "partidos_usados": 459
   },
   "LaLiga": {
@@ -677,6 +684,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 752
   },
   "Ligue 1": {
@@ -752,6 +760,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 603
   },
   "MLS": {
@@ -759,11 +768,11 @@
    "logloss_modelo": 1.0565,
    "logloss_mercado": 0.937,
    "logloss_modelo_mismos": 0.9791,
-   "logloss_combinado": 0.937,
-   "peso_modelo": 0.0,
+   "logloss_combinado": 0.9554,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 7,
-   "apuestas_valor": 0,
-   "roi_valor": null,
+   "apuestas_valor": 4,
+   "roi_valor": 0.2525,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -827,6 +836,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": false,
    "partidos_usados": 1057
   },
   "México": {
@@ -835,7 +845,7 @@
    "logloss_mercado": null,
    "logloss_modelo_mismos": null,
    "logloss_combinado": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 0,
    "apuestas_valor": 0,
    "roi_valor": null,
@@ -902,6 +912,7 @@
     }
    ],
    "xi": 0.0035,
+   "peso_aprendido": false,
    "partidos_usados": 666
   },
   "Portugal": {
@@ -977,6 +988,7 @@
     }
    ],
    "xi": 0.0035,
+   "peso_aprendido": true,
    "partidos_usados": 612
   },
   "Premier League": {
@@ -1052,6 +1064,7 @@
     }
    ],
    "xi": 0.002,
+   "peso_aprendido": true,
    "partidos_usados": 750
   },
   "Selecciones": {
@@ -1060,7 +1073,7 @@
    "logloss_mercado": null,
    "logloss_modelo_mismos": null,
    "logloss_combinado": null,
-   "peso_modelo": 0.0,
+   "peso_modelo": 0.5,
    "n_con_cuotas": 0,
    "apuestas_valor": 0,
    "roi_valor": null,
@@ -1127,6 +1140,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": false,
    "partidos_usados": 4269
   },
   "Serie A": {
@@ -1202,6 +1216,7 @@
     }
    ],
    "xi": 0.001,
+   "peso_aprendido": true,
    "partidos_usados": 751
   },
   "Turquía": {
@@ -1277,6 +1292,7 @@
     }
    ],
    "xi": 0.0035,
+   "peso_aprendido": true,
    "partidos_usados": 639
   }
  }

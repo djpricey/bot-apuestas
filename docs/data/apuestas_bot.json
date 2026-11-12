@@ -1,0 +1,13 @@
+{
+ "bankroll_inicial": 100.0,
+ "apuestas": [],
+ "resumen": {
+  "bankroll": 100.0,
+  "ganancia": 0,
+  "roi": null,
+  "cerradas": 0,
+  "ganadas": 0,
+  "pendientes": 0
+ },
+ "actualizado": "2026-11-12T12:22-05:00"
+}
