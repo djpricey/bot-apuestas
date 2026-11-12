@@ -92,6 +92,9 @@ def _bajas(fid):
     return out
 
 
+TERMINADOS = []  # resultados de Liga BetPlay vistos en las consultas por fecha
+
+
 def datos(fechas, equipos_sel, max_partidos=30):
     """Devuelve (resultados_colombia, proximos, bajas). Gasta como máximo ~LIMITE consultas."""
     if not _key():
@@ -110,6 +113,11 @@ def datos(fechas, equipos_sel, max_partidos=30):
     for f in fechas:
         for fx in _get("/fixtures", date=f):
             lg, t = fx["league"], fx["teams"]
+            if lg["id"] == LIGA_COLOMBIA and fx["fixture"]["status"]["short"] in ("FT", "AET", "PEN") and fx["goals"]["home"] is not None:
+                TERMINADOS.append({"liga": "Liga BetPlay", "home": t["home"]["name"], "away": t["away"]["name"],
+                                   "fecha": pd.Timestamp(pd.Timestamp(fx["fixture"]["date"]).tz_convert("America/Bogota").date()), "hora": "",
+                                   "hg": float(fx["goals"]["home"]), "ag": float(fx["goals"]["away"]), "neutral": False, "peso": 1.0,
+                                   "c1": None, "cx": None, "c2": None, "o25": None, "u25": None})
             if fx["fixture"]["status"]["short"] not in ("NS", "TBD"):
                 continue
             h, a = t["home"]["name"], t["away"]["name"]
@@ -125,15 +133,7 @@ def datos(fechas, equipos_sel, max_partidos=30):
         nombre = e[3]["league"]["name"]
         return (0 if ("Nations League" in nombre or "Qualification" in nombre) else 1 if e[0] == "Liga BetPlay" else 2, e[3]["fixture"]["date"])
     elegidos.sort(key=prioridad)
-    # Colombia (2 consultas) antes que las cuotas de partidos menores
-    res = []
-    for temporada in (pd.Timestamp.now().year - 1, pd.Timestamp.now().year):
-        for fx in _get("/fixtures", league=LIGA_COLOMBIA, season=temporada):
-            if fx["fixture"]["status"]["short"] in ("FT", "AET", "PEN") and fx["goals"]["home"] is not None:
-                res.append({"liga": "Liga BetPlay", "home": fx["teams"]["home"]["name"], "away": fx["teams"]["away"]["name"],
-                            "fecha": pd.Timestamp(pd.Timestamp(fx["fixture"]["date"]).date()), "hora": "",
-                            "hg": float(fx["goals"]["home"]), "ag": float(fx["goals"]["away"]), "neutral": False, "peso": 1.0,
-                            "c1": None, "cx": None, "c2": None, "o25": None, "u25": None})
+    res = list(TERMINADOS)
     for liga, h, a, fx in elegidos[:max_partidos]:
         if _usadas >= LIMITE - 1:
             break

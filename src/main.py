@@ -115,9 +115,17 @@ def main():
     print(f"  {len(res)} partidos jugados en {res['liga'].nunique()} ligas")
     print("Consultando API-Football…")
     equipos_sel = set(sel_res["home"]) | set(sel_res["away"]) if not sel_res.empty else set()
-    api_res, api_prox, BAJAS = apifutbol.datos([hoy.strftime("%Y-%m-%d"), (hoy + pd.Timedelta(days=1)).strftime("%Y-%m-%d")], equipos_sel)
+    api_res, api_prox, BAJAS = apifutbol.datos([(hoy - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), hoy.strftime("%Y-%m-%d"),
+                                                (hoy + pd.Timedelta(days=1)).strftime("%Y-%m-%d")], equipos_sel)
+    # Liga BetPlay: el plan gratis no da la temporada actual, así que se guarda día a día
+    ruta_col = os.path.join(SALIDA, "colombia_resultados.csv")
+    col = pd.read_csv(ruta_col, parse_dates=["fecha"]) if os.path.exists(ruta_col) else pd.DataFrame()
     if not api_res.empty:
-        res = pd.concat([res, api_res], ignore_index=True)
+        col = pd.concat([col, api_res], ignore_index=True).drop_duplicates(subset=["fecha", "home", "away"], keep="last")
+        col.to_csv(ruta_col, index=False)
+    if not col.empty:
+        print(f"  Liga BetPlay: {len(col)} resultados guardados")
+        res = pd.concat([res, col], ignore_index=True)
     print("Descargando próximos partidos…")
     prox = descargar_proximos()
     print(f"  próximos sin filtrar: {len(prox)}" + (f" ({prox['fecha'].min()} a {prox['fecha'].max()})" if not prox.empty else ""))
@@ -182,6 +190,8 @@ def main():
         if not ok:
             print(f"  sin datos de {r.home} o {r.away} ({r.liga})")
             continue
+        i_l, i_v = p["idx"].get(r.home), p["idx"].get(r.away)
+        datos_ok = p["peso"][i_l] >= 6 and p["peso"][i_v] >= 6  # suficientes partidos recientes de ambos
         bj = BAJAS.get((r.liga, r.home, r.away), {"local": [], "visita": []})
         kl, kv = min(len(bj["local"]), 6), min(len(bj["visita"]), 6)
         # ajuste aproximado: cada baja quita algo de gol propio y regala algo al rival
@@ -196,14 +206,15 @@ def main():
             comb = w * np.array([pr["p1"], pr["px"], pr["p2"]]) + (1 - w) * mk
             for lab, pj, c in (("Local", comb[0], r.c1), ("Empate", comb[1], r.cx), ("Visita", comb[2], r.c2)):
                 ev = pj * float(c) - 1
-                if ev >= EDGE_MIN and pj >= 0.2:
+                # filtros de sensatez: nada de batacazos ni "ventajas" demasiado buenas para ser ciertas
+                if EDGE_MIN <= ev <= 0.35 and pj >= 0.30 and datos_ok:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
         if pd.notna(r.o25) and pd.notna(r.u25) and w >= 0.3:
             mo = (1 / float(r.o25)) / (1 / float(r.o25) + 1 / float(r.u25))
             po = w * pr["over25"] + (1 - w) * mo  # igual que en 1X2: mezcla modelo y mercado
             for lab, pj, c in (("Más de 2.5", po, r.o25), ("Menos de 2.5", 1 - po, r.u25)):
                 ev = pj * float(c) - 1
-                if ev >= EDGE_MIN:
+                if EDGE_MIN <= ev <= 0.30 and pj >= 0.40 and datos_ok:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
         inicio = None
         hs = str(r.hora) if pd.notna(r.hora) else ""
