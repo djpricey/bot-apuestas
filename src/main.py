@@ -13,6 +13,7 @@ from .modelo import ajustar, goles_esperados, probabilidades, implicitas, loglos
 from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
 from . import apifutbol
+from . import mercados as mc
 from zoneinfo import ZoneInfo
 
 PESO_SIN_HISTORIA = 0.5  # cuando no hay cuotas pasadas para aprender, confía mitad y mitad
@@ -168,6 +169,17 @@ def main():
                          "equipos": sorted(tabla, key=lambda x: -x["fuerza"])}
         print(f"  {liga}: xi={xi} peso_modelo={w} n={m.get('n')} ll_modelo={m.get('logloss_modelo_mismos')} ll_mercado={m.get('logloss_mercado')} ll_comb={m.get('logloss_combinado')} roi={m.get('roi_valor')}")
 
+    # ---- córners y tarjetas: modelo con datos reales + prueba contra el último año
+    MERC, CALIB = {}, {}
+    for liga, d in res.groupby("liga"):
+        if "co_l" not in d.columns or d["co_l"].notna().sum() < 200:
+            continue
+        d = d.dropna(subset=["co_l", "co_v"]).sort_values("fecha")
+        bt = mc.backtest(d, hoy - pd.Timedelta(days=365))
+        CALIB[liga] = mc.calibracion(bt)
+        MERC[liga] = mc.ajustar_liga(d, hoy + pd.Timedelta(days=1))
+        print(f"  {liga} córners/tarjetas: " + ", ".join(f"{k} n={v['n']} respaldado={v['respaldado']}" for k, v in CALIB[liga].items()))
+
     global_bt = {"n": 0}
     if todas_pred:
         tp = pd.concat(todas_pred, ignore_index=True)
@@ -225,8 +237,24 @@ def main():
                 inicio = datetime(r.fecha.year, r.fecha.month, r.fecha.day, int(hh), int(mm), tzinfo=zona).astimezone(TZ).isoformat(timespec="minutes")
             except ValueError:
                 inicio = None
+        props = []
+        if r.liga in MERC:
+            arb = getattr(r, "arbitro", None)
+            arb = arb if isinstance(arb, str) and arb.strip() else None
+            for x in mc.predecir(MERC[r.liga], r.home, r.away, arb):
+                cal = CALIB[r.liga].get(x["mercado"], {})
+                pa = mc.ajuste_por_tramo(CALIB[r.liga], x["mercado"], x["p_mas"])
+                pl = max(pa, 1 - pa)
+                if pl < 0.55:
+                    continue
+                props.append({"mercado": mc.NOMBRES[x["mercado"]], "clave": x["mercado"],
+                              "seleccion": f"{'Más' if pa >= 0.5 else 'Menos'} de {x['linea']}",
+                              "prob": _r(pl), "cuota_minima": _r(1.04 / pl, 2), "esperado": x["esperado"],
+                              "respaldado": bool(cal.get("respaldado")), "backtest_n": cal.get("n"),
+                              "datos": x["datos"]})
         partidos.append({
             "inicio": inicio,
+            "mercados": props,
             "fecha": r.fecha.strftime("%Y-%m-%d"),
             "hora_uk": str(r.hora) if (pd.notna(r.hora) and r.liga != "Selecciones") else "",
             "hora_col": str(r.hora) if (pd.notna(r.hora) and r.liga == "Selecciones" and str(r.hora) not in ("", "nan")) else "",
@@ -254,7 +282,8 @@ def main():
     vivo = calificar_en_vivo(res)
     en_vivo = metricas(vivo) if not vivo.empty else {"n": 0}
     with open(os.path.join(SALIDA, "evaluacion.json"), "w", encoding="utf-8") as fh:
-        json.dump({**meta, "en_vivo": en_vivo, "backtest_global": global_bt, "por_liga": evaluacion},
+        json.dump({**meta, "en_vivo": en_vivo, "backtest_global": global_bt, "por_liga": evaluacion,
+                   "corners_tarjetas": CALIB},
                   fh, ensure_ascii=False, indent=1, default=lambda o: None)
     with open(os.path.join(SALIDA, "fuerzas.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "ligas": fuerzas}, fh, ensure_ascii=False, indent=1)

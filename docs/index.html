@@ -86,6 +86,17 @@ document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
   ['p','b','r','e'].forEach(v=>$('#v-'+v).classList.toggle('hidden',v!==b.dataset.v));
 }));
 const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function mercHTML(p){const ms=(p.mercados||[]).filter(m=>m.respaldado);const exp=(p.mercados||[]).filter(m=>!m.respaldado);
+  if(!(p.mercados||[]).length)return '';
+  const top=(arr)=>{const best={};arr.forEach(m=>{if(!best[m.clave]||Math.abs(m.prob-0.72)<Math.abs(best[m.clave].prob-0.72))best[m.clave]=m});return Object.values(best)};
+  const d=(p.mercados[0]||{}).datos||{};
+  const fila=m=>`<div class="note">${m.respaldado?'✅':'🧪'} <b>${esc(m.mercado)}: ${esc(m.seleccion)}</b> · ${pct(m.prob)} · cuota mínima ${n2(m.cuota_minima)} · esperado ${m.esperado}</div>`;
+  let h=`<div class="cmp"><b>Córners y tarjetas</b> <span class="muted">(✅ probado contra el último año · 🧪 aún sin respaldo, no usar)</span>`;
+  h+=top(ms).map(fila).join('')+top(exp).map(fila).join('');
+  if(d.local_favor!=null)h+=`<div class="muted">Respaldo: córners por partido ${esc(p.local)} ${d.local_favor} a favor / ${d.local_contra} en contra (${d.partidos_local} partidos) · ${esc(p.visita)} ${d.visita_favor} / ${d.visita_contra} (${d.partidos_visita} partidos)</div>`;
+  const t=(p.mercados.find(m=>m.clave==='tarjetas_total')||{}).datos;
+  if(t)h+=`<div class="muted">Tarjetas por partido: ${esc(p.local)} ${t.local_tarjetas} · ${esc(p.visita)} ${t.visita_tarjetas}${t.arbitro?` · árbitro ${esc(t.arbitro)}: ${t.arbitro_promedio??'—'} (${t.arbitro_partidos} partidos)`:''}</div>`;
+  return h+'</div>'}
 function fdia(s){const d=new Date(s+'T12:00:00');return DIAS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);}
 function renderPartidos(){
   const L=$('#liga').value; const ps=(HOY.partidos||[]).filter(p=>!L||p.liga===L);
@@ -100,6 +111,7 @@ function renderPartidos(){
     <div class="facts"><div class="f"><small>Goles esp.</small><b>${n2(p.goles_local)}–${n2(p.goles_visita)}</b></div><div class="f"><small>+2.5</small><b>${pct(p.over25)}</b></div><div class="f"><small>Ambos</small><b>${pct(p.btts)}</b></div><div class="f"><small>Marcador</small><b>${esc(p.marcador)}</b></div></div>
     <div class="cmp">Modelo ${pct(p.p1)} · ${pct(p.px)} · ${pct(p.p2)}${p.mercado?` — Mercado ${pct(p.mercado[0])} · ${pct(p.mercado[1])} · ${pct(p.mercado[2])} — Cuotas ${n2(p.c1)} / ${n2(p.cx)} / ${n2(p.c2)} — Confianza en el modelo ${Math.round((p.peso_modelo||0)*100)}%`:''}</div>
     ${p.bajas&&((p.bajas.local||[]).length||(p.bajas.visita||[]).length)?`<div class="cmp"><b>Bajas:</b> ${(p.bajas.local||[]).length?esc(p.local)+': '+p.bajas.local.map(esc).join(', '):''}${(p.bajas.local||[]).length&&(p.bajas.visita||[]).length?' · ':''}${(p.bajas.visita||[]).length?esc(p.visita)+': '+p.bajas.visita.map(esc).join(', '):''}</div>`:''}
+    ${mercHTML(p)}
     ${(p.valor||[]).length?`<div class="chips">${p.valor.map(v=>`<span class="chip">Valor: ${esc(v.seleccion)} ${n2(v.cuota)} (${pct(v.prob)}, EV +${Math.round(v.ev*100)}%)</span>`).join('')}</div>`:''}</div>`;
   });
   $('#partidos').innerHTML=h;

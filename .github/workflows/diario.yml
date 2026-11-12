@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 11 * * *"   # 6:00 a. m. hora Colombia
   workflow_dispatch:        # botón para correrlo a mano
+  push:                     # también cuando cambia el código del modelo
+    branches: [main]
+    paths: ["src/**"]
 
 permissions:
   contents: write

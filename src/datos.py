@@ -17,6 +17,10 @@ ALIAS = {
     "c2": ["PSCA", "AvgCA", "B365CA", "PSA", "AvgA", "B365A"],
     "o25": ["AvgC>2.5", "Avg>2.5", "B365>2.5", "P>2.5"],
     "u25": ["AvgC<2.5", "Avg<2.5", "B365<2.5", "P<2.5"],
+    # estadísticas del partido (para córners y tarjetas)
+    "co_l": ["HC"], "co_v": ["AC"],
+    "am_l": ["HY"], "am_v": ["AY"], "ro_l": ["HR"], "ro_v": ["AR"],
+    "arbitro": ["Referee"],
 }
 
 
@@ -59,8 +63,12 @@ def normalizar(df, liga):
     out["hora"] = df["Time"] if "Time" in df.columns else ""
     out["liga"] = liga
     out = out.dropna(subset=["home", "away", "fecha"])
-    for c in ["hg", "ag", "c1", "cx", "c2", "o25", "u25"]:
+    for c in ["hg", "ag", "c1", "cx", "c2", "o25", "u25", "co_l", "co_v", "am_l", "am_v", "ro_l", "ro_v"]:
         out[c] = pd.to_numeric(out[c], errors="coerce")
+    # tarjetas = amarillas + rojas (así cuentan la mayoría de casas)
+    out["tj_l"] = out["am_l"] + out["ro_l"].fillna(0)
+    out["tj_v"] = out["am_v"] + out["ro_v"].fillna(0)
+    out["arbitro"] = out["arbitro"].where(out["arbitro"].notna(), None)
     out["home"] = out["home"].astype(str).str.strip()
     out["away"] = out["away"].astype(str).str.strip()
     return out.reset_index(drop=True)
