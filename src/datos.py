@@ -109,3 +109,53 @@ def descargar_proximos():
     if not partes:
         return pd.DataFrame()
     return pd.concat(partes, ignore_index=True).sort_values("fecha").reset_index(drop=True)
+
+
+URL_SELECCIONES = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
+PESO_TORNEO = {"Friendly": 0.6}
+
+
+def descargar_selecciones():
+    """Resultados y partidos programados de selecciones (datos de martj42, se actualizan cada mes)."""
+    c = _get(URL_SELECCIONES)
+    if not c:
+        return pd.DataFrame(), pd.DataFrame()
+    raw = _leer_csv(c)
+    out = pd.DataFrame({
+        "fecha": pd.to_datetime(raw["date"], errors="coerce"),
+        "home": raw["home_team"].astype(str).str.strip(),
+        "away": raw["away_team"].astype(str).str.strip(),
+        "hg": pd.to_numeric(raw["home_score"], errors="coerce"),
+        "ag": pd.to_numeric(raw["away_score"], errors="coerce"),
+        "neutral": raw["neutral"].astype(str).str.upper().eq("TRUE"),
+        "torneo": raw["tournament"].astype(str),
+    })
+    out["peso"] = out["torneo"].map(PESO_TORNEO).fillna(1.0)
+    out["liga"] = "Selecciones"
+    out["hora"] = ""
+    for col in ["c1", "cx", "c2", "o25", "u25"]:
+        out[col] = pd.NA
+    out = out.dropna(subset=["fecha"])
+    jugados = out.dropna(subset=["hg", "ag"]).reset_index(drop=True)
+    programados = out[out["hg"].isna()].reset_index(drop=True)
+    print(f"  selecciones: {len(jugados)} resultados (último {jugados['fecha'].max().date() if len(jugados) else '-'}), {len(programados)} programados")
+    return jugados, programados
+
+
+def leer_manual(ruta):
+    """Partidos de selecciones agregados a mano (fecha,local,visita,neutral,torneo,hg,ag)."""
+    try:
+        m = pd.read_csv(ruta)
+    except FileNotFoundError:
+        return pd.DataFrame(), pd.DataFrame()
+    out = pd.DataFrame({
+        "fecha": pd.to_datetime(m["fecha"], errors="coerce"), "home": m["local"].astype(str).str.strip(),
+        "away": m["visita"].astype(str).str.strip(), "hg": pd.to_numeric(m.get("hg"), errors="coerce"),
+        "ag": pd.to_numeric(m.get("ag"), errors="coerce"),
+        "neutral": m["neutral"].astype(str).str.upper().isin(["TRUE", "1", "SI", "SÍ"]),
+        "torneo": m.get("torneo", "").astype(str), "hora": m.get("hora", "").astype(str)})
+    out["peso"] = out["torneo"].map(PESO_TORNEO).fillna(1.0)
+    out["liga"] = "Selecciones"
+    for col in ["c1", "cx", "c2", "o25", "u25"]:
+        out[col] = pd.NA
+    return out.dropna(subset=["hg", "ag"]).reset_index(drop=True), out[out["hg"].isna()].reset_index(drop=True)

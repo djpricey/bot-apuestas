@@ -31,4 +31,10 @@ def liga_falsa(nombre, n=18, dias=700):
 R, P = zip(*[liga_falsa(x) for x in ["Liga Uno", "Liga Dos"]])
 M.descargar_resultados = lambda: pd.concat(R, ignore_index=True)
 M.descargar_proximos = lambda: pd.concat(P, ignore_index=True)
+def sel_falsas():
+    r, pr = liga_falsa("Selecciones", n=24, dias=1400)
+    r["neutral"] = False; r["peso"] = 1.0; pr["neutral"] = False; pr["peso"] = 1.0
+    return r, pr.iloc[:0]
+M.descargar_selecciones = sel_falsas
+M.leer_manual = lambda ruta: (pd.DataFrame(), pd.DataFrame([{"fecha": pd.Timestamp(M.datetime.now(M.TZ).date()), "hora": "14:45", "home": "Sel1", "away": "Sel2", "hg": np.nan, "ag": np.nan, "neutral": False, "peso": 1.0, "liga": "Selecciones", "c1": pd.NA, "cx": pd.NA, "c2": pd.NA, "o25": pd.NA, "u25": pd.NA}]))
 M.main()

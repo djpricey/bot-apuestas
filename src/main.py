@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 from .config import DIAS_HISTORIA, XI_CANDIDATOS, EDGE_MIN
-from .datos import descargar_resultados, descargar_proximos
+from .datos import descargar_resultados, descargar_proximos, descargar_selecciones, leer_manual
 from .modelo import ajustar, goles_esperados, probabilidades, implicitas, logloss, resultado
 from .evaluar import walk_forward, metricas, mejor_peso
 
@@ -99,10 +99,22 @@ def main():
     if res.empty:
         raise SystemExit("No se pudo descargar ningún resultado; no se actualiza nada.")
     res = res[res["fecha"] >= hoy - pd.Timedelta(days=DIAS_HISTORIA)]
+    print("Descargando selecciones…")
+    sel_res, sel_prox = descargar_selecciones()
+    man_res, man_prox = leer_manual(os.path.join(SALIDA, "..", "selecciones_manual.csv"))
+    sel_res = pd.concat([x for x in (sel_res, man_res) if not x.empty], ignore_index=True) if (not sel_res.empty or not man_res.empty) else pd.DataFrame()
+    if not sel_res.empty:
+        sel_res = sel_res.sort_values("fecha").drop_duplicates(subset=["fecha", "home", "away"], keep="last")
+        sel_res = sel_res[sel_res["fecha"] >= hoy - pd.Timedelta(days=4 * 365)]
+        res = pd.concat([res, sel_res], ignore_index=True)
     print(f"  {len(res)} partidos jugados en {res['liga'].nunique()} ligas")
     print("Descargando próximos partidos…")
     prox = descargar_proximos()
     print(f"  próximos sin filtrar: {len(prox)}" + (f" ({prox['fecha'].min()} a {prox['fecha'].max()})" if not prox.empty else ""))
+    extra = [x for x in (sel_prox, man_prox) if not x.empty]
+    if extra:
+        prox = pd.concat([prox] + extra, ignore_index=True) if not prox.empty else pd.concat(extra, ignore_index=True)
+        prox = prox.drop_duplicates(subset=["liga", "fecha", "home", "away"], keep="last")
     if not prox.empty:
         prox = prox[(prox["fecha"] >= hoy) & (prox["fecha"] <= hoy + pd.Timedelta(days=7))]
     print(f"  {len(prox)} partidos próximos")
@@ -152,8 +164,10 @@ def main():
         p = params.get(r.liga)
         if p is None:
             continue
-        lam, mu, ok = goles_esperados(p, r.home, r.away)
+        neutral = bool(getattr(r, "neutral", False) is True)
+        lam, mu, ok = goles_esperados(p, r.home, r.away, neutral)
         if not ok:
+            print(f"  sin datos de {r.home} o {r.away} ({r.liga})")
             continue
         pr = probabilidades(lam, mu)
         mk = implicitas(r.c1, r.cx, r.c2)
@@ -172,8 +186,10 @@ def main():
                 if ev >= EDGE_MIN:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
         partidos.append({
-            "fecha": r.fecha.strftime("%Y-%m-%d"), "hora_uk": str(r.hora) if pd.notna(r.hora) else "",
-            "liga": r.liga, "local": r.home, "visita": r.away,
+            "fecha": r.fecha.strftime("%Y-%m-%d"),
+            "hora_uk": str(r.hora) if (pd.notna(r.hora) and r.liga != "Selecciones") else "",
+            "hora_col": str(r.hora) if (pd.notna(r.hora) and r.liga == "Selecciones" and str(r.hora) not in ("", "nan")) else "",
+            "liga": r.liga, "local": r.home, "visita": r.away, "neutral": neutral,
             "p1": _r(pr["p1"]), "px": _r(pr["px"]), "p2": _r(pr["p2"]),
             "over25": _r(pr["over25"]), "btts": _r(pr["btts"]), "marcador": pr["marcador"],
             "goles_local": _r(lam, 2), "goles_visita": _r(mu, 2),

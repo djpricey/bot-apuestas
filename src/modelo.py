@@ -27,24 +27,30 @@ def ajustar(partidos, fecha_ref, xi, iteraciones=60):
     a = d["away"].map(idx).to_numpy()
     hg = d["hg"].to_numpy(dtype=float)
     ag = d["ag"].to_numpy(dtype=float)
+    neu = d["neutral"].fillna(False).astype(bool).to_numpy() if "neutral" in d.columns else np.zeros(len(d), bool)
+    if "peso" in d.columns:
+        w = w * d["peso"].fillna(1.0).to_numpy(dtype=float)
     n = len(equipos)
     att = np.ones(n)
     de = np.ones(n)
     media = (np.sum(w * (hg + ag)) / (2 * np.sum(w))) or 1.3
     home = 1.25
     for _ in range(iteraciones):
+        hf = np.where(neu, 1.0, home)
         # ataque
         num = np.bincount(h, w * hg, n) + np.bincount(a, w * ag, n)
-        den = np.bincount(h, w * home * de[a] * media, n) + np.bincount(a, w * de[h] * media, n)
+        den = np.bincount(h, w * hf * de[a] * media, n) + np.bincount(a, w * de[h] * media, n)
         att = (num + PSEUDO) / (den + PSEUDO)
         att /= att.mean()
         # defensa (goles concedidos)
         num = np.bincount(a, w * hg, n) + np.bincount(h, w * ag, n)
-        den = np.bincount(a, w * home * att[h] * media, n) + np.bincount(h, w * att[a] * media, n)
+        den = np.bincount(a, w * hf * att[h] * media, n) + np.bincount(h, w * att[a] * media, n)
         de = (num + PSEUDO) / (den + PSEUDO)
         de /= de.mean()
         # ventaja de local
-        home = np.sum(w * hg) / max(np.sum(w * att[h] * de[a] * media), 1e-9)
+        cn = ~neu
+        if cn.sum() > 20:
+            home = np.sum(w[cn] * hg[cn]) / max(np.sum(w[cn] * att[h[cn]] * de[a[cn]] * media), 1e-9)
     peso = np.bincount(h, w, n) + np.bincount(a, w, n)
     return {"idx": idx, "att": att, "de": de, "home": float(home), "media": float(media), "peso": peso}
 
@@ -61,13 +67,13 @@ def _tau(x, y, l, m, rho):
     return 1.0
 
 
-def goles_esperados(p, local, visita):
+def goles_esperados(p, local, visita, neutral=False):
     i, j = p["idx"].get(local), p["idx"].get(visita)
     al = p["att"][i] if i is not None else 1.0
     dl = p["de"][i] if i is not None else 1.0
     av = p["att"][j] if j is not None else 1.0
     dv = p["de"][j] if j is not None else 1.0
-    lam = p["media"] * p["home"] * al * dv
+    lam = p["media"] * (1.0 if neutral else p["home"]) * al * dv
     mu = p["media"] * av * dl
     conocidos = (i is not None) and (j is not None)
     return lam, mu, conocidos

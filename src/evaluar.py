@@ -23,7 +23,7 @@ def walk_forward(liga_df, xi, desde, paso_dias=7):
         if p is None:
             continue
         for r in bloque.itertuples():
-            lam, mu, ok = goles_esperados(p, r.home, r.away)
+            lam, mu, ok = goles_esperados(p, r.home, r.away, bool(getattr(r, "neutral", False) is True))
             if not ok:
                 continue
             pr = probabilidades(lam, mu)
