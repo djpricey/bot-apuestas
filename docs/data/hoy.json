@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T12:22-05:00",
+ "actualizado": "2026-11-12T12:33-05:00",
  "edge_min": 0.05,
  "escalera": {
   "fecha": "2026-11-12",
@@ -13,20 +13,20 @@
    {
     "fecha": "2026-11-12",
     "liga": "Selecciones",
+    "partido": "Malta vs Eswatini",
+    "seleccion": "Malta o empate",
+    "prob": 0.79,
+    "cuota_ref": null,
+    "cuota_minima": 1.32
+   },
+   {
+    "fecha": "2026-11-12",
+    "liga": "Selecciones",
     "partido": "Turkey vs Belgium",
     "seleccion": "Belgium o empate",
     "prob": 0.746,
     "cuota_ref": null,
     "cuota_minima": 1.39
-   },
-   {
-    "fecha": "2026-11-12",
-    "liga": "Selecciones",
-    "partido": "Albania vs Finland",
-    "seleccion": "Albania o empate",
-    "prob": 0.737,
-    "cuota_ref": null,
-    "cuota_minima": 1.41
    }
   ],
   "nota": "Solo estadística: revisa bajas y alineaciones antes de jugarlo."
@@ -65,7 +65,11 @@
     0.507
    ],
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T12:00-05:00",
@@ -92,7 +96,11 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T12:00-05:00",
@@ -119,7 +127,11 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T12:30-05:00",
@@ -138,15 +150,125 @@
    "marcador": "1-1",
    "goles_local": 1.27,
    "goles_visita": 0.98,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.46,
+   "cx": 4.05,
+   "c2": 6.61,
+   "co25": 2.19,
+   "cu25": 1.66,
+   "mercado": [
+    0.632,
+    0.228,
+    0.14
+   ],
+   "final": [
+    0.526,
+    0.264,
+    0.21
+   ],
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [
+    {
+     "seleccion": "Empate",
+     "prob": 0.264,
+     "cuota": 4.05,
+     "ev": 0.069
+    },
+    {
+     "seleccion": "Visita",
+     "prob": 0.21,
+     "cuota": 6.61,
+     "ev": 0.388
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T14:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Benin",
+   "visita": "Central African Republic",
+   "neutral": false,
+   "p1": 0.673,
+   "px": 0.187,
+   "p2": 0.14,
+   "over25": 0.668,
+   "btts": 0.591,
+   "marcador": "2-1",
+   "goles_local": 2.41,
+   "goles_visita": 1.03,
+   "c1": 1.57,
+   "cx": 3.5,
+   "c2": 5.44,
+   "co25": 2.11,
+   "cu25": 1.63,
+   "mercado": [
+    0.575,
+    0.259,
+    0.166
+   ],
+   "final": [
+    0.624,
+    0.223,
+    0.153
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.668,
+     "cuota": 2.11,
+     "ev": 0.407
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T14:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Cameroon",
+   "visita": "Namibia",
+   "neutral": false,
+   "p1": 0.727,
+   "px": 0.2,
+   "p2": 0.073,
+   "over25": 0.432,
+   "btts": 0.321,
+   "marcador": "2-0",
+   "goles_local": 1.95,
+   "goles_visita": 0.46,
+   "c1": 1.23,
+   "cx": 4.91,
+   "c2": 12.76,
+   "co25": 2.12,
+   "cu25": 1.63,
+   "mercado": [
+    0.742,
+    0.186,
+    0.072
+   ],
+   "final": [
+    0.735,
+    0.193,
+    0.072
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T14:00-05:00",
@@ -165,15 +287,34 @@
    "marcador": "2-0",
    "goles_local": 2.52,
    "goles_visita": 0.89,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.2,
+   "cx": 5.59,
+   "c2": 11.71,
+   "co25": 1.65,
+   "cu25": 2.07,
+   "mercado": [
+    0.759,
+    0.163,
+    0.078
+   ],
+   "final": [
+    0.742,
+    0.166,
+    0.092
+   ],
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.662,
+     "cuota": 1.65,
+     "ev": 0.094
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T14:00-05:00",
@@ -200,77 +341,73 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
-   "inicio": "2026-11-12T14:45-05:00",
+   "inicio": "2026-11-12T14:00-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
-   "hora_col": "14:45",
+   "hora_col": "14:00",
    "liga": "Selecciones",
-   "local": "Czech Republic",
-   "visita": "Spain",
+   "local": "Barbados",
+   "visita": "Guadeloupe",
    "neutral": false,
-   "p1": 0.088,
-   "px": 0.158,
-   "p2": 0.754,
-   "over25": 0.654,
-   "btts": 0.509,
+   "p1": 0.34,
+   "px": 0.236,
+   "p2": 0.423,
+   "over25": 0.663,
+   "btts": 0.674,
+   "marcador": "1-1",
+   "goles_local": 1.61,
+   "goles_visita": 1.81,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T14:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Cayman Islands",
+   "visita": "Guyana",
+   "neutral": false,
+   "p1": 0.067,
+   "px": 0.14,
+   "p2": 0.793,
+   "over25": 0.661,
+   "btts": 0.471,
    "marcador": "0-2",
-   "goles_local": 0.79,
-   "goles_visita": 2.58,
-   "c1": 14.0,
-   "cx": 7.0,
-   "c2": 1.18,
+   "goles_local": 0.7,
+   "goles_visita": 2.71,
+   "c1": null,
+   "cx": null,
+   "c2": null,
    "co25": null,
    "cu25": null,
-   "mercado": [
-    0.067,
-    0.135,
-    0.798
-   ],
-   "final": [
-    0.078,
-    0.146,
-    0.776
-   ],
+   "mercado": null,
+   "final": null,
    "peso_modelo": 0.5,
-   "valor": []
-  },
-  {
-   "inicio": "2026-11-12T14:45-05:00",
-   "fecha": "2026-11-12",
-   "hora_uk": "",
-   "hora_col": "14:45",
-   "liga": "Selecciones",
-   "local": "England",
-   "visita": "Croatia",
-   "neutral": false,
-   "p1": 0.742,
-   "px": 0.158,
-   "p2": 0.1,
-   "over25": 0.692,
-   "btts": 0.559,
-   "marcador": "2-0",
-   "goles_local": 2.66,
-   "goles_visita": 0.91,
-   "c1": 1.23,
-   "cx": 6.3,
-   "c2": 11.0,
-   "co25": null,
-   "cu25": null,
-   "mercado": [
-    0.765,
-    0.149,
-    0.086
-   ],
-   "final": [
-    0.753,
-    0.154,
-    0.093
-   ],
-   "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T14:45-05:00",
@@ -289,41 +426,6 @@
    "marcador": "1-1",
    "goles_local": 1.28,
    "goles_visita": 1.75,
-   "c1": 3.45,
-   "cx": 3.45,
-   "c2": 1.92,
-   "co25": null,
-   "cu25": null,
-   "mercado": [
-    0.263,
-    0.263,
-    0.473
-   ],
-   "final": [
-    0.269,
-    0.255,
-    0.475
-   ],
-   "peso_modelo": 0.5,
-   "valor": []
-  },
-  {
-   "inicio": "2026-11-12T14:45-05:00",
-   "fecha": "2026-11-12",
-   "hora_uk": "",
-   "hora_col": "14:45",
-   "liga": "Selecciones",
-   "local": "Montenegro",
-   "visita": "Latvia",
-   "neutral": false,
-   "p1": 0.615,
-   "px": 0.246,
-   "p2": 0.139,
-   "over25": 0.43,
-   "btts": 0.413,
-   "marcador": "1-0",
-   "goles_local": 1.71,
-   "goles_visita": 0.69,
    "c1": null,
    "cx": null,
    "c2": null,
@@ -332,7 +434,11 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T14:45-05:00",
@@ -340,17 +446,17 @@
    "hora_uk": "",
    "hora_col": "14:45",
    "liga": "Selecciones",
-   "local": "San Marino",
-   "visita": "Belarus",
+   "local": "Czech Republic",
+   "visita": "Spain",
    "neutral": false,
-   "p1": 0.051,
-   "px": 0.125,
-   "p2": 0.824,
+   "p1": 0.088,
+   "px": 0.158,
+   "p2": 0.754,
    "over25": 0.654,
-   "btts": 0.421,
+   "btts": 0.509,
    "marcador": "0-2",
-   "goles_local": 0.59,
-   "goles_visita": 2.78,
+   "goles_local": 0.79,
+   "goles_visita": 2.58,
    "c1": null,
    "cx": null,
    "c2": null,
@@ -359,7 +465,42 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T14:45-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "England",
+   "visita": "Croatia",
+   "neutral": false,
+   "p1": 0.742,
+   "px": 0.158,
+   "p2": 0.1,
+   "over25": 0.692,
+   "btts": 0.559,
+   "marcador": "2-0",
+   "goles_local": 2.66,
+   "goles_visita": 0.91,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
    "inicio": "2026-11-12T14:45-05:00",
@@ -386,13 +527,172 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   },
   {
-   "inicio": "2026-11-12T19:00-05:00",
+   "inicio": "2026-11-12T14:45-05:00",
    "fecha": "2026-11-12",
    "hora_uk": "",
-   "hora_col": "19:00",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "San Marino",
+   "visita": "Belarus",
+   "neutral": false,
+   "p1": 0.051,
+   "px": 0.125,
+   "p2": 0.824,
+   "over25": 0.654,
+   "btts": 0.421,
+   "marcador": "0-2",
+   "goles_local": 0.59,
+   "goles_visita": 2.78,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T14:45-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Montenegro",
+   "visita": "Latvia",
+   "neutral": false,
+   "p1": 0.615,
+   "px": 0.246,
+   "p2": 0.139,
+   "over25": 0.43,
+   "btts": 0.413,
+   "marcador": "1-0",
+   "goles_local": 1.71,
+   "goles_visita": 0.69,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T15:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "15:00",
+   "liga": "Selecciones",
+   "local": "Bonaire",
+   "visita": "Cuba",
+   "neutral": false,
+   "p1": 0.288,
+   "px": 0.248,
+   "p2": 0.464,
+   "over25": 0.591,
+   "btts": 0.612,
+   "marcador": "1-1",
+   "goles_local": 1.33,
+   "goles_visita": 1.74,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T17:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "17:00",
+   "liga": "Selecciones",
+   "local": "Aruba",
+   "visita": "Martinique",
+   "neutral": false,
+   "p1": 0.357,
+   "px": 0.259,
+   "p2": 0.384,
+   "over25": 0.563,
+   "btts": 0.599,
+   "marcador": "1-1",
+   "goles_local": 1.44,
+   "goles_visita": 1.5,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T18:00-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "18:00",
+   "liga": "Selecciones",
+   "local": "Antigua and Barbuda",
+   "visita": "Trinidad and Tobago",
+   "neutral": false,
+   "p1": 0.184,
+   "px": 0.229,
+   "p2": 0.587,
+   "over25": 0.565,
+   "btts": 0.549,
+   "marcador": "1-1",
+   "goles_local": 1.0,
+   "goles_visita": 1.95,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-12T19:30-05:00",
+   "fecha": "2026-11-12",
+   "hora_uk": "",
+   "hora_col": "19:30",
    "liga": "Selecciones",
    "local": "Curaçao",
    "visita": "Panama",
@@ -413,7 +713,402 @@
    "mercado": null,
    "final": null,
    "peso_modelo": 0.5,
-   "valor": []
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T07:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "07:00",
+   "liga": "Selecciones",
+   "local": "Singapore",
+   "visita": "Paraguay",
+   "neutral": false,
+   "p1": 0.107,
+   "px": 0.225,
+   "p2": 0.667,
+   "over25": 0.438,
+   "btts": 0.382,
+   "marcador": "0-1",
+   "goles_local": 0.59,
+   "goles_visita": 1.84,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T07:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "07:00",
+   "liga": "Selecciones",
+   "local": "Taiwan",
+   "visita": "Kyrgyzstan",
+   "neutral": false,
+   "p1": 0.231,
+   "px": 0.212,
+   "p2": 0.557,
+   "over25": 0.701,
+   "btts": 0.677,
+   "marcador": "1-2",
+   "goles_local": 1.4,
+   "goles_visita": 2.22,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T08:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "08:00",
+   "liga": "Selecciones",
+   "local": "Comoros",
+   "visita": "Congo",
+   "neutral": false,
+   "p1": 0.593,
+   "px": 0.242,
+   "p2": 0.165,
+   "over25": 0.487,
+   "btts": 0.478,
+   "marcador": "1-0",
+   "goles_local": 1.79,
+   "goles_visita": 0.84,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T08:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "08:00",
+   "liga": "Selecciones",
+   "local": "Mozambique",
+   "visita": "Ethiopia",
+   "neutral": false,
+   "p1": 0.581,
+   "px": 0.237,
+   "p2": 0.182,
+   "over25": 0.53,
+   "btts": 0.522,
+   "marcador": "1-1",
+   "goles_local": 1.85,
+   "goles_visita": 0.94,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T08:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "08:00",
+   "liga": "Selecciones",
+   "local": "Zambia",
+   "visita": "Burundi",
+   "neutral": false,
+   "p1": 0.494,
+   "px": 0.263,
+   "p2": 0.243,
+   "over25": 0.498,
+   "btts": 0.529,
+   "marcador": "1-1",
+   "goles_local": 1.61,
+   "goles_visita": 1.06,
+   "c1": 1.62,
+   "cx": 3.49,
+   "c2": 5.17,
+   "co25": 2.28,
+   "cu25": 1.54,
+   "mercado": [
+    0.563,
+    0.261,
+    0.176
+   ],
+   "final": [
+    0.528,
+    0.262,
+    0.21
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Visita",
+     "prob": 0.21,
+     "cuota": 5.17,
+     "ev": 0.084
+    },
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.498,
+     "cuota": 2.28,
+     "ev": 0.137
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T09:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "09:00",
+   "liga": "Selecciones",
+   "local": "Kuwait",
+   "visita": "Syria",
+   "neutral": false,
+   "p1": 0.28,
+   "px": 0.257,
+   "p2": 0.463,
+   "over25": 0.548,
+   "btts": 0.578,
+   "marcador": "1-1",
+   "goles_local": 1.23,
+   "goles_visita": 1.64,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T09:10-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "09:10",
+   "liga": "Selecciones",
+   "local": "United Arab Emirates",
+   "visita": "Honduras",
+   "neutral": false,
+   "p1": 0.527,
+   "px": 0.265,
+   "p2": 0.208,
+   "over25": 0.458,
+   "btts": 0.484,
+   "marcador": "1-1",
+   "goles_local": 1.6,
+   "goles_visita": 0.91,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T09:30-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "09:30",
+   "liga": "Selecciones",
+   "local": "Saudi Arabia",
+   "visita": "South Korea",
+   "neutral": false,
+   "p1": 0.314,
+   "px": 0.304,
+   "p2": 0.382,
+   "over25": 0.387,
+   "btts": 0.459,
+   "marcador": "1-1",
+   "goles_local": 1.05,
+   "goles_visita": 1.19,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T09:45-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "09:45",
+   "liga": "Selecciones",
+   "local": "Qatar",
+   "visita": "Australia",
+   "neutral": false,
+   "p1": 0.159,
+   "px": 0.234,
+   "p2": 0.607,
+   "over25": 0.506,
+   "btts": 0.486,
+   "marcador": "0-1",
+   "goles_local": 0.84,
+   "goles_visita": 1.86,
+   "c1": 3.3,
+   "cx": 3.27,
+   "c2": 2.11,
+   "co25": 2.08,
+   "cu25": 1.72,
+   "mercado": [
+    0.28,
+    0.282,
+    0.438
+   ],
+   "final": [
+    0.219,
+    0.258,
+    0.522
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Visita",
+     "prob": 0.522,
+     "cuota": 2.11,
+     "ev": 0.1
+    },
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.506,
+     "cuota": 2.08,
+     "ev": 0.052
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T11:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "11:00",
+   "liga": "Selecciones",
+   "local": "Burkina Faso",
+   "visita": "Mauritania",
+   "neutral": false,
+   "p1": 0.604,
+   "px": 0.244,
+   "p2": 0.153,
+   "over25": 0.461,
+   "btts": 0.448,
+   "marcador": "1-0",
+   "goles_local": 1.75,
+   "goles_visita": 0.76,
+   "c1": 1.54,
+   "cx": 3.53,
+   "c2": 6.15,
+   "co25": 2.24,
+   "cu25": 1.54,
+   "mercado": [
+    0.592,
+    0.259,
+    0.148
+   ],
+   "final": [
+    0.598,
+    0.251,
+    0.151
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T11:00-05:00",
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "11:00",
+   "liga": "Selecciones",
+   "local": "Cape Verde",
+   "visita": "Liberia",
+   "neutral": false,
+   "p1": 0.678,
+   "px": 0.201,
+   "p2": 0.121,
+   "over25": 0.562,
+   "btts": 0.49,
+   "marcador": "2-0",
+   "goles_local": 2.14,
+   "goles_visita": 0.8,
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   }
  ]
 }
