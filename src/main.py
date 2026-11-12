@@ -12,6 +12,7 @@ from .datos import descargar_resultados, descargar_proximos, descargar_seleccion
 from .modelo import ajustar, goles_esperados, probabilidades, implicitas, logloss, resultado
 from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
+from . import apifutbol
 from zoneinfo import ZoneInfo
 
 PESO_SIN_HISTORIA = 0.5  # cuando no hay cuotas pasadas para aprender, confía mitad y mitad
@@ -112,10 +113,15 @@ def main():
         sel_res = sel_res[sel_res["fecha"] >= hoy - pd.Timedelta(days=4 * 365)]
         res = pd.concat([res, sel_res], ignore_index=True)
     print(f"  {len(res)} partidos jugados en {res['liga'].nunique()} ligas")
+    print("Consultando API-Football…")
+    equipos_sel = set(sel_res["home"]) | set(sel_res["away"]) if not sel_res.empty else set()
+    api_res, api_prox, BAJAS = apifutbol.datos([hoy.strftime("%Y-%m-%d"), (hoy + pd.Timedelta(days=1)).strftime("%Y-%m-%d")], equipos_sel)
+    if not api_res.empty:
+        res = pd.concat([res, api_res], ignore_index=True)
     print("Descargando próximos partidos…")
     prox = descargar_proximos()
     print(f"  próximos sin filtrar: {len(prox)}" + (f" ({prox['fecha'].min()} a {prox['fecha'].max()})" if not prox.empty else ""))
-    extra = [x for x in (sel_prox, man_prox) if not x.empty]
+    extra = [x for x in (sel_prox, man_prox, api_prox) if not x.empty]
     if extra:
         prox = pd.concat([prox] + extra, ignore_index=True) if not prox.empty else pd.concat(extra, ignore_index=True)
         prox = prox.drop_duplicates(subset=["liga", "fecha", "home", "away"], keep="last")
@@ -176,6 +182,11 @@ def main():
         if not ok:
             print(f"  sin datos de {r.home} o {r.away} ({r.liga})")
             continue
+        bj = BAJAS.get((r.liga, r.home, r.away), {"local": [], "visita": []})
+        kl, kv = min(len(bj["local"]), 6), min(len(bj["visita"]), 6)
+        # ajuste aproximado: cada baja quita algo de gol propio y regala algo al rival
+        lam *= (1 - 0.025 * kl) * (1 + 0.015 * kv)
+        mu *= (1 - 0.025 * kv) * (1 + 0.015 * kl)
         pr = probabilidades(lam, mu)
         mk = implicitas(r.c1, r.cx, r.c2)
         w = pesos.get(r.liga, PESO_SIN_HISTORIA)
@@ -215,6 +226,7 @@ def main():
             "final": [_r(x) for x in comb] if comb is not None else None,
             "peso_modelo": w,
             "valor": valor,
+            "bajas": bj,
         })
 
     escalera = elegir_escalera(partidos)

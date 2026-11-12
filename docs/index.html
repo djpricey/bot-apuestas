@@ -99,6 +99,7 @@ function renderPartidos(){
     <div class="lab"><span>Local</span><span>Empate</span><span>Visita</span></div>
     <div class="facts"><div class="f"><small>Goles esp.</small><b>${n2(p.goles_local)}–${n2(p.goles_visita)}</b></div><div class="f"><small>+2.5</small><b>${pct(p.over25)}</b></div><div class="f"><small>Ambos</small><b>${pct(p.btts)}</b></div><div class="f"><small>Marcador</small><b>${esc(p.marcador)}</b></div></div>
     <div class="cmp">Modelo ${pct(p.p1)} · ${pct(p.px)} · ${pct(p.p2)}${p.mercado?` — Mercado ${pct(p.mercado[0])} · ${pct(p.mercado[1])} · ${pct(p.mercado[2])} — Cuotas ${n2(p.c1)} / ${n2(p.cx)} / ${n2(p.c2)} — Confianza en el modelo ${Math.round((p.peso_modelo||0)*100)}%`:''}</div>
+    ${p.bajas&&((p.bajas.local||[]).length||(p.bajas.visita||[]).length)?`<div class="cmp"><b>Bajas:</b> ${(p.bajas.local||[]).length?esc(p.local)+': '+p.bajas.local.map(esc).join(', '):''}${(p.bajas.local||[]).length&&(p.bajas.visita||[]).length?' · ':''}${(p.bajas.visita||[]).length?esc(p.visita)+': '+p.bajas.visita.map(esc).join(', '):''}</div>`:''}
     ${(p.valor||[]).length?`<div class="chips">${p.valor.map(v=>`<span class="chip">Valor: ${esc(v.seleccion)} ${n2(v.cuota)} (${pct(v.prob)}, EV +${Math.round(v.ev*100)}%)</span>`).join('')}</div>`:''}</div>`;
   });
   $('#partidos').innerHTML=h;

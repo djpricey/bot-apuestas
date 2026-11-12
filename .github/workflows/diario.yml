@@ -23,6 +23,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -m src.main
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
       - name: Guardar resultados
         run: |
           git config user.name "bot-apuestas"
