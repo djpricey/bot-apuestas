@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-11-12T12:44-05:00",
+ "actualizado": "2026-11-12T18:31-05:00",
  "edge_min": 0.05,
  "en_vivo": {
   "n": 0
  },
  "backtest_global": {
-  "n": 6466,
-  "logloss_modelo": 0.999,
-  "logloss_mercado": 0.9622,
-  "logloss_modelo_mismos": 0.9906,
-  "logloss_combinado": 0.9906,
+  "n": 6475,
+  "logloss_modelo": 0.9985,
+  "logloss_mercado": 0.9615,
+  "logloss_modelo_mismos": 0.9899,
+  "logloss_combinado": 0.9899,
   "peso_modelo": 1.0,
-  "n_con_cuotas": 1836,
+  "n_con_cuotas": 1840,
   "apuestas_valor": 147,
   "roi_valor": -0.0981,
   "calibracion": [
@@ -19,55 +19,55 @@
     "rango": "0-10%",
     "esperado": 0.071,
     "real": 0.049,
-    "n": 447
+    "n": 450
    },
    {
     "rango": "10-20%",
     "esperado": 0.161,
-    "real": 0.163,
-    "n": 2164
+    "real": 0.162,
+    "n": 2170
    },
    {
     "rango": "20-30%",
     "esperado": 0.253,
     "real": 0.253,
-    "n": 7541
+    "n": 7548
    },
    {
     "rango": "30-40%",
     "esperado": 0.344,
     "real": 0.338,
-    "n": 4029
+    "n": 4032
    },
    {
     "rango": "40-50%",
     "esperado": 0.446,
     "real": 0.449,
-    "n": 2415
+    "n": 2417
    },
    {
     "rango": "50-60%",
     "esperado": 0.545,
     "real": 0.539,
-    "n": 1545
+    "n": 1546
    },
    {
     "rango": "60-70%",
     "esperado": 0.644,
     "real": 0.671,
-    "n": 747
+    "n": 748
    },
    {
     "rango": "70-80%",
     "esperado": 0.743,
-    "real": 0.781,
-    "n": 379
+    "real": 0.783,
+    "n": 382
    },
    {
     "rango": "80-90%",
     "esperado": 0.836,
-    "real": 0.841,
-    "n": 113
+    "real": 0.842,
+    "n": 114
    },
    {
     "rango": "90-100%",
@@ -1068,13 +1068,13 @@
    "partidos_usados": 750
   },
   "Selecciones": {
-   "n": 1031,
-   "logloss_modelo": 0.9072,
-   "logloss_mercado": null,
-   "logloss_modelo_mismos": null,
-   "logloss_combinado": null,
+   "n": 1040,
+   "logloss_modelo": 0.9049,
+   "logloss_mercado": 0.6244,
+   "logloss_modelo_mismos": 0.64,
+   "logloss_combinado": 0.632,
    "peso_modelo": 0.5,
-   "n_con_cuotas": 0,
+   "n_con_cuotas": 4,
    "apuestas_valor": 0,
    "roi_valor": null,
    "calibracion": [
@@ -1082,55 +1082,55 @@
      "rango": "0-10%",
      "esperado": 0.064,
      "real": 0.036,
-     "n": 192
+     "n": 195
     },
     {
      "rango": "10-20%",
      "esperado": 0.155,
-     "real": 0.129,
-     "n": 465
+     "real": 0.127,
+     "n": 471
     },
     {
      "rango": "20-30%",
      "esperado": 0.254,
      "real": 0.231,
-     "n": 992
+     "n": 999
     },
     {
      "rango": "30-40%",
      "esperado": 0.343,
-     "real": 0.343,
-     "n": 595
+     "real": 0.341,
+     "n": 598
     },
     {
      "rango": "40-50%",
      "esperado": 0.448,
      "real": 0.466,
-     "n": 296
+     "n": 298
     },
     {
      "rango": "50-60%",
      "esperado": 0.546,
-     "real": 0.628,
-     "n": 239
+     "real": 0.629,
+     "n": 240
     },
     {
      "rango": "60-70%",
      "esperado": 0.642,
-     "real": 0.699,
-     "n": 133
+     "real": 0.701,
+     "n": 134
     },
     {
      "rango": "70-80%",
      "esperado": 0.746,
-     "real": 0.78,
-     "n": 118
+     "real": 0.785,
+     "n": 121
     },
     {
      "rango": "80-90%",
      "esperado": 0.838,
-     "real": 0.9,
-     "n": 50
+     "real": 0.902,
+     "n": 51
     },
     {
      "rango": "90-100%",
@@ -1141,7 +1141,7 @@
    ],
    "xi": 0.001,
    "peso_aprendido": false,
-   "partidos_usados": 4269
+   "partidos_usados": 4278
   },
   "Serie A": {
    "n": 379,
@@ -1294,6 +1294,1614 @@
    "xi": 0.0035,
    "peso_aprendido": true,
    "partidos_usados": 639
+  }
+ },
+ "corners_tarjetas": {
+  "Bundesliga": {
+   "corners_local": {
+    "n": 1036,
+    "brier": 0.2085,
+    "brier_sin_modelo": 0.2231,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 281,
+      "prometido": 0.548,
+      "real": 0.573
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 307,
+      "prometido": 0.653,
+      "real": 0.635
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 242,
+      "prometido": 0.75,
+      "real": 0.719
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 206,
+      "prometido": 0.86,
+      "real": 0.845
+     }
+    ],
+    "respaldado": true
+   },
+   "corners_total": {
+    "n": 1036,
+    "brier": 0.2369,
+    "brier_sin_modelo": 0.2335,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 385,
+      "prometido": 0.549,
+      "real": 0.532
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 348,
+      "prometido": 0.647,
+      "real": 0.647
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 227,
+      "prometido": 0.745,
+      "real": 0.678
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 76,
+      "prometido": 0.844,
+      "real": 0.671
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1036,
+    "brier": 0.2143,
+    "brier_sin_modelo": 0.2193,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 267,
+      "prometido": 0.551,
+      "real": 0.539
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 275,
+      "prometido": 0.647,
+      "real": 0.625
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 277,
+      "prometido": 0.751,
+      "real": 0.722
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 217,
+      "prometido": 0.861,
+      "real": 0.797
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1036,
+    "brier": 0.2122,
+    "brier_sin_modelo": 0.2078,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 280,
+      "prometido": 0.55,
+      "real": 0.521
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 293,
+      "prometido": 0.651,
+      "real": 0.652
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 286,
+      "prometido": 0.748,
+      "real": 0.738
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 177,
+      "prometido": 0.844,
+      "real": 0.814
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Bélgica": {
+   "corners_local": {
+    "n": 1056,
+    "brier": 0.2172,
+    "brier_sin_modelo": 0.2181,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 293,
+      "prometido": 0.549,
+      "real": 0.587
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 295,
+      "prometido": 0.65,
+      "real": 0.624
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 248,
+      "prometido": 0.749,
+      "real": 0.698
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 220,
+      "prometido": 0.856,
+      "real": 0.805
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1056,
+    "brier": 0.2444,
+    "brier_sin_modelo": 0.2341,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 406,
+      "prometido": 0.55,
+      "real": 0.547
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 358,
+      "prometido": 0.649,
+      "real": 0.592
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 229,
+      "prometido": 0.746,
+      "real": 0.629
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 63,
+      "prometido": 0.835,
+      "real": 0.746
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1056,
+    "brier": 0.2149,
+    "brier_sin_modelo": 0.2189,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 271,
+      "prometido": 0.548,
+      "real": 0.509
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 259,
+      "prometido": 0.65,
+      "real": 0.633
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 256,
+      "prometido": 0.746,
+      "real": 0.695
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 270,
+      "prometido": 0.861,
+      "real": 0.796
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1056,
+    "brier": 0.2134,
+    "brier_sin_modelo": 0.2123,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 278,
+      "prometido": 0.547,
+      "real": 0.554
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 307,
+      "prometido": 0.652,
+      "real": 0.638
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 272,
+      "prometido": 0.745,
+      "real": 0.732
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 199,
+      "prometido": 0.846,
+      "real": 0.809
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Championship": {
+   "corners_local": {
+    "n": 1948,
+    "brier": 0.2204,
+    "brier_sin_modelo": 0.2263,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 548,
+      "prometido": 0.552,
+      "real": 0.533
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 495,
+      "prometido": 0.649,
+      "real": 0.624
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 478,
+      "prometido": 0.75,
+      "real": 0.682
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 427,
+      "prometido": 0.865,
+      "real": 0.794
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1948,
+    "brier": 0.2439,
+    "brier_sin_modelo": 0.2375,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 798,
+      "prometido": 0.552,
+      "real": 0.533
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 691,
+      "prometido": 0.651,
+      "real": 0.606
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 397,
+      "prometido": 0.742,
+      "real": 0.625
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 62,
+      "prometido": 0.832,
+      "real": 0.758
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1948,
+    "brier": 0.2134,
+    "brier_sin_modelo": 0.2188,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 505,
+      "prometido": 0.551,
+      "real": 0.541
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 518,
+      "prometido": 0.649,
+      "real": 0.62
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 501,
+      "prometido": 0.75,
+      "real": 0.711
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 424,
+      "prometido": 0.857,
+      "real": 0.814
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1948,
+    "brier": 0.2087,
+    "brier_sin_modelo": 0.2082,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 478,
+      "prometido": 0.552,
+      "real": 0.538
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 505,
+      "prometido": 0.648,
+      "real": 0.634
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 546,
+      "prometido": 0.751,
+      "real": 0.712
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 419,
+      "prometido": 0.856,
+      "real": 0.831
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Eredivisie": {
+   "corners_local": {
+    "n": 1092,
+    "brier": 0.2067,
+    "brier_sin_modelo": 0.2226,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 254,
+      "prometido": 0.549,
+      "real": 0.48
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 254,
+      "prometido": 0.648,
+      "real": 0.654
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 243,
+      "prometido": 0.748,
+      "real": 0.712
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 341,
+      "prometido": 0.878,
+      "real": 0.806
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1092,
+    "brier": 0.2463,
+    "brier_sin_modelo": 0.2322,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 415,
+      "prometido": 0.55,
+      "real": 0.53
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 372,
+      "prometido": 0.648,
+      "real": 0.616
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 243,
+      "prometido": 0.746,
+      "real": 0.646
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 62,
+      "prometido": 0.837,
+      "real": 0.581
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1092,
+    "brier": 0.2124,
+    "brier_sin_modelo": 0.2214,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 258,
+      "prometido": 0.55,
+      "real": 0.539
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 251,
+      "prometido": 0.651,
+      "real": 0.618
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 246,
+      "prometido": 0.748,
+      "real": 0.715
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 337,
+      "prometido": 0.877,
+      "real": 0.786
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1092,
+    "brier": 0.1933,
+    "brier_sin_modelo": 0.1873,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 259,
+      "prometido": 0.551,
+      "real": 0.587
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 265,
+      "prometido": 0.646,
+      "real": 0.63
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 244,
+      "prometido": 0.748,
+      "real": 0.738
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 324,
+      "prometido": 0.87,
+      "real": 0.861
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Escocia": {
+   "corners_local": {
+    "n": 876,
+    "brier": 0.2271,
+    "brier_sin_modelo": 0.23,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 220,
+      "prometido": 0.55,
+      "real": 0.568
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 209,
+      "prometido": 0.65,
+      "real": 0.545
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 204,
+      "prometido": 0.747,
+      "real": 0.667
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 243,
+      "prometido": 0.875,
+      "real": 0.782
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 876,
+    "brier": 0.2254,
+    "brier_sin_modelo": 0.2311,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 332,
+      "prometido": 0.548,
+      "real": 0.551
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 305,
+      "prometido": 0.647,
+      "real": 0.669
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 191,
+      "prometido": 0.743,
+      "real": 0.723
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 48,
+      "prometido": 0.834,
+      "real": 0.729
+     }
+    ],
+    "respaldado": true
+   },
+   "corners_visita": {
+    "n": 876,
+    "brier": 0.2026,
+    "brier_sin_modelo": 0.2142,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 204,
+      "prometido": 0.552,
+      "real": 0.505
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 204,
+      "prometido": 0.644,
+      "real": 0.676
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 217,
+      "prometido": 0.751,
+      "real": 0.696
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 251,
+      "prometido": 0.876,
+      "real": 0.833
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 876,
+    "brier": 0.2105,
+    "brier_sin_modelo": 0.2057,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 212,
+      "prometido": 0.547,
+      "real": 0.509
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 239,
+      "prometido": 0.652,
+      "real": 0.682
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 227,
+      "prometido": 0.747,
+      "real": 0.74
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 198,
+      "prometido": 0.851,
+      "real": 0.793
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "LaLiga": {
+   "corners_local": {
+    "n": 1344,
+    "brier": 0.2236,
+    "brier_sin_modelo": 0.2242,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 343,
+      "prometido": 0.55,
+      "real": 0.493
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 342,
+      "prometido": 0.648,
+      "real": 0.614
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 298,
+      "prometido": 0.747,
+      "real": 0.661
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 361,
+      "prometido": 0.869,
+      "real": 0.781
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1344,
+    "brier": 0.2278,
+    "brier_sin_modelo": 0.2318,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 472,
+      "prometido": 0.549,
+      "real": 0.547
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 416,
+      "prometido": 0.646,
+      "real": 0.632
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 305,
+      "prometido": 0.744,
+      "real": 0.695
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 151,
+      "prometido": 0.849,
+      "real": 0.768
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1344,
+    "brier": 0.2043,
+    "brier_sin_modelo": 0.2187,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 336,
+      "prometido": 0.55,
+      "real": 0.548
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 338,
+      "prometido": 0.652,
+      "real": 0.683
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 317,
+      "prometido": 0.748,
+      "real": 0.707
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 353,
+      "prometido": 0.866,
+      "real": 0.819
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1344,
+    "brier": 0.2121,
+    "brier_sin_modelo": 0.2118,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 383,
+      "prometido": 0.548,
+      "real": 0.59
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 380,
+      "prometido": 0.648,
+      "real": 0.616
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 362,
+      "prometido": 0.749,
+      "real": 0.724
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 219,
+      "prometido": 0.85,
+      "real": 0.831
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Ligue 1": {
+   "corners_local": {
+    "n": 1016,
+    "brier": 0.2093,
+    "brier_sin_modelo": 0.2274,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 278,
+      "prometido": 0.55,
+      "real": 0.543
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 269,
+      "prometido": 0.65,
+      "real": 0.636
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 231,
+      "prometido": 0.75,
+      "real": 0.719
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 238,
+      "prometido": 0.866,
+      "real": 0.824
+     }
+    ],
+    "respaldado": true
+   },
+   "corners_total": {
+    "n": 1016,
+    "brier": 0.2251,
+    "brier_sin_modelo": 0.222,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 370,
+      "prometido": 0.548,
+      "real": 0.557
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 312,
+      "prometido": 0.648,
+      "real": 0.641
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 230,
+      "prometido": 0.746,
+      "real": 0.7
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 104,
+      "prometido": 0.838,
+      "real": 0.798
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1016,
+    "brier": 0.2194,
+    "brier_sin_modelo": 0.2246,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 260,
+      "prometido": 0.548,
+      "real": 0.508
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 272,
+      "prometido": 0.649,
+      "real": 0.603
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 240,
+      "prometido": 0.749,
+      "real": 0.738
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 244,
+      "prometido": 0.865,
+      "real": 0.762
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1016,
+    "brier": 0.1935,
+    "brier_sin_modelo": 0.1958,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 247,
+      "prometido": 0.549,
+      "real": 0.514
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 264,
+      "prometido": 0.648,
+      "real": 0.659
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 277,
+      "prometido": 0.751,
+      "real": 0.755
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 228,
+      "prometido": 0.86,
+      "real": 0.868
+     }
+    ],
+    "respaldado": true
+   }
+  },
+  "Portugal": {
+   "corners_local": {
+    "n": 1092,
+    "brier": 0.2035,
+    "brier_sin_modelo": 0.2247,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 241,
+      "prometido": 0.545,
+      "real": 0.506
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 270,
+      "prometido": 0.653,
+      "real": 0.611
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 213,
+      "prometido": 0.752,
+      "real": 0.676
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 368,
+      "prometido": 0.884,
+      "real": 0.842
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1092,
+    "brier": 0.2264,
+    "brier_sin_modelo": 0.2251,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 350,
+      "prometido": 0.548,
+      "real": 0.52
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 329,
+      "prometido": 0.648,
+      "real": 0.605
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 246,
+      "prometido": 0.746,
+      "real": 0.695
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 167,
+      "prometido": 0.85,
+      "real": 0.79
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1092,
+    "brier": 0.2044,
+    "brier_sin_modelo": 0.2293,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 250,
+      "prometido": 0.551,
+      "real": 0.568
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 239,
+      "prometido": 0.652,
+      "real": 0.59
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 233,
+      "prometido": 0.749,
+      "real": 0.712
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 370,
+      "prometido": 0.884,
+      "real": 0.816
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1092,
+    "brier": 0.2155,
+    "brier_sin_modelo": 0.2064,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 330,
+      "prometido": 0.548,
+      "real": 0.521
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 274,
+      "prometido": 0.646,
+      "real": 0.639
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 212,
+      "prometido": 0.749,
+      "real": 0.684
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 276,
+      "prometido": 0.862,
+      "real": 0.812
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Premier League": {
+   "corners_local": {
+    "n": 1340,
+    "brier": 0.222,
+    "brier_sin_modelo": 0.2278,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 356,
+      "prometido": 0.551,
+      "real": 0.528
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 328,
+      "prometido": 0.648,
+      "real": 0.622
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 319,
+      "prometido": 0.748,
+      "real": 0.677
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 337,
+      "prometido": 0.87,
+      "real": 0.783
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1340,
+    "brier": 0.2388,
+    "brier_sin_modelo": 0.234,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 506,
+      "prometido": 0.549,
+      "real": 0.545
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 456,
+      "prometido": 0.647,
+      "real": 0.627
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 292,
+      "prometido": 0.742,
+      "real": 0.661
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 86,
+      "prometido": 0.845,
+      "real": 0.698
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1340,
+    "brier": 0.218,
+    "brier_sin_modelo": 0.2169,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 338,
+      "prometido": 0.548,
+      "real": 0.512
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 312,
+      "prometido": 0.65,
+      "real": 0.638
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 309,
+      "prometido": 0.746,
+      "real": 0.657
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 381,
+      "prometido": 0.871,
+      "real": 0.795
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1340,
+    "brier": 0.2182,
+    "brier_sin_modelo": 0.2124,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 320,
+      "prometido": 0.547,
+      "real": 0.572
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 350,
+      "prometido": 0.649,
+      "real": 0.597
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 375,
+      "prometido": 0.749,
+      "real": 0.733
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 295,
+      "prometido": 0.855,
+      "real": 0.756
+     }
+    ],
+    "respaldado": false
+   }
+  },
+  "Serie A": {
+   "corners_local": {
+    "n": 1380,
+    "brier": 0.2246,
+    "brier_sin_modelo": 0.2287,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 349,
+      "prometido": 0.547,
+      "real": 0.539
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 379,
+      "prometido": 0.65,
+      "real": 0.596
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 316,
+      "prometido": 0.75,
+      "real": 0.652
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 336,
+      "prometido": 0.869,
+      "real": 0.792
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1380,
+    "brier": 0.2177,
+    "brier_sin_modelo": 0.2148,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 443,
+      "prometido": 0.548,
+      "real": 0.503
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 376,
+      "prometido": 0.648,
+      "real": 0.622
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 334,
+      "prometido": 0.748,
+      "real": 0.737
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 227,
+      "prometido": 0.846,
+      "real": 0.806
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1380,
+    "brier": 0.2209,
+    "brier_sin_modelo": 0.2239,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 346,
+      "prometido": 0.55,
+      "real": 0.566
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 345,
+      "prometido": 0.648,
+      "real": 0.583
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 348,
+      "prometido": 0.75,
+      "real": 0.681
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 341,
+      "prometido": 0.868,
+      "real": 0.792
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1380,
+    "brier": 0.1983,
+    "brier_sin_modelo": 0.2039,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 334,
+      "prometido": 0.55,
+      "real": 0.572
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 356,
+      "prometido": 0.65,
+      "real": 0.638
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 334,
+      "prometido": 0.748,
+      "real": 0.746
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 356,
+      "prometido": 0.863,
+      "real": 0.843
+     }
+    ],
+    "respaldado": true
+   }
+  },
+  "Turquía": {
+   "corners_local": {
+    "n": 1012,
+    "brier": 0.2292,
+    "brier_sin_modelo": 0.2317,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 288,
+      "prometido": 0.552,
+      "real": 0.528
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 259,
+      "prometido": 0.65,
+      "real": 0.606
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 243,
+      "prometido": 0.745,
+      "real": 0.654
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 222,
+      "prometido": 0.859,
+      "real": 0.766
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_total": {
+    "n": 1012,
+    "brier": 0.2407,
+    "brier_sin_modelo": 0.2313,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 372,
+      "prometido": 0.549,
+      "real": 0.524
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 330,
+      "prometido": 0.647,
+      "real": 0.615
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 221,
+      "prometido": 0.743,
+      "real": 0.652
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 89,
+      "prometido": 0.839,
+      "real": 0.685
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1012,
+    "brier": 0.2123,
+    "brier_sin_modelo": 0.2226,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 264,
+      "prometido": 0.551,
+      "real": 0.549
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 258,
+      "prometido": 0.649,
+      "real": 0.628
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 264,
+      "prometido": 0.746,
+      "real": 0.708
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 226,
+      "prometido": 0.857,
+      "real": 0.805
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1012,
+    "brier": 0.2172,
+    "brier_sin_modelo": 0.2154,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 296,
+      "prometido": 0.548,
+      "real": 0.514
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 305,
+      "prometido": 0.649,
+      "real": 0.639
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 229,
+      "prometido": 0.749,
+      "real": 0.725
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 182,
+      "prometido": 0.85,
+      "real": 0.797
+     }
+    ],
+    "respaldado": false
+   }
   }
  }
 }
