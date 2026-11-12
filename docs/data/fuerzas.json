@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T18:25-05:00",
+ "actualizado": "2026-11-12T06:50-05:00",
  "edge_min": 0.05,
  "ligas": {
   "Argentina": {
@@ -8,9 +8,9 @@
    "equipos": [
     {
      "equipo": "Boca Juniors",
-     "ataque": 1.35,
-     "defensa": 0.69,
-     "fuerza": 1.94
+     "ataque": 1.34,
+     "defensa": 0.7,
+     "fuerza": 1.93
     },
     {
      "equipo": "Rosario Central",
@@ -44,7 +44,7 @@
     },
     {
      "equipo": "Instituto",
-     "ataque": 1.2,
+     "ataque": 1.19,
      "defensa": 1.0,
      "fuerza": 1.19
     },
@@ -80,20 +80,20 @@
     },
     {
      "equipo": "Independiente",
-     "ataque": 1.05,
+     "ataque": 1.04,
      "defensa": 0.96,
      "fuerza": 1.09
     },
     {
-     "equipo": "Defensa y Justicia",
-     "ataque": 1.1,
-     "defensa": 1.04,
+     "equipo": "Tigre",
+     "ataque": 0.92,
+     "defensa": 0.86,
      "fuerza": 1.06
     },
     {
-     "equipo": "Tigre",
-     "ataque": 0.91,
-     "defensa": 0.87,
+     "equipo": "Defensa y Justicia",
+     "ataque": 1.09,
+     "defensa": 1.04,
      "fuerza": 1.05
     },
     {
@@ -112,7 +112,7 @@
      "equipo": "Racing Club",
      "ataque": 1.01,
      "defensa": 1.04,
-     "fuerza": 0.97
+     "fuerza": 0.98
     },
     {
      "equipo": "Talleres Cordoba",
@@ -135,20 +135,20 @@
     {
      "equipo": "Platense",
      "ataque": 0.91,
-     "defensa": 1.03,
+     "defensa": 1.04,
      "fuerza": 0.88
     },
     {
      "equipo": "Atl. Tucuman",
      "ataque": 0.95,
      "defensa": 1.1,
-     "fuerza": 0.86
+     "fuerza": 0.87
     },
     {
      "equipo": "Sarmiento Junin",
      "ataque": 1.02,
      "defensa": 1.19,
-     "fuerza": 0.85
+     "fuerza": 0.86
     },
     {
      "equipo": "San Lorenzo",
@@ -163,22 +163,22 @@
      "fuerza": 0.8
     },
     {
+     "equipo": "San Martin S.J.",
+     "ataque": 0.79,
+     "defensa": 1.02,
+     "fuerza": 0.78
+    },
+    {
      "equipo": "Godoy Cruz",
      "ataque": 0.8,
      "defensa": 1.04,
      "fuerza": 0.77
     },
     {
-     "equipo": "San Martin S.J.",
-     "ataque": 0.79,
-     "defensa": 1.02,
-     "fuerza": 0.77
-    },
-    {
      "equipo": "Dep. Riestra",
-     "ataque": 0.67,
+     "ataque": 0.66,
      "defensa": 0.9,
-     "fuerza": 0.74
+     "fuerza": 0.73
     },
     {
      "equipo": "Central Cordoba",
@@ -250,7 +250,7 @@
      "equipo": "Bahia",
      "ataque": 1.11,
      "defensa": 0.94,
-     "fuerza": 1.19
+     "fuerza": 1.18
     },
     {
      "equipo": "Atletico-MG",
@@ -608,7 +608,7 @@
     },
     {
      "equipo": "Dender",
-     "ataque": 0.77,
+     "ataque": 0.78,
      "defensa": 1.22,
      "fuerza": 0.63
     },
@@ -1659,7 +1659,7 @@
     {
      "equipo": "Puebla",
      "ataque": 0.76,
-     "defensa": 1.09,
+     "defensa": 1.08,
      "fuerza": 0.7
     },
     {
@@ -1684,7 +1684,7 @@
      "equipo": "Porto",
      "ataque": 1.49,
      "defensa": 0.53,
-     "fuerza": 2.82
+     "fuerza": 2.81
     },
     {
      "equipo": "Benfica",
@@ -1696,7 +1696,7 @@
      "equipo": "Sp Lisbon",
      "ataque": 1.72,
      "defensa": 0.72,
-     "fuerza": 2.4
+     "fuerza": 2.39
     },
     {
      "equipo": "Sp Braga",
@@ -1797,7 +1797,7 @@
     {
      "equipo": "AVS",
      "ataque": 0.71,
-     "defensa": 1.28,
+     "defensa": 1.27,
      "fuerza": 0.56
     }
    ]
@@ -2120,7 +2120,7 @@
     },
     {
      "equipo": "Fenerbahce",
-     "ataque": 1.63,
+     "ataque": 1.62,
      "defensa": 0.77,
      "fuerza": 2.11
     },

@@ -1,19 +1,19 @@
 {
- "actualizado": "2026-11-11T18:25-05:00",
+ "actualizado": "2026-11-12T06:50-05:00",
  "edge_min": 0.05,
  "en_vivo": {
   "n": 0
  },
  "backtest_global": {
-  "n": 5438,
-  "logloss_modelo": 1.0166,
+  "n": 5435,
+  "logloss_modelo": 1.0165,
   "logloss_mercado": 0.9622,
-  "logloss_modelo_mismos": 0.9904,
-  "logloss_combinado": 0.9904,
+  "logloss_modelo_mismos": 0.9906,
+  "logloss_combinado": 0.9906,
   "peso_modelo": 1.0,
   "n_con_cuotas": 1836,
-  "apuestas_valor": 67,
-  "roi_valor": -0.0881,
+  "apuestas_valor": 86,
+  "roi_valor": -0.0949,
   "calibracion": [
    {
     "rango": "0-10%",
@@ -24,44 +24,44 @@
    {
     "rango": "10-20%",
     "esperado": 0.162,
-    "real": 0.171,
-    "n": 1702
+    "real": 0.172,
+    "n": 1699
    },
    {
     "rango": "20-30%",
     "esperado": 0.253,
-    "real": 0.257,
-    "n": 6534
+    "real": 0.256,
+    "n": 6549
    },
    {
     "rango": "30-40%",
     "esperado": 0.345,
-    "real": 0.336,
-    "n": 3466
+    "real": 0.338,
+    "n": 3434
    },
    {
     "rango": "40-50%",
-    "esperado": 0.446,
-    "real": 0.448,
-    "n": 2109
+    "esperado": 0.445,
+    "real": 0.446,
+    "n": 2119
    },
    {
     "rango": "50-60%",
     "esperado": 0.545,
-    "real": 0.521,
-    "n": 1304
+    "real": 0.522,
+    "n": 1306
    },
    {
     "rango": "60-70%",
     "esperado": 0.644,
     "real": 0.664,
-    "n": 613
+    "n": 614
    },
    {
     "rango": "70-80%",
     "esperado": 0.741,
-    "real": 0.779,
-    "n": 263
+    "real": 0.782,
+    "n": 261
    },
    {
     "rango": "80-90%",
@@ -76,14 +76,14 @@
     "n": 5
    }
   ],
-  "peso_modelo_promedio": 0.05
+  "peso_modelo_promedio": 0.06
  },
  "por_liga": {
   "Argentina": {
-   "n": 524,
-   "logloss_modelo": 1.0593,
+   "n": 521,
+   "logloss_modelo": 1.0579,
    "logloss_mercado": 1.1612,
-   "logloss_modelo_mismos": 1.176,
+   "logloss_modelo_mismos": 1.1673,
    "logloss_combinado": 1.1612,
    "peso_modelo": 0.0,
    "n_con_cuotas": 15,
@@ -92,7 +92,7 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.086,
+     "esperado": 0.087,
      "real": 0.0,
      "n": 7
     },
@@ -104,15 +104,15 @@
     },
     {
      "rango": "20-30%",
-     "esperado": 0.264,
-     "real": 0.287,
-     "n": 516
+     "esperado": 0.265,
+     "real": 0.283,
+     "n": 520
     },
     {
      "rango": "30-40%",
      "esperado": 0.337,
-     "real": 0.33,
-     "n": 616
+     "real": 0.332,
+     "n": 602
     },
     {
      "rango": "40-50%",
@@ -122,19 +122,19 @@
     },
     {
      "rango": "50-60%",
-     "esperado": 0.54,
-     "real": 0.517,
-     "n": 89
+     "esperado": 0.539,
+     "real": 0.522,
+     "n": 90
     },
     {
      "rango": "60-70%",
-     "esperado": 0.649,
+     "esperado": 0.648,
      "real": 0.857,
      "n": 14
     },
     {
      "rango": "70-80%",
-     "esperado": 0.712,
+     "esperado": 0.711,
      "real": 0.75,
      "n": 4
     },
@@ -152,13 +152,13 @@
     }
    ],
    "xi": 0.0035,
-   "partidos_usados": 1080
+   "partidos_usados": 1076
   },
   "Brasil": {
    "n": 389,
-   "logloss_modelo": 1.0135,
+   "logloss_modelo": 1.0134,
    "logloss_mercado": 0.8461,
-   "logloss_modelo_mismos": 0.9412,
+   "logloss_modelo_mismos": 0.9386,
    "logloss_combinado": 0.8461,
    "peso_modelo": 0.0,
    "n_con_cuotas": 40,
@@ -167,7 +167,7 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.081,
+     "esperado": 0.082,
      "real": 0.0,
      "n": 13
     },
@@ -203,15 +203,15 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.638,
-     "real": 0.533,
-     "n": 45
+     "esperado": 0.64,
+     "real": 0.543,
+     "n": 46
     },
     {
      "rango": "70-80%",
-     "esperado": 0.738,
-     "real": 0.824,
-     "n": 17
+     "esperado": 0.74,
+     "real": 0.812,
+     "n": 16
     },
     {
      "rango": "80-90%",
@@ -231,9 +231,9 @@
   },
   "Bundesliga": {
    "n": 294,
-   "logloss_modelo": 0.9957,
+   "logloss_modelo": 0.9959,
    "logloss_mercado": 0.9468,
-   "logloss_modelo_mismos": 0.9951,
+   "logloss_modelo_mismos": 0.9954,
    "logloss_combinado": 0.9468,
    "peso_modelo": 0.0,
    "n_con_cuotas": 137,
@@ -278,7 +278,7 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.636,
+     "esperado": 0.637,
      "real": 0.703,
      "n": 37
     },
@@ -342,14 +342,14 @@
     {
      "rango": "40-50%",
      "esperado": 0.442,
-     "real": 0.456,
-     "n": 114
+     "real": 0.46,
+     "n": 113
     },
     {
      "rango": "50-60%",
      "esperado": 0.537,
-     "real": 0.554,
-     "n": 56
+     "real": 0.544,
+     "n": 57
     },
     {
      "rango": "60-70%",
@@ -381,9 +381,9 @@
   },
   "Championship": {
    "n": 549,
-   "logloss_modelo": 1.0565,
+   "logloss_modelo": 1.0588,
    "logloss_mercado": 1.0296,
-   "logloss_modelo_mismos": 1.0697,
+   "logloss_modelo_mismos": 1.0737,
    "logloss_combinado": 1.0296,
    "peso_modelo": 0.0,
    "n_con_cuotas": 304,
@@ -392,55 +392,55 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.082,
+     "esperado": 0.084,
      "real": 0.0,
      "n": 3
     },
     {
      "rango": "10-20%",
-     "esperado": 0.173,
-     "real": 0.205,
-     "n": 73
+     "esperado": 0.172,
+     "real": 0.229,
+     "n": 70
     },
     {
      "rango": "20-30%",
      "esperado": 0.261,
-     "real": 0.253,
-     "n": 703
+     "real": 0.249,
+     "n": 711
     },
     {
      "rango": "30-40%",
      "esperado": 0.344,
-     "real": 0.356,
-     "n": 480
+     "real": 0.363,
+     "n": 471
     },
     {
      "rango": "40-50%",
      "esperado": 0.443,
-     "real": 0.45,
-     "n": 269
+     "real": 0.44,
+     "n": 273
     },
     {
      "rango": "50-60%",
-     "esperado": 0.548,
-     "real": 0.483,
-     "n": 89
+     "esperado": 0.546,
+     "real": 0.489,
+     "n": 90
     },
     {
      "rango": "60-70%",
-     "esperado": 0.636,
+     "esperado": 0.641,
      "real": 0.708,
      "n": 24
     },
     {
      "rango": "70-80%",
      "esperado": 0.713,
-     "real": 0.8,
-     "n": 5
+     "real": 1.0,
+     "n": 4
     },
     {
      "rango": "80-90%",
-     "esperado": 0.812,
+     "esperado": 0.811,
      "real": 0.0,
      "n": 1
     },
@@ -456,10 +456,10 @@
   },
   "Eredivisie": {
    "n": 304,
-   "logloss_modelo": 1.0212,
+   "logloss_modelo": 1.0213,
    "logloss_mercado": 1.0152,
-   "logloss_modelo_mismos": 1.0299,
-   "logloss_combinado": 1.0143,
+   "logloss_modelo_mismos": 1.0302,
+   "logloss_combinado": 1.0144,
    "peso_modelo": 0.2,
    "n_con_cuotas": 158,
    "apuestas_valor": 7,
@@ -479,15 +479,15 @@
     },
     {
      "rango": "20-30%",
-     "esperado": 0.243,
+     "esperado": 0.242,
      "real": 0.281,
-     "n": 367
+     "n": 366
     },
     {
      "rango": "30-40%",
      "esperado": 0.349,
-     "real": 0.328,
-     "n": 128
+     "real": 0.326,
+     "n": 129
     },
     {
      "rango": "40-50%",
@@ -531,9 +531,9 @@
   },
   "Escocia": {
    "n": 234,
-   "logloss_modelo": 0.9838,
+   "logloss_modelo": 0.9821,
    "logloss_mercado": 1.0,
-   "logloss_modelo_mismos": 1.0162,
+   "logloss_modelo_mismos": 1.0142,
    "logloss_combinado": 1.0,
    "peso_modelo": 0.0,
    "n_con_cuotas": 75,
@@ -543,54 +543,54 @@
     {
      "rango": "0-10%",
      "esperado": 0.08,
-     "real": 0.056,
-     "n": 18
+     "real": 0.053,
+     "n": 19
     },
     {
      "rango": "10-20%",
-     "esperado": 0.156,
-     "real": 0.182,
-     "n": 110
+     "esperado": 0.157,
+     "real": 0.183,
+     "n": 109
     },
     {
      "rango": "20-30%",
      "esperado": 0.25,
-     "real": 0.254,
-     "n": 268
+     "real": 0.253,
+     "n": 269
     },
     {
      "rango": "30-40%",
-     "esperado": 0.352,
-     "real": 0.301,
-     "n": 113
+     "esperado": 0.351,
+     "real": 0.3,
+     "n": 110
     },
     {
      "rango": "40-50%",
-     "esperado": 0.446,
+     "esperado": 0.445,
      "real": 0.478,
-     "n": 67
+     "n": 69
     },
     {
      "rango": "50-60%",
-     "esperado": 0.545,
+     "esperado": 0.544,
      "real": 0.491,
      "n": 57
     },
     {
      "rango": "60-70%",
-     "esperado": 0.647,
-     "real": 0.641,
-     "n": 39
+     "esperado": 0.648,
+     "real": 0.65,
+     "n": 40
     },
     {
      "rango": "70-80%",
-     "esperado": 0.736,
-     "real": 0.84,
-     "n": 25
+     "esperado": 0.738,
+     "real": 0.833,
+     "n": 24
     },
     {
      "rango": "80-90%",
-     "esperado": 0.836,
+     "esperado": 0.837,
      "real": 1.0,
      "n": 5
     },
@@ -606,9 +606,9 @@
   },
   "LaLiga": {
    "n": 375,
-   "logloss_modelo": 0.9932,
+   "logloss_modelo": 0.993,
    "logloss_mercado": 0.9218,
-   "logloss_modelo_mismos": 0.9565,
+   "logloss_modelo_mismos": 0.956,
    "logloss_combinado": 0.9218,
    "peso_modelo": 0.0,
    "n_con_cuotas": 183,
@@ -617,33 +617,33 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.079,
+     "esperado": 0.08,
      "real": 0.071,
      "n": 14
     },
     {
      "rango": "10-20%",
      "esperado": 0.158,
-     "real": 0.133,
-     "n": 143
+     "real": 0.134,
+     "n": 142
     },
     {
      "rango": "20-30%",
      "esperado": 0.254,
-     "real": 0.277,
-     "n": 415
+     "real": 0.274,
+     "n": 416
     },
     {
      "rango": "30-40%",
      "esperado": 0.343,
-     "real": 0.312,
-     "n": 266
+     "real": 0.314,
+     "n": 264
     },
     {
      "rango": "40-50%",
-     "esperado": 0.447,
-     "real": 0.403,
-     "n": 134
+     "esperado": 0.446,
+     "real": 0.404,
+     "n": 136
     },
     {
      "rango": "50-60%",
@@ -728,13 +728,13 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.639,
+     "esperado": 0.638,
      "real": 0.579,
      "n": 38
     },
     {
      "rango": "70-80%",
-     "esperado": 0.739,
+     "esperado": 0.738,
      "real": 0.75,
      "n": 12
     },
@@ -758,7 +758,7 @@
    "n": 517,
    "logloss_modelo": 1.0565,
    "logloss_mercado": 0.937,
-   "logloss_modelo_mismos": 0.9769,
+   "logloss_modelo_mismos": 0.9791,
    "logloss_combinado": 0.937,
    "peso_modelo": 0.0,
    "n_con_cuotas": 7,
@@ -831,7 +831,7 @@
   },
   "México": {
    "n": 325,
-   "logloss_modelo": 1.0589,
+   "logloss_modelo": 1.0585,
    "logloss_mercado": null,
    "logloss_modelo_mismos": null,
    "logloss_combinado": null,
@@ -842,39 +842,39 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.091,
-     "real": 0.143,
-     "n": 7
+     "esperado": 0.089,
+     "real": 0.167,
+     "n": 6
     },
     {
      "rango": "10-20%",
-     "esperado": 0.165,
-     "real": 0.211,
-     "n": 114
+     "esperado": 0.164,
+     "real": 0.209,
+     "n": 115
     },
     {
      "rango": "20-30%",
      "esperado": 0.247,
-     "real": 0.274,
-     "n": 424
+     "real": 0.273,
+     "n": 425
     },
     {
      "rango": "30-40%",
      "esperado": 0.351,
-     "real": 0.351,
-     "n": 148
+     "real": 0.354,
+     "n": 147
     },
     {
      "rango": "40-50%",
-     "esperado": 0.447,
-     "real": 0.435,
-     "n": 124
+     "esperado": 0.448,
+     "real": 0.432,
+     "n": 125
     },
     {
      "rango": "50-60%",
-     "esperado": 0.543,
-     "real": 0.398,
-     "n": 93
+     "esperado": 0.544,
+     "real": 0.402,
+     "n": 92
     },
     {
      "rango": "60-70%",
@@ -884,7 +884,7 @@
     },
     {
      "rango": "70-80%",
-     "esperado": 0.738,
+     "esperado": 0.737,
      "real": 0.615,
      "n": 13
     },
@@ -902,13 +902,13 @@
     }
    ],
    "xi": 0.0035,
-   "partidos_usados": 668
+   "partidos_usados": 666
   },
   "Portugal": {
    "n": 303,
-   "logloss_modelo": 0.9301,
+   "logloss_modelo": 0.93,
    "logloss_mercado": 0.8914,
-   "logloss_modelo_mismos": 0.903,
+   "logloss_modelo_mismos": 0.9029,
    "logloss_combinado": 0.8909,
    "peso_modelo": 0.2,
    "n_con_cuotas": 150,
@@ -965,7 +965,7 @@
     },
     {
      "rango": "80-90%",
-     "esperado": 0.835,
+     "esperado": 0.836,
      "real": 0.714,
      "n": 14
     },
@@ -981,14 +981,14 @@
   },
   "Premier League": {
    "n": 368,
-   "logloss_modelo": 1.0428,
+   "logloss_modelo": 1.0423,
    "logloss_mercado": 1.0048,
-   "logloss_modelo_mismos": 1.022,
-   "logloss_combinado": 1.0042,
-   "peso_modelo": 0.1,
+   "logloss_modelo_mismos": 1.0209,
+   "logloss_combinado": 1.004,
+   "peso_modelo": 0.2,
    "n_con_cuotas": 198,
-   "apuestas_valor": 5,
-   "roi_valor": -0.056,
+   "apuestas_valor": 24,
+   "roi_valor": -0.1058,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -999,8 +999,8 @@
     {
      "rango": "10-20%",
      "esperado": 0.166,
-     "real": 0.187,
-     "n": 91
+     "real": 0.185,
+     "n": 92
     },
     {
      "rango": "20-30%",
@@ -1011,20 +1011,20 @@
     {
      "rango": "30-40%",
      "esperado": 0.351,
-     "real": 0.348,
-     "n": 221
+     "real": 0.347,
+     "n": 219
     },
     {
      "rango": "40-50%",
      "esperado": 0.444,
-     "real": 0.379,
-     "n": 140
+     "real": 0.38,
+     "n": 142
     },
     {
      "rango": "50-60%",
      "esperado": 0.549,
-     "real": 0.538,
-     "n": 104
+     "real": 0.544,
+     "n": 103
     },
     {
      "rango": "60-70%",
@@ -1056,10 +1056,10 @@
   },
   "Serie A": {
    "n": 379,
-   "logloss_modelo": 0.9563,
+   "logloss_modelo": 0.9555,
    "logloss_mercado": 0.9324,
-   "logloss_modelo_mismos": 0.9421,
-   "logloss_combinado": 0.9299,
+   "logloss_modelo_mismos": 0.9409,
+   "logloss_combinado": 0.9296,
    "peso_modelo": 0.3,
    "n_con_cuotas": 197,
    "apuestas_valor": 42,
@@ -1086,24 +1086,24 @@
     {
      "rango": "30-40%",
      "esperado": 0.342,
-     "real": 0.309,
-     "n": 191
+     "real": 0.311,
+     "n": 190
     },
     {
      "rango": "40-50%",
-     "esperado": 0.451,
-     "real": 0.471,
+     "esperado": 0.45,
+     "real": 0.462,
      "n": 119
     },
     {
      "rango": "50-60%",
      "esperado": 0.546,
-     "real": 0.651,
-     "n": 106
+     "real": 0.654,
+     "n": 107
     },
     {
      "rango": "60-70%",
-     "esperado": 0.642,
+     "esperado": 0.641,
      "real": 0.729,
      "n": 59
     },
@@ -1131,7 +1131,7 @@
   },
   "Turquía": {
    "n": 295,
-   "logloss_modelo": 0.991,
+   "logloss_modelo": 0.9907,
    "logloss_mercado": 0.9293,
    "logloss_modelo_mismos": 0.9619,
    "logloss_combinado": 0.9293,
@@ -1154,15 +1154,15 @@
     },
     {
      "rango": "20-30%",
-     "esperado": 0.253,
-     "real": 0.25,
-     "n": 348
+     "esperado": 0.254,
+     "real": 0.252,
+     "n": 349
     },
     {
      "rango": "30-40%",
-     "esperado": 0.341,
-     "real": 0.341,
-     "n": 167
+     "esperado": 0.342,
+     "real": 0.337,
+     "n": 166
     },
     {
      "rango": "40-50%",
@@ -1178,15 +1178,15 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.653,
-     "real": 0.722,
-     "n": 36
+     "esperado": 0.652,
+     "real": 0.714,
+     "n": 35
     },
     {
      "rango": "70-80%",
-     "esperado": 0.738,
-     "real": 0.579,
-     "n": 19
+     "esperado": 0.737,
+     "real": 0.6,
+     "n": 20
     },
     {
      "rango": "80-90%",
