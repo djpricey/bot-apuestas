@@ -199,7 +199,9 @@ def main():
                 if ev >= EDGE_MIN and pj >= 0.2:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
         if pd.notna(r.o25) and pd.notna(r.u25) and w >= 0.3:
-            for lab, pj, c in (("Más de 2.5", pr["over25"], r.o25), ("Menos de 2.5", 1 - pr["over25"], r.u25)):
+            mo = (1 / float(r.o25)) / (1 / float(r.o25) + 1 / float(r.u25))
+            po = w * pr["over25"] + (1 - w) * mo  # igual que en 1X2: mezcla modelo y mercado
+            for lab, pj, c in (("Más de 2.5", po, r.o25), ("Menos de 2.5", 1 - po, r.u25)):
                 ev = pj * float(c) - 1
                 if ev >= EDGE_MIN:
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
