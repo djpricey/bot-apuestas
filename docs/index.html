@@ -118,8 +118,8 @@ function renderRecord(){
   <div class="kpi"><small>Apuestas de valor (prueba)</small><b class="${(g.roi_valor||0)>=0?'good':'bad'}">${g.roi_valor==null?'—':(g.roi_valor>=0?'+':'')+Math.round(g.roi_valor*1000)/10+'%'}</b><div class="muted">${g.apuestas_valor||0} apuestas</div></div></div>`;
   const rows=Object.entries(EV.por_liga||{}).sort((a,b)=>a[0].localeCompare(b[0]));
   h+=`<div class="card scroll"><table><tr><th>Liga</th><th>Partidos</th><th>Modelo</th><th>Mercado</th><th>Confianza</th><th>Valor</th></tr>${rows.map(([l,m])=>{
-    const gana=m.logloss_modelo_mismos!=null&&m.logloss_mercado!=null&&m.logloss_modelo_mismos<m.logloss_mercado;
-    return `<tr><td>${esc(l)}</td><td>${m.n||0}</td><td class="${gana?'good':''}">${n2(m.logloss_modelo_mismos)}</td><td class="${gana?'':'good'}">${n2(m.logloss_mercado)}</td><td>${Math.round((m.peso_modelo||0)*100)}%</td><td>${m.roi_valor==null?'—':(m.roi_valor>=0?'+':'')+Math.round(m.roi_valor*1000)/10+'% ('+m.apuestas_valor+')'}</td></tr>`}).join('')}</table>
+    const lm=m.logloss_modelo_mismos!=null?m.logloss_modelo_mismos:m.logloss_modelo; const gana=lm!=null&&m.logloss_mercado!=null&&lm<m.logloss_mercado;
+    return `<tr><td>${esc(l)}</td><td>${m.n||0}</td><td class="${gana?'good':''}">${n2(lm)}</td><td class="${gana?'':'good'}">${n2(m.logloss_mercado)}</td><td>${Math.round((m.peso_modelo||0)*100)}%</td><td>${m.roi_valor==null?'—':(m.roi_valor>=0?'+':'')+Math.round(m.roi_valor*1000)/10+'% ('+m.apuestas_valor+')'}</td></tr>`}).join('')}</table>
   <div class="note" style="margin-top:8px">En verde, quién predijo mejor en cada liga. "Valor" es el resultado de haber apostado lo que el bot marcó como valor (prueba con cuotas de cierre, sin ver el futuro).</div></div>`;
   if(v.n){h+=`<div class="card"><b>Calibración en vivo</b><div class="scroll"><table><tr><th>Dijo</th><th>Pasó</th><th>Casos</th></tr>${(v.calibracion||[]).filter(c=>c.n).map(c=>`<tr><td>${pct(c.esperado)}</td><td>${pct(c.real)}</td><td>${c.n}</td></tr>`).join('')}</table></div></div>`;}
   $('#record').innerHTML=h;
