@@ -18,7 +18,7 @@ from . import analisis as an
 import math
 from zoneinfo import ZoneInfo
 
-PESO_SIN_HISTORIA = 0.5  # cuando no hay cuotas pasadas para aprender, confía mitad y mitad
+PESO_SIN_HISTORIA = 0.0  # sin cuotas pasadas para validar el modelo, se usa solo el mercado (y no se publica 'valor')
 
 SALIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 TZ = timezone(timedelta(hours=-5))  # Colombia
@@ -68,25 +68,27 @@ def calificar_en_vivo(resultados):
     return pd.DataFrame(filas).drop_duplicates(subset=["liga", "home", "away", "fecha"]) if filas else pd.DataFrame()
 
 
-def elegir_escalera(partidos):
+def elegir_escalera(partidos, ahora_iso=""):
     """Pick del reto escalera: lo más probable con cuota entre 1.25 y 1.60, del día más cercano."""
     cands = []
     for p in partidos:
+        if p.get("desactualizado") or (ahora_iso and (p.get("inicio") or "") <= ahora_iso):
+            continue
         f = p.get("final") or [p["p1"], p["px"], p["p2"]]
         nom = f"{p['local']} vs {p['visita']}"
         base = {"fecha": p["fecha"], "liga": p["liga"], "partido": nom}
         for lab, pj, c in ((f"Gana {p['local']}", f[0], p.get("c1")), (f"Gana {p['visita']}", f[2], p.get("c2"))):
-            if c and 1.25 <= c <= 1.60 and pj >= 0.65 and pj * c - 1 >= -0.04:
+            if c and 1.25 <= c <= 1.60 and pj >= 0.65 and c >= 1.04 / pj:
                 cands.append({**base, "seleccion": lab, "prob": _r(pj), "cuota_ref": c, "cuota_minima": _r(1.04 / pj, 2)})
         for lab, pj in ((f"{p['local']} o empate", f[0] + f[1]), (f"{p['visita']} o empate", f[2] + f[1])):
-            if 0.70 <= pj <= 0.80:
+            if False:  # sin cuota real de doble oportunidad no se puede comprobar que pague
                 cands.append({**base, "seleccion": lab, "prob": _r(pj), "cuota_ref": None, "cuota_minima": _r(1.04 / pj, 2)})
         if p.get("co25") and p.get("cu25"):
             mk = 1 / p["co25"] / (1 / p["co25"] + 1 / p["cu25"])
             w = p.get("peso_modelo") or 0
             po = w * p["over25"] + (1 - w) * mk
             for lab, pj, c in (("Más de 2.5 goles", po, p["co25"]), ("Menos de 2.5 goles", 1 - po, p["cu25"])):
-                if 1.25 <= c <= 1.60 and pj >= 0.65 and pj * c - 1 >= -0.04:
+                if 1.25 <= c <= 1.60 and pj >= 0.65 and c >= 1.04 / pj:
                     cands.append({**base, "seleccion": f"{lab} ({nom})", "prob": _r(pj), "cuota_ref": c, "cuota_minima": _r(1.04 / pj, 2)})
     if not cands:
         return None
@@ -132,7 +134,7 @@ def main():
     print("Descargando próximos partidos…")
     prox = descargar_proximos()
     print(f"  próximos sin filtrar: {len(prox)}" + (f" ({prox['fecha'].min()} a {prox['fecha'].max()})" if not prox.empty else ""))
-    extra = [x for x in (sel_prox, man_prox, api_prox) if not x.empty]
+    extra = [x for x in (sel_prox, api_prox, man_prox) if not x.empty]  # el manual va último: gana en los duplicados
     if extra:
         prox = pd.concat([prox] + extra, ignore_index=True) if not prox.empty else pd.concat(extra, ignore_index=True)
         prox = prox.drop_duplicates(subset=["liga", "fecha", "home", "away"], keep="last")
@@ -238,9 +240,9 @@ def main():
             for lab, pj, c in (("Local", comb[0], r.c1), ("Empate", comb[1], r.cx), ("Visita", comb[2], r.c2)):
                 ev = pj * float(c) - 1
                 # filtros de sensatez: nada de batacazos ni "ventajas" demasiado buenas para ser ciertas
-                if EDGE_MIN <= ev <= 0.35 and pj >= 0.30 and datos_ok:
+                if EDGE_MIN <= ev <= 0.35 and pj >= 0.30 and datos_ok and evaluacion.get(r.liga, {}).get("peso_aprendido"):
                     valor.append({"seleccion": lab, "prob": _r(pj), "cuota": _r(c, 2), "ev": _r(ev)})
-        if pd.notna(r.o25) and pd.notna(r.u25) and w >= 0.3:
+        if pd.notna(r.o25) and pd.notna(r.u25) and w >= 0.3 and evaluacion.get(r.liga, {}).get("peso_aprendido"):
             mo = (1 / float(r.o25)) / (1 / float(r.o25) + 1 / float(r.u25))
             po = w * pr["over25"] + (1 - w) * mo  # igual que en 1X2: mezcla modelo y mercado
             for lab, pj, c in (("Más de 2.5", po, r.o25), ("Menos de 2.5", 1 - po, r.u25)):
@@ -250,7 +252,8 @@ def main():
         inicio = None
         hs = str(r.hora) if pd.notna(r.hora) else ""
         if len(hs) >= 4 and ":" in hs:
-            zona = ZoneInfo("America/Bogota") if r.liga == "Selecciones" else ZoneInfo("Europe/London")
+            tzf = getattr(r, "tz", None)
+            zona = ZoneInfo(tzf) if isinstance(tzf, str) and tzf else (ZoneInfo("America/Bogota") if r.liga == "Selecciones" else ZoneInfo("Europe/London"))
             try:
                 hh, mm = hs.split(":")[:2]
                 inicio = datetime(r.fecha.year, r.fecha.month, r.fecha.day, int(hh), int(mm), tzinfo=zona).astimezone(TZ).isoformat(timespec="minutes")
@@ -298,11 +301,16 @@ def main():
         ya = {(x["liga"], x["local"], x["visita"]) for x in partidos}
         hoy_s = hoy.strftime("%Y-%m-%d")
         for x in previos:
-            if x.get("fecha", "") >= hoy_s and (x["liga"], x["local"], x["visita"]) not in ya:
+            ini = x.get("inicio") or ""
+            if x.get("fecha", "") >= hoy_s and ini > ahora.isoformat(timespec="minutes") and (x["liga"], x["local"], x["visita"]) not in ya:
+                x["desactualizado"] = True  # viene de una corrida anterior: cuotas pueden haber cambiado
+                x["valor"] = []
                 partidos.append(x)
     except (OSError, ValueError, KeyError):
         pass
-    escalera = elegir_escalera(partidos)
+    partidos = [x for x in partidos if not x.get("inicio") or x["inicio"] > ahora.isoformat(timespec="minutes")]
+    partidos.sort(key=lambda x: (x["fecha"], x.get("inicio") or ""))
+    escalera = elegir_escalera(partidos, ahora.isoformat(timespec="minutes"))
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
     with open(os.path.join(SALIDA, "hoy.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "escalera": escalera, "partidos": partidos}, fh, ensure_ascii=False, indent=1)

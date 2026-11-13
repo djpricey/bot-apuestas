@@ -34,25 +34,28 @@ def ajustar(partidos, fecha_ref, xi, iteraciones=60):
     att = np.ones(n)
     de = np.ones(n)
     media = (np.sum(w * (hg + ag)) / (2 * np.sum(w))) or 1.3
-    home = 1.25
+    home, away = 1.15, 0.87
     for _ in range(iteraciones):
-        hf = np.where(neu, 1.0, home)
+        g = (home * away) ** 0.5  # cancha neutral: ni ventaja ni desventaja
+        hf = np.where(neu, g, home)
+        af = np.where(neu, g, away)
         # ataque
         num = np.bincount(h, w * hg, n) + np.bincount(a, w * ag, n)
-        den = np.bincount(h, w * hf * de[a] * media, n) + np.bincount(a, w * de[h] * media, n)
+        den = np.bincount(h, w * hf * de[a] * media, n) + np.bincount(a, w * af * de[h] * media, n)
         att = (num + PSEUDO) / (den + PSEUDO)
         att /= att.mean()
         # defensa (goles concedidos)
         num = np.bincount(a, w * hg, n) + np.bincount(h, w * ag, n)
-        den = np.bincount(a, w * hf * att[h] * media, n) + np.bincount(h, w * att[a] * media, n)
+        den = np.bincount(a, w * hf * att[h] * media, n) + np.bincount(h, w * af * att[a] * media, n)
         de = (num + PSEUDO) / (den + PSEUDO)
         de /= de.mean()
         # ventaja de local
         cn = ~neu
         if cn.sum() > 20:
             home = np.sum(w[cn] * hg[cn]) / max(np.sum(w[cn] * att[h[cn]] * de[a[cn]] * media), 1e-9)
+            away = np.sum(w[cn] * ag[cn]) / max(np.sum(w[cn] * att[a[cn]] * de[h[cn]] * media), 1e-9)
     peso = np.bincount(h, w, n) + np.bincount(a, w, n)
-    return {"idx": idx, "att": att, "de": de, "home": float(home), "media": float(media), "peso": peso}
+    return {"idx": idx, "att": att, "de": de, "home": float(home), "away": float(away), "media": float(media), "peso": peso}
 
 
 def _tau(x, y, l, m, rho):
@@ -73,8 +76,11 @@ def goles_esperados(p, local, visita, neutral=False):
     dl = p["de"][i] if i is not None else 1.0
     av = p["att"][j] if j is not None else 1.0
     dv = p["de"][j] if j is not None else 1.0
-    lam = p["media"] * (1.0 if neutral else p["home"]) * al * dv
-    mu = p["media"] * av * dl
+    hf, af = p["home"], p.get("away", 1.0)
+    if neutral:
+        hf = af = (hf * af) ** 0.5
+    lam = p["media"] * hf * al * dv
+    mu = p["media"] * af * av * dl
     conocidos = (i is not None) and (j is not None)
     return lam, mu, conocidos
 

@@ -143,6 +143,6 @@ def datos(fechas, equipos_sel, max_partidos=30):
         b = _bajas(fid)
         bajas[(liga, h, a)] = {"local": b.get(fx["teams"]["home"]["name"], []), "visita": b.get(fx["teams"]["away"]["name"], [])}
         filas.append({"liga": liga, "home": h, "away": a, "fecha": pd.Timestamp(inicio.date()), "hora": inicio.strftime("%H:%M"),
-                      "hg": float("nan"), "ag": float("nan"), "neutral": False, "peso": 1.0, "fuente": "api", **{k: c.get(k) for k in ("c1", "cx", "c2", "o25", "u25")}})
+                      "hg": float("nan"), "ag": float("nan"), "neutral": False, "peso": 1.0, "fuente": "api", "tz": "America/Bogota", **{k: c.get(k) for k in ("c1", "cx", "c2", "o25", "u25")}})
     print(f"  api: {len(filas)} partidos con cuotas/bajas, {len(res)} resultados de Liga BetPlay, {_usadas} consultas usadas")
     return pd.DataFrame(res), pd.DataFrame(filas), bajas
