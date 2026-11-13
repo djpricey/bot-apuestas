@@ -1,23 +1,32 @@
 {
- "actualizado": "2026-11-13T11:54-05:00",
+ "actualizado": "2026-11-13T11:56-05:00",
  "edge_min": 0.05,
  "escalera": {
   "fecha": "2026-11-13",
   "liga": "Selecciones",
-  "partido": "Peru vs Bolivia",
-  "seleccion": "Peru o empate",
-  "prob": 0.775,
+  "partido": "Slovenia vs Switzerland",
+  "seleccion": "Switzerland o empate",
+  "prob": 0.8,
   "cuota_ref": null,
-  "cuota_minima": 1.34,
+  "cuota_minima": 1.3,
   "alternativas": [
    {
     "fecha": "2026-11-13",
     "liga": "Selecciones",
-    "partido": "Colombia vs Chile",
-    "seleccion": "Gana Colombia",
-    "prob": 0.678,
-    "cuota_ref": 1.5,
-    "cuota_minima": 1.53
+    "partido": "Andorra vs Gibraltar",
+    "seleccion": "Andorra o empate",
+    "prob": 0.797,
+    "cuota_ref": null,
+    "cuota_minima": 1.3
+   },
+   {
+    "fecha": "2026-11-13",
+    "liga": "Selecciones",
+    "partido": "Peru vs Bolivia",
+    "seleccion": "Peru o empate",
+    "prob": 0.775,
+    "cuota_ref": null,
+    "cuota_minima": 1.34
    }
   ],
   "nota": "Solo estadística: revisa bajas y alineaciones antes de jugarlo."
