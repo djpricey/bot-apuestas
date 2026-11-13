@@ -86,6 +86,14 @@ document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
   ['p','b','r','e'].forEach(v=>$('#v-'+v).classList.toggle('hidden',v!==b.dataset.v));
 }));
 const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function recHTML(p){const R=p.recomendacion||[];
+  let h=`<div class="cmp"><b>Lo mejor para apostar (datos + modelo)</b>`;
+  if(!R.length) h+=`<div class="note">${esc(p.nota_recomendacion||'Sin recomendación.')}</div>`;
+  R.forEach((x,i)=>{h+=`<div class="note">${i+1}. <b>${esc(x.seleccion)}</b> · ${pct(x.prob)} · cuota mínima ${n2(x.cuota_minima)}${x.cuota_casa?` · la casa paga ${n2(x.cuota_casa)} ${x.paga_suficiente?'✅':'❌ no alcanza'}`:''}<br><span class="muted">Datos: ${esc(x.por)}. Modelo: ${pct(x.prob_modelo)}.</span></div>`});
+  const f=p.forma||{};const fr=(t,x)=>x?`<div class="muted">${esc(t)} (últimos ${x.n}): ${x.g}G ${x.e}E ${x.p}P · goles ${x.gf} a favor, ${x.gc} en contra · ${esc((x.ultimos||[]).join(' | '))}</div>`:'';
+  h+=fr(p.local,f.local)+fr(p.visita,f.visita);
+  if((p.h2h||[]).length)h+=`<div class="muted">Entre ellos: ${esc(p.h2h.join(' | '))}</div>`;
+  return h+'</div>'}
 function mercHTML(p){const ms=(p.mercados||[]).filter(m=>m.respaldado);const exp=(p.mercados||[]).filter(m=>!m.respaldado);
   if(!(p.mercados||[]).length)return '';
   const top=(arr)=>{const best={};arr.forEach(m=>{if(!best[m.clave]||Math.abs(m.prob-0.72)<Math.abs(best[m.clave].prob-0.72))best[m.clave]=m});return Object.values(best)};
@@ -111,6 +119,7 @@ function renderPartidos(){
     <div class="facts"><div class="f"><small>Goles esp.</small><b>${n2(p.goles_local)}–${n2(p.goles_visita)}</b></div><div class="f"><small>+2.5</small><b>${pct(p.over25)}</b></div><div class="f"><small>Ambos</small><b>${pct(p.btts)}</b></div><div class="f"><small>Marcador</small><b>${esc(p.marcador)}</b></div></div>
     <div class="cmp">Modelo ${pct(p.p1)} · ${pct(p.px)} · ${pct(p.p2)}${p.mercado?` — Mercado ${pct(p.mercado[0])} · ${pct(p.mercado[1])} · ${pct(p.mercado[2])} — Cuotas ${n2(p.c1)} / ${n2(p.cx)} / ${n2(p.c2)} — Confianza en el modelo ${Math.round((p.peso_modelo||0)*100)}%`:''}</div>
     ${p.bajas&&((p.bajas.local||[]).length||(p.bajas.visita||[]).length)?`<div class="cmp"><b>Bajas:</b> ${(p.bajas.local||[]).length?esc(p.local)+': '+p.bajas.local.map(esc).join(', '):''}${(p.bajas.local||[]).length&&(p.bajas.visita||[]).length?' · ':''}${(p.bajas.visita||[]).length?esc(p.visita)+': '+p.bajas.visita.map(esc).join(', '):''}</div>`:''}
+    ${recHTML(p)}
     ${mercHTML(p)}
     ${(p.valor||[]).length?`<div class="chips">${p.valor.map(v=>`<span class="chip">Valor: ${esc(v.seleccion)} ${n2(v.cuota)} (${pct(v.prob)}, EV +${Math.round(v.ev*100)}%)</span>`).join('')}</div>`:''}</div>`;
   });

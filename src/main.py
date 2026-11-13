@@ -14,6 +14,8 @@ from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
 from . import apifutbol
 from . import mercados as mc
+from . import analisis as an
+import math
 from zoneinfo import ZoneInfo
 
 PESO_SIN_HISTORIA = 0.5  # cuando no hay cuotas pasadas para aprender, confía mitad y mitad
@@ -193,6 +195,7 @@ def main():
 
     # ---- predicciones de los próximos 7 días
     partidos = []
+    RL = {l: g for l, g in res.groupby("liga")}
     for r in prox.itertuples():
         p = params.get(r.liga)
         if p is None:
@@ -210,6 +213,22 @@ def main():
         lam *= (1 - 0.025 * kl) * (1 + 0.015 * kv)
         mu *= (1 - 0.025 * kv) * (1 + 0.015 * kl)
         pr = probabilidades(lam, mu)
+        # probabilidades extra para el análisis por datos
+        _pm = [[math.exp(-lam) * lam ** i / math.factorial(i) * math.exp(-mu) * mu ** j / math.factorial(j) for j in range(11)] for i in range(11)]
+        _tot = sum(sum(x) for x in _pm)
+        pr["over15"] = 1 - sum(_pm[i][j] for i in range(11) for j in range(11) if i + j <= 1) / _tot
+        pr["under35"] = sum(_pm[i][j] for i in range(11) for j in range(11) if i + j <= 3) / _tot
+        _d = RL.get(r.liga)
+        fl = an.forma(_d, r.home, r.fecha) if _d is not None else None
+        fv = an.forma(_d, r.away, r.fecha) if _d is not None else None
+        rec, nota_rec = an.recomendar(r.home, r.away, fl, fv, pr)
+        _casa = {f"Gana {r.home}": r.c1, f"Gana {r.away}": r.c2, "Más de 2.5 goles": r.o25, "Menos de 2.5 goles": r.u25}
+        for x in rec:
+            c = _casa.get(x["seleccion"])
+            if c is not None and pd.notna(c):
+                x["cuota_casa"] = _r(c, 2)
+                x["paga_suficiente"] = bool(float(c) >= x["cuota_minima"])
+        h2 = an.h2h(_d, r.home, r.away, r.fecha) if _d is not None else []
         mk = implicitas(r.c1, r.cx, r.c2)
         w = pesos.get(r.liga, PESO_SIN_HISTORIA)
         valor = []
@@ -255,6 +274,8 @@ def main():
         partidos.append({
             "inicio": inicio,
             "mercados": props,
+            "recomendacion": rec, "nota_recomendacion": nota_rec,
+            "forma": {"local": fl, "visita": fv}, "h2h": h2,
             "fecha": r.fecha.strftime("%Y-%m-%d"),
             "hora_uk": str(r.hora) if (pd.notna(r.hora) and r.liga != "Selecciones") else "",
             "hora_col": str(r.hora) if (pd.notna(r.hora) and r.liga == "Selecciones" and str(r.hora) not in ("", "nan")) else "",
