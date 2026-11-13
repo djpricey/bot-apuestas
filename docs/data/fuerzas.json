@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T11:56-05:00",
+ "actualizado": "2026-11-13T12:08-05:00",
  "edge_min": 0.05,
  "ligas": {
   "Argentina": {
@@ -1975,20 +1975,20 @@
      "fuerza": 7.02
     },
     {
-     "equipo": "England",
-     "ataque": 2.2,
-     "defensa": 0.42,
-     "fuerza": 5.23
-    },
-    {
      "equipo": "Morocco",
      "ataque": 1.64,
      "defensa": 0.31,
      "fuerza": 5.22
     },
     {
+     "equipo": "England",
+     "ataque": 2.19,
+     "defensa": 0.42,
+     "fuerza": 5.21
+    },
+    {
      "equipo": "France",
-     "ataque": 2.13,
+     "ataque": 2.14,
      "defensa": 0.45,
      "fuerza": 4.71
     },
@@ -1996,7 +1996,7 @@
      "equipo": "Portugal",
      "ataque": 2.04,
      "defensa": 0.43,
-     "fuerza": 4.7
+     "fuerza": 4.71
     },
     {
      "equipo": "Japan",
@@ -2007,7 +2007,7 @@
     {
      "equipo": "Colombia",
      "ataque": 1.79,
-     "defensa": 0.4,
+     "defensa": 0.39,
      "fuerza": 4.54
     },
     {
@@ -2018,20 +2018,20 @@
     },
     {
      "equipo": "Germany",
-     "ataque": 1.99,
+     "ataque": 2.0,
      "defensa": 0.5,
-     "fuerza": 3.98
-    },
-    {
-     "equipo": "Netherlands",
-     "ataque": 2.06,
-     "defensa": 0.54,
-     "fuerza": 3.82
+     "fuerza": 4.0
     },
     {
      "equipo": "Belgium",
      "ataque": 1.84,
-     "defensa": 0.49,
+     "defensa": 0.48,
+     "fuerza": 3.8
+    },
+    {
+     "equipo": "Netherlands",
+     "ataque": 2.05,
+     "defensa": 0.54,
      "fuerza": 3.79
     },
     {
@@ -2050,13 +2050,13 @@
      "equipo": "Senegal",
      "ataque": 1.71,
      "defensa": 0.49,
-     "fuerza": 3.5
+     "fuerza": 3.49
     },
     {
      "equipo": "Russia",
      "ataque": 1.62,
      "defensa": 0.48,
-     "fuerza": 3.42
+     "fuerza": 3.41
     },
     {
      "equipo": "Norway",
@@ -2090,7 +2090,7 @@
     },
     {
      "equipo": "Italy",
-     "ataque": 1.68,
+     "ataque": 1.67,
      "defensa": 0.56,
      "fuerza": 2.97
     },
@@ -2119,15 +2119,15 @@
      "fuerza": 2.7
     },
     {
-     "equipo": "Greece",
-     "ataque": 1.36,
-     "defensa": 0.5,
-     "fuerza": 2.7
-    },
-    {
      "equipo": "Denmark",
      "ataque": 1.56,
      "defensa": 0.58,
+     "fuerza": 2.69
+    },
+    {
+     "equipo": "Greece",
+     "ataque": 1.36,
+     "defensa": 0.5,
      "fuerza": 2.69
     },
     {
@@ -2145,7 +2145,7 @@
     {
      "equipo": "Nigeria",
      "ataque": 1.56,
-     "defensa": 0.61,
+     "defensa": 0.6,
      "fuerza": 2.58
     },
     {
@@ -2176,7 +2176,7 @@
      "equipo": "Croatia",
      "ataque": 1.54,
      "defensa": 0.65,
-     "fuerza": 2.39
+     "fuerza": 2.38
     },
     {
      "equipo": "Isle of Man",
@@ -2186,7 +2186,7 @@
     },
     {
      "equipo": "New Zealand",
-     "ataque": 1.57,
+     "ataque": 1.56,
      "defensa": 0.74,
      "fuerza": 2.1
     },
@@ -2218,7 +2218,7 @@
      "equipo": "Sweden",
      "ataque": 1.59,
      "defensa": 0.8,
-     "fuerza": 1.99
+     "fuerza": 2.0
     },
     {
      "equipo": "Turkey",
@@ -2281,15 +2281,15 @@
      "fuerza": 1.78
     },
     {
-     "equipo": "Poland",
-     "ataque": 1.24,
-     "defensa": 0.7,
-     "fuerza": 1.77
-    },
-    {
      "equipo": "Kosovo",
      "ataque": 1.06,
      "defensa": 0.61,
+     "fuerza": 1.75
+    },
+    {
+     "equipo": "Poland",
+     "ataque": 1.23,
+     "defensa": 0.7,
      "fuerza": 1.75
     },
     {
@@ -2306,7 +2306,7 @@
     },
     {
      "equipo": "Ukraine",
-     "ataque": 1.25,
+     "ataque": 1.24,
      "defensa": 0.74,
      "fuerza": 1.69
     },
@@ -2323,15 +2323,15 @@
      "fuerza": 1.67
     },
     {
-     "equipo": "Burkina Faso",
-     "ataque": 1.26,
-     "defensa": 0.76,
-     "fuerza": 1.65
-    },
-    {
      "equipo": "Northern Ireland",
      "ataque": 0.91,
      "defensa": 0.55,
+     "fuerza": 1.67
+    },
+    {
+     "equipo": "Burkina Faso",
+     "ataque": 1.26,
+     "defensa": 0.76,
      "fuerza": 1.65
     },
     {
@@ -2344,7 +2344,13 @@
      "equipo": "Czech Republic",
      "ataque": 1.22,
      "defensa": 0.75,
-     "fuerza": 1.62
+     "fuerza": 1.61
+    },
+    {
+     "equipo": "Slovakia",
+     "ataque": 1.1,
+     "defensa": 0.69,
+     "fuerza": 1.59
     },
     {
      "equipo": "Wales",
@@ -2357,12 +2363,6 @@
      "ataque": 1.21,
      "defensa": 0.77,
      "fuerza": 1.58
-    },
-    {
-     "equipo": "Slovakia",
-     "ataque": 1.1,
-     "defensa": 0.7,
-     "fuerza": 1.57
     },
     {
      "equipo": "Tunisia",
@@ -2395,15 +2395,15 @@
      "fuerza": 1.53
     },
     {
-     "equipo": "Cape Verde",
-     "ataque": 1.1,
-     "defensa": 0.73,
-     "fuerza": 1.51
-    },
-    {
      "equipo": "Georgia",
      "ataque": 1.08,
      "defensa": 0.71,
+     "fuerza": 1.52
+    },
+    {
+     "equipo": "Cape Verde",
+     "ataque": 1.1,
+     "defensa": 0.73,
      "fuerza": 1.51
     },
     {
@@ -2413,16 +2413,16 @@
      "fuerza": 1.51
     },
     {
+     "equipo": "Iceland",
+     "ataque": 1.24,
+     "defensa": 0.83,
+     "fuerza": 1.5
+    },
+    {
      "equipo": "Iraq",
      "ataque": 1.08,
      "defensa": 0.72,
      "fuerza": 1.5
-    },
-    {
-     "equipo": "Iceland",
-     "ataque": 1.23,
-     "defensa": 0.83,
-     "fuerza": 1.48
     },
     {
      "equipo": "Albania",
@@ -2539,16 +2539,16 @@
      "fuerza": 1.22
     },
     {
-     "equipo": "Finland",
-     "ataque": 0.99,
-     "defensa": 0.8,
-     "fuerza": 1.22
-    },
-    {
      "equipo": "Niger",
      "ataque": 1.02,
      "defensa": 0.83,
      "fuerza": 1.22
+    },
+    {
+     "equipo": "Finland",
+     "ataque": 0.98,
+     "defensa": 0.81,
+     "fuerza": 1.21
     },
     {
      "equipo": "Gabon",
@@ -2571,7 +2571,7 @@
     {
      "equipo": "North Korea",
      "ataque": 1.03,
-     "defensa": 0.87,
+     "defensa": 0.86,
      "fuerza": 1.19
     },
     {
@@ -2625,7 +2625,7 @@
     {
      "equipo": "Orkney",
      "ataque": 1.02,
-     "defensa": 0.97,
+     "defensa": 0.96,
      "fuerza": 1.06
     },
     {
@@ -2655,7 +2655,7 @@
     {
      "equipo": "Bolivia",
      "ataque": 0.91,
-     "defensa": 0.9,
+     "defensa": 0.89,
      "fuerza": 1.02
     },
     {
@@ -2684,7 +2684,7 @@
     },
     {
      "equipo": "Hong Kong",
-     "ataque": 0.86,
+     "ataque": 0.85,
      "defensa": 0.89,
      "fuerza": 0.96
     },
@@ -2751,7 +2751,7 @@
     {
      "equipo": "Bahrain",
      "ataque": 0.86,
-     "defensa": 0.98,
+     "defensa": 0.97,
      "fuerza": 0.88
     },
     {
@@ -2775,20 +2775,20 @@
     {
      "equipo": "Kuwait",
      "ataque": 0.92,
-     "defensa": 1.07,
+     "defensa": 1.06,
      "fuerza": 0.87
+    },
+    {
+     "equipo": "Bulgaria",
+     "ataque": 0.87,
+     "defensa": 1.01,
+     "fuerza": 0.86
     },
     {
      "equipo": "Sierra Leone",
      "ataque": 0.88,
      "defensa": 1.03,
      "fuerza": 0.85
-    },
-    {
-     "equipo": "Bulgaria",
-     "ataque": 0.86,
-     "defensa": 1.03,
-     "fuerza": 0.84
     },
     {
      "equipo": "Equatorial Guinea",
@@ -2823,7 +2823,7 @@
     {
      "equipo": "North Macedonia",
      "ataque": 0.74,
-     "defensa": 0.91,
+     "defensa": 0.92,
      "fuerza": 0.81
     },
     {
@@ -2908,6 +2908,12 @@
      "equipo": "Estonia",
      "ataque": 0.63,
      "defensa": 0.9,
+     "fuerza": 0.7
+    },
+    {
+     "equipo": "Luxembourg",
+     "ataque": 0.6,
+     "defensa": 0.88,
      "fuerza": 0.69
     },
     {
@@ -2995,12 +3001,6 @@
      "fuerza": 0.58
     },
     {
-     "equipo": "Luxembourg",
-     "ataque": 0.52,
-     "defensa": 0.92,
-     "fuerza": 0.57
-    },
-    {
      "equipo": "Mauritius",
      "ataque": 0.57,
      "defensa": 0.99,
@@ -3035,12 +3035,6 @@
      "ataque": 0.76,
      "defensa": 1.41,
      "fuerza": 0.54
-    },
-    {
-     "equipo": "Malta",
-     "ataque": 0.59,
-     "defensa": 1.11,
-     "fuerza": 0.53
     },
     {
      "equipo": "Belize",
@@ -3080,7 +3074,7 @@
     },
     {
      "equipo": "Moldova",
-     "ataque": 0.65,
+     "ataque": 0.64,
      "defensa": 1.34,
      "fuerza": 0.48
     },
@@ -3100,6 +3094,12 @@
      "equipo": "Bonaire",
      "ataque": 0.68,
      "defensa": 1.48,
+     "fuerza": 0.46
+    },
+    {
+     "equipo": "Malta",
+     "ataque": 0.55,
+     "defensa": 1.19,
      "fuerza": 0.46
     },
     {
@@ -3211,15 +3211,9 @@
      "fuerza": 0.3
     },
     {
-     "equipo": "Gibraltar",
-     "ataque": 0.45,
-     "defensa": 1.53,
-     "fuerza": 0.3
-    },
-    {
      "equipo": "Laos",
      "ataque": 0.64,
-     "defensa": 2.12,
+     "defensa": 2.11,
      "fuerza": 0.3
     },
     {
@@ -3232,6 +3226,12 @@
      "equipo": "Dominica",
      "ataque": 0.5,
      "defensa": 1.69,
+     "fuerza": 0.29
+    },
+    {
+     "equipo": "Gibraltar",
+     "ataque": 0.45,
+     "defensa": 1.53,
      "fuerza": 0.29
     },
     {
@@ -3273,7 +3273,7 @@
     {
      "equipo": "Brunei",
      "ataque": 0.39,
-     "defensa": 2.06,
+     "defensa": 2.05,
      "fuerza": 0.19
     },
     {
@@ -3297,7 +3297,7 @@
     {
      "equipo": "Bahamas",
      "ataque": 0.48,
-     "defensa": 2.93,
+     "defensa": 2.92,
      "fuerza": 0.16
     },
     {
