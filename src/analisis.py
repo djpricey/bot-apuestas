@@ -26,8 +26,8 @@ def forma(d, equipo, antes):
         "u35": round(float((tot <= 3).mean()), 2),
         "btts": round(float(((gf > 0) & (gc > 0)).mean()), 2),
         "marco": round(float((gf > 0).mean()), 2), "cero": round(float((gc == 0).mean()), 2),
-        "ultimos": [f"{'L' if h else 'V'} {int(a)}-{int(b)} {r}" for h, a, b, r in
-                    zip(m["home"] == equipo, gf, gc, rival)][::-1][:5],
+        # marcador tal como se publica: fecha, local, goles, visitante (sin voltear)
+        "ultimos": [f"{r.fecha.strftime('%d/%m/%y')} {r.home} {int(r.hg)}-{int(r.ag)} {r.away}" for r in m.itertuples()][::-1],
     }
 
 
