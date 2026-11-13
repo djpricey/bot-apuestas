@@ -291,6 +291,17 @@ def main():
             "bajas": bj,
         })
 
+    # Si esta corrida perdió partidos (p. ej. la API ya no tenía consultas), conserva los de la corrida anterior
+    try:
+        with open(os.path.join(SALIDA, "hoy.json"), encoding="utf-8") as fh:
+            previos = json.load(fh).get("partidos", [])
+        ya = {(x["liga"], x["local"], x["visita"]) for x in partidos}
+        hoy_s = hoy.strftime("%Y-%m-%d")
+        for x in previos:
+            if x.get("fecha", "") >= hoy_s and (x["liga"], x["local"], x["visita"]) not in ya:
+                partidos.append(x)
+    except (OSError, ValueError, KeyError):
+        pass
     escalera = elegir_escalera(partidos)
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
     with open(os.path.join(SALIDA, "hoy.json"), "w", encoding="utf-8") as fh:

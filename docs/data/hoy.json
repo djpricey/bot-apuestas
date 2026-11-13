@@ -746,6 +746,1590 @@
     "local": [],
     "visita": []
    }
+  },
+  {
+   "inicio": "2026-11-13T12:00-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Kazakhstan o empate",
+     "prob_modelo": 0.693,
+     "prob_datos": 0.75,
+     "prob": 0.693,
+     "cuota_minima": 1.5,
+     "por": "Kazakhstan perdió solo 4 de 10; Moldova ganó 1 de 10"
+    },
+    {
+     "seleccion": "Menos de 3.5 goles",
+     "prob_modelo": 0.717,
+     "prob_datos": 0.7,
+     "prob": 0.7,
+     "cuota_minima": 1.49,
+     "por": "Menos de 3.5 en 60 % de los de Moldova y 80 % de los de Kazakhstan"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-13",
+     "g": 1,
+     "e": 3,
+     "p": 6,
+     "gf": 0.9,
+     "gc": 2.2,
+     "o15": 1.0,
+     "o25": 0.5,
+     "u35": 0.6,
+     "btts": 0.6,
+     "marco": 0.6,
+     "cero": 0.0,
+     "ultimos": [
+      "L 0-4 Slovakia",
+      "V 2-1 Kazakhstan",
+      "L 1-1 Faroe Islands",
+      "V 0-2 Slovakia",
+      "V 1-1 Armenia"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-15",
+     "g": 2,
+     "e": 4,
+     "p": 4,
+     "gf": 1.1,
+     "gc": 1.3,
+     "o15": 0.8,
+     "o25": 0.4,
+     "u35": 0.8,
+     "btts": 0.7,
+     "marco": 0.9,
+     "cero": 0.2,
+     "ultimos": [
+      "L 2-2 Faroe Islands",
+      "L 1-2 Moldova",
+      "V 1-2 Slovakia",
+      "V 1-1 Faroe Islands",
+      "V 1-3 Hungary"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Kazakhstan 1-2 Moldova"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "12:00",
+   "liga": "Selecciones",
+   "local": "Moldova",
+   "visita": "Kazakhstan",
+   "neutral": false,
+   "p1": 0.307,
+   "px": 0.271,
+   "p2": 0.422,
+   "over25": 0.503,
+   "btts": 0.549,
+   "marcador": "1-1",
+   "goles_local": 1.22,
+   "goles_visita": 1.47,
+   "c1": 2.32,
+   "cx": 3.09,
+   "c2": 3.24,
+   "co25": 2.31,
+   "cu25": 1.6,
+   "mercado": [
+    0.405,
+    0.304,
+    0.29
+   ],
+   "final": [
+    0.356,
+    0.288,
+    0.356
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Visita",
+     "prob": 0.356,
+     "cuota": 3.24,
+     "ev": 0.155
+    },
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.456,
+     "cuota": 2.31,
+     "ev": 0.053
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:00-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Egypt o empate",
+     "prob_modelo": 0.933,
+     "prob_datos": 0.7,
+     "prob": 0.7,
+     "cuota_minima": 1.49,
+     "por": "Egypt perdió solo 3 de 10; Malawi ganó 3 de 10"
+    },
+    {
+     "seleccion": "Menos de 3.5 goles",
+     "prob_modelo": 0.718,
+     "prob_datos": 0.75,
+     "prob": 0.718,
+     "cuota_minima": 1.45,
+     "por": "Menos de 3.5 en 70 % de los de Egypt y 80 % de los de Malawi"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2026-05-28",
+     "g": 3,
+     "e": 4,
+     "p": 3,
+     "gf": 1.5,
+     "gc": 1.0,
+     "o15": 0.7,
+     "o25": 0.4,
+     "u35": 0.7,
+     "btts": 0.6,
+     "marco": 0.8,
+     "cero": 0.3,
+     "ultimos": [
+      "L 0-1 South Africa",
+      "V 5-0 South Sudan",
+      "L 0-0 Angola",
+      "V 2-3 Argentina",
+      "V 1-1 Australia"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-09-08",
+     "g": 3,
+     "e": 3,
+     "p": 4,
+     "gf": 1.0,
+     "gc": 1.0,
+     "o15": 0.5,
+     "o25": 0.4,
+     "u35": 0.8,
+     "btts": 0.4,
+     "marco": 0.6,
+     "cero": 0.3,
+     "ultimos": [
+      "V 1-3 Angola",
+      "L 2-1 South Sudan",
+      "V 1-1 Ethiopia",
+      "V 0-1 Ethiopia",
+      "V 0-1 Botswana"
+     ]
+    }
+   },
+   "h2h": [
+    "2023 Malawi 0-4 Egypt",
+    "2023 Egypt 2-0 Malawi"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Egypt",
+   "visita": "Malawi",
+   "neutral": false,
+   "p1": 0.757,
+   "px": 0.176,
+   "p2": 0.067,
+   "over25": 0.502,
+   "btts": 0.355,
+   "marcador": "2-0",
+   "goles_local": 2.18,
+   "goles_visita": 0.5,
+   "c1": 1.09,
+   "cx": 8.11,
+   "c2": 27.43,
+   "co25": 1.57,
+   "cu25": 2.2,
+   "mercado": [
+    0.852,
+    0.114,
+    0.034
+   ],
+   "final": [
+    0.805,
+    0.145,
+    0.05
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:00-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Mali o empate",
+     "prob_modelo": 0.861,
+     "prob_datos": 0.65,
+     "prob": 0.65,
+     "cuota_minima": 1.6,
+     "por": "Mali perdió solo 2 de 10; Rwanda ganó 5 de 10"
+    },
+    {
+     "seleccion": "Ambos marcan: no",
+     "prob_modelo": 0.705,
+     "prob_datos": 0.65,
+     "prob": 0.65,
+     "cuota_minima": 1.6,
+     "por": "Rwanda no marcó en 50 % de sus partidos; Mali no recibió gol en 30 %"
+    },
+    {
+     "seleccion": "Menos de 2.5 goles",
+     "prob_modelo": 0.731,
+     "prob_datos": 0.75,
+     "prob": 0.731,
+     "cuota_minima": 1.42,
+     "por": "Menos de 2.5 en 90 % de los de Mali y 60 % de los de Rwanda",
+     "cuota_casa": 1.66,
+     "paga_suficiente": true
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-12-22",
+     "g": 2,
+     "e": 6,
+     "p": 2,
+     "gf": 0.8,
+     "gc": 0.8,
+     "o15": 0.6,
+     "o25": 0.1,
+     "u35": 0.9,
+     "btts": 0.5,
+     "marco": 0.6,
+     "cero": 0.3,
+     "ultimos": [
+      "V 1-1 Morocco",
+      "V 1-0 Liberia",
+      "L 3-1 Cape Verde",
+      "V 0-2 Iran",
+      "V 0-0 Russia"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-06-09",
+     "g": 5,
+     "e": 1,
+     "p": 4,
+     "gf": 1.2,
+     "gc": 0.9,
+     "o15": 0.6,
+     "o25": 0.4,
+     "u35": 0.8,
+     "btts": 0.2,
+     "marco": 0.5,
+     "cero": 0.4,
+     "ultimos": [
+      "L 0-0 Kenya",
+      "V 2-1 Cape Verde",
+      "L 3-1 Liberia",
+      "L 2-0 Estonia",
+      "L 4-0 Grenada"
+     ]
+    }
+   },
+   "h2h": [],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Mali",
+   "visita": "Rwanda",
+   "neutral": false,
+   "p1": 0.555,
+   "px": 0.306,
+   "p2": 0.139,
+   "over25": 0.269,
+   "btts": 0.295,
+   "marcador": "1-0",
+   "goles_local": 1.29,
+   "goles_visita": 0.51,
+   "c1": 1.29,
+   "cx": 4.58,
+   "c2": 9.71,
+   "co25": 2.08,
+   "cu25": 1.66,
+   "mercado": [
+    0.706,
+    0.199,
+    0.094
+   ],
+   "final": [
+    0.631,
+    0.253,
+    0.117
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Menos de 2.5",
+     "prob": 0.644,
+     "cuota": 1.66,
+     "ev": 0.066
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:00-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Más de 2.5 goles",
+     "prob_modelo": 0.777,
+     "prob_datos": 0.85,
+     "prob": 0.777,
+     "cuota_minima": 1.34,
+     "por": "Más de 2.5 en 90 % de los de Bermuda y 80 % de los de Saint Lucia",
+     "cuota_casa": 1.23,
+     "paga_suficiente": false
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-10-10",
+     "g": 1,
+     "e": 1,
+     "p": 8,
+     "gf": 1.0,
+     "gc": 3.1,
+     "o15": 1.0,
+     "o25": 0.9,
+     "u35": 0.5,
+     "btts": 0.5,
+     "marco": 0.6,
+     "cero": 0.1,
+     "ultimos": [
+      "V 1-2 Barbados",
+      "V 1-4 Barbados",
+      "V 2-5 Saint Lucia",
+      "L 1-2 Guadeloupe",
+      "L 3-0 Cape Verde"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2024-11-18",
+     "g": 4,
+     "e": 0,
+     "p": 6,
+     "gf": 1.4,
+     "gc": 2.5,
+     "o15": 0.9,
+     "o25": 0.8,
+     "u35": 0.5,
+     "btts": 0.5,
+     "marco": 0.7,
+     "cero": 0.2,
+     "ultimos": [
+      "V 1-0 Guadeloupe",
+      "L 3-0 Guadeloupe",
+      "L 5-2 Bermuda",
+      "L 0-2 Barbados",
+      "V 1-6 Azerbaijan"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Saint Lucia 5-2 Bermuda"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Bermuda",
+   "visita": "Saint Lucia",
+   "neutral": false,
+   "p1": 0.47,
+   "px": 0.209,
+   "p2": 0.321,
+   "over25": 0.777,
+   "btts": 0.759,
+   "marcador": "2-1",
+   "goles_local": 2.25,
+   "goles_visita": 1.86,
+   "c1": 11.16,
+   "cx": 7.09,
+   "c2": 1.17,
+   "co25": 1.23,
+   "cu25": 3.67,
+   "mercado": [
+    0.083,
+    0.13,
+    0.788
+   ],
+   "final": [
+    0.276,
+    0.169,
+    0.554
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:00-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Gana Puerto Rico",
+     "prob_modelo": 0.809,
+     "prob_datos": 0.65,
+     "prob": 0.65,
+     "cuota_minima": 1.6,
+     "por": "Puerto Rico ganó 6 de 10; Dominica perdió 7 de 10",
+     "cuota_casa": 1.17,
+     "paga_suficiente": false
+    },
+    {
+     "seleccion": "Más de 1.5 goles",
+     "prob_modelo": 0.858,
+     "prob_datos": 0.7,
+     "prob": 0.7,
+     "cuota_minima": 1.49,
+     "por": "Más de 1.5 en 70 % de los de Puerto Rico y 70 % de los de Dominica"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-06-06",
+     "g": 6,
+     "e": 0,
+     "p": 4,
+     "gf": 1.4,
+     "gc": 1.2,
+     "o15": 0.7,
+     "o25": 0.5,
+     "u35": 0.8,
+     "btts": 0.1,
+     "marco": 0.6,
+     "cero": 0.5,
+     "ultimos": [
+      "L 1-0 Cayman Islands",
+      "L 3-0 Cayman Islands",
+      "V 2-0 Dominica",
+      "L 0-1 Guyana",
+      "L 0-3 Saudi Arabia"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-06-10",
+     "g": 1,
+     "e": 2,
+     "p": 7,
+     "gf": 0.6,
+     "gc": 2.7,
+     "o15": 0.7,
+     "o25": 0.5,
+     "u35": 0.6,
+     "btts": 0.4,
+     "marco": 0.5,
+     "cero": 0.3,
+     "ultimos": [
+      "V 1-8 Guyana",
+      "L 1-5 Guyana",
+      "L 0-2 Puerto Rico",
+      "L 0-0 Cayman Islands",
+      "L 1-0 Anguilla"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Dominica 0-2 Puerto Rico"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:00",
+   "liga": "Selecciones",
+   "local": "Puerto Rico",
+   "visita": "Dominica",
+   "neutral": false,
+   "p1": 0.809,
+   "px": 0.132,
+   "p2": 0.06,
+   "over25": 0.668,
+   "btts": 0.459,
+   "marcador": "2-0",
+   "goles_local": 2.78,
+   "goles_visita": 0.66,
+   "c1": 1.17,
+   "cx": 6.79,
+   "c2": 11.47,
+   "co25": 1.29,
+   "cu25": 3.26,
+   "mercado": [
+    0.785,
+    0.135,
+    0.08
+   ],
+   "final": [
+    0.797,
+    0.133,
+    0.07
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Menos de 3.5 goles",
+     "prob_modelo": 0.693,
+     "prob_datos": 0.85,
+     "prob": 0.693,
+     "cuota_minima": 1.5,
+     "por": "Menos de 3.5 en 90 % de los de Serbia y 80 % de los de Germany"
+    },
+    {
+     "seleccion": "Germany o empate",
+     "prob_modelo": 0.82,
+     "prob_datos": 0.8,
+     "prob": 0.8,
+     "cuota_minima": 1.3,
+     "por": "Germany perdió solo 2 de 10; Serbia ganó 2 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-13",
+     "g": 2,
+     "e": 0,
+     "p": 8,
+     "gf": 0.8,
+     "gc": 2.3,
+     "o15": 1.0,
+     "o25": 0.8,
+     "u35": 0.9,
+     "btts": 0.6,
+     "marco": 0.6,
+     "cero": 0.0,
+     "ultimos": [
+      "V 1-2 Netherlands",
+      "V 0-2 Germany",
+      "L 1-2 Netherlands",
+      "L 1-2 Greece",
+      "V 1-5 Mexico"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2026-05-31",
+     "g": 5,
+     "e": 3,
+     "p": 2,
+     "gf": 2.0,
+     "gc": 0.8,
+     "o15": 0.8,
+     "o25": 0.5,
+     "u35": 0.8,
+     "btts": 0.6,
+     "marco": 0.8,
+     "cero": 0.3,
+     "ultimos": [
+      "V 0-0 Greece",
+      "L 2-0 Serbia",
+      "L 0-1 Greece",
+      "V 1-1 Netherlands",
+      "L 1-1 Paraguay"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Germany 2-0 Serbia"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Serbia",
+   "visita": "Germany",
+   "neutral": false,
+   "p1": 0.18,
+   "px": 0.236,
+   "p2": 0.584,
+   "over25": 0.53,
+   "btts": 0.52,
+   "marcador": "1-1",
+   "goles_local": 0.94,
+   "goles_visita": 1.86,
+   "c1": 10.19,
+   "cx": 6.38,
+   "c2": 1.26,
+   "co25": 1.42,
+   "cu25": 2.76,
+   "mercado": [
+    0.094,
+    0.15,
+    0.756
+   ],
+   "final": [
+    0.137,
+    0.193,
+    0.67
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Menos de 2.5",
+     "prob": 0.405,
+     "cuota": 2.76,
+     "ev": 0.119
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Más de 1.5 goles",
+     "prob_modelo": 0.792,
+     "prob_datos": 0.65,
+     "prob": 0.65,
+     "cuota_minima": 1.6,
+     "por": "Más de 1.5 en 90 % de los de Netherlands y 40 % de los de Greece"
+    },
+    {
+     "seleccion": "Netherlands o empate",
+     "prob_modelo": 0.805,
+     "prob_datos": 0.8,
+     "prob": 0.8,
+     "cuota_minima": 1.3,
+     "por": "Netherlands perdió solo 1 de 10; Greece ganó 3 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2026-06-03",
+     "g": 5,
+     "e": 4,
+     "p": 1,
+     "gf": 2.0,
+     "gc": 1.2,
+     "o15": 0.9,
+     "o25": 0.7,
+     "u35": 0.6,
+     "btts": 0.9,
+     "marco": 0.9,
+     "cero": 0.0,
+     "ultimos": [
+      "L 2-1 Serbia",
+      "V 2-2 Greece",
+      "V 2-1 Serbia",
+      "L 1-1 Germany",
+      "L 1-1 Morocco"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-15",
+     "g": 3,
+     "e": 5,
+     "p": 2,
+     "gf": 1.0,
+     "gc": 0.9,
+     "o15": 0.4,
+     "o25": 0.4,
+     "u35": 0.7,
+     "btts": 0.4,
+     "marco": 0.5,
+     "cero": 0.4,
+     "ultimos": [
+      "L 0-0 Germany",
+      "L 2-2 Netherlands",
+      "V 1-0 Germany",
+      "V 2-1 Serbia",
+      "L 0-1 Italy"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Greece 2-2 Netherlands",
+    "2023 Greece 0-1 Netherlands",
+    "2023 Netherlands 3-0 Greece"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Netherlands",
+   "visita": "Greece",
+   "neutral": false,
+   "p1": 0.571,
+   "px": 0.233,
+   "p2": 0.195,
+   "over25": 0.564,
+   "btts": 0.555,
+   "marcador": "1-1",
+   "goles_local": 1.91,
+   "goles_visita": 1.04,
+   "c1": 1.59,
+   "cx": 4.4,
+   "c2": 5.18,
+   "co25": 1.57,
+   "cu25": 2.4,
+   "mercado": [
+    0.6,
+    0.216,
+    0.184
+   ],
+   "final": [
+    0.586,
+    0.225,
+    0.19
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Más de 1.5 goles",
+     "prob_modelo": 0.686,
+     "prob_datos": 0.8,
+     "prob": 0.686,
+     "cuota_minima": 1.52,
+     "por": "Más de 1.5 en 90 % de los de Slovakia y 70 % de los de Faroe Islands"
+    },
+    {
+     "seleccion": "Slovakia o empate",
+     "prob_modelo": 0.873,
+     "prob_datos": 0.7,
+     "prob": 0.7,
+     "cuota_minima": 1.49,
+     "por": "Slovakia perdió solo 2 de 10; Faroe Islands ganó 4 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-14",
+     "g": 6,
+     "e": 2,
+     "p": 2,
+     "gf": 1.9,
+     "gc": 1.5,
+     "o15": 0.9,
+     "o25": 0.6,
+     "u35": 0.6,
+     "btts": 0.5,
+     "marco": 0.9,
+     "cero": 0.4,
+     "ultimos": [
+      "V 4-0 Moldova",
+      "V 1-1 Faroe Islands",
+      "L 2-1 Kazakhstan",
+      "L 2-0 Moldova",
+      "L 2-2 Montenegro"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-10-12",
+     "g": 4,
+     "e": 4,
+     "p": 2,
+     "gf": 1.2,
+     "gc": 1.1,
+     "o15": 0.7,
+     "o25": 0.4,
+     "u35": 0.8,
+     "btts": 0.7,
+     "marco": 0.9,
+     "cero": 0.2,
+     "ultimos": [
+      "V 2-2 Kazakhstan",
+      "L 1-1 Slovakia",
+      "V 1-1 Moldova",
+      "L 1-1 Kazakhstan",
+      "V 1-0 Latvia"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Faroe Islands 1-1 Slovakia"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Slovakia",
+   "visita": "Faroe Islands",
+   "neutral": false,
+   "p1": 0.632,
+   "px": 0.241,
+   "p2": 0.127,
+   "over25": 0.424,
+   "btts": 0.396,
+   "marcador": "1-0",
+   "goles_local": 1.74,
+   "goles_visita": 0.64,
+   "c1": 1.35,
+   "cx": 4.71,
+   "c2": 9.05,
+   "co25": 1.9,
+   "cu25": 1.89,
+   "mercado": [
+    0.696,
+    0.2,
+    0.104
+   ],
+   "final": [
+    0.664,
+    0.221,
+    0.115
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Menos de 3.5 goles",
+     "prob_modelo": 0.626,
+     "prob_datos": 0.8,
+     "prob": 0.626,
+     "cuota_minima": 1.66,
+     "por": "Menos de 3.5 en 80 % de los de Bulgaria y 80 % de los de Iceland"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-15",
+     "g": 4,
+     "e": 2,
+     "p": 4,
+     "gf": 1.8,
+     "gc": 1.3,
+     "o15": 0.7,
+     "o25": 0.5,
+     "u35": 0.8,
+     "btts": 0.4,
+     "marco": 0.6,
+     "cero": 0.3,
+     "ultimos": [
+      "V 2-0 Luxembourg",
+      "V 0-3 Iceland",
+      "L 0-0 Estonia",
+      "L 1-2 Luxembourg",
+      "V 2-2 Moldova"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-16",
+     "g": 2,
+     "e": 4,
+     "p": 4,
+     "gf": 1.0,
+     "gc": 1.4,
+     "o15": 0.8,
+     "o25": 0.5,
+     "u35": 0.8,
+     "btts": 0.3,
+     "marco": 0.5,
+     "cero": 0.3,
+     "ultimos": [
+      "V 0-0 Estonia",
+      "L 3-0 Bulgaria",
+      "V 3-0 Luxembourg",
+      "L 1-1 Estonia",
+      "V 0-3 Argentina"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Iceland 3-0 Bulgaria"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Bulgaria",
+   "visita": "Iceland",
+   "neutral": false,
+   "p1": 0.278,
+   "px": 0.245,
+   "p2": 0.478,
+   "over25": 0.598,
+   "btts": 0.615,
+   "marcador": "1-1",
+   "goles_local": 1.32,
+   "goles_visita": 1.78,
+   "c1": 4.75,
+   "cx": 3.59,
+   "c2": 1.75,
+   "co25": 2.04,
+   "cu25": 1.76,
+   "mercado": [
+    0.198,
+    0.262,
+    0.539
+   ],
+   "final": [
+    0.238,
+    0.253,
+    0.509
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Más de 2.5",
+     "prob": 0.531,
+     "cuota": 2.04,
+     "ev": 0.085
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Menos de 2.5 goles",
+     "prob_modelo": 0.661,
+     "prob_datos": 0.75,
+     "prob": 0.661,
+     "cuota_minima": 1.57,
+     "por": "Menos de 2.5 en 80 % de los de Liechtenstein y 70 % de los de Azerbaijan",
+     "cuota_casa": 1.61,
+     "paga_suficiente": true
+    },
+    {
+     "seleccion": "Ambos marcan: no",
+     "prob_modelo": 0.689,
+     "prob_datos": 0.7,
+     "prob": 0.689,
+     "cuota_minima": 1.51,
+     "por": "Azerbaijan no marcó en 30 % de sus partidos; Liechtenstein no recibió gol en 20 %"
+    },
+    {
+     "seleccion": "Azerbaijan o empate",
+     "prob_modelo": 0.894,
+     "prob_datos": 0.8,
+     "prob": 0.8,
+     "cuota_minima": 1.3,
+     "por": "Azerbaijan perdió solo 3 de 10; Liechtenstein ganó 1 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-15",
+     "g": 1,
+     "e": 1,
+     "p": 8,
+     "gf": 0.2,
+     "gc": 2.2,
+     "o15": 0.7,
+     "o25": 0.2,
+     "u35": 0.8,
+     "btts": 0.1,
+     "marco": 0.2,
+     "cero": 0.2,
+     "ultimos": [
+      "L 0-2 Gibraltar",
+      "V 0-0 Azerbaijan",
+      "V 0-2 Malta",
+      "L 0-2 Lithuania",
+      "L 0-2 Cyprus"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-13",
+     "g": 4,
+     "e": 3,
+     "p": 3,
+     "gf": 1.3,
+     "gc": 1.1,
+     "o15": 0.7,
+     "o25": 0.3,
+     "u35": 0.8,
+     "btts": 0.5,
+     "marco": 0.7,
+     "cero": 0.3,
+     "ultimos": [
+      "L 1-0 Lithuania",
+      "L 0-0 Liechtenstein",
+      "V 1-1 Lithuania",
+      "L 1-0 Tajikistan",
+      "L 2-1 San Marino"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Azerbaijan 0-0 Liechtenstein"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Liechtenstein",
+   "visita": "Azerbaijan",
+   "neutral": false,
+   "p1": 0.106,
+   "px": 0.257,
+   "p2": 0.637,
+   "over25": 0.339,
+   "btts": 0.311,
+   "marcador": "0-1",
+   "goles_local": 0.49,
+   "goles_visita": 1.57,
+   "c1": 20.68,
+   "cx": 5.59,
+   "c2": 1.2,
+   "co25": 2.27,
+   "cu25": 1.61,
+   "mercado": [
+    0.045,
+    0.168,
+    0.786
+   ],
+   "final": [
+    0.076,
+    0.213,
+    0.712
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Estonia o empate",
+     "prob_modelo": 0.665,
+     "prob_datos": 0.8,
+     "prob": 0.665,
+     "cuota_minima": 1.56,
+     "por": "Estonia perdió solo 2 de 10; Luxembourg ganó 2 de 10"
+    },
+    {
+     "seleccion": "Ambos marcan: no",
+     "prob_modelo": 0.672,
+     "prob_datos": 0.75,
+     "prob": 0.672,
+     "cuota_minima": 1.55,
+     "por": "Estonia no marcó en 30 % de sus partidos; Luxembourg no recibió gol en 10 %"
+    },
+    {
+     "seleccion": "Menos de 2.5 goles",
+     "prob_modelo": 0.765,
+     "prob_datos": 0.75,
+     "prob": 0.75,
+     "cuota_minima": 1.39,
+     "por": "Menos de 2.5 en 70 % de los de Luxembourg y 80 % de los de Estonia",
+     "cuota_casa": 1.5,
+     "paga_suficiente": true
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-10-10",
+     "g": 2,
+     "e": 0,
+     "p": 8,
+     "gf": 0.3,
+     "gc": 1.7,
+     "o15": 0.6,
+     "o25": 0.3,
+     "u35": 0.9,
+     "btts": 0.1,
+     "marco": 0.2,
+     "cero": 0.1,
+     "ultimos": [
+      "L 0-2 Bulgaria",
+      "V 0-1 Estonia",
+      "L 0-3 Iceland",
+      "V 2-1 Bulgaria",
+      "V 1-0 Albania"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-13",
+     "g": 4,
+     "e": 4,
+     "p": 2,
+     "gf": 1.0,
+     "gc": 1.0,
+     "o15": 0.5,
+     "o25": 0.2,
+     "u35": 0.8,
+     "btts": 0.4,
+     "marco": 0.7,
+     "cero": 0.5,
+     "ultimos": [
+      "L 0-0 Iceland",
+      "L 1-0 Luxembourg",
+      "V 0-0 Bulgaria",
+      "V 1-1 Iceland",
+      "L 1-0 Lithuania"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Estonia 1-0 Luxembourg"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Luxembourg",
+   "visita": "Estonia",
+   "neutral": false,
+   "p1": 0.335,
+   "px": 0.36,
+   "p2": 0.305,
+   "over25": 0.235,
+   "btts": 0.328,
+   "marcador": "0-0",
+   "goles_local": 0.86,
+   "goles_visita": 0.81,
+   "c1": 2.54,
+   "cx": 2.99,
+   "c2": 2.96,
+   "co25": 2.54,
+   "cu25": 1.5,
+   "mercado": [
+    0.37,
+    0.314,
+    0.317
+   ],
+   "final": [
+    0.352,
+    0.337,
+    0.311
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Gibraltar o empate",
+     "prob_modelo": 0.642,
+     "prob_datos": 0.75,
+     "prob": 0.642,
+     "cuota_minima": 1.62,
+     "por": "Gibraltar perdió solo 4 de 10; Andorra ganó 1 de 10"
+    },
+    {
+     "seleccion": "Ambos marcan: no",
+     "prob_modelo": 0.711,
+     "prob_datos": 0.8,
+     "prob": 0.711,
+     "cuota_minima": 1.46,
+     "por": "Gibraltar no marcó en 50 % de sus partidos; Andorra no recibió gol en 30 %"
+    },
+    {
+     "seleccion": "Menos de 3.5 goles",
+     "prob_modelo": 0.931,
+     "prob_datos": 0.8,
+     "prob": 0.8,
+     "cuota_minima": 1.3,
+     "por": "Menos de 3.5 en 90 % de los de Andorra y 70 % de los de Gibraltar"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-17",
+     "g": 1,
+     "e": 2,
+     "p": 7,
+     "gf": 0.3,
+     "gc": 1.6,
+     "o15": 0.6,
+     "o25": 0.4,
+     "u35": 0.9,
+     "btts": 0.1,
+     "marco": 0.2,
+     "cero": 0.3,
+     "ultimos": [
+      "V 0-1 Malta",
+      "V 0-3 Lithuania",
+      "V 0-0 Gibraltar",
+      "L 1-2 Malta",
+      "V 0-3 Kosovo"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-10-08",
+     "g": 3,
+     "e": 3,
+     "p": 4,
+     "gf": 1.2,
+     "gc": 1.5,
+     "o15": 0.8,
+     "o25": 0.5,
+     "u35": 0.7,
+     "btts": 0.3,
+     "marco": 0.5,
+     "cero": 0.4,
+     "ultimos": [
+      "V 2-0 Liechtenstein",
+      "V 1-1 Malta",
+      "L 0-0 Andorra",
+      "L 0-0 São Tomé and Príncipe",
+      "L 4-1 Cayman Islands"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Gibraltar 0-0 Andorra",
+    "2024 Gibraltar 1-0 Andorra",
+    "2022 Gibraltar 1-0 Andorra"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Andorra",
+   "visita": "Gibraltar",
+   "neutral": false,
+   "p1": 0.358,
+   "px": 0.377,
+   "p2": 0.265,
+   "over25": 0.197,
+   "btts": 0.289,
+   "marcador": "0-0",
+   "goles_local": 0.84,
+   "goles_visita": 0.68,
+   "c1": 1.66,
+   "cx": 3.21,
+   "c2": 6.61,
+   "co25": 3.13,
+   "cu25": 1.33,
+   "mercado": [
+    0.565,
+    0.293,
+    0.142
+   ],
+   "final": [
+    0.462,
+    0.335,
+    0.204
+   ],
+   "peso_modelo": 0.5,
+   "valor": [
+    {
+     "seleccion": "Empate",
+     "prob": 0.335,
+     "cuota": 3.21,
+     "ev": 0.075
+    }
+   ],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Más de 1.5 goles",
+     "prob_modelo": 0.645,
+     "prob_datos": 0.85,
+     "prob": 0.645,
+     "cuota_minima": 1.61,
+     "por": "Más de 1.5 en 80 % de los de Slovenia y 90 % de los de Switzerland"
+    },
+    {
+     "seleccion": "Switzerland o empate",
+     "prob_modelo": 0.763,
+     "prob_datos": 0.8,
+     "prob": 0.763,
+     "cuota_minima": 1.36,
+     "por": "Switzerland perdió solo 1 de 10; Slovenia ganó 3 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2025-11-15",
+     "g": 3,
+     "e": 3,
+     "p": 4,
+     "gf": 1.1,
+     "gc": 1.2,
+     "o15": 0.8,
+     "o25": 0.4,
+     "u35": 0.9,
+     "btts": 0.6,
+     "marco": 0.7,
+     "cero": 0.2,
+     "ultimos": [
+      "V 2-1 Scotland",
+      "V 1-2 Switzerland",
+      "L 2-0 North Macedonia",
+      "L 0-0 Scotland",
+      "V 1-2 Croatia"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2026-06-13",
+     "g": 7,
+     "e": 2,
+     "p": 1,
+     "gf": 2.1,
+     "gc": 0.7,
+     "o15": 0.9,
+     "o25": 0.7,
+     "u35": 0.8,
+     "btts": 0.5,
+     "marco": 0.9,
+     "cero": 0.5,
+     "ultimos": [
+      "L 3-0 North Macedonia",
+      "L 2-1 Slovenia",
+      "V 3-0 Scotland",
+      "V 3-0 North Macedonia",
+      "V 1-3 Argentina"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 Switzerland 2-1 Slovenia",
+    "2025 Slovenia 0-0 Switzerland",
+    "2025 Switzerland 3-0 Slovenia"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Slovenia",
+   "visita": "Switzerland",
+   "neutral": false,
+   "p1": 0.237,
+   "px": 0.297,
+   "p2": 0.467,
+   "over25": 0.376,
+   "btts": 0.434,
+   "marcador": "0-1",
+   "goles_local": 0.87,
+   "goles_visita": 1.33,
+   "c1": 5.79,
+   "cx": 3.36,
+   "c2": 1.71,
+   "co25": 2.56,
+   "cu25": 1.51,
+   "mercado": [
+    0.163,
+    0.281,
+    0.555
+   ],
+   "final": [
+    0.2,
+    0.289,
+    0.511
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
+  },
+  {
+   "inicio": "2026-11-13T14:45-05:00",
+   "mercados": [],
+   "recomendacion": [
+    {
+     "seleccion": "Más de 1.5 goles",
+     "prob_modelo": 0.766,
+     "prob_datos": 0.65,
+     "prob": 0.65,
+     "cuota_minima": 1.6,
+     "por": "Más de 1.5 en 60 % de los de Scotland y 70 % de los de North Macedonia"
+    },
+    {
+     "seleccion": "Scotland o empate",
+     "prob_modelo": 0.9,
+     "prob_datos": 0.75,
+     "prob": 0.75,
+     "cuota_minima": 1.39,
+     "por": "Scotland perdió solo 5 de 10; North Macedonia ganó 0 de 10"
+    }
+   ],
+   "nota_recomendacion": "",
+   "forma": {
+    "local": {
+     "n": 10,
+     "desde": "2026-03-31",
+     "g": 4,
+     "e": 1,
+     "p": 5,
+     "gf": 1.2,
+     "gc": 1.1,
+     "o15": 0.6,
+     "o25": 0.5,
+     "u35": 0.8,
+     "btts": 0.2,
+     "marco": 0.5,
+     "cero": 0.4,
+     "ultimos": [
+      "L 1-2 Slovenia",
+      "V 2-0 North Macedonia",
+      "L 0-3 Switzerland",
+      "V 0-0 Slovenia",
+      "L 0-3 Brazil"
+     ]
+    },
+    "visita": {
+     "n": 10,
+     "desde": "2025-11-13",
+     "g": 0,
+     "e": 3,
+     "p": 7,
+     "gf": 0.1,
+     "gc": 2.5,
+     "o15": 0.7,
+     "o25": 0.5,
+     "u35": 0.7,
+     "btts": 0.1,
+     "marco": 0.1,
+     "cero": 0.3,
+     "ultimos": [
+      "V 0-3 Switzerland",
+      "L 0-2 Scotland",
+      "V 0-2 Slovenia",
+      "L 0-3 Switzerland",
+      "V 0-4 Turkey"
+     ]
+    }
+   },
+   "h2h": [
+    "2026 North Macedonia 0-2 Scotland"
+   ],
+   "fecha": "2026-11-13",
+   "hora_uk": "",
+   "hora_col": "14:45",
+   "liga": "Selecciones",
+   "local": "Scotland",
+   "visita": "North Macedonia",
+   "neutral": false,
+   "p1": 0.704,
+   "px": 0.196,
+   "p2": 0.1,
+   "over25": 0.527,
+   "btts": 0.435,
+   "marcador": "2-0",
+   "goles_local": 2.11,
+   "goles_visita": 0.67,
+   "c1": 1.18,
+   "cx": 7.03,
+   "c2": 15.95,
+   "co25": 1.57,
+   "cu25": 2.38,
+   "mercado": [
+    0.805,
+    0.135,
+    0.06
+   ],
+   "final": [
+    0.755,
+    0.166,
+    0.08
+   ],
+   "peso_modelo": 0.5,
+   "valor": [],
+   "bajas": {
+    "local": [],
+    "visita": []
+   }
   }
  ]
 }
