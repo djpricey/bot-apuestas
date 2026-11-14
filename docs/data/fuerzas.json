@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T13:05-05:00",
+ "actualizado": "2026-11-14T06:29-05:00",
  "edge_min": 0.05,
  "ligas": {
   "Argentina": {
@@ -147,7 +147,7 @@
     {
      "equipo": "Sarmiento Junin",
      "ataque": 1.02,
-     "defensa": 1.2,
+     "defensa": 1.19,
      "fuerza": 0.86
     },
     {
@@ -206,9 +206,9 @@
    "equipos": [
     {
      "equipo": "Flamengo RJ",
-     "ataque": 1.6,
-     "defensa": 0.62,
-     "fuerza": 2.56
+     "ataque": 1.61,
+     "defensa": 0.63,
+     "fuerza": 2.57
     },
     {
      "equipo": "Palmeiras",
@@ -243,7 +243,7 @@
     {
      "equipo": "Botafogo RJ",
      "ataque": 1.13,
-     "defensa": 0.94,
+     "defensa": 0.93,
      "fuerza": 1.21
     },
     {
@@ -255,8 +255,8 @@
     {
      "equipo": "Atletico-MG",
      "ataque": 0.96,
-     "defensa": 0.84,
-     "fuerza": 1.13
+     "defensa": 0.86,
+     "fuerza": 1.12
     },
     {
      "equipo": "Santos",
@@ -266,7 +266,7 @@
     },
     {
      "equipo": "Bragantino",
-     "ataque": 1.03,
+     "ataque": 1.02,
      "defensa": 0.96,
      "fuerza": 1.06
     },
@@ -278,14 +278,14 @@
     },
     {
      "equipo": "Sao Paulo",
-     "ataque": 0.92,
+     "ataque": 0.91,
      "defensa": 0.89,
      "fuerza": 1.02
     },
     {
      "equipo": "Vasco",
      "ataque": 1.12,
-     "defensa": 1.12,
+     "defensa": 1.11,
      "fuerza": 1.0
     },
     {
@@ -297,7 +297,7 @@
     {
      "equipo": "Internacional",
      "ataque": 0.93,
-     "defensa": 0.99,
+     "defensa": 0.98,
      "fuerza": 0.95
     },
     {
@@ -332,7 +332,7 @@
     },
     {
      "equipo": "Juventude",
-     "ataque": 0.84,
+     "ataque": 0.83,
      "defensa": 1.26,
      "fuerza": 0.66
     },
@@ -1203,7 +1203,7 @@
     {
      "equipo": "Santander",
      "ataque": 1.1,
-     "defensa": 1.58,
+     "defensa": 1.57,
      "fuerza": 0.7
     },
     {
@@ -1972,13 +1972,13 @@
      "equipo": "Spain",
      "ataque": 2.36,
      "defensa": 0.33,
-     "fuerza": 7.07
+     "fuerza": 7.06
     },
     {
      "equipo": "England",
      "ataque": 2.17,
      "defensa": 0.42,
-     "fuerza": 5.2
+     "fuerza": 5.19
     },
     {
      "equipo": "Morocco",
@@ -2020,11 +2020,11 @@
      "equipo": "Germany",
      "ataque": 2.02,
      "defensa": 0.51,
-     "fuerza": 3.93
+     "fuerza": 3.92
     },
     {
      "equipo": "Belgium",
-     "ataque": 1.86,
+     "ataque": 1.85,
      "defensa": 0.48,
      "fuerza": 3.83
     },
@@ -2032,7 +2032,7 @@
      "equipo": "Netherlands",
      "ataque": 2.04,
      "defensa": 0.54,
-     "fuerza": 3.76
+     "fuerza": 3.75
     },
     {
      "equipo": "Switzerland",
@@ -2050,7 +2050,7 @@
      "equipo": "Uruguay",
      "ataque": 1.48,
      "defensa": 0.42,
-     "fuerza": 3.54
+     "fuerza": 3.53
     },
     {
      "equipo": "Norway",
@@ -2110,7 +2110,7 @@
      "equipo": "Austria",
      "ataque": 1.6,
      "defensa": 0.59,
-     "fuerza": 2.72
+     "fuerza": 2.71
     },
     {
      "equipo": "Egypt",
@@ -2134,7 +2134,7 @@
      "equipo": "Greece",
      "ataque": 1.38,
      "defensa": 0.52,
-     "fuerza": 2.64
+     "fuerza": 2.63
     },
     {
      "equipo": "South Korea",
@@ -2254,7 +2254,7 @@
      "equipo": "United Arab Emirates",
      "ataque": 1.17,
      "defensa": 0.63,
-     "fuerza": 1.87
+     "fuerza": 1.86
     },
     {
      "equipo": "Jordan",
@@ -2312,7 +2312,7 @@
     },
     {
      "equipo": "Republic of Ireland",
-     "ataque": 1.06,
+     "ataque": 1.05,
      "defensa": 0.62,
      "fuerza": 1.69
     },
@@ -2391,7 +2391,7 @@
     {
      "equipo": "Cape Verde",
      "ataque": 1.09,
-     "defensa": 0.71,
+     "defensa": 0.72,
      "fuerza": 1.53
     },
     {
@@ -2511,7 +2511,7 @@
     {
      "equipo": "Rwanda",
      "ataque": 0.82,
-     "defensa": 0.65,
+     "defensa": 0.66,
      "fuerza": 1.26
     },
     {
@@ -2961,7 +2961,7 @@
     {
      "equipo": "Solomon Islands",
      "ataque": 0.93,
-     "defensa": 1.52,
+     "defensa": 1.51,
      "fuerza": 0.61
     },
     {
@@ -3069,7 +3069,7 @@
     {
      "equipo": "Taiwan",
      "ataque": 0.82,
-     "defensa": 1.63,
+     "defensa": 1.62,
      "fuerza": 0.5
     },
     {
@@ -3098,7 +3098,7 @@
     },
     {
      "equipo": "Bonaire",
-     "ataque": 0.66,
+     "ataque": 0.67,
      "defensa": 1.46,
      "fuerza": 0.45
     },
@@ -3285,7 +3285,7 @@
     {
      "equipo": "American Samoa",
      "ataque": 0.5,
-     "defensa": 2.98,
+     "defensa": 2.97,
      "fuerza": 0.17
     },
     {
@@ -3531,7 +3531,7 @@
     {
      "equipo": "Kocaelispor",
      "ataque": 0.7,
-     "defensa": 0.69,
+     "defensa": 0.7,
      "fuerza": 1.0
     },
     {

@@ -1,67 +1,67 @@
 {
- "actualizado": "2026-11-13T13:05-05:00",
+ "actualizado": "2026-11-14T06:29-05:00",
  "edge_min": 0.05,
  "en_vivo": {
   "n": 0
  },
  "backtest_global": {
-  "n": 6469,
-  "logloss_modelo": 0.995,
+  "n": 6441,
+  "logloss_modelo": 0.9955,
   "logloss_mercado": 0.9616,
-  "logloss_modelo_mismos": 0.988,
-  "logloss_combinado": 0.988,
+  "logloss_modelo_mismos": 0.9879,
+  "logloss_combinado": 0.9879,
   "peso_modelo": 1.0,
   "n_con_cuotas": 1841,
-  "apuestas_valor": 43,
-  "roi_valor": 0.1523,
+  "apuestas_valor": 44,
+  "roi_valor": 0.1732,
   "calibracion": [
    {
     "rango": "0-10%",
     "esperado": 0.07,
-    "real": 0.047,
-    "n": 507
+    "real": 0.05,
+    "n": 497
    },
    {
     "rango": "10-20%",
     "esperado": 0.16,
-    "real": 0.163,
-    "n": 2289
+    "real": 0.159,
+    "n": 2285
    },
    {
     "rango": "20-30%",
     "esperado": 0.255,
-    "real": 0.255,
-    "n": 7414
+    "real": 0.256,
+    "n": 7383
    },
    {
     "rango": "30-40%",
     "esperado": 0.343,
-    "real": 0.337,
-    "n": 3968
+    "real": 0.338,
+    "n": 3957
    },
    {
     "rango": "40-50%",
     "esperado": 0.446,
     "real": 0.445,
-    "n": 2385
+    "n": 2384
    },
    {
     "rango": "50-60%",
     "esperado": 0.546,
-    "real": 0.539,
-    "n": 1507
+    "real": 0.54,
+    "n": 1489
    },
    {
     "rango": "60-70%",
     "esperado": 0.644,
-    "real": 0.679,
-    "n": 795
+    "real": 0.676,
+    "n": 791
    },
    {
     "rango": "70-80%",
-    "esperado": 0.745,
-    "real": 0.764,
-    "n": 394
+    "esperado": 0.744,
+    "real": 0.767,
+    "n": 391
    },
    {
     "rango": "80-90%",
@@ -71,9 +71,9 @@
    },
    {
     "rango": "90-100%",
-    "esperado": 0.93,
-    "real": 0.955,
-    "n": 22
+    "esperado": 0.927,
+    "real": 0.95,
+    "n": 20
    }
   ],
   "peso_modelo_promedio": 0.03
@@ -81,9 +81,9 @@
  "por_liga": {
   "Argentina": {
    "n": 521,
-   "logloss_modelo": 1.0537,
+   "logloss_modelo": 1.0538,
    "logloss_mercado": 1.1612,
-   "logloss_modelo_mismos": 1.2187,
+   "logloss_modelo_mismos": 1.2197,
    "logloss_combinado": 1.1612,
    "peso_modelo": 0.0,
    "n_con_cuotas": 15,
@@ -92,39 +92,39 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.082,
+     "esperado": 0.08,
      "real": 0.0,
-     "n": 11
+     "n": 10
     },
     {
      "rango": "10-20%",
      "esperado": 0.167,
-     "real": 0.188,
-     "n": 117
+     "real": 0.178,
+     "n": 118
     },
     {
      "rango": "20-30%",
-     "esperado": 0.26,
-     "real": 0.271,
-     "n": 454
+     "esperado": 0.261,
+     "real": 0.269,
+     "n": 458
     },
     {
      "rango": "30-40%",
      "esperado": 0.339,
-     "real": 0.334,
-     "n": 637
+     "real": 0.338,
+     "n": 634
     },
     {
      "rango": "40-50%",
      "esperado": 0.444,
-     "real": 0.42,
-     "n": 231
+     "real": 0.422,
+     "n": 232
     },
     {
      "rango": "50-60%",
-     "esperado": 0.537,
+     "esperado": 0.538,
      "real": 0.494,
-     "n": 83
+     "n": 81
     },
     {
      "rango": "60-70%",
@@ -134,7 +134,7 @@
     },
     {
      "rango": "70-80%",
-     "esperado": 0.716,
+     "esperado": 0.719,
      "real": 0.833,
      "n": 6
     },
@@ -157,9 +157,9 @@
   },
   "Brasil": {
    "n": 388,
-   "logloss_modelo": 0.9993,
+   "logloss_modelo": 0.9967,
    "logloss_mercado": 0.8461,
-   "logloss_modelo_mismos": 0.9113,
+   "logloss_modelo_mismos": 0.9067,
    "logloss_combinado": 0.8461,
    "peso_modelo": 0.0,
    "n_con_cuotas": 40,
@@ -168,57 +168,57 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.078,
-     "real": 0.04,
-     "n": 25
+     "esperado": 0.079,
+     "real": 0.037,
+     "n": 27
     },
     {
      "rango": "10-20%",
-     "esperado": 0.163,
-     "real": 0.161,
-     "n": 137
+     "esperado": 0.164,
+     "real": 0.151,
+     "n": 139
     },
     {
      "rango": "20-30%",
      "esperado": 0.259,
-     "real": 0.255,
-     "n": 486
+     "real": 0.258,
+     "n": 485
     },
     {
      "rango": "30-40%",
      "esperado": 0.34,
-     "real": 0.333,
-     "n": 192
+     "real": 0.326,
+     "n": 187
     },
     {
      "rango": "40-50%",
-     "esperado": 0.451,
-     "real": 0.507,
-     "n": 152
+     "esperado": 0.45,
+     "real": 0.523,
+     "n": 155
     },
     {
      "rango": "50-60%",
-     "esperado": 0.545,
-     "real": 0.515,
-     "n": 99
+     "esperado": 0.546,
+     "real": 0.5,
+     "n": 98
     },
     {
      "rango": "60-70%",
-     "esperado": 0.649,
-     "real": 0.652,
-     "n": 46
+     "esperado": 0.651,
+     "real": 0.667,
+     "n": 45
     },
     {
      "rango": "70-80%",
-     "esperado": 0.741,
-     "real": 0.696,
+     "esperado": 0.738,
+     "real": 0.739,
      "n": 23
     },
     {
      "rango": "80-90%",
-     "esperado": 0.827,
-     "real": 0.75,
-     "n": 4
+     "esperado": 0.824,
+     "real": 0.6,
+     "n": 5
     },
     {
      "rango": "90-100%",
@@ -229,11 +229,11 @@
    ],
    "xi": 0.001,
    "peso_aprendido": false,
-   "partidos_usados": 771
+   "partidos_usados": 770
   },
   "Bundesliga": {
    "n": 294,
-   "logloss_modelo": 0.9857,
+   "logloss_modelo": 0.9856,
    "logloss_mercado": 0.9468,
    "logloss_modelo_mismos": 0.9791,
    "logloss_combinado": 0.9468,
@@ -257,14 +257,14 @@
     {
      "rango": "20-30%",
      "esperado": 0.248,
-     "real": 0.257,
-     "n": 346
+     "real": 0.255,
+     "n": 345
     },
     {
      "rango": "30-40%",
      "esperado": 0.347,
-     "real": 0.324,
-     "n": 148
+     "real": 0.329,
+     "n": 149
     },
     {
      "rango": "40-50%",
@@ -311,7 +311,7 @@
    "n": 296,
    "logloss_modelo": 1.0049,
    "logloss_mercado": 0.8988,
-   "logloss_modelo_mismos": 0.9185,
+   "logloss_modelo_mismos": 0.9187,
    "logloss_combinado": 0.8988,
    "peso_modelo": 0.0,
    "n_con_cuotas": 97,
@@ -320,21 +320,21 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.075,
+     "esperado": 0.074,
      "real": 0.0,
-     "n": 17
+     "n": 16
     },
     {
      "rango": "10-20%",
-     "esperado": 0.159,
-     "real": 0.172,
+     "esperado": 0.158,
+     "real": 0.161,
      "n": 93
     },
     {
      "rango": "20-30%",
      "esperado": 0.255,
-     "real": 0.232,
-     "n": 327
+     "real": 0.235,
+     "n": 328
     },
     {
      "rango": "30-40%",
@@ -345,20 +345,20 @@
     {
      "rango": "40-50%",
      "esperado": 0.441,
-     "real": 0.465,
-     "n": 99
+     "real": 0.47,
+     "n": 100
     },
     {
      "rango": "50-60%",
-     "esperado": 0.543,
+     "esperado": 0.544,
      "real": 0.483,
      "n": 60
     },
     {
      "rango": "60-70%",
-     "esperado": 0.646,
-     "real": 0.718,
-     "n": 39
+     "esperado": 0.648,
+     "real": 0.711,
+     "n": 38
     },
     {
      "rango": "70-80%",
@@ -385,9 +385,9 @@
   },
   "Championship": {
    "n": 549,
-   "logloss_modelo": 1.0568,
+   "logloss_modelo": 1.0572,
    "logloss_mercado": 1.0296,
-   "logloss_modelo_mismos": 1.0651,
+   "logloss_modelo_mismos": 1.0659,
    "logloss_combinado": 1.0296,
    "peso_modelo": 0.0,
    "n_con_cuotas": 304,
@@ -403,20 +403,20 @@
     {
      "rango": "10-20%",
      "esperado": 0.168,
-     "real": 0.151,
-     "n": 86
+     "real": 0.153,
+     "n": 85
     },
     {
      "rango": "20-30%",
      "esperado": 0.263,
-     "real": 0.261,
+     "real": 0.262,
      "n": 713
     },
     {
      "rango": "30-40%",
      "esperado": 0.342,
-     "real": 0.377,
-     "n": 451
+     "real": 0.374,
+     "n": 452
     },
     {
      "rango": "40-50%",
@@ -432,7 +432,7 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.646,
+     "esperado": 0.647,
      "real": 0.686,
      "n": 35
     },
@@ -537,9 +537,9 @@
   },
   "Escocia": {
    "n": 234,
-   "logloss_modelo": 0.9758,
+   "logloss_modelo": 0.9756,
    "logloss_mercado": 1.0,
-   "logloss_modelo_mismos": 1.0197,
+   "logloss_modelo_mismos": 1.0192,
    "logloss_combinado": 1.0,
    "peso_modelo": 0.0,
    "n_con_cuotas": 75,
@@ -554,21 +554,21 @@
     },
     {
      "rango": "10-20%",
-     "esperado": 0.161,
+     "esperado": 0.16,
      "real": 0.21,
      "n": 100
     },
     {
      "rango": "20-30%",
      "esperado": 0.255,
-     "real": 0.264,
-     "n": 288
+     "real": 0.265,
+     "n": 287
     },
     {
      "rango": "30-40%",
-     "esperado": 0.348,
-     "real": 0.306,
-     "n": 85
+     "esperado": 0.347,
+     "real": 0.302,
+     "n": 86
     },
     {
      "rango": "40-50%",
@@ -584,7 +584,7 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.648,
+     "esperado": 0.649,
      "real": 0.594,
      "n": 32
     },
@@ -613,9 +613,9 @@
   },
   "LaLiga": {
    "n": 376,
-   "logloss_modelo": 0.9834,
+   "logloss_modelo": 0.9829,
    "logloss_mercado": 0.9232,
-   "logloss_modelo_mismos": 0.9566,
+   "logloss_modelo_mismos": 0.9557,
    "logloss_combinado": 0.9232,
    "peso_modelo": 0.0,
    "n_con_cuotas": 184,
@@ -624,37 +624,37 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.075,
+     "esperado": 0.076,
      "real": 0.045,
      "n": 22
     },
     {
      "rango": "10-20%",
-     "esperado": 0.159,
-     "real": 0.151,
-     "n": 139
+     "esperado": 0.16,
+     "real": 0.15,
+     "n": 140
     },
     {
      "rango": "20-30%",
      "esperado": 0.257,
-     "real": 0.262,
-     "n": 431
+     "real": 0.265,
+     "n": 430
     },
     {
      "rango": "30-40%",
      "esperado": 0.341,
-     "real": 0.297,
-     "n": 229
+     "real": 0.293,
+     "n": 232
     },
     {
      "rango": "40-50%",
      "esperado": 0.441,
-     "real": 0.448,
-     "n": 145
+     "real": 0.451,
+     "n": 142
     },
     {
      "rango": "50-60%",
-     "esperado": 0.549,
+     "esperado": 0.55,
      "real": 0.58,
      "n": 88
     },
@@ -666,15 +666,15 @@
     },
     {
      "rango": "70-80%",
-     "esperado": 0.747,
-     "real": 0.875,
-     "n": 24
+     "esperado": 0.744,
+     "real": 0.87,
+     "n": 23
     },
     {
      "rango": "80-90%",
-     "esperado": 0.84,
+     "esperado": 0.833,
      "real": 1.0,
-     "n": 5
+     "n": 6
     },
     {
      "rango": "90-100%",
@@ -691,7 +691,7 @@
    "n": 286,
    "logloss_modelo": 0.9975,
    "logloss_mercado": 0.951,
-   "logloss_modelo_mismos": 0.9829,
+   "logloss_modelo_mismos": 0.9828,
    "logloss_combinado": 0.951,
    "peso_modelo": 0.0,
    "n_con_cuotas": 133,
@@ -765,7 +765,7 @@
   },
   "MLS": {
    "n": 517,
-   "logloss_modelo": 1.0482,
+   "logloss_modelo": 1.0477,
    "logloss_mercado": 0.937,
    "logloss_modelo_mismos": 0.9949,
    "logloss_combinado": 0.937,
@@ -776,44 +776,44 @@
    "calibracion": [
     {
      "rango": "0-10%",
-     "esperado": 0.085,
-     "real": 0.111,
-     "n": 9
+     "esperado": 0.087,
+     "real": 0.1,
+     "n": 10
     },
     {
      "rango": "10-20%",
      "esperado": 0.162,
-     "real": 0.23,
-     "n": 165
+     "real": 0.232,
+     "n": 164
     },
     {
      "rango": "20-30%",
      "esperado": 0.248,
      "real": 0.256,
-     "n": 673
+     "n": 672
     },
     {
      "rango": "30-40%",
-     "esperado": 0.349,
-     "real": 0.304,
-     "n": 257
+     "esperado": 0.348,
+     "real": 0.295,
+     "n": 258
     },
     {
      "rango": "40-50%",
      "esperado": 0.447,
-     "real": 0.474,
+     "real": 0.487,
      "n": 230
     },
     {
      "rango": "50-60%",
      "esperado": 0.548,
-     "real": 0.5,
+     "real": 0.508,
      "n": 122
     },
     {
      "rango": "60-70%",
-     "esperado": 0.641,
-     "real": 0.611,
+     "esperado": 0.642,
+     "real": 0.583,
      "n": 72
     },
     {
@@ -841,7 +841,7 @@
   },
   "México": {
    "n": 325,
-   "logloss_modelo": 1.0575,
+   "logloss_modelo": 1.0595,
    "logloss_mercado": null,
    "logloss_modelo_mismos": null,
    "logloss_combinado": null,
@@ -853,54 +853,54 @@
     {
      "rango": "0-10%",
      "esperado": 0.085,
-     "real": 0.118,
-     "n": 17
+     "real": 0.125,
+     "n": 16
     },
     {
      "rango": "10-20%",
      "esperado": 0.162,
-     "real": 0.258,
-     "n": 124
+     "real": 0.246,
+     "n": 126
     },
     {
      "rango": "20-30%",
      "esperado": 0.252,
-     "real": 0.259,
-     "n": 401
+     "real": 0.261,
+     "n": 395
     },
     {
      "rango": "30-40%",
-     "esperado": 0.35,
+     "esperado": 0.347,
      "real": 0.341,
-     "n": 164
+     "n": 167
     },
     {
      "rango": "40-50%",
-     "esperado": 0.446,
-     "real": 0.441,
-     "n": 118
+     "esperado": 0.445,
+     "real": 0.442,
+     "n": 120
     },
     {
      "rango": "50-60%",
-     "esperado": 0.552,
-     "real": 0.423,
-     "n": 78
+     "esperado": 0.553,
+     "real": 0.425,
+     "n": 80
     },
     {
      "rango": "60-70%",
      "esperado": 0.646,
-     "real": 0.571,
-     "n": 49
+     "real": 0.574,
+     "n": 47
     },
     {
      "rango": "70-80%",
-     "esperado": 0.739,
+     "esperado": 0.738,
      "real": 0.739,
      "n": 23
     },
     {
      "rango": "80-90%",
-     "esperado": 0.829,
+     "esperado": 0.808,
      "real": 1.0,
      "n": 1
     },
@@ -917,9 +917,9 @@
   },
   "Portugal": {
    "n": 303,
-   "logloss_modelo": 0.9245,
+   "logloss_modelo": 0.9246,
    "logloss_mercado": 0.8914,
-   "logloss_modelo_mismos": 0.9034,
+   "logloss_modelo_mismos": 0.9036,
    "logloss_combinado": 0.8911,
    "peso_modelo": 0.1,
    "n_con_cuotas": 150,
@@ -934,27 +934,27 @@
     },
     {
      "rango": "10-20%",
-     "esperado": 0.157,
-     "real": 0.125,
-     "n": 152
+     "esperado": 0.156,
+     "real": 0.126,
+     "n": 151
     },
     {
      "rango": "20-30%",
      "esperado": 0.256,
-     "real": 0.265,
-     "n": 294
+     "real": 0.264,
+     "n": 295
     },
     {
      "rango": "30-40%",
      "esperado": 0.34,
-     "real": 0.342,
-     "n": 152
+     "real": 0.344,
+     "n": 151
     },
     {
      "rango": "40-50%",
      "esperado": 0.443,
-     "real": 0.427,
-     "n": 82
+     "real": 0.422,
+     "n": 83
     },
     {
      "rango": "50-60%",
@@ -964,7 +964,7 @@
     },
     {
      "rango": "60-70%",
-     "esperado": 0.642,
+     "esperado": 0.641,
      "real": 0.762,
      "n": 42
     },
@@ -993,9 +993,9 @@
   },
   "Premier League": {
    "n": 368,
-   "logloss_modelo": 1.041,
+   "logloss_modelo": 1.0409,
    "logloss_mercado": 1.0048,
-   "logloss_modelo_mismos": 1.0203,
+   "logloss_modelo_mismos": 1.0204,
    "logloss_combinado": 1.0044,
    "peso_modelo": 0.1,
    "n_con_cuotas": 198,
@@ -1010,33 +1010,33 @@
     },
     {
      "rango": "10-20%",
-     "esperado": 0.166,
-     "real": 0.174,
-     "n": 92
+     "esperado": 0.165,
+     "real": 0.176,
+     "n": 91
     },
     {
      "rango": "20-30%",
      "esperado": 0.254,
-     "real": 0.279,
-     "n": 480
+     "real": 0.278,
+     "n": 479
     },
     {
      "rango": "30-40%",
      "esperado": 0.346,
-     "real": 0.315,
-     "n": 232
+     "real": 0.319,
+     "n": 235
     },
     {
      "rango": "40-50%",
-     "esperado": 0.445,
-     "real": 0.417,
+     "esperado": 0.446,
+     "real": 0.41,
      "n": 144
     },
     {
      "rango": "50-60%",
      "esperado": 0.546,
-     "real": 0.526,
-     "n": 95
+     "real": 0.532,
+     "n": 94
     },
     {
      "rango": "60-70%",
@@ -1068,10 +1068,10 @@
    "partidos_usados": 750
   },
   "Selecciones": {
-   "n": 1034,
-   "logloss_modelo": 0.9052,
+   "n": 1006,
+   "logloss_modelo": 0.9064,
    "logloss_mercado": 0.6244,
-   "logloss_modelo_mismos": 0.6447,
+   "logloss_modelo_mismos": 0.6446,
    "logloss_combinado": 0.6244,
    "peso_modelo": 0.0,
    "n_con_cuotas": 4,
@@ -1081,62 +1081,62 @@
     {
      "rango": "0-10%",
      "esperado": 0.063,
-     "real": 0.039,
-     "n": 207
+     "real": 0.046,
+     "n": 197
     },
     {
      "rango": "10-20%",
      "esperado": 0.156,
-     "real": 0.134,
-     "n": 484
+     "real": 0.124,
+     "n": 476
     },
     {
      "rango": "20-30%",
-     "esperado": 0.253,
-     "real": 0.231,
-     "n": 983
+     "esperado": 0.254,
+     "real": 0.234,
+     "n": 960
     },
     {
      "rango": "30-40%",
-     "esperado": 0.341,
-     "real": 0.346,
-     "n": 557
+     "esperado": 0.342,
+     "real": 0.358,
+     "n": 542
     },
     {
      "rango": "40-50%",
      "esperado": 0.447,
-     "real": 0.45,
-     "n": 291
+     "real": 0.432,
+     "n": 285
     },
     {
      "rango": "50-60%",
-     "esperado": 0.546,
-     "real": 0.632,
-     "n": 247
+     "esperado": 0.545,
+     "real": 0.639,
+     "n": 233
     },
     {
      "rango": "60-70%",
      "esperado": 0.64,
-     "real": 0.681,
-     "n": 144
+     "real": 0.669,
+     "n": 142
     },
     {
      "rango": "70-80%",
-     "esperado": 0.752,
-     "real": 0.775,
-     "n": 120
+     "esperado": 0.751,
+     "real": 0.78,
+     "n": 118
     },
     {
      "rango": "80-90%",
-     "esperado": 0.839,
-     "real": 0.889,
-     "n": 54
+     "esperado": 0.842,
+     "real": 0.904,
+     "n": 52
     },
     {
      "rango": "90-100%",
-     "esperado": 0.937,
+     "esperado": 0.933,
      "real": 1.0,
-     "n": 15
+     "n": 13
     }
    ],
    "xi": 0.001,
@@ -1145,14 +1145,14 @@
   },
   "Serie A": {
    "n": 379,
-   "logloss_modelo": 0.9574,
+   "logloss_modelo": 0.9572,
    "logloss_mercado": 0.9324,
-   "logloss_modelo_mismos": 0.9434,
-   "logloss_combinado": 0.9307,
+   "logloss_modelo_mismos": 0.9431,
+   "logloss_combinado": 0.9306,
    "peso_modelo": 0.3,
    "n_con_cuotas": 197,
-   "apuestas_valor": 39,
-   "roi_valor": 0.0579,
+   "apuestas_valor": 40,
+   "roi_valor": 0.0833,
    "calibracion": [
     {
      "rango": "0-10%",
@@ -1162,39 +1162,39 @@
     },
     {
      "rango": "10-20%",
-     "esperado": 0.157,
-     "real": 0.15,
-     "n": 153
+     "esperado": 0.158,
+     "real": 0.148,
+     "n": 155
     },
     {
      "rango": "20-30%",
-     "esperado": 0.259,
-     "real": 0.236,
-     "n": 449
+     "esperado": 0.26,
+     "real": 0.239,
+     "n": 448
     },
     {
      "rango": "30-40%",
      "esperado": 0.338,
-     "real": 0.307,
-     "n": 202
+     "real": 0.303,
+     "n": 201
     },
     {
      "rango": "40-50%",
-     "esperado": 0.45,
-     "real": 0.456,
-     "n": 125
+     "esperado": 0.451,
+     "real": 0.452,
+     "n": 126
     },
     {
      "rango": "50-60%",
-     "esperado": 0.548,
+     "esperado": 0.547,
      "real": 0.648,
-     "n": 108
+     "n": 105
     },
     {
      "rango": "60-70%",
-     "esperado": 0.646,
-     "real": 0.759,
-     "n": 58
+     "esperado": 0.645,
+     "real": 0.767,
+     "n": 60
     },
     {
      "rango": "70-80%",
@@ -1245,26 +1245,26 @@
     {
      "rango": "20-30%",
      "esperado": 0.255,
-     "real": 0.258,
-     "n": 356
+     "real": 0.259,
+     "n": 355
     },
     {
      "rango": "30-40%",
      "esperado": 0.342,
-     "real": 0.354,
-     "n": 164
+     "real": 0.352,
+     "n": 165
     },
     {
      "rango": "40-50%",
-     "esperado": 0.447,
-     "real": 0.414,
-     "n": 116
+     "esperado": 0.446,
+     "real": 0.409,
+     "n": 115
     },
     {
      "rango": "50-60%",
-     "esperado": 0.544,
-     "real": 0.603,
-     "n": 63
+     "esperado": 0.543,
+     "real": 0.609,
+     "n": 64
     },
     {
      "rango": "60-70%",
@@ -1452,33 +1452,33 @@
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 291,
+      "n": 292,
       "prometido": 0.549,
-      "real": 0.584
+      "real": 0.579
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 296,
       "prometido": 0.65,
-      "real": 0.622
+      "real": 0.625
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 249,
+      "n": 248,
       "prometido": 0.749,
-      "real": 0.699
+      "real": 0.694
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
       "n": 220,
       "prometido": 0.856,
-      "real": 0.805
+      "real": 0.809
      }
     ],
-    "respaldado": false
+    "respaldado": true
    },
    "corners_total": {
     "n": 1056,
@@ -1490,21 +1490,21 @@
       "hasta": 0.6,
       "n": 407,
       "prometido": 0.55,
-      "real": 0.548
+      "real": 0.545
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 357,
+      "n": 356,
       "prometido": 0.649,
-      "real": 0.591
+      "real": 0.59
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 229,
+      "n": 230,
       "prometido": 0.746,
-      "real": 0.629
+      "real": 0.63
      },
      {
       "desde": 0.8,
@@ -1518,7 +1518,7 @@
    },
    "corners_visita": {
     "n": 1056,
-    "brier": 0.215,
+    "brier": 0.2149,
     "brier_sin_modelo": 0.2189,
     "tramos": [
      {
@@ -1526,14 +1526,14 @@
       "hasta": 0.6,
       "n": 271,
       "prometido": 0.547,
-      "real": 0.509
+      "real": 0.513
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 259,
+      "n": 260,
       "prometido": 0.65,
-      "real": 0.633
+      "real": 0.631
      },
      {
       "desde": 0.7,
@@ -1545,9 +1545,9 @@
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 270,
-      "prometido": 0.86,
-      "real": 0.796
+      "n": 269,
+      "prometido": 0.861,
+      "real": 0.799
      }
     ],
     "respaldado": false
@@ -1567,16 +1567,16 @@
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 307,
+      "n": 306,
       "prometido": 0.652,
-      "real": 0.638
+      "real": 0.637
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 271,
+      "n": 272,
       "prometido": 0.745,
-      "real": 0.731
+      "real": 0.732
      },
      {
       "desde": 0.8,
@@ -1592,7 +1592,7 @@
   "Championship": {
    "corners_local": {
     "n": 1948,
-    "brier": 0.221,
+    "brier": 0.2211,
     "brier_sin_modelo": 0.2263,
     "tramos": [
      {
@@ -1854,7 +1854,7 @@
       "hasta": 0.6,
       "n": 259,
       "prometido": 0.551,
-      "real": 0.587
+      "real": 0.591
      },
      {
       "desde": 0.6,
@@ -1926,23 +1926,23 @@
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 342,
-      "prometido": 0.548,
-      "real": 0.538
+      "n": 343,
+      "prometido": 0.549,
+      "real": 0.539
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 313,
+      "n": 311,
       "prometido": 0.648,
-      "real": 0.668
+      "real": 0.669
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 193,
+      "n": 194,
       "prometido": 0.743,
-      "real": 0.72
+      "real": 0.722
      },
      {
       "desde": 0.8,
@@ -1956,7 +1956,7 @@
    },
    "corners_visita": {
     "n": 900,
-    "brier": 0.2011,
+    "brier": 0.201,
     "brier_sin_modelo": 0.2123,
     "tramos": [
      {
@@ -1969,16 +1969,16 @@
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 210,
+      "n": 209,
       "prometido": 0.644,
-      "real": 0.676
+      "real": 0.675
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 222,
+      "n": 223,
       "prometido": 0.751,
-      "real": 0.703
+      "real": 0.704
      },
      {
       "desde": 0.8,
@@ -1999,29 +1999,29 @@
       "desde": 0.5,
       "hasta": 0.6,
       "n": 218,
-      "prometido": 0.547,
+      "prometido": 0.548,
       "real": 0.509
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 244,
-      "prometido": 0.652,
+      "prometido": 0.651,
       "real": 0.684
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 238,
+      "n": 239,
       "prometido": 0.748,
-      "real": 0.727
+      "real": 0.728
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 200,
+      "n": 199,
       "prometido": 0.851,
-      "real": 0.8
+      "real": 0.799
      }
     ],
     "respaldado": false
@@ -2030,34 +2030,34 @@
   "LaLiga": {
    "corners_local": {
     "n": 1344,
-    "brier": 0.2235,
+    "brier": 0.2231,
     "brier_sin_modelo": 0.2242,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 343,
+      "n": 342,
       "prometido": 0.55,
-      "real": 0.49
+      "real": 0.488
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 343,
+      "n": 345,
       "prometido": 0.648,
-      "real": 0.615
+      "real": 0.617
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 297,
       "prometido": 0.748,
-      "real": 0.663
+      "real": 0.667
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 361,
+      "n": 360,
       "prometido": 0.87,
       "real": 0.781
      }
@@ -2066,79 +2066,79 @@
    },
    "corners_total": {
     "n": 1344,
-    "brier": 0.2281,
+    "brier": 0.2277,
     "brier_sin_modelo": 0.2318,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 473,
-      "prometido": 0.549,
-      "real": 0.545
+      "n": 476,
+      "prometido": 0.55,
+      "real": 0.55
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 416,
-      "prometido": 0.646,
-      "real": 0.637
+      "n": 415,
+      "prometido": 0.647,
+      "real": 0.639
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 303,
+      "n": 301,
       "prometido": 0.744,
-      "real": 0.69
+      "real": 0.688
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
       "n": 152,
       "prometido": 0.848,
-      "real": 0.763
+      "real": 0.77
      }
     ],
     "respaldado": false
    },
    "corners_visita": {
     "n": 1344,
-    "brier": 0.2044,
+    "brier": 0.2041,
     "brier_sin_modelo": 0.2187,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 332,
+      "n": 331,
       "prometido": 0.549,
-      "real": 0.539
+      "real": 0.538
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 338,
+      "n": 339,
       "prometido": 0.651,
-      "real": 0.683
+      "real": 0.681
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 321,
-      "prometido": 0.747,
-      "real": 0.704
+      "n": 319,
+      "prometido": 0.746,
+      "real": 0.708
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 353,
-      "prometido": 0.866,
-      "real": 0.822
+      "n": 355,
+      "prometido": 0.865,
+      "real": 0.82
      }
     ],
     "respaldado": false
    },
    "tarjetas_total": {
     "n": 1344,
-    "brier": 0.212,
+    "brier": 0.2117,
     "brier_sin_modelo": 0.2118,
     "tramos": [
      {
@@ -2146,31 +2146,31 @@
       "hasta": 0.6,
       "n": 385,
       "prometido": 0.549,
-      "real": 0.579
+      "real": 0.574
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 380,
-      "prometido": 0.649,
-      "real": 0.618
+      "prometido": 0.648,
+      "real": 0.626
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 361,
       "prometido": 0.749,
-      "real": 0.726
+      "real": 0.72
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
       "n": 218,
-      "prometido": 0.85,
-      "real": 0.83
+      "prometido": 0.849,
+      "real": 0.835
      }
     ],
-    "respaldado": false
+    "respaldado": true
    }
   },
   "Ligue 1": {
@@ -2184,26 +2184,26 @@
       "hasta": 0.6,
       "n": 278,
       "prometido": 0.55,
-      "real": 0.543
+      "real": 0.54
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 269,
+      "n": 268,
       "prometido": 0.65,
-      "real": 0.636
+      "real": 0.634
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 231,
-      "prometido": 0.75,
+      "prometido": 0.749,
       "real": 0.719
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 238,
+      "n": 239,
       "prometido": 0.866,
       "real": 0.824
      }
@@ -2284,7 +2284,7 @@
    },
    "tarjetas_total": {
     "n": 1016,
-    "brier": 0.1936,
+    "brier": 0.1935,
     "brier_sin_modelo": 0.1958,
     "tramos": [
      {
@@ -2292,7 +2292,7 @@
       "hasta": 0.6,
       "n": 247,
       "prometido": 0.549,
-      "real": 0.514
+      "real": 0.518
      },
      {
       "desde": 0.6,
@@ -2304,16 +2304,16 @@
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 276,
-      "prometido": 0.751,
-      "real": 0.754
+      "n": 275,
+      "prometido": 0.75,
+      "real": 0.753
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 228,
+      "n": 229,
       "prometido": 0.86,
-      "real": 0.868
+      "real": 0.869
      }
     ],
     "respaldado": true
@@ -2468,28 +2468,28 @@
   "Premier League": {
    "corners_local": {
     "n": 1340,
-    "brier": 0.2219,
+    "brier": 0.2221,
     "brier_sin_modelo": 0.2278,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 355,
+      "n": 353,
       "prometido": 0.551,
-      "real": 0.513
+      "real": 0.516
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 331,
+      "n": 333,
       "prometido": 0.648,
-      "real": 0.631
+      "real": 0.628
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 316,
-      "prometido": 0.749,
+      "prometido": 0.748,
       "real": 0.684
      },
      {
@@ -2510,23 +2510,23 @@
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 501,
+      "n": 503,
       "prometido": 0.549,
       "real": 0.547
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 463,
+      "n": 460,
       "prometido": 0.647,
       "real": 0.622
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 289,
+      "n": 290,
       "prometido": 0.743,
-      "real": 0.657
+      "real": 0.659
      },
      {
       "desde": 0.8,
@@ -2540,7 +2540,7 @@
    },
    "corners_visita": {
     "n": 1340,
-    "brier": 0.2182,
+    "brier": 0.2181,
     "brier_sin_modelo": 0.2169,
     "tramos": [
      {
@@ -2560,16 +2560,16 @@
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 309,
+      "n": 308,
       "prometido": 0.745,
-      "real": 0.657
+      "real": 0.656
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 383,
+      "n": 384,
       "prometido": 0.87,
-      "real": 0.796
+      "real": 0.797
      }
     ],
     "respaldado": false
@@ -2582,16 +2582,16 @@
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 322,
+      "n": 323,
       "prometido": 0.547,
-      "real": 0.559
+      "real": 0.56
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 351,
+      "n": 350,
       "prometido": 0.65,
-      "real": 0.604
+      "real": 0.603
      },
      {
       "desde": 0.7,
@@ -2613,16 +2613,16 @@
   },
   "Serie A": {
    "corners_local": {
-    "n": 1400,
-    "brier": 0.224,
-    "brier_sin_modelo": 0.2286,
+    "n": 1404,
+    "brier": 0.2244,
+    "brier_sin_modelo": 0.2289,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 354,
+      "n": 355,
       "prometido": 0.546,
-      "real": 0.537
+      "real": 0.538
      },
      {
       "desde": 0.6,
@@ -2636,122 +2636,122 @@
       "hasta": 0.8,
       "n": 316,
       "prometido": 0.75,
-      "real": 0.658
+      "real": 0.655
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 343,
-      "prometido": 0.869,
-      "real": 0.793
+      "n": 346,
+      "prometido": 0.868,
+      "real": 0.792
      }
     ],
     "respaldado": false
    },
    "corners_total": {
-    "n": 1400,
-    "brier": 0.2168,
-    "brier_sin_modelo": 0.2145,
+    "n": 1404,
+    "brier": 0.2166,
+    "brier_sin_modelo": 0.2144,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
       "n": 449,
-      "prometido": 0.548,
+      "prometido": 0.547,
       "real": 0.499
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 383,
-      "prometido": 0.648,
+      "prometido": 0.647,
       "real": 0.629
-     },
-     {
-      "desde": 0.7,
-      "hasta": 0.8,
-      "n": 340,
-      "prometido": 0.748,
-      "real": 0.741
-     },
-     {
-      "desde": 0.8,
-      "hasta": 1.0,
-      "n": 228,
-      "prometido": 0.846,
-      "real": 0.807
-     }
-    ],
-    "respaldado": false
-   },
-   "corners_visita": {
-    "n": 1400,
-    "brier": 0.2206,
-    "brier_sin_modelo": 0.2245,
-    "tramos": [
-     {
-      "desde": 0.5,
-      "hasta": 0.6,
-      "n": 353,
-      "prometido": 0.55,
-      "real": 0.561
-     },
-     {
-      "desde": 0.6,
-      "hasta": 0.7,
-      "n": 353,
-      "prometido": 0.649,
-      "real": 0.592
-     },
-     {
-      "desde": 0.7,
-      "hasta": 0.8,
-      "n": 344,
-      "prometido": 0.75,
-      "real": 0.68
-     },
-     {
-      "desde": 0.8,
-      "hasta": 1.0,
-      "n": 350,
-      "prometido": 0.867,
-      "real": 0.789
-     }
-    ],
-    "respaldado": false
-   },
-   "tarjetas_total": {
-    "n": 1400,
-    "brier": 0.1979,
-    "brier_sin_modelo": 0.2036,
-    "tramos": [
-     {
-      "desde": 0.5,
-      "hasta": 0.6,
-      "n": 338,
-      "prometido": 0.55,
-      "real": 0.571
-     },
-     {
-      "desde": 0.6,
-      "hasta": 0.7,
-      "n": 362,
-      "prometido": 0.65,
-      "real": 0.638
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 341,
       "prometido": 0.748,
-      "real": 0.745
+      "real": 0.739
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 359,
+      "n": 231,
+      "prometido": 0.846,
+      "real": 0.81
+     }
+    ],
+    "respaldado": false
+   },
+   "corners_visita": {
+    "n": 1404,
+    "brier": 0.2209,
+    "brier_sin_modelo": 0.2245,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 352,
+      "prometido": 0.549,
+      "real": 0.565
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 356,
+      "prometido": 0.649,
+      "real": 0.59
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 345,
+      "prometido": 0.749,
+      "real": 0.681
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 351,
+      "prometido": 0.867,
+      "real": 0.786
+     }
+    ],
+    "respaldado": false
+   },
+   "tarjetas_total": {
+    "n": 1404,
+    "brier": 0.198,
+    "brier_sin_modelo": 0.2036,
+    "tramos": [
+     {
+      "desde": 0.5,
+      "hasta": 0.6,
+      "n": 339,
+      "prometido": 0.551,
+      "real": 0.566
+     },
+     {
+      "desde": 0.6,
+      "hasta": 0.7,
+      "n": 364,
+      "prometido": 0.65,
+      "real": 0.643
+     },
+     {
+      "desde": 0.7,
+      "hasta": 0.8,
+      "n": 343,
+      "prometido": 0.749,
+      "real": 0.743
+     },
+     {
+      "desde": 0.8,
+      "hasta": 1.0,
+      "n": 358,
       "prometido": 0.864,
-      "real": 0.847
+      "real": 0.846
      }
     ],
     "respaldado": true
@@ -2760,7 +2760,7 @@
   "Turquía": {
    "corners_local": {
     "n": 1012,
-    "brier": 0.2295,
+    "brier": 0.2293,
     "brier_sin_modelo": 0.2317,
     "tramos": [
      {
@@ -2768,27 +2768,27 @@
       "hasta": 0.6,
       "n": 289,
       "prometido": 0.552,
-      "real": 0.533
+      "real": 0.529
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 257,
-      "prometido": 0.65,
-      "real": 0.603
+      "prometido": 0.649,
+      "real": 0.607
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
       "n": 244,
-      "prometido": 0.745,
+      "prometido": 0.744,
       "real": 0.652
      },
      {
       "desde": 0.8,
       "hasta": 1.0,
       "n": 222,
-      "prometido": 0.86,
+      "prometido": 0.859,
       "real": 0.766
      }
     ],
@@ -2796,7 +2796,7 @@
    },
    "corners_total": {
     "n": 1012,
-    "brier": 0.2409,
+    "brier": 0.2406,
     "brier_sin_modelo": 0.2313,
     "tramos": [
      {
@@ -2809,16 +2809,16 @@
      {
       "desde": 0.6,
       "hasta": 0.7,
-      "n": 329,
+      "n": 328,
       "prometido": 0.647,
-      "real": 0.611
+      "real": 0.61
      },
      {
       "desde": 0.7,
       "hasta": 0.8,
-      "n": 221,
+      "n": 222,
       "prometido": 0.742,
-      "real": 0.652
+      "real": 0.658
      },
      {
       "desde": 0.8,
@@ -2832,22 +2832,22 @@
    },
    "corners_visita": {
     "n": 1012,
-    "brier": 0.2124,
+    "brier": 0.2121,
     "brier_sin_modelo": 0.2226,
     "tramos": [
      {
       "desde": 0.5,
       "hasta": 0.6,
-      "n": 265,
+      "n": 264,
       "prometido": 0.551,
-      "real": 0.551
+      "real": 0.557
      },
      {
       "desde": 0.6,
       "hasta": 0.7,
       "n": 257,
       "prometido": 0.65,
-      "real": 0.626
+      "real": 0.623
      },
      {
       "desde": 0.7,
@@ -2859,16 +2859,16 @@
      {
       "desde": 0.8,
       "hasta": 1.0,
-      "n": 226,
+      "n": 227,
       "prometido": 0.857,
-      "real": 0.805
+      "real": 0.806
      }
     ],
     "respaldado": false
    },
    "tarjetas_total": {
     "n": 1012,
-    "brier": 0.2172,
+    "brier": 0.2174,
     "brier_sin_modelo": 0.2154,
     "tramos": [
      {
