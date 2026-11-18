@@ -1,0 +1,447 @@
+{
+ "actualizado": "2026-11-18T12:03-05:00",
+ "mercados": {
+  "101": {
+   "tipo": "1x2",
+   "lados": {
+    "103": "2",
+    "101": "1",
+    "102": "x"
+   }
+  },
+  "104": {
+   "tipo": "btts",
+   "lados": {
+    "105": "no",
+    "104": "yes"
+   }
+  },
+  "106": {
+   "tipo": "totales",
+   "linea": 0.5,
+   "lados": {
+    "107": "under",
+    "106": "over"
+   }
+  },
+  "108": {
+   "tipo": "totales",
+   "linea": 1.5,
+   "lados": {
+    "109": "under",
+    "108": "over"
+   }
+  },
+  "1010": {
+   "tipo": "totales",
+   "linea": 2.5,
+   "lados": {
+    "1010": "over",
+    "1011": "under"
+   }
+  },
+  "1012": {
+   "tipo": "totales",
+   "linea": 3.5,
+   "lados": {
+    "1013": "under",
+    "1012": "over"
+   }
+  },
+  "1014": {
+   "tipo": "totales",
+   "linea": 4.5,
+   "lados": {
+    "1014": "over",
+    "1015": "under"
+   }
+  },
+  "1016": {
+   "tipo": "totales",
+   "linea": 5.5,
+   "lados": {
+    "1016": "over",
+    "1017": "under"
+   }
+  },
+  "1018": {
+   "tipo": "totales",
+   "linea": 6.5,
+   "lados": {
+    "1018": "over",
+    "1019": "under"
+   }
+  },
+  "1020": {
+   "tipo": "totales",
+   "linea": 7.5,
+   "lados": {
+    "1020": "over",
+    "1021": "under"
+   }
+  },
+  "1022": {
+   "tipo": "totales",
+   "linea": 8.5,
+   "lados": {
+    "1022": "over",
+    "1023": "under"
+   }
+  },
+  "10158": {
+   "tipo": "totales",
+   "linea": 0.25,
+   "lados": {
+    "10158": "over",
+    "10159": "under"
+   }
+  },
+  "10160": {
+   "tipo": "totales",
+   "linea": 0.75,
+   "lados": {
+    "10161": "under",
+    "10160": "over"
+   }
+  },
+  "10162": {
+   "tipo": "totales",
+   "linea": 1.0,
+   "lados": {
+    "10163": "under",
+    "10162": "over"
+   }
+  },
+  "10164": {
+   "tipo": "totales",
+   "linea": 1.25,
+   "lados": {
+    "10164": "over",
+    "10165": "under"
+   }
+  },
+  "10166": {
+   "tipo": "totales",
+   "linea": 1.75,
+   "lados": {
+    "10167": "under",
+    "10166": "over"
+   }
+  },
+  "10168": {
+   "tipo": "totales",
+   "linea": 2.0,
+   "lados": {
+    "10169": "under",
+    "10168": "over"
+   }
+  },
+  "10170": {
+   "tipo": "totales",
+   "linea": 2.25,
+   "lados": {
+    "10170": "over",
+    "10171": "under"
+   }
+  },
+  "10172": {
+   "tipo": "totales",
+   "linea": 2.75,
+   "lados": {
+    "10172": "over",
+    "10173": "under"
+   }
+  },
+  "10174": {
+   "tipo": "totales",
+   "linea": 3.0,
+   "lados": {
+    "10175": "under",
+    "10174": "over"
+   }
+  },
+  "10176": {
+   "tipo": "totales",
+   "linea": 3.25,
+   "lados": {
+    "10177": "under",
+    "10176": "over"
+   }
+  },
+  "10178": {
+   "tipo": "totales",
+   "linea": 3.75,
+   "lados": {
+    "10179": "under",
+    "10178": "over"
+   }
+  },
+  "10180": {
+   "tipo": "totales",
+   "linea": 4.0,
+   "lados": {
+    "10181": "under",
+    "10180": "over"
+   }
+  },
+  "10182": {
+   "tipo": "totales",
+   "linea": 4.25,
+   "lados": {
+    "10183": "under",
+    "10182": "over"
+   }
+  },
+  "10184": {
+   "tipo": "totales",
+   "linea": 4.75,
+   "lados": {
+    "10185": "under",
+    "10184": "over"
+   }
+  },
+  "10186": {
+   "tipo": "totales",
+   "linea": 5.0,
+   "lados": {
+    "10187": "under",
+    "10186": "over"
+   }
+  },
+  "10188": {
+   "tipo": "totales",
+   "linea": 5.25,
+   "lados": {
+    "10188": "over",
+    "10189": "under"
+   }
+  },
+  "10190": {
+   "tipo": "totales",
+   "linea": 5.75,
+   "lados": {
+    "10191": "under",
+    "10190": "over"
+   }
+  },
+  "10192": {
+   "tipo": "totales",
+   "linea": 6.0,
+   "lados": {
+    "10193": "under",
+    "10192": "over"
+   }
+  },
+  "10194": {
+   "tipo": "totales",
+   "linea": 6.25,
+   "lados": {
+    "10194": "over",
+    "10195": "under"
+   }
+  },
+  "10196": {
+   "tipo": "totales",
+   "linea": 6.75,
+   "lados": {
+    "10196": "over",
+    "10197": "under"
+   }
+  },
+  "10198": {
+   "tipo": "totales",
+   "linea": 7.0,
+   "lados": {
+    "10199": "under",
+    "10198": "over"
+   }
+  },
+  "10200": {
+   "tipo": "totales",
+   "linea": 7.25,
+   "lados": {
+    "10200": "over",
+    "10201": "under"
+   }
+  },
+  "10202": {
+   "tipo": "totales",
+   "linea": 7.75,
+   "lados": {
+    "10203": "under",
+    "10202": "over"
+   }
+  },
+  "10204": {
+   "tipo": "totales",
+   "linea": 8.0,
+   "lados": {
+    "10204": "over",
+    "10205": "under"
+   }
+  },
+  "10206": {
+   "tipo": "totales",
+   "linea": 8.25,
+   "lados": {
+    "10206": "over",
+    "10207": "under"
+   }
+  },
+  "10296": {
+   "tipo": "btts",
+   "lados": {
+    "10297": "no",
+    "10296": "yes"
+   }
+  },
+  "10298": {
+   "tipo": "btts",
+   "lados": {
+    "10299": "no",
+    "10298": "yes"
+   }
+  }
+ },
+ "torneos": {
+  "Liga BetPlay": [
+   {
+    "id": 27070,
+    "slug": "primera-a-apertura",
+    "pais": "colombia"
+   }
+  ],
+  "Brasil": [
+   {
+    "id": 325,
+    "slug": "brasileiro-serie-a",
+    "pais": "brazil"
+   }
+  ],
+  "Argentina": [
+   {
+    "id": 155,
+    "slug": "liga-profesional",
+    "pais": "argentina"
+   }
+  ],
+  "México": [
+   {
+    "id": 27464,
+    "slug": "liga-mx-apertura",
+    "pais": "mexico"
+   }
+  ],
+  "MLS": [
+   {
+    "id": 242,
+    "slug": "mls",
+    "pais": "usa"
+   }
+  ],
+  "Premier League": [
+   {
+    "id": 17,
+    "slug": "premier-league",
+    "pais": "england"
+   }
+  ],
+  "Championship": [
+   {
+    "id": 18,
+    "slug": "championship",
+    "pais": "england"
+   }
+  ],
+  "LaLiga": [
+   {
+    "id": 8,
+    "slug": "laliga",
+    "pais": "spain"
+   }
+  ],
+  "Serie A": [
+   {
+    "id": 23,
+    "slug": "serie-a",
+    "pais": "italy"
+   }
+  ],
+  "Bundesliga": [
+   {
+    "id": 35,
+    "slug": "bundesliga",
+    "pais": "germany"
+   }
+  ],
+  "Ligue 1": [
+   {
+    "id": 34,
+    "slug": "ligue-1",
+    "pais": "france"
+   }
+  ],
+  "Eredivisie": [
+   {
+    "id": 37,
+    "slug": "eredivisie",
+    "pais": "netherlands"
+   }
+  ],
+  "Portugal": [
+   {
+    "id": 238,
+    "slug": "liga-portugal",
+    "pais": "portugal"
+   }
+  ],
+  "Bélgica": [
+   {
+    "id": 38,
+    "slug": "pro-league",
+    "pais": "belgium"
+   }
+  ],
+  "Turquía": [
+   {
+    "id": 52,
+    "slug": "super-lig",
+    "pais": "turkiye"
+   }
+  ],
+  "Escocia": [
+   {
+    "id": 36,
+    "slug": "premiership",
+    "pais": "scotland"
+   }
+  ],
+  "Selecciones": [
+   {
+    "id": 679,
+    "slug": "uefa-europa-league",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 246,
+    "slug": "afc-asian-cup",
+    "pais": "international"
+   },
+   {
+    "id": 27420,
+    "slug": "concacaf-nations-league",
+    "pais": "international"
+   },
+   {
+    "id": 852,
+    "slug": "int-friendly-games-w",
+    "pais": "international"
+   },
+   {
+    "id": 1848,
+    "slug": "africa-cup-of-nations-qualification",
+    "pais": "international"
+   }
+  ]
+ }
+}
