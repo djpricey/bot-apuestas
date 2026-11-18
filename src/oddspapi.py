@@ -28,6 +28,8 @@ SOCCER = 10
 SALIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 RUTA_CACHE = os.path.join(SALIDA, "oddspapi_cache.json")
 RUTA_USO = os.path.join(SALIDA, "oddspapi_uso.json")
+RUTA_EQUIPOS = os.path.join(SALIDA, "oddspapi_equipos.json")
+VERSION_CACHE = 2
 
 # liga interna -> (país/categoría, palabras del torneo). Se busca en el catálogo de OddsPapi.
 TORNEOS = {
@@ -48,7 +50,7 @@ TORNEOS = {
     "Turquía": [("turkey", ("super-lig",)), ("turkiye", ("super-lig",))],
     "Escocia": [("scotland", ("premiership",))],
     "Selecciones": [("international", ("nations-league", "world-cup-qualification", "friendl",
-                                       "copa-america", "euro", "africa-cup", "gold-cup", "asian-cup"))],
+                                       "copa-america", "uefa-euro", "european-championship", "africa-cup", "gold-cup", "asian-cup"))],
 }
 # Orden de prioridad cuando no alcanza la cuota del día
 PRIORIDAD = ["Liga BetPlay", "Selecciones", "Brasil", "Argentina", "México", "Premier League", "LaLiga",
@@ -132,13 +134,14 @@ def _catalogo(pres, ahora):
     cache = _leer(RUTA_CACHE, {})
     vence = cache.get("actualizado", "")
     fresco = vence and datetime.fromisoformat(vence) > ahora - timedelta(days=30)
-    if fresco and cache.get("mercados") and cache.get("torneos"):
+    if fresco and cache.get("mercados") and cache.get("torneos") and cache.get("version") == VERSION_CACHE:
         return cache
     mercados = _get("/markets", pres)
     torneos = _get("/tournaments", pres, sportId=SOCCER)
     if not mercados or not torneos:
         return cache if cache.get("mercados") else None
     cache = {
+        "version": VERSION_CACHE,
         "actualizado": ahora.isoformat(timespec="minutes"),
         "mercados": _resumir_mercados(mercados),
         "torneos": _elegir_torneos(torneos),
@@ -146,6 +149,23 @@ def _catalogo(pres, ahora):
     _escribir(RUTA_CACHE, cache)
     print(f"  oddspapi: catálogo renovado ({len(cache['torneos'])} ligas con torneo)")
     return cache
+
+
+def _participantes(pres, ids_faltantes):
+    """Nombres de los equipos (la API de cuotas solo trae el id). Se guardan en el repo y se renuevan
+    solo si aparece un equipo que no conocemos."""
+    nombres = _leer(RUTA_EQUIPOS, {})
+    if ids_faltantes and not all(str(i) in nombres for i in ids_faltantes):
+        resp = _get("/participants", pres, sportId=SOCCER)
+        if isinstance(resp, dict) and resp:
+            nombres = {str(k): v for k, v in resp.items() if isinstance(v, str)}
+            _escribir(RUTA_EQUIPOS, nombres)
+            print(f"  oddspapi: {len(nombres)} nombres de equipos guardados")
+        elif isinstance(resp, list):
+            nombres = {str(x.get("participantId") or x.get("id")): x.get("participantName") or x.get("name")
+                       for x in resp if isinstance(x, dict)}
+            _escribir(RUTA_EQUIPOS, nombres)
+    return nombres
 
 
 def _resumir_mercados(mercados):
@@ -179,7 +199,9 @@ def _elegir_torneos(torneos):
             cat = str(t.get("categorySlug", "")).lower()
             slug = str(t.get("tournamentSlug", "")).lower()
             for pais, palabras in reglas:
-                if pais not in cat or not any(p in slug for p in palabras):
+                if (cat != pais if liga == "Selecciones" else pais not in cat) or not any(p in slug for p in palabras):
+                    continue
+                if slug.endswith("-w") or "-w-" in slug:
                     continue
                 if liga != "Selecciones" and any(x in slug for x in EXCLUIR):
                     continue
@@ -189,7 +211,8 @@ def _elegir_torneos(torneos):
         if not cands:
             continue
         cands.sort(key=lambda t: -((t.get("futureFixtures") or 0) + (t.get("upcomingFixtures") or 0)))
-        tope = cands if liga == "Selecciones" else cands[:1]
+        # Colombia y México tienen Apertura y Clausura como torneos distintos: se piden los dos
+        tope = cands if liga == "Selecciones" else cands[:2] if liga in ("Liga BetPlay", "México", "Argentina") else cands[:1]
         elegidos[liga] = [{"id": t["tournamentId"], "slug": t.get("tournamentSlug"), "pais": t.get("categorySlug")}
                           for t in tope if (t.get("futureFixtures") or 0) + (t.get("upcomingFixtures") or 0) > 0 or liga != "Selecciones"]
     return elegidos
@@ -235,10 +258,12 @@ def leer_fixture(fx, mercados):
             o, u = precios.get("over"), precios.get("under")
             if o and u:
                 out["totales"][f"{info['linea']:.2f}".rstrip("0").rstrip(".")] = [o, u]
-        elif info["tipo"] == "btts":
+        elif info["tipo"] == "btts" and (str(mid) == "104" or out["btts"] is None):
             si, no = precios.get("yes"), precios.get("no")
-            if si and no:
+            if si and no and (str(mid) == "104" or out.get("_btts_id") != "104"):
                 out["btts"] = [si, no]
+                out["_btts_id"] = str(mid)
+    out.pop("_btts_id", None)
     if not out["c1"] and not out["totales"]:
         return None
     return out
@@ -304,24 +329,30 @@ def cuotas_pinnacle(prox, ahora, dias=2):
         for t in cat["torneos"][l]:
             if t["id"] not in ids:
                 ids.append(t["id"])
-    fixtures = []
+    fixtures, crudos = [], []
+    reserva = 1 if os.path.exists(RUTA_EQUIPOS) else 2  # deja una consulta para los nombres si aún no están
     for k in range(0, len(ids), 3):
-        if not pres.puede():
+        if not pres.puede(reserva):
             print("  oddspapi: se acabó la cuota de hoy")
             break
         lote = ",".join(str(x) for x in ids[k:k + 3])
         resp = _get("/odds-by-tournaments", pres, tournamentIds=lote, bookmaker="pinnacle", oddsFormat="decimal")
         if isinstance(resp, dict):
             resp = resp.get("data") or resp.get("fixtures") or [resp]
-        for fx in resp or []:
-            ini = fx.get("startTime") or fx.get("trueStartTime")
-            loc, vis = fx.get("participant1Name"), fx.get("participant2Name")
-            if not ini or not loc or not vis:
-                continue
-            fecha_col = pd.Timestamp(ini).tz_convert("America/Bogota")
-            fx["_fecha"] = pd.Timestamp(fecha_col.date())
-            fx["_local"], fx["_visita"] = loc, vis
-            fixtures.append(fx)
+        crudos.extend(x for x in resp or [] if isinstance(x, dict))
+    faltan = {fx.get(k) for fx in crudos for k in ("participant1Id", "participant2Id")
+              if not fx.get("participant1Name") and fx.get(k) is not None}
+    nombres = _participantes(pres, faltan) if faltan else {}
+    for fx in crudos:
+        ini = fx.get("startTime") or fx.get("trueStartTime")
+        loc = fx.get("participant1Name") or nombres.get(str(fx.get("participant1Id")))
+        vis = fx.get("participant2Name") or nombres.get(str(fx.get("participant2Id")))
+        if not ini or not loc or not vis:
+            continue
+        fecha_col = pd.Timestamp(ini).tz_convert("America/Bogota")
+        fx["_fecha"] = pd.Timestamp(fecha_col.date())
+        fx["_local"], fx["_visita"] = loc, vis
+        fixtures.append(fx)
     filas = [(i, {"fecha": r.fecha, "home": r.home, "away": r.away}) for i, r in cerca.iterrows()]
     pares = emparejar(filas, fixtures)
     out = {}
@@ -357,7 +388,7 @@ def probar():
     """Para el workflow 'Probar OddsPapi': muestra qué devuelve la API con 3 consultas."""
     ahora = datetime.now(timezone(timedelta(hours=-5)))
     pres = Presupuesto(ahora)
-    pres.hoy_max = max(pres.hoy_max, 3)
+    pres.hoy_max = max(pres.hoy_max, pres.usadas_hoy() + 4)
     cat = _catalogo(pres, ahora)
     if not cat:
         raise SystemExit("No se pudo leer el catálogo: revisa el secreto ODDSPAPI_KEY.")
@@ -367,9 +398,10 @@ def probar():
     if lig:
         resp = _get("/odds-by-tournaments", pres, tournamentIds=lig[0]["id"], bookmaker="pinnacle", oddsFormat="decimal")
         lista = resp if isinstance(resp, list) else [resp] if resp else []
+        nombres = _participantes(pres, {fx.get("participant1Id") for fx in lista})
         print(f"{len(lista)} partidos; ejemplo:")
-        for fx in lista[:3]:
-            print(fx.get("participant1Name"), "vs", fx.get("participant2Name"), fx.get("startTime"),
+        for fx in lista[:9]:
+            print(nombres.get(str(fx.get("participant1Id"))), "vs", nombres.get(str(fx.get("participant2Id"))), fx.get("startTime"),
                   json.dumps(resumen_pinnacle(leer_fixture(fx, cat["mercados"])), ensure_ascii=False))
         if lista:
             print("Llaves del fixture:", list(lista[0].keys()))

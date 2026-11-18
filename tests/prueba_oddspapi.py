@@ -14,6 +14,7 @@ TZ = timezone(timedelta(hours=-5))
 tmp = tempfile.mkdtemp()
 op.RUTA_CACHE = os.path.join(tmp, "cache.json")
 op.RUTA_USO = os.path.join(tmp, "uso.json")
+op.RUTA_EQUIPOS = os.path.join(tmp, "equipos.json")
 op.COOLDOWN = 0
 
 MERCADOS = [
@@ -36,6 +37,10 @@ TORNEOS = [
     {"tournamentId": 999, "tournamentSlug": "brasileiro-serie-a-women", "categorySlug": "brazil", "futureFixtures": 90},
     {"tournamentId": 240, "tournamentSlug": "primera-a-clausura", "categorySlug": "colombia", "futureFixtures": 12},
     {"tournamentId": 17, "tournamentSlug": "premier-league", "categorySlug": "england", "futureFixtures": 200},
+    {"tournamentId": 679, "tournamentSlug": "uefa-europa-league", "categorySlug": "international-clubs", "futureFixtures": 30},
+    {"tournamentId": 852, "tournamentSlug": "int-friendly-games-w", "categorySlug": "international", "futureFixtures": 30},
+    {"tournamentId": 27420, "tournamentSlug": "concacaf-nations-league", "categorySlug": "international", "futureFixtures": 8},
+    {"tournamentId": 27070, "tournamentSlug": "primera-a-apertura", "categorySlug": "colombia", "futureFixtures": 0},
 ]
 
 
@@ -44,7 +49,7 @@ def jug(p):
 
 
 FIXTURE = {
-    "fixtureId": "id1", "participant1Name": "Flamengo RJ", "participant2Name": "Athletico Paranaense",
+    "fixtureId": "id1", "participant1Id": 1, "participant2Id": 2,
     "startTime": "2026-11-18T23:30:00.000Z",
     "bookmakerOdds": {"pinnacle": {"suspended": False, "markets": {
         "101": {"outcomes": {"101": jug(1.62), "102": jug(4.0), "103": jug(5.6)}},
@@ -54,7 +59,7 @@ FIXTURE = {
         "104": {"outcomes": {"104": jug(1.95), "105": jug(1.85)}},
     }}},
 }
-OTRO = {"fixtureId": "id2", "participant1Name": "Gremio", "participant2Name": "Bahia", "startTime": "2026-11-19T00:30:00.000Z",
+OTRO = {"fixtureId": "id2", "participant1Id": 3, "participant2Id": 4, "startTime": "2026-11-19T00:30:00.000Z",
         "bookmakerOdds": {"pinnacle": {"markets": {"101": {"outcomes": {"101": jug(2.1), "102": jug(3.3), "103": jug(3.6)}}}}}}
 
 llamadas = []
@@ -71,6 +76,8 @@ def falso_get(path, pres, **params):
         return TORNEOS
     if path == "/odds-by-tournaments":
         return [FIXTURE, OTRO]
+    if path == "/participants":
+        return {"1": "Flamengo RJ", "2": "Athletico Paranaense", "3": "Gremio", "4": "Bahia"}
     return None
 
 
@@ -83,7 +90,8 @@ pres = op.Presupuesto(ahora)
 cat = op._catalogo(pres, ahora)
 assert set(cat["mercados"]) == {"101", "1010", "1012", "104"}, cat["mercados"]
 assert cat["torneos"]["Brasil"][0]["id"] == 325, cat["torneos"]
-assert cat["torneos"]["Liga BetPlay"][0]["id"] == 240
+assert [t["id"] for t in cat["torneos"]["Liga BetPlay"]] == [240, 27070]
+assert [t["id"] for t in cat["torneos"]["Selecciones"]] == [27420], cat["torneos"]["Selecciones"]
 # 2) leer fixture y quitar margen
 d = op.leer_fixture(FIXTURE, cat["mercados"])
 assert (d["c1"], d["cx"], d["c2"]) == (1.62, 4.0, 5.6)
@@ -107,14 +115,17 @@ prox = pd.DataFrame([
 llamadas.clear()
 pin = op.cuotas_pinnacle(prox, ahora)
 assert set(pin) == {0, 1}, pin.keys()               # Cruzeiro no viene en la respuesta: no se inventa
-assert [c[0] for c in llamadas] == ["/odds-by-tournaments"], llamadas  # catálogo en caché; Premier fuera de rango
+assert [c[0] for c in llamadas] == ["/odds-by-tournaments", "/participants"], llamadas  # catálogo en caché; Premier fuera de rango
 assert llamadas[0][1]["tournamentIds"] == "325"
 # 5) presupuesto: no pasa del límite diario ni mensual
 p2 = op.Presupuesto(ahora)
 usadas = p2.u["usadas_mes"]
-assert usadas == 3, usadas
+assert usadas == 4, usadas
 p2.u["usadas_mes"] = op.PRESUPUESTO_MES
 assert not p2.puede()
+llamadas.clear()
+assert set(op.cuotas_pinnacle(prox, ahora)) == {0, 1}
+assert [c[0] for c in llamadas] == ["/odds-by-tournaments"], llamadas
 # 6) sin clave no hace nada
 os.environ["ODDSPAPI_KEY"] = ""
 assert op.cuotas_pinnacle(prox, ahora) == {}
