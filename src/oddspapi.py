@@ -29,7 +29,7 @@ SALIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 RUTA_CACHE = os.path.join(SALIDA, "oddspapi_cache.json")
 RUTA_USO = os.path.join(SALIDA, "oddspapi_uso.json")
 RUTA_EQUIPOS = os.path.join(SALIDA, "oddspapi_equipos.json")
-VERSION_CACHE = 2
+VERSION_CACHE = 3
 
 # liga interna -> (país/categoría, palabras del torneo). Se busca en el catálogo de OddsPapi.
 TORNEOS = {
@@ -58,7 +58,7 @@ PRIORIDAD = ["Liga BetPlay", "Selecciones", "Brasil", "Argentina", "México", "P
              "Bélgica", "Turquía", "Escocia"]
 EXCLUIR = ("women", "femen", "u17", "u18", "u19", "u20", "u21", "u23", "youth", "reserve", "serie-b", "primera-b",
            "segunda", "-2", "2-", "cup",
-           "copa-", "playoff", "play-off", "amateur", "regional", "state", "estadual", "paulista", "carioca")
+           "copa-", "promotion", "playoff", "play-off", "amateur", "regional", "state", "estadual", "paulista", "carioca")
 
 _ultima = 0.0
 
@@ -182,7 +182,11 @@ def _resumir_mercados(mercados):
         lados = {str(o["outcomeId"]): str(o.get("outcomeName", "")).strip().lower() for o in m.get("outcomes", [])}
         if tipo == "1x2" and "half" not in nombre and set(lados.values()) >= {"1", "x", "2"}:
             out[str(m["marketId"])] = {"tipo": "1x2", "lados": lados}
-        elif tipo == "totals" and "half" not in nombre and "team" not in nombre and "corner" not in nombre and "card" not in nombre:
+        elif tipo == "totals" and "half" not in nombre and "team" not in nombre and ("corner" in nombre):
+            out[str(m["marketId"])] = {"tipo": "corners", "linea": float(m.get("handicap") or 0), "lados": lados, "nombre": nombre}
+        elif tipo == "totals" and "half" not in nombre and "team" not in nombre and any(x in nombre for x in ("card", "booking")):
+            out[str(m["marketId"])] = {"tipo": "tarjetas", "linea": float(m.get("handicap") or 0), "lados": lados, "nombre": nombre}
+        elif tipo == "totals" and "half" not in nombre and "team" not in nombre and not any(x in nombre for x in ("corner", "card", "booking", "shot", "foul", "offside", "throw")):
             out[str(m["marketId"])] = {"tipo": "totales", "linea": float(m.get("handicap") or 0), "lados": lados}
         elif ("both" in nombre and "score" in nombre or tipo in ("btts", "bothteamstoscore")) and "half" not in nombre:
             out[str(m["marketId"])] = {"tipo": "btts", "lados": lados}
@@ -246,7 +250,7 @@ def leer_fixture(fx, mercados):
     bk = (fx.get("bookmakerOdds") or {}).get("pinnacle") or {}
     if not bk or bk.get("suspended"):
         return None
-    out = {"c1": None, "cx": None, "c2": None, "totales": {}, "btts": None}
+    out = {"c1": None, "cx": None, "c2": None, "totales": {}, "btts": None, "corners": {}, "tarjetas": {}}
     for mid, m in (bk.get("markets") or {}).items():
         info = mercados.get(str(mid))
         if not info:
@@ -254,10 +258,10 @@ def leer_fixture(fx, mercados):
         precios = {info["lados"].get(str(oid)): _precio(o) for oid, o in (m.get("outcomes") or {}).items()}
         if info["tipo"] == "1x2":
             out["c1"], out["cx"], out["c2"] = precios.get("1"), precios.get("x"), precios.get("2")
-        elif info["tipo"] == "totales":
+        elif info["tipo"] in ("totales", "corners", "tarjetas"):
             o, u = precios.get("over"), precios.get("under")
             if o and u:
-                out["totales"][f"{info['linea']:.2f}".rstrip("0").rstrip(".")] = [o, u]
+                out[info["tipo"]][f"{info['linea']:.2f}".rstrip("0").rstrip(".")] = [o, u]
         elif info["tipo"] == "btts" and (str(mid) == "104" or out["btts"] is None):
             si, no = precios.get("yes"), precios.get("no")
             if si and no and (str(mid) == "104" or out.get("_btts_id") != "104"):
@@ -273,7 +277,16 @@ def _norm(nombre):
     s = unicodedata.normalize("NFKD", str(nombre)).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9 ]", " ", s)
     quitar = {"fc", "cf", "sc", "ac", "afc", "cd", "ca", "club", "de", "the", "sk", "fk", "cr", "ec", "se", "rj", "pr", "sp", "mg", "ba", "rs"}
-    return " ".join(w for w in s.split() if w not in quitar)
+    s = " ".join(w for w in s.split() if w not in quitar)
+    return ALIAS_EQUIPOS.get(s, s)
+
+
+# nombres que no se parecen entre fuentes (bot -> nombre normalizado de OddsPapi)
+ALIAS_EQUIPOS = {"athletico": "paranaense", "athletico paranaense": "paranaense", "atletico paranaense": "paranaense",
+                 "atletico": "atletico mineiro", "red bull bragantino": "bragantino",
+                 "man city": "manchester city", "man united": "manchester united", "nott m forest": "nottingham forest",
+                 "wolves": "wolverhampton", "spurs": "tottenham", "ath bilbao": "athletic bilbao", "ath madrid": "atletico madrid",
+                 "sociedad": "real sociedad", "betis": "real betis", "psg": "paris saint germain", "paris sg": "paris saint germain"}
 
 
 def parecido(a, b):
@@ -294,6 +307,8 @@ def emparejar(prox_filas, fixtures_op, umbral=0.72):
         mejor, mejor_s = None, 0.0
         for fx in fixtures_op:
             if abs((fx["_fecha"] - f["fecha"]).days) > 1:
+                continue
+            if fx.get("_liga") and f.get("liga") and fx["_liga"] != f["liga"]:
                 continue
             s = min(parecido(f["home"], fx["_local"]), parecido(f["away"], fx["_visita"]))
             if s > mejor_s:
@@ -329,6 +344,7 @@ def cuotas_pinnacle(prox, ahora, dias=2):
         for t in cat["torneos"][l]:
             if t["id"] not in ids:
                 ids.append(t["id"])
+    liga_de = {t["id"]: l for l, ts in cat["torneos"].items() for t in ts}
     fixtures, crudos = [], []
     reserva = 1 if os.path.exists(RUTA_EQUIPOS) else 2  # deja una consulta para los nombres si aún no están
     for k in range(0, len(ids), 3):
@@ -352,8 +368,9 @@ def cuotas_pinnacle(prox, ahora, dias=2):
         fecha_col = pd.Timestamp(ini).tz_convert("America/Bogota")
         fx["_fecha"] = pd.Timestamp(fecha_col.date())
         fx["_local"], fx["_visita"] = loc, vis
+        fx["_liga"] = liga_de.get(fx.get("tournamentId"))
         fixtures.append(fx)
-    filas = [(i, {"fecha": r.fecha, "home": r.home, "away": r.away}) for i, r in cerca.iterrows()]
+    filas = [(i, {"fecha": r.fecha, "home": r.home, "away": r.away, "liga": r.liga}) for i, r in cerca.iterrows()]
     pares = emparejar(filas, fixtures)
     out = {}
     for i, fx in pares.items():
@@ -377,6 +394,13 @@ def resumen_pinnacle(d):
     for linea, (o, u) in sorted(d.get("totales", {}).items(), key=lambda kv: float(kv[0])):
         pm = sin_margen([o, u])
         r["totales"][linea] = {"mas": o, "menos": u, "p_mas": round(pm[0], 3) if pm else None}
+    for clave in ("corners", "tarjetas"):
+        lineas = {}
+        for linea, (o, u) in sorted(d.get(clave, {}).items(), key=lambda kv: float(kv[0])):
+            pm = sin_margen([o, u])
+            lineas[linea] = {"mas": o, "menos": u, "p_mas": round(pm[0], 3) if pm else None}
+        if lineas:
+            r[clave] = lineas
     if d.get("btts"):
         pm = sin_margen(d["btts"])
         r["btts"] = {"si": d["btts"][0], "no": d["btts"][1], "p_si": round(pm[0], 3) if pm else None}
@@ -392,6 +416,7 @@ def probar():
     cat = _catalogo(pres, ahora)
     if not cat:
         raise SystemExit("No se pudo leer el catálogo: revisa el secreto ODDSPAPI_KEY.")
+    print("Córners/tarjetas reconocidos:", {k: (v["tipo"], v.get("linea"), v.get("nombre")) for k, v in cat["mercados"].items() if v["tipo"] in ("corners", "tarjetas")})
     print("Mercados reconocidos:", {k: v["tipo"] + (f" {v.get('linea')}" if v.get("linea") is not None else "") for k, v in list(cat["mercados"].items())[:40]})
     print("Torneos elegidos:", json.dumps(cat["torneos"], ensure_ascii=False, indent=1))
     lig = cat["torneos"].get("Brasil") or next(iter(cat["torneos"].values()), None)
