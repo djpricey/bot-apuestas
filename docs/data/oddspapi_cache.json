@@ -1,13 +1,13 @@
 {
- "version": 2,
- "actualizado": "2026-11-18T12:04-05:00",
+ "version": 3,
+ "actualizado": "2026-11-18T12:06-05:00",
  "mercados": {
   "101": {
    "tipo": "1x2",
    "lados": {
-    "102": "x",
+    "103": "2",
     "101": "1",
-    "103": "2"
+    "102": "x"
    }
   },
   "104": {
@@ -29,16 +29,16 @@
    "tipo": "totales",
    "linea": 1.5,
    "lados": {
-    "108": "over",
-    "109": "under"
+    "109": "under",
+    "108": "over"
    }
   },
   "1010": {
    "tipo": "totales",
    "linea": 2.5,
    "lados": {
-    "1011": "under",
-    "1010": "over"
+    "1010": "over",
+    "1011": "under"
    }
   },
   "1012": {
@@ -69,32 +69,32 @@
    "tipo": "totales",
    "linea": 6.5,
    "lados": {
-    "1019": "under",
-    "1018": "over"
+    "1018": "over",
+    "1019": "under"
    }
   },
   "1020": {
    "tipo": "totales",
    "linea": 7.5,
    "lados": {
-    "1021": "under",
-    "1020": "over"
+    "1020": "over",
+    "1021": "under"
    }
   },
   "1022": {
    "tipo": "totales",
    "linea": 8.5,
    "lados": {
-    "1023": "under",
-    "1022": "over"
+    "1022": "over",
+    "1023": "under"
    }
   },
   "10158": {
    "tipo": "totales",
    "linea": 0.25,
    "lados": {
-    "10159": "under",
-    "10158": "over"
+    "10158": "over",
+    "10159": "under"
    }
   },
   "10160": {
@@ -109,8 +109,8 @@
    "tipo": "totales",
    "linea": 1.0,
    "lados": {
-    "10162": "over",
-    "10163": "under"
+    "10163": "under",
+    "10162": "over"
    }
   },
   "10164": {
@@ -149,8 +149,8 @@
    "tipo": "totales",
    "linea": 2.75,
    "lados": {
-    "10173": "under",
-    "10172": "over"
+    "10172": "over",
+    "10173": "under"
    }
   },
   "10174": {
@@ -181,16 +181,16 @@
    "tipo": "totales",
    "linea": 4.0,
    "lados": {
-    "10180": "over",
-    "10181": "under"
+    "10181": "under",
+    "10180": "over"
    }
   },
   "10182": {
    "tipo": "totales",
    "linea": 4.25,
    "lados": {
-    "10182": "over",
-    "10183": "under"
+    "10183": "under",
+    "10182": "over"
    }
   },
   "10184": {
@@ -213,8 +213,8 @@
    "tipo": "totales",
    "linea": 5.25,
    "lados": {
-    "10189": "under",
-    "10188": "over"
+    "10188": "over",
+    "10189": "under"
    }
   },
   "10190": {
@@ -245,8 +245,8 @@
    "tipo": "totales",
    "linea": 6.75,
    "lados": {
-    "10197": "under",
-    "10196": "over"
+    "10196": "over",
+    "10197": "under"
    }
   },
   "10198": {
@@ -328,11 +328,6 @@
    {
     "id": 155,
     "slug": "liga-profesional",
-    "pais": "argentina"
-   },
-   {
-    "id": 462,
-    "slug": "promotion-primera-division",
     "pais": "argentina"
    }
   ],
