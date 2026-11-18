@@ -1,12 +1,13 @@
 {
- "actualizado": "2026-11-18T12:03-05:00",
+ "version": 2,
+ "actualizado": "2026-11-18T12:04-05:00",
  "mercados": {
   "101": {
    "tipo": "1x2",
    "lados": {
-    "103": "2",
+    "102": "x",
     "101": "1",
-    "102": "x"
+    "103": "2"
    }
   },
   "104": {
@@ -28,16 +29,16 @@
    "tipo": "totales",
    "linea": 1.5,
    "lados": {
-    "109": "under",
-    "108": "over"
+    "108": "over",
+    "109": "under"
    }
   },
   "1010": {
    "tipo": "totales",
    "linea": 2.5,
    "lados": {
-    "1010": "over",
-    "1011": "under"
+    "1011": "under",
+    "1010": "over"
    }
   },
   "1012": {
@@ -68,32 +69,32 @@
    "tipo": "totales",
    "linea": 6.5,
    "lados": {
-    "1018": "over",
-    "1019": "under"
+    "1019": "under",
+    "1018": "over"
    }
   },
   "1020": {
    "tipo": "totales",
    "linea": 7.5,
    "lados": {
-    "1020": "over",
-    "1021": "under"
+    "1021": "under",
+    "1020": "over"
    }
   },
   "1022": {
    "tipo": "totales",
    "linea": 8.5,
    "lados": {
-    "1022": "over",
-    "1023": "under"
+    "1023": "under",
+    "1022": "over"
    }
   },
   "10158": {
    "tipo": "totales",
    "linea": 0.25,
    "lados": {
-    "10158": "over",
-    "10159": "under"
+    "10159": "under",
+    "10158": "over"
    }
   },
   "10160": {
@@ -108,8 +109,8 @@
    "tipo": "totales",
    "linea": 1.0,
    "lados": {
-    "10163": "under",
-    "10162": "over"
+    "10162": "over",
+    "10163": "under"
    }
   },
   "10164": {
@@ -148,8 +149,8 @@
    "tipo": "totales",
    "linea": 2.75,
    "lados": {
-    "10172": "over",
-    "10173": "under"
+    "10173": "under",
+    "10172": "over"
    }
   },
   "10174": {
@@ -180,16 +181,16 @@
    "tipo": "totales",
    "linea": 4.0,
    "lados": {
-    "10181": "under",
-    "10180": "over"
+    "10180": "over",
+    "10181": "under"
    }
   },
   "10182": {
    "tipo": "totales",
    "linea": 4.25,
    "lados": {
-    "10183": "under",
-    "10182": "over"
+    "10182": "over",
+    "10183": "under"
    }
   },
   "10184": {
@@ -212,8 +213,8 @@
    "tipo": "totales",
    "linea": 5.25,
    "lados": {
-    "10188": "over",
-    "10189": "under"
+    "10189": "under",
+    "10188": "over"
    }
   },
   "10190": {
@@ -244,8 +245,8 @@
    "tipo": "totales",
    "linea": 6.75,
    "lados": {
-    "10196": "over",
-    "10197": "under"
+    "10197": "under",
+    "10196": "over"
    }
   },
   "10198": {
@@ -309,6 +310,11 @@
     "id": 27070,
     "slug": "primera-a-apertura",
     "pais": "colombia"
+   },
+   {
+    "id": 241,
+    "slug": "primera-a",
+    "pais": "colombia"
    }
   ],
   "Brasil": [
@@ -323,12 +329,22 @@
     "id": 155,
     "slug": "liga-profesional",
     "pais": "argentina"
+   },
+   {
+    "id": 462,
+    "slug": "promotion-primera-division",
+    "pais": "argentina"
    }
   ],
   "México": [
    {
     "id": 27464,
     "slug": "liga-mx-apertura",
+    "pais": "mexico"
+   },
+   {
+    "id": 27466,
+    "slug": "liga-mx-clausura",
     "pais": "mexico"
    }
   ],
@@ -418,11 +434,6 @@
   ],
   "Selecciones": [
    {
-    "id": 679,
-    "slug": "uefa-europa-league",
-    "pais": "international-clubs"
-   },
-   {
     "id": 246,
     "slug": "afc-asian-cup",
     "pais": "international"
@@ -430,11 +441,6 @@
    {
     "id": 27420,
     "slug": "concacaf-nations-league",
-    "pais": "international"
-   },
-   {
-    "id": 852,
-    "slug": "int-friendly-games-w",
     "pais": "international"
    },
    {
