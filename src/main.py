@@ -13,6 +13,7 @@ from .modelo import ajustar, goles_esperados, probabilidades, implicitas, loglos
 from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
 from . import apifutbol
+from . import oddspapi
 from . import mercados as mc
 from . import analisis as an
 import math
@@ -122,6 +123,20 @@ def main():
     equipos_sel = set(sel_res["home"]) | set(sel_res["away"]) if not sel_res.empty else set()
     api_res, api_prox, BAJAS = apifutbol.datos([(hoy - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), hoy.strftime("%Y-%m-%d"),
                                                 (hoy + pd.Timedelta(days=1)).strftime("%Y-%m-%d")], equipos_sel)
+    # Apuestas del bot que siguen pendientes de días anteriores: se buscan sus resultados (1 consulta por fecha)
+    try:
+        with open(os.path.join(SALIDA, "apuestas_bot.json"), encoding="utf-8") as fh:
+            _pend = [a["fecha"] for a in json.load(fh).get("apuestas", []) if a.get("estado") == "pendiente"]
+    except (OSError, ValueError):
+        _pend = []
+    _ayer = (hoy - pd.Timedelta(days=1)).strftime("%Y-%m-%d")
+    _viejas = sorted({f for f in _pend if f < _ayer and f >= (hoy - pd.Timedelta(days=21)).strftime("%Y-%m-%d")})
+    if _viejas:
+        print(f"  buscando resultados de apuestas pendientes: {_viejas}")
+        apifutbol.resultados_de(_viejas)
+    sel_api = pd.DataFrame(apifutbol.SEL_TERMINADOS)
+    if not sel_api.empty:
+        print(f"  {len(sel_api)} resultados de selecciones desde API-Football (para liquidar)")
     # Liga BetPlay: el plan gratis no da la temporada actual, así que se guarda día a día
     ruta_col = os.path.join(SALIDA, "colombia_resultados.csv")
     col = pd.read_csv(ruta_col, parse_dates=["fecha"]) if os.path.exists(ruta_col) else pd.DataFrame()
@@ -141,6 +156,19 @@ def main():
     if not prox.empty:
         prox = prox[(prox["fecha"] >= hoy) & (prox["fecha"] <= hoy + pd.Timedelta(days=7))]
     print(f"  {len(prox)} partidos próximos")
+    print("Consultando Pinnacle (OddsPapi)…")
+    PIN = {}
+    try:
+        PIN = oddspapi.cuotas_pinnacle(prox, ahora)
+    except Exception as e:  # noqa: BLE001  (nunca tumbar la corrida por la fuente de cuotas)
+        print(f"  oddspapi: error inesperado ({e}); se sigue sin Pinnacle")
+    for i, d in PIN.items():
+        # Pinnacle es la referencia más afilada: reemplaza las cuotas promedio cuando existe
+        for campo, val in (("c1", d.get("c1")), ("cx", d.get("cx")), ("c2", d.get("c2"))):
+            if val:
+                prox.at[i, campo] = val
+        if "2.5" in d.get("totales", {}):
+            prox.at[i, "o25"], prox.at[i, "u25"] = d["totales"]["2.5"]
 
     params, evaluacion, fuerzas, todas_pred, pesos = {}, {}, {}, [], {}
     for liga, d in res.groupby("liga"):
@@ -292,6 +320,8 @@ def main():
             "peso_modelo": w,
             "valor": valor,
             "bajas": bj,
+            "pinnacle": oddspapi.resumen_pinnacle(PIN.get(r.Index)),
+            "fuente_cuotas": "Pinnacle (OddsPapi)" if r.Index in PIN else ("promedio de casas" if mk is not None else None),
         })
 
     # Si esta corrida perdió partidos (p. ej. la API ya no tenía consultas), conserva los de la corrida anterior
@@ -318,8 +348,10 @@ def main():
     with open(os.path.join(SALIDA, "predicciones", f"{hoy.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "partidos": partidos}, fh, ensure_ascii=False)
 
-    correr_libro(os.path.join(SALIDA, "apuestas_bot.json"), partidos, res, ahora)
-    vivo = calificar_en_vivo(res)
+    # para liquidar se suman los resultados de selecciones que trae API-Football (la base pública llega con días de atraso)
+    res_liq = pd.concat([res, sel_api], ignore_index=True) if not sel_api.empty else res
+    correr_libro(os.path.join(SALIDA, "apuestas_bot.json"), partidos, res_liq, ahora)
+    vivo = calificar_en_vivo(res_liq)
     en_vivo = metricas(vivo) if not vivo.empty else {"n": 0}
     with open(os.path.join(SALIDA, "evaluacion.json"), "w", encoding="utf-8") as fh:
         json.dump({**meta, "en_vivo": en_vivo, "backtest_global": global_bt, "por_liga": evaluacion,

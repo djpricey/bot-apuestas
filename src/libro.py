@@ -41,15 +41,22 @@ def liquidar(libro, resultados):
         if a["estado"] != "pendiente":
             continue
         f = pd.Timestamp(a["fecha"])
-        m = resultados[(resultados["liga"] == a["liga"]) & (resultados["home"] == a["local"]) &
-                       (resultados["away"] == a["visita"]) & ((resultados["fecha"] - f).abs() <= pd.Timedelta(days=2))]
+        cerca = resultados[(resultados["liga"] == a["liga"]) & ((resultados["fecha"] - f).abs() <= pd.Timedelta(days=2))]
+        m = cerca[(cerca["home"] == a["local"]) & (cerca["away"] == a["visita"])]
+        invertido = False
+        if m.empty:  # en selecciones a veces la fuente pone al local al revés (cancha neutral)
+            m = cerca[(cerca["home"] == a["visita"]) & (cerca["away"] == a["local"])]
+            invertido = not m.empty
         if m.empty:
             continue
         r = m.iloc[0]
-        g = _gana(a["seleccion"], float(r["hg"]), float(r["ag"]), a["local"], a["visita"])
+        hg, ag = (float(r["ag"]), float(r["hg"])) if invertido else (float(r["hg"]), float(r["ag"]))
+        if pd.isna(hg) or pd.isna(ag):
+            continue
+        g = _gana(a["seleccion"], hg, ag, a["local"], a["visita"])
         if g is None:
             continue
-        a["resultado"] = f"{int(r['hg'])}-{int(r['ag'])}"
+        a["resultado"] = f"{int(hg)}-{int(ag)}"
         a["estado"] = "ganada" if g else "perdida"
         a["ganancia"] = round(a["stake"] * (a["cuota"] - 1), 2) if g else -a["stake"]
 

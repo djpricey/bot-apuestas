@@ -16,7 +16,9 @@ ALIAS = {
     "Congo DR": "DR Congo", "Curacao": "Curaçao", "China PR": "China", "Ireland": "Republic of Ireland",
     "Côte d'Ivoire": "Ivory Coast", "Cote D'Ivoire": "Ivory Coast", "Macedonia": "North Macedonia",
     "Kyrgyz Republic": "Kyrgyzstan", "FYR Macedonia": "North Macedonia", "St. Lucia": "Saint Lucia",
-    "St. Kitts and Nevis": "Saint Kitts and Nevis", "St. Vincent / Grenadines": "Saint Vincent and the Grenadines", "Swaziland": "Eswatini", "Chinese Taipei": "Taiwan", "IR Iran": "Iran",
+    "St. Kitts and Nevis": "Saint Kitts and Nevis", "St. Vincent / Grenadines": "Saint Vincent and the Grenadines", "Swaziland": "Eswatini", "Central African Rep.": "Central African Republic", "Central African Rep": "Central African Republic",
+    "Bosnia-Herzegovina": "Bosnia and Herzegovina", "Republic of Ireland": "Republic of Ireland", "Northern Ireland": "Northern Ireland",
+    "Sao Tome and Principe": "São Tomé and Príncipe", "Guinea Bissau": "Guinea-Bissau", "Trinidad & Tobago": "Trinidad and Tobago", "Chinese Taipei": "Taiwan", "IR Iran": "Iran",
 }
 TORNEOS_SEL = ("Nations League", "World Cup", "Friendlies", "Euro", "Africa Cup", "Copa America", "Gold Cup",
                "Asian Cup", "CONCACAF", "CONMEBOL", "UEFA", "CAF", "AFC")
@@ -93,6 +95,42 @@ def _bajas(fid):
 
 
 TERMINADOS = []  # resultados de Liga BetPlay vistos en las consultas por fecha
+SEL_TERMINADOS = []  # resultados de selecciones (solo para liquidar apuestas y calificar; no entran al modelo)
+
+
+def _goles_90(fx):
+    """Goles a los 90 minutos (las apuestas se liquidan sin prórroga ni penales)."""
+    ft = ((fx.get("score") or {}).get("fulltime") or {})
+    h, a = ft.get("home"), ft.get("away")
+    if h is None or a is None:
+        h, a = fx["goals"]["home"], fx["goals"]["away"]
+    return h, a
+
+
+def _guardar_terminado(fx):
+    lg, t = fx["league"], fx["teams"]
+    if fx["fixture"]["status"]["short"] not in ("FT", "AET", "PEN"):
+        return
+    h90, a90 = _goles_90(fx)
+    if h90 is None or a90 is None:
+        return
+    fecha = pd.Timestamp(pd.Timestamp(fx["fixture"]["date"]).tz_convert("America/Bogota").date())
+    base = {"fecha": fecha, "hora": "", "hg": float(h90), "ag": float(a90), "neutral": False, "peso": 1.0,
+            "c1": None, "cx": None, "c2": None, "o25": None, "u25": None}
+    h, a = t["home"]["name"], t["away"]["name"]
+    if lg["id"] == LIGA_COLOMBIA:
+        TERMINADOS.append({"liga": "Liga BetPlay", "home": h, "away": a, **base})
+    elif lg["country"] == "World" and any(s in lg["name"] for s in TORNEOS_SEL) and not (_es_sub(h) or _es_sub(a)) and "Clubs" not in lg["name"]:
+        SEL_TERMINADOS.append({"liga": "Selecciones", "home": _nombre(h), "away": _nombre(a), **base})
+
+
+def resultados_de(fechas, max_consultas=4):
+    """Resultados de días anteriores (para apuestas que quedaron pendientes). 1 consulta por fecha."""
+    for f in list(dict.fromkeys(fechas))[:max_consultas]:
+        if _usadas >= LIMITE - 1:
+            break
+        for fx in _get("/fixtures", date=f):
+            _guardar_terminado(fx)
 
 
 def datos(fechas, equipos_sel, max_partidos=30):
@@ -113,11 +151,7 @@ def datos(fechas, equipos_sel, max_partidos=30):
     for f in fechas:
         for fx in _get("/fixtures", date=f):
             lg, t = fx["league"], fx["teams"]
-            if lg["id"] == LIGA_COLOMBIA and fx["fixture"]["status"]["short"] in ("FT", "AET", "PEN") and fx["goals"]["home"] is not None:
-                TERMINADOS.append({"liga": "Liga BetPlay", "home": t["home"]["name"], "away": t["away"]["name"],
-                                   "fecha": pd.Timestamp(pd.Timestamp(fx["fixture"]["date"]).tz_convert("America/Bogota").date()), "hora": "",
-                                   "hg": float(fx["goals"]["home"]), "ag": float(fx["goals"]["away"]), "neutral": False, "peso": 1.0,
-                                   "c1": None, "cx": None, "c2": None, "o25": None, "u25": None})
+            _guardar_terminado(fx)
             if fx["fixture"]["status"]["short"] not in ("NS", "TBD"):
                 continue
             h, a = t["home"]["name"], t["away"]["name"]

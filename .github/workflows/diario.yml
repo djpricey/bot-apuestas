@@ -28,6 +28,7 @@ jobs:
       - run: python -m src.main
         env:
           API_FOOTBALL_KEY: ${{ github.event_name == 'push' && '' || secrets.API_FOOTBALL_KEY }}
+          ODDSPAPI_KEY: ${{ github.event_name == 'push' && '' || secrets.ODDSPAPI_KEY }}
       - name: Guardar resultados
         run: |
           git config user.name "bot-apuestas"
