@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T11:44-05:00",
+ "actualizado": "2026-11-18T12:04-05:00",
  "edge_min": 0.05,
  "escalera": null,
  "partidos": [
@@ -91,21 +91,86 @@
    "marcador": "1-1",
    "goles_local": 1.42,
    "goles_visita": 1.31,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 3.72,
+   "cx": 3.67,
+   "c2": 2.06,
+   "co25": 1.72,
+   "cu25": 2.23,
+   "mercado": [
+    0.262,
+    0.265,
+    0.473
+   ],
+   "final": [
+    0.262,
+    0.265,
+    0.473
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 3.72,
+    "cx": 3.67,
+    "c2": 2.06,
+    "p1x2": [
+     0.262,
+     0.265,
+     0.473
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.219,
+      "menos": 4.64,
+      "p_mas": 0.792
+     },
+     "2.25": {
+      "mas": 1.52,
+      "menos": 2.68,
+      "p_mas": 0.638
+     },
+     "2.5": {
+      "mas": 1.724,
+      "menos": 2.23,
+      "p_mas": 0.564
+     },
+     "2.75": {
+      "mas": 1.909,
+      "menos": 2.0,
+      "p_mas": 0.512
+     },
+     "3": {
+      "mas": 2.2,
+      "menos": 1.74,
+      "p_mas": 0.442
+     },
+     "3.25": {
+      "mas": 2.5,
+      "menos": 1.584,
+      "p_mas": 0.388
+     },
+     "3.5": {
+      "mas": 2.79,
+      "menos": 1.476,
+      "p_mas": 0.346
+     },
+     "4.5": {
+      "mas": 5.16,
+      "menos": 1.187,
+      "p_mas": 0.187
+     }
+    },
+    "btts": {
+     "si": 1.609,
+     "no": 2.42,
+     "p_si": 0.601
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-18T18:00-05:00",
@@ -195,21 +260,86 @@
    "marcador": "1-1",
    "goles_local": 2.02,
    "goles_visita": 1.01,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.47,
+   "cx": 4.79,
+   "c2": 7.11,
+   "co25": 1.79,
+   "cu25": 2.12,
+   "mercado": [
+    0.661,
+    0.203,
+    0.137
+   ],
+   "final": [
+    0.661,
+    0.203,
+    0.137
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 1.471,
+    "cx": 4.79,
+    "c2": 7.11,
+    "p1x2": [
+     0.661,
+     0.203,
+     0.137
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.248,
+      "menos": 4.26,
+      "p_mas": 0.773
+     },
+     "2.25": {
+      "mas": 1.581,
+      "menos": 2.51,
+      "p_mas": 0.614
+     },
+     "2.5": {
+      "mas": 1.793,
+      "menos": 2.12,
+      "p_mas": 0.542
+     },
+     "2.75": {
+      "mas": 2.02,
+      "menos": 1.892,
+      "p_mas": 0.484
+     },
+     "3": {
+      "mas": 2.38,
+      "menos": 1.645,
+      "p_mas": 0.409
+     },
+     "3.25": {
+      "mas": 2.71,
+      "menos": 1.51,
+      "p_mas": 0.358
+     },
+     "3.5": {
+      "mas": 3.03,
+      "menos": 1.416,
+      "p_mas": 0.318
+     },
+     "4.5": {
+      "mas": 5.72,
+      "menos": 1.162,
+      "p_mas": 0.169
+     }
+    },
+    "btts": {
+     "si": 1.961,
+     "no": 1.909,
+     "p_si": 0.493
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-18T18:30-05:00",
@@ -310,21 +440,86 @@
    "marcador": "1-1",
    "goles_local": 1.11,
    "goles_visita": 1.27,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.73,
+   "cx": 3.67,
+   "c2": 2.59,
+   "co25": 1.7,
+   "cu25": 2.26,
+   "mercado": [
+    0.357,
+    0.266,
+    0.377
+   ],
+   "final": [
+    0.357,
+    0.266,
+    0.377
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.73,
+    "cx": 3.67,
+    "c2": 2.59,
+    "p1x2": [
+     0.357,
+     0.266,
+     0.377
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.213,
+      "menos": 4.72,
+      "p_mas": 0.796
+     },
+     "2.25": {
+      "mas": 1.507,
+      "menos": 2.72,
+      "p_mas": 0.643
+     },
+     "2.5": {
+      "mas": 1.704,
+      "menos": 2.26,
+      "p_mas": 0.57
+     },
+     "2.75": {
+      "mas": 1.884,
+      "menos": 2.02,
+      "p_mas": 0.517
+     },
+     "3": {
+      "mas": 2.16,
+      "menos": 1.763,
+      "p_mas": 0.449
+     },
+     "3.25": {
+      "mas": 2.46,
+      "menos": 1.602,
+      "p_mas": 0.394
+     },
+     "3.5": {
+      "mas": 2.74,
+      "menos": 1.49,
+      "p_mas": 0.352
+     },
+     "4.5": {
+      "mas": 5.03,
+      "menos": 1.194,
+      "p_mas": 0.192
+     }
+    },
+    "btts": {
+     "si": 1.571,
+     "no": 2.52,
+     "p_si": 0.616
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-18T18:30-05:00",
@@ -528,21 +723,86 @@
    "marcador": "1-1",
    "goles_local": 1.35,
    "goles_visita": 1.1,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.78,
+   "cx": 3.83,
+   "c2": 4.9,
+   "co25": 1.92,
+   "cu25": 1.99,
+   "mercado": [
+    0.547,
+    0.254,
+    0.199
+   ],
+   "final": [
+    0.547,
+    0.254,
+    0.199
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 1.781,
+    "cx": 3.83,
+    "c2": 4.9,
+    "p1x2": [
+     0.547,
+     0.254,
+     0.199
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.287,
+      "menos": 3.85,
+      "p_mas": 0.749
+     },
+     "2": {
+      "mas": 1.44,
+      "menos": 2.97,
+      "p_mas": 0.673
+     },
+     "2.25": {
+      "mas": 1.675,
+      "menos": 2.31,
+      "p_mas": 0.58
+     },
+     "2.5": {
+      "mas": 1.917,
+      "menos": 1.99,
+      "p_mas": 0.509
+     },
+     "2.75": {
+      "mas": 2.16,
+      "menos": 1.769,
+      "p_mas": 0.45
+     },
+     "3": {
+      "mas": 2.58,
+      "menos": 1.552,
+      "p_mas": 0.376
+     },
+     "3.5": {
+      "mas": 3.25,
+      "menos": 1.373,
+      "p_mas": 0.297
+     },
+     "4.5": {
+      "mas": 6.36,
+      "menos": 1.139,
+      "p_mas": 0.152
+     }
+    },
+    "btts": {
+     "si": 1.819,
+     "no": 2.06,
+     "p_si": 0.531
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-18T19:30-05:00",
@@ -634,21 +894,86 @@
    "marcador": "1-1",
    "goles_local": 1.38,
    "goles_visita": 1.2,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.48,
+   "cx": 3.61,
+   "c2": 2.9,
+   "co25": 1.68,
+   "cu25": 2.3,
+   "mercado": [
+    0.393,
+    0.27,
+    0.336
+   ],
+   "final": [
+    0.393,
+    0.27,
+    0.336
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.48,
+    "cx": 3.61,
+    "c2": 2.9,
+    "p1x2": [
+     0.393,
+     0.27,
+     0.336
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.208,
+      "menos": 4.8,
+      "p_mas": 0.799
+     },
+     "2.25": {
+      "mas": 1.492,
+      "menos": 2.77,
+      "p_mas": 0.65
+     },
+     "2.5": {
+      "mas": 1.684,
+      "menos": 2.3,
+      "p_mas": 0.577
+     },
+     "2.75": {
+      "mas": 1.854,
+      "menos": 2.06,
+      "p_mas": 0.526
+     },
+     "3": {
+      "mas": 2.11,
+      "menos": 1.806,
+      "p_mas": 0.461
+     },
+     "3.25": {
+      "mas": 2.38,
+      "menos": 1.632,
+      "p_mas": 0.407
+     },
+     "3.5": {
+      "mas": 2.65,
+      "menos": 1.518,
+      "p_mas": 0.364
+     },
+     "4.5": {
+      "mas": 4.83,
+      "menos": 1.206,
+      "p_mas": 0.2
+     }
+    },
+    "btts": {
+     "si": 1.552,
+     "no": 2.56,
+     "p_si": 0.623
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-19T17:30-05:00",
@@ -749,21 +1074,86 @@
    "marcador": "1-1",
    "goles_local": 1.7,
    "goles_visita": 1.12,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.65,
+   "cx": 4.1,
+   "c2": 5.12,
+   "co25": 1.77,
+   "cu25": 2.11,
+   "mercado": [
+    0.58,
+    0.233,
+    0.187
+   ],
+   "final": [
+    0.58,
+    0.233,
+    0.187
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 1.649,
+    "cx": 4.1,
+    "c2": 5.12,
+    "p1x2": [
+     0.58,
+     0.233,
+     0.187
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.242,
+      "menos": 4.15,
+      "p_mas": 0.77
+     },
+     "2.25": {
+      "mas": 1.564,
+      "menos": 2.49,
+      "p_mas": 0.614
+     },
+     "2.5": {
+      "mas": 1.769,
+      "menos": 2.11,
+      "p_mas": 0.544
+     },
+     "2.75": {
+      "mas": 1.98,
+      "menos": 1.892,
+      "p_mas": 0.489
+     },
+     "3": {
+      "mas": 2.3,
+      "menos": 1.657,
+      "p_mas": 0.419
+     },
+     "3.25": {
+      "mas": 2.6,
+      "menos": 1.523,
+      "p_mas": 0.369
+     },
+     "3.5": {
+      "mas": 2.89,
+      "menos": 1.429,
+      "p_mas": 0.331
+     },
+     "4.5": {
+      "mas": 5.45,
+      "menos": 1.161,
+      "p_mas": 0.176
+     }
+    },
+    "btts": {
+     "si": 1.793,
+     "no": 2.06,
+     "p_si": 0.535
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-19T17:30-05:00",
@@ -863,21 +1253,86 @@
    "marcador": "1-1",
    "goles_local": 1.21,
    "goles_visita": 1.13,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.74,
+   "cx": 3.43,
+   "c2": 2.6,
+   "co25": 1.83,
+   "cu25": 2.04,
+   "mercado": [
+    0.351,
+    0.28,
+    0.369
+   ],
+   "final": [
+    0.351,
+    0.28,
+    0.369
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.74,
+    "cx": 3.43,
+    "c2": 2.6,
+    "p1x2": [
+     0.351,
+     0.28,
+     0.369
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.25,
+      "menos": 4.07,
+      "p_mas": 0.765
+     },
+     "2.25": {
+      "mas": 1.602,
+      "menos": 2.4,
+      "p_mas": 0.6
+     },
+     "2.5": {
+      "mas": 1.826,
+      "menos": 2.04,
+      "p_mas": 0.528
+     },
+     "2.75": {
+      "mas": 2.05,
+      "menos": 1.833,
+      "p_mas": 0.472
+     },
+     "3": {
+      "mas": 2.39,
+      "menos": 1.613,
+      "p_mas": 0.403
+     },
+     "3.25": {
+      "mas": 2.69,
+      "menos": 1.495,
+      "p_mas": 0.357
+     },
+     "3.5": {
+      "mas": 2.97,
+      "menos": 1.409,
+      "p_mas": 0.322
+     },
+     "4.5": {
+      "mas": 5.52,
+      "menos": 1.158,
+      "p_mas": 0.173
+     }
+    },
+    "btts": {
+     "si": 1.632,
+     "no": 2.32,
+     "p_si": 0.587
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-19T19:30-05:00",
@@ -969,21 +1424,76 @@
    "marcador": "1-1",
    "goles_local": 1.15,
    "goles_visita": 1.12,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.43,
+   "cx": 3.28,
+   "c2": 3.08,
+   "co25": 2.14,
+   "cu25": 1.75,
+   "mercado": [
+    0.395,
+    0.293,
+    0.312
+   ],
+   "final": [
+    0.395,
+    0.293,
+    0.312
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.43,
+    "cx": 3.28,
+    "c2": 3.08,
+    "p1x2": [
+     0.395,
+     0.293,
+     0.312
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.355,
+      "menos": 3.25,
+      "p_mas": 0.706
+     },
+     "1.75": {
+      "mas": 1.446,
+      "menos": 2.86,
+      "p_mas": 0.664
+     },
+     "2": {
+      "mas": 1.588,
+      "menos": 2.45,
+      "p_mas": 0.607
+     },
+     "2.25": {
+      "mas": 1.877,
+      "menos": 2.0,
+      "p_mas": 0.516
+     },
+     "2.5": {
+      "mas": 2.14,
+      "menos": 1.746,
+      "p_mas": 0.449
+     },
+     "2.75": {
+      "mas": 2.48,
+      "menos": 1.568,
+      "p_mas": 0.387
+     },
+     "3.5": {
+      "mas": 3.84,
+      "menos": 1.273,
+      "p_mas": 0.249
+     }
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   }
  ]
 }
