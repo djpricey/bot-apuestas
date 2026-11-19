@@ -1,655 +1,8 @@
 {
- "actualizado": "2026-11-18T12:06-05:00",
+ "actualizado": "2026-11-19T06:52-05:00",
  "edge_min": 0.05,
  "escalera": null,
  "partidos": [
-  {
-   "inicio": "2026-11-18T17:30-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Menos de 3.5 goles",
-     "prob_modelo": 0.708,
-     "prob_datos": 0.7,
-     "prob": 0.7,
-     "cuota_minima": 1.49,
-     "por": "Menos de 3.5 en 60 % de los de Coritiba y 80 % de los de Santos"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-09-01",
-     "g": 2,
-     "e": 2,
-     "p": 6,
-     "gf": 1.0,
-     "gc": 2.0,
-     "o15": 0.7,
-     "o25": 0.5,
-     "u35": 0.6,
-     "btts": 0.4,
-     "marco": 0.5,
-     "cero": 0.1,
-     "ultimos": [
-      "04/11/26 Internacional 1-0 Coritiba",
-      "31/10/26 Coritiba 2-0 Vitoria",
-      "26/10/26 Coritiba 0-1 Gremio",
-      "17/10/26 Atletico-MG 1-0 Coritiba",
-      "12/10/26 Coritiba 1-1 Botafogo RJ",
-      "09/10/26 Fluminense 4-0 Coritiba",
-      "20/09/26 Vasco 5-0 Coritiba",
-      "12/09/26 Coritiba 3-3 Athletico-PR",
-      "06/09/26 Coritiba 1-2 Mirassol",
-      "01/09/26 Remo 2-3 Coritiba"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-09-06",
-     "g": 5,
-     "e": 3,
-     "p": 2,
-     "gf": 1.6,
-     "gc": 1.3,
-     "o15": 0.9,
-     "o25": 0.8,
-     "u35": 0.8,
-     "btts": 0.9,
-     "marco": 0.9,
-     "cero": 0.1,
-     "ultimos": [
-      "02/11/26 Bragantino 2-1 Santos",
-      "28/10/26 Santos 0-0 Palmeiras",
-      "25/10/26 Santos 1-1 Bahia",
-      "18/10/26 Fluminense 1-2 Santos",
-      "11/10/26 Atletico-MG 2-1 Santos",
-      "08/10/26 Santos 2-2 Flamengo RJ",
-      "03/10/26 Sao Paulo 1-2 Santos",
-      "19/09/26 Remo 1-2 Santos",
-      "13/09/26 Santos 2-1 Cruzeiro",
-      "06/09/26 Internacional 2-3 Santos"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Santos 0-3 Coritiba"
-   ],
-   "fecha": "2026-11-18",
-   "hora_uk": "22:30",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Coritiba",
-   "visita": "Santos",
-   "neutral": false,
-   "p1": 0.389,
-   "px": 0.271,
-   "p2": 0.34,
-   "over25": 0.513,
-   "btts": 0.56,
-   "marcador": "1-1",
-   "goles_local": 1.42,
-   "goles_visita": 1.31,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
-  {
-   "inicio": "2026-11-18T18:00-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Menos de 3.5 goles",
-     "prob_modelo": 0.641,
-     "prob_datos": 0.8,
-     "prob": 0.641,
-     "cuota_minima": 1.62,
-     "por": "Menos de 3.5 en 80 % de los de Remo y 80 % de los de Chapecoense-SC"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-09-01",
-     "g": 1,
-     "e": 3,
-     "p": 6,
-     "gf": 0.9,
-     "gc": 1.8,
-     "o15": 0.7,
-     "o25": 0.5,
-     "u35": 0.8,
-     "btts": 0.7,
-     "marco": 0.7,
-     "cero": 0.1,
-     "ultimos": [
-      "05/11/26 Palmeiras 6-1 Remo",
-      "29/10/26 Remo 2-1 Botafogo RJ",
-      "23/10/26 Cruzeiro 1-0 Remo",
-      "18/10/26 Remo 1-1 Bragantino",
-      "10/10/26 Vasco 0-0 Remo",
-      "07/10/26 Remo 1-1 Gremio",
-      "19/09/26 Remo 1-2 Santos",
-      "15/09/26 Bahia 2-1 Remo",
-      "06/09/26 Remo 0-1 Flamengo RJ",
-      "01/09/26 Remo 2-3 Coritiba"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-09-06",
-     "g": 2,
-     "e": 1,
-     "p": 7,
-     "gf": 0.8,
-     "gc": 2.1,
-     "o15": 0.9,
-     "o25": 0.7,
-     "u35": 0.8,
-     "btts": 0.6,
-     "marco": 0.6,
-     "cero": 0.0,
-     "ultimos": [
-      "14/11/26 Chapecoense-SC 0-2 Vasco",
-      "03/11/26 Chapecoense-SC 1-2 Mirassol",
-      "28/10/26 Bragantino 3-0 Chapecoense-SC",
-      "24/10/26 Chapecoense-SC 2-1 Fluminense",
-      "17/10/26 Botafogo RJ 1-0 Chapecoense-SC",
-      "12/10/26 Chapecoense-SC 1-4 Athletico-PR",
-      "08/10/26 Vitoria 4-0 Chapecoense-SC",
-      "19/09/26 Atletico-MG 1-1 Chapecoense-SC",
-      "12/09/26 Chapecoense-SC 1-2 Internacional",
-      "06/09/26 Corinthians 1-2 Chapecoense-SC"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Chapecoense-SC 2-3 Remo"
-   ],
-   "fecha": "2026-11-18",
-   "hora_uk": "23:00",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Remo",
-   "visita": "Chapecoense-SC",
-   "neutral": false,
-   "p1": 0.6,
-   "px": 0.223,
-   "p2": 0.178,
-   "over25": 0.583,
-   "btts": 0.558,
-   "marcador": "1-1",
-   "goles_local": 2.02,
-   "goles_visita": 1.01,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
-  {
-   "inicio": "2026-11-18T18:30-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Palmeiras o empate",
-     "prob_modelo": 0.685,
-     "prob_datos": 0.65,
-     "prob": 0.65,
-     "cuota_minima": 1.6,
-     "por": "Palmeiras perdió solo 0 de 10; Cruzeiro ganó 7 de 10"
-    },
-    {
-     "seleccion": "Más de 1.5 goles",
-     "prob_modelo": 0.688,
-     "prob_datos": 0.7,
-     "prob": 0.688,
-     "cuota_minima": 1.51,
-     "por": "Más de 1.5 en 80 % de los de Cruzeiro y 60 % de los de Palmeiras"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-08-30",
-     "g": 7,
-     "e": 0,
-     "p": 3,
-     "gf": 2.1,
-     "gc": 1.5,
-     "o15": 0.8,
-     "o25": 0.7,
-     "u35": 0.4,
-     "btts": 0.7,
-     "marco": 1.0,
-     "cero": 0.3,
-     "ultimos": [
-      "06/11/26 Cruzeiro 3-2 Bahia",
-      "29/10/26 Atletico-MG 0-1 Cruzeiro",
-      "23/10/26 Cruzeiro 1-0 Remo",
-      "18/10/26 Gremio 2-4 Cruzeiro",
-      "13/10/26 Bragantino 4-2 Cruzeiro",
-      "08/10/26 Cruzeiro 2-0 Sao Paulo",
-      "20/09/26 Vitoria 1-3 Cruzeiro",
-      "13/09/26 Santos 2-1 Cruzeiro",
-      "06/09/26 Cruzeiro 3-1 Athletico-PR",
-      "30/08/26 Vasco 3-1 Cruzeiro"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-08-30",
-     "g": 6,
-     "e": 4,
-     "p": 0,
-     "gf": 1.8,
-     "gc": 0.3,
-     "o15": 0.6,
-     "o25": 0.2,
-     "u35": 0.8,
-     "btts": 0.3,
-     "marco": 0.7,
-     "cero": 0.7,
-     "ultimos": [
-      "05/11/26 Palmeiras 6-1 Remo",
-      "28/10/26 Santos 0-0 Palmeiras",
-      "24/10/26 Palmeiras 2-0 Bragantino",
-      "17/10/26 Athletico-PR 0-2 Palmeiras",
-      "11/10/26 Palmeiras 4-1 Corinthians",
-      "09/10/26 Palmeiras 1-0 Bahia",
-      "20/09/26 Gremio 0-0 Palmeiras",
-      "12/09/26 Palmeiras 2-0 Sao Paulo",
-      "06/09/26 Botafogo RJ 0-0 Palmeiras",
-      "30/08/26 Mirassol 1-1 Palmeiras"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Palmeiras 1-1 Cruzeiro",
-    "2025 Palmeiras 0-0 Cruzeiro",
-    "2025 Cruzeiro 2-1 Palmeiras",
-    "2024 Cruzeiro 1-2 Palmeiras"
-   ],
-   "fecha": "2026-11-18",
-   "hora_uk": "23:30",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Cruzeiro",
-   "visita": "Palmeiras",
-   "neutral": false,
-   "p1": 0.315,
-   "px": 0.292,
-   "p2": 0.393,
-   "over25": 0.426,
-   "btts": 0.491,
-   "marcador": "1-1",
-   "goles_local": 1.11,
-   "goles_visita": 1.27,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
-  {
-   "inicio": "2026-11-18T18:30-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Gana Flamengo RJ",
-     "prob_modelo": 0.712,
-     "prob_datos": 0.65,
-     "prob": 0.65,
-     "cuota_minima": 1.6,
-     "por": "Flamengo RJ ganó 9 de 10; Athletico-PR perdió 4 de 10"
-    },
-    {
-     "seleccion": "Más de 1.5 goles",
-     "prob_modelo": 0.818,
-     "prob_datos": 0.9,
-     "prob": 0.818,
-     "cuota_minima": 1.27,
-     "por": "Más de 1.5 en 80 % de los de Flamengo RJ y 100 % de los de Athletico-PR"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-09-02",
-     "g": 9,
-     "e": 1,
-     "p": 0,
-     "gf": 2.3,
-     "gc": 0.8,
-     "o15": 0.8,
-     "o25": 0.7,
-     "u35": 0.6,
-     "btts": 0.6,
-     "marco": 1.0,
-     "cero": 0.4,
-     "ultimos": [
-      "04/11/26 Flamengo RJ 3-1 Gremio",
-      "29/10/26 Vasco 1-4 Flamengo RJ",
-      "26/10/26 Flamengo RJ 3-2 Atletico-MG",
-      "18/10/26 Bahia 0-3 Flamengo RJ",
-      "11/10/26 Flamengo RJ 1-0 Fluminense",
-      "08/10/26 Santos 2-2 Flamengo RJ",
-      "20/09/26 Flamengo RJ 2-1 Bragantino",
-      "13/09/26 Flamengo RJ 2-1 Corinthians",
-      "06/09/26 Remo 0-1 Flamengo RJ",
-      "02/09/26 Flamengo RJ 2-0 Mirassol"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-08-30",
-     "g": 2,
-     "e": 4,
-     "p": 4,
-     "gf": 1.7,
-     "gc": 2.1,
-     "o15": 1.0,
-     "o25": 0.7,
-     "u35": 0.4,
-     "btts": 0.8,
-     "marco": 0.8,
-     "cero": 0.0,
-     "ultimos": [
-      "04/11/26 Athletico-PR 1-3 Vasco",
-      "30/10/26 Gremio 2-0 Athletico-PR",
-      "24/10/26 Vitoria 1-1 Athletico-PR",
-      "17/10/26 Athletico-PR 0-2 Palmeiras",
-      "12/10/26 Chapecoense-SC 1-4 Athletico-PR",
-      "09/10/26 Athletico-PR 2-2 Atletico-MG",
-      "20/09/26 Athletico-PR 2-1 Bahia",
-      "12/09/26 Coritiba 3-3 Athletico-PR",
-      "06/09/26 Cruzeiro 3-1 Athletico-PR",
-      "30/08/26 Athletico-PR 3-3 Fluminense"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Athletico-PR 1-1 Flamengo RJ"
-   ],
-   "fecha": "2026-11-18",
-   "hora_uk": "23:30",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Flamengo RJ",
-   "visita": "Athletico-PR",
-   "neutral": false,
-   "p1": 0.712,
-   "px": 0.182,
-   "p2": 0.106,
-   "over25": 0.603,
-   "btts": 0.499,
-   "marcador": "2-0",
-   "goles_local": 2.33,
-   "goles_visita": 0.79,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
-  {
-   "inicio": "2026-11-18T19:30-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Más de 1.5 goles",
-     "prob_modelo": 0.702,
-     "prob_datos": 0.75,
-     "prob": 0.702,
-     "cuota_minima": 1.48,
-     "por": "Más de 1.5 en 80 % de los de Corinthians y 70 % de los de Botafogo RJ"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-08-30",
-     "g": 1,
-     "e": 2,
-     "p": 7,
-     "gf": 1.0,
-     "gc": 1.8,
-     "o15": 0.8,
-     "o25": 0.6,
-     "u35": 0.7,
-     "btts": 0.7,
-     "marco": 0.8,
-     "cero": 0.2,
-     "ultimos": [
-      "05/11/26 Sao Paulo 0-0 Corinthians",
-      "30/10/26 Corinthians 2-0 Mirassol",
-      "24/10/26 Vasco 3-2 Corinthians",
-      "20/10/26 Corinthians 1-1 Vitoria",
-      "11/10/26 Palmeiras 4-1 Corinthians",
-      "07/10/26 Internacional 2-1 Corinthians",
-      "20/09/26 Corinthians 1-3 Fluminense",
-      "13/09/26 Flamengo RJ 2-1 Corinthians",
-      "06/09/26 Corinthians 1-2 Chapecoense-SC",
-      "30/08/26 Corinthians 0-1 Santos"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-09-06",
-     "g": 3,
-     "e": 3,
-     "p": 4,
-     "gf": 0.9,
-     "gc": 1.3,
-     "o15": 0.7,
-     "o25": 0.4,
-     "u35": 0.9,
-     "btts": 0.5,
-     "marco": 0.7,
-     "cero": 0.3,
-     "ultimos": [
-      "05/11/26 Botafogo RJ 1-0 Atletico-MG",
-      "29/10/26 Remo 2-1 Botafogo RJ",
-      "24/10/26 Internacional 3-0 Botafogo RJ",
-      "17/10/26 Botafogo RJ 1-0 Chapecoense-SC",
-      "12/10/26 Coritiba 1-1 Botafogo RJ",
-      "08/10/26 Botafogo RJ 1-2 Vasco",
-      "19/09/26 Mirassol 2-0 Botafogo RJ",
-      "16/09/26 Botafogo RJ 3-2 Gremio",
-      "13/09/26 Botafogo RJ 1-1 Bragantino",
-      "06/09/26 Botafogo RJ 0-0 Palmeiras"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Botafogo RJ 3-1 Corinthians",
-    "2025 Corinthians 2-2 Botafogo RJ",
-    "2025 Botafogo RJ 1-1 Corinthians"
-   ],
-   "fecha": "2026-11-19",
-   "hora_uk": "00:30",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Corinthians",
-   "visita": "Botafogo RJ",
-   "neutral": false,
-   "p1": 0.417,
-   "px": 0.286,
-   "p2": 0.297,
-   "over25": 0.443,
-   "btts": 0.502,
-   "marcador": "1-1",
-   "goles_local": 1.35,
-   "goles_visita": 1.1,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
-  {
-   "inicio": "2026-11-18T19:30-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Menos de 3.5 goles",
-     "prob_modelo": 0.74,
-     "prob_datos": 0.65,
-     "prob": 0.65,
-     "cuota_minima": 1.6,
-     "por": "Menos de 3.5 en 70 % de los de Gremio y 60 % de los de Bahia"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-09-08",
-     "g": 2,
-     "e": 3,
-     "p": 5,
-     "gf": 1.1,
-     "gc": 1.5,
-     "o15": 0.7,
-     "o25": 0.4,
-     "u35": 0.7,
-     "btts": 0.6,
-     "marco": 0.8,
-     "cero": 0.3,
-     "ultimos": [
-      "04/11/26 Flamengo RJ 3-1 Gremio",
-      "30/10/26 Gremio 2-0 Athletico-PR",
-      "26/10/26 Coritiba 0-1 Gremio",
-      "18/10/26 Gremio 2-4 Cruzeiro",
-      "11/10/26 Gremio 1-1 Internacional",
-      "07/10/26 Remo 1-1 Gremio",
-      "20/09/26 Gremio 0-0 Palmeiras",
-      "16/09/26 Botafogo RJ 3-2 Gremio",
-      "12/09/26 Gremio 1-2 Vasco",
-      "08/09/26 Vitoria 1-0 Gremio"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-08-30",
-     "g": 5,
-     "e": 1,
-     "p": 4,
-     "gf": 1.6,
-     "gc": 1.7,
-     "o15": 0.8,
-     "o25": 0.7,
-     "u35": 0.6,
-     "btts": 0.7,
-     "marco": 0.8,
-     "cero": 0.1,
-     "ultimos": [
-      "06/11/26 Cruzeiro 3-2 Bahia",
-      "29/10/26 Bahia 3-2 Sao Paulo",
-      "25/10/26 Santos 1-1 Bahia",
-      "18/10/26 Bahia 0-3 Flamengo RJ",
-      "11/10/26 Bahia 1-0 Mirassol",
-      "09/10/26 Palmeiras 1-0 Bahia",
-      "20/09/26 Athletico-PR 2-1 Bahia",
-      "15/09/26 Bahia 2-1 Remo",
-      "05/09/26 Bragantino 2-3 Bahia",
-      "30/08/26 Bahia 3-2 Internacional"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Bahia 1-1 Gremio",
-    "2025 Bahia 4-0 Gremio",
-    "2025 Gremio 1-0 Bahia"
-   ],
-   "fecha": "2026-11-19",
-   "hora_uk": "00:30",
-   "hora_col": "",
-   "liga": "Brasil",
-   "local": "Gremio",
-   "visita": "Bahia",
-   "neutral": false,
-   "p1": 0.401,
-   "px": 0.279,
-   "p2": 0.32,
-   "over25": 0.477,
-   "btts": 0.531,
-   "marcador": "1-1",
-   "goles_local": 1.38,
-   "goles_visita": 1.2,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": null,
-   "fuente_cuotas": null
-  },
   {
    "inicio": "2026-11-19T17:30-05:00",
    "mercados": [],
@@ -749,21 +102,86 @@
    "marcador": "1-1",
    "goles_local": 1.7,
    "goles_visita": 1.12,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 1.59,
+   "cx": 4.45,
+   "c2": 5.69,
+   "co25": 1.72,
+   "cu25": 2.23,
+   "mercado": [
+    0.61,
+    0.219,
+    0.171
+   ],
+   "final": [
+    0.61,
+    0.219,
+    0.171
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 1.595,
+    "cx": 4.45,
+    "c2": 5.69,
+    "p1x2": [
+     0.61,
+     0.219,
+     0.171
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.23,
+      "menos": 4.47,
+      "p_mas": 0.784
+     },
+     "2.25": {
+      "mas": 1.526,
+      "menos": 2.66,
+      "p_mas": 0.635
+     },
+     "2.5": {
+      "mas": 1.724,
+      "menos": 2.23,
+      "p_mas": 0.564
+     },
+     "2.75": {
+      "mas": 1.909,
+      "menos": 1.99,
+      "p_mas": 0.51
+     },
+     "3": {
+      "mas": 2.2,
+      "menos": 1.74,
+      "p_mas": 0.442
+     },
+     "3.25": {
+      "mas": 2.51,
+      "menos": 1.581,
+      "p_mas": 0.386
+     },
+     "3.5": {
+      "mas": 2.79,
+      "menos": 1.473,
+      "p_mas": 0.346
+     },
+     "4.5": {
+      "mas": 5.22,
+      "menos": 1.184,
+      "p_mas": 0.185
+     }
+    },
+    "btts": {
+     "si": 1.787,
+     "no": 2.11,
+     "p_si": 0.541
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-19T17:30-05:00",
@@ -863,21 +281,86 @@
    "marcador": "1-1",
    "goles_local": 1.21,
    "goles_visita": 1.13,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.81,
+   "cx": 3.45,
+   "c2": 2.63,
+   "co25": 1.83,
+   "cu25": 2.07,
+   "mercado": [
+    0.347,
+    0.283,
+    0.371
+   ],
+   "final": [
+    0.347,
+    0.283,
+    0.371
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.81,
+    "cx": 3.45,
+    "c2": 2.63,
+    "p1x2": [
+     0.347,
+     0.283,
+     0.371
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.255,
+      "menos": 4.17,
+      "p_mas": 0.769
+     },
+     "2.25": {
+      "mas": 1.609,
+      "menos": 2.44,
+      "p_mas": 0.603
+     },
+     "2.5": {
+      "mas": 1.833,
+      "menos": 2.07,
+      "p_mas": 0.53
+     },
+     "2.75": {
+      "mas": 2.06,
+      "menos": 1.854,
+      "p_mas": 0.474
+     },
+     "3": {
+      "mas": 2.4,
+      "menos": 1.632,
+      "p_mas": 0.405
+     },
+     "3.25": {
+      "mas": 2.71,
+      "menos": 1.51,
+      "p_mas": 0.358
+     },
+     "3.5": {
+      "mas": 3.0,
+      "menos": 1.421,
+      "p_mas": 0.321
+     },
+     "4.5": {
+      "mas": 5.66,
+      "menos": 1.165,
+      "p_mas": 0.171
+     }
+    },
+    "btts": {
+     "si": 1.649,
+     "no": 2.34,
+     "p_si": 0.587
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   },
   {
    "inicio": "2026-11-19T19:30-05:00",
@@ -969,21 +452,81 @@
    "marcador": "1-1",
    "goles_local": 1.15,
    "goles_visita": 1.12,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
+   "c1": 2.55,
+   "cx": 3.25,
+   "c2": 3.02,
+   "co25": 2.21,
+   "cu25": 1.72,
+   "mercado": [
+    0.38,
+    0.298,
+    0.321
+   ],
+   "final": [
+    0.38,
+    0.298,
+    0.321
+   ],
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
     "local": [],
     "visita": []
    },
-   "pinnacle": null,
-   "fuente_cuotas": null
+   "pinnacle": {
+    "c1": 2.55,
+    "cx": 3.25,
+    "c2": 3.02,
+    "p1x2": [
+     0.38,
+     0.298,
+     0.321
+    ],
+    "totales": {
+     "1.5": {
+      "mas": 1.38,
+      "menos": 3.16,
+      "p_mas": 0.696
+     },
+     "1.75": {
+      "mas": 1.478,
+      "menos": 2.78,
+      "p_mas": 0.653
+     },
+     "2": {
+      "mas": 1.632,
+      "menos": 2.37,
+      "p_mas": 0.592
+     },
+     "2.25": {
+      "mas": 1.934,
+      "menos": 1.952,
+      "p_mas": 0.502
+     },
+     "2.5": {
+      "mas": 2.21,
+      "menos": 1.719,
+      "p_mas": 0.438
+     },
+     "2.75": {
+      "mas": 2.57,
+      "menos": 1.543,
+      "p_mas": 0.375
+     },
+     "3.5": {
+      "mas": 4.0,
+      "menos": 1.263,
+      "p_mas": 0.24
+     }
+    },
+    "btts": {
+     "si": 1.884,
+     "no": 1.97,
+     "p_si": 0.511
+    },
+    "fuente": "Pinnacle vía OddsPapi"
+   },
+   "fuente_cuotas": "Pinnacle (OddsPapi)"
   }
  ]
 }
