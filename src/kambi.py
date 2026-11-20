@@ -173,10 +173,119 @@ def detectar(partidos, ahora, max_eventos=120):
             pj = just[k]
             ev = pj * m["cuota"] - 1
             if ev >= EDGE_ERROR and pj >= 0.15:
+                sen = senales(p, k)
+                ver, favor, contra = veredicto(pj, sen)
                 errores.append({"inicio": p["inicio"], "liga": p["liga"], "partido": f"{p['local']} vs {p['visita']}",
                                 "mercado": m["mercado"], "seleccion": m["op"] + (f" {m['linea']}" if m["linea"] else ""),
                                 "cuota_betplay": m["cuota"], "prob_pinnacle": round(pj, 3),
-                                "cuota_justa": round(1 / pj, 2), "ventaja": round(ev, 3)})
+                                "cuota_justa": round(1 / pj, 2), "ventaja": round(ev, 3),
+                                "kelly": round(ev / (m["cuota"] - 1), 3), "idea": idea(k),
+                                "senales": dict(sen), "veredicto": ver, "en_contra": contra})
     errores.sort(key=lambda x: -x["ventaja"])
-    print(f"  betplay: {len(lista)} partidos en BetPlay, {n} unidos y revisados, {len(errores)} errores de cuota")
+    # Picks: solo errores respaldados por el análisis; una sola selección por partido y por idea (la de mejor Kelly)
+    picks, vistos = [], set()
+    for e in sorted([x for x in errores if x["veredicto"] == "respaldado"], key=lambda x: -x["kelly"]):
+        clave = (e["partido"], e["idea"])
+        if clave in vistos:
+            continue
+        vistos.add(clave)
+        e["misma_idea"] = [x["seleccion"] for x in errores if (x["partido"], x["idea"]) == clave and x is not e]
+        picks.append(e)
+    detectar.picks = picks
+    print(f"  betplay: {len(lista)} partidos en BetPlay, {n} unidos y revisados, {len(errores)} errores de cuota, {len(picks)} respaldados por el análisis")
     return errores
+
+
+# ------------------------------------------------------------------ análisis: ¿qué dice el partido?
+
+import math
+import re as _re
+
+
+def _poisson_tot(lam, k):
+    """P(total de goles <= k) con Poisson de media lam."""
+    return sum(math.exp(-lam) * lam ** i / math.factorial(i) for i in range(int(k) + 1))
+
+
+def _res(s):
+    m = _re.match(r"\S+ (.+?) (\d+)-(\d+) (.+)$", s or "")
+    return (m.group(1), int(m.group(2)), int(m.group(3)), m.group(4)) if m else None
+
+
+def _prob_de(partidos_lista, k, local, visita):
+    """Proporción de partidos (lista de (L, gl, gv, V)) donde se cumple la selección k, vista desde local/visita."""
+    if not partidos_lista:
+        return None
+    ok = 0
+    for L, gl, gv, V in partidos_lista:
+        tot = gl + gv
+        fam, tipo, linea = k
+        if fam == "goles":
+            ok += (tot > linea) if tipo == "OT_OVER" else (tot < linea)
+        elif fam == "btts":
+            ok += (gl > 0 and gv > 0) if tipo == "OT_YES" else not (gl > 0 and gv > 0)
+        else:
+            # resultado desde el punto de vista del equipo "local" del partido analizado
+            if L == local or V == visita:
+                g1, g2 = (gl, gv) if L == local else (gv, gl)
+            elif V == local or L == visita:
+                g1, g2 = (gv, gl) if V == local else (gl, gv)
+            else:
+                continue
+            r = "1" if g1 > g2 else "X" if g1 == g2 else "2"
+            quiere = {"OT_ONE": "1", "OT_CROSS": "X", "OT_TWO": "2", "OT_ONE_OR_CROSS": "1X",
+                      "OT_CROSS_OR_TWO": "X2", "OT_ONE_OR_TWO": "12"}.get(tipo, "")
+            ok += r in quiere
+    return ok / len(partidos_lista)
+
+
+def senales(p, k):
+    """Tres miradas independientes del mercado k: modelo del bot, rachas local-en-casa/visita-fuera y cruces directos."""
+    out = []
+    fam, tipo, linea = k
+    # 1) modelo del bot
+    lam, mu = p.get("goles_local"), p.get("goles_visita")
+    if fam == "goles" and lam and mu:
+        pu = _poisson_tot(lam + mu, math.floor(linea))
+        out.append(("modelo", round(1 - pu if tipo == "OT_OVER" else pu, 3)))
+    elif fam == "btts" and p.get("btts") is not None:
+        out.append(("modelo", p["btts"] if tipo == "OT_YES" else 1 - p["btts"]))
+    elif fam in ("1x2", "dc") and p.get("p1") is not None:
+        m = {"OT_ONE": p["p1"], "OT_CROSS": p["px"], "OT_TWO": p["p2"], "OT_ONE_OR_CROSS": p["p1"] + p["px"],
+             "OT_CROSS_OR_TWO": p["px"] + p["p2"], "OT_ONE_OR_TWO": p["p1"] + p["p2"]}.get(tipo)
+        if m is not None:
+            out.append(("modelo", round(m, 3)))
+    # 2) rachas: el local en casa y el visitante fuera
+    f = p.get("forma") or {}
+    casa = [r for r in map(_res, (f.get("local") or {}).get("ultimos", [])) if r and r[0] == p["local"]]
+    fuera = [r for r in map(_res, (f.get("visita") or {}).get("ultimos", [])) if r and r[3] == p["visita"]]
+    if len(casa) >= 3 and len(fuera) >= 3:
+        a, b = _prob_de(casa, k, p["local"], p["visita"]), _prob_de(fuera, k, p["local"], p["visita"])
+        if a is not None and b is not None:
+            out.append(("rachas", round((a + b) / 2, 3)))
+    # 3) cruces directos (últimos enfrentamientos)
+    h = [r for r in map(_res, p.get("h2h") or []) if r]
+    if len(h) >= 3:
+        v = _prob_de(h, k, p["local"], p["visita"])
+        if v is not None:
+            out.append(("cruces", round(v, 3)))
+    return out
+
+
+def veredicto(pj, sen):
+    """Respaldado solo si al menos 2 miradas apuntan al mismo lado que la apuesta y ninguna va claramente en contra."""
+    favor = [n for n, v in sen if v >= pj - 0.02]
+    contra = [n for n, v in sen if v <= pj - 0.08]
+    if len(favor) >= 2 and not contra:
+        return "respaldado", favor, contra
+    if contra:
+        return "en contra", favor, contra
+    return "sin datos suficientes", favor, contra
+
+
+def idea(k):
+    """Agrupa selecciones que son la misma apuesta (p. ej. más de 2.5 y más de 3.5)."""
+    fam, tipo, _ = k
+    if fam in ("1x2", "dc"):
+        return "local" if tipo in ("OT_ONE", "OT_ONE_OR_CROSS") else "visita" if tipo in ("OT_TWO", "OT_CROSS_OR_TWO") else "otro"
+    return f"{fam}-{tipo}"

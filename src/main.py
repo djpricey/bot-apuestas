@@ -371,7 +371,8 @@ def main():
     except Exception as e:  # noqa: BLE001 - nunca rompe la corrida
         print("  betplay: error", repr(e)[:200])
     with open(os.path.join(SALIDA, "errores.json"), "w", encoding="utf-8") as fh:
-        json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "umbral": kambi.EDGE_ERROR, "errores": errores},
+        json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "umbral": kambi.EDGE_ERROR,
+                   "picks": getattr(kambi.detectar, "picks", []), "errores": errores},
                   fh, ensure_ascii=False, indent=1)
     escalera = elegir_escalera(partidos, ahora.isoformat(timespec="minutes"))
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
