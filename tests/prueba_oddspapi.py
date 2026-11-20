@@ -116,7 +116,7 @@ llamadas.clear()
 pin = op.cuotas_pinnacle(prox, ahora)
 assert set(pin) == {0, 1}, pin.keys()               # Cruzeiro no viene en la respuesta: no se inventa
 assert [c[0] for c in llamadas] == ["/odds-by-tournaments", "/participants"], llamadas  # catálogo en caché; Premier fuera de rango
-assert llamadas[0][1]["tournamentIds"] == "325"
+assert llamadas[0][1]["tournamentIds"].split(",")[-1] == "325", llamadas[0][1]
 # 5) presupuesto: no pasa del límite diario ni mensual
 p2 = op.Presupuesto(ahora)
 usadas = p2.u["usadas_mes"]

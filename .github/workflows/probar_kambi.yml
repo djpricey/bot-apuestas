@@ -1,0 +1,22 @@
+name: Probar BetPlay (Kambi)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m src.kambi
+      - name: Guardar resultado
+        run: |
+          git config user.name "bot-apuestas"
+          git config user.email "bot-apuestas@users.noreply.github.com"
+          git add docs/data/kambi_probe.json
+          git diff --cached --quiet || git commit -m "Prueba de cuotas de BetPlay (Kambi)"
+          git pull --rebase -X theirs
+          git push

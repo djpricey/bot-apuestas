@@ -3,6 +3,7 @@ name: Actualización diaria
 on:
   schedule:
     - cron: "0 11 * * *"   # 6:00 a. m. hora Colombia
+    - cron: "0 2 * * *"    # 9:00 p. m. hora Colombia: deja listos los partidos tempranos del día siguiente
   workflow_dispatch:        # botón para correrlo a mano
   push:                     # también cuando cambia el código del modelo
     branches: [main]

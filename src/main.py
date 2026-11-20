@@ -73,7 +73,7 @@ def elegir_escalera(partidos, ahora_iso=""):
     """Pick del reto escalera: lo más probable con cuota entre 1.25 y 1.60, del día más cercano."""
     cands = []
     for p in partidos:
-        if p.get("desactualizado") or (ahora_iso and (p.get("inicio") or "") <= ahora_iso):
+        if p.get("solo_mercado") or p.get("desactualizado") or (ahora_iso and (p.get("inicio") or "") <= ahora_iso):
             continue
         f = p.get("final") or [p["p1"], p["px"], p["p2"]]
         nom = f"{p['local']} vs {p['visita']}"
@@ -323,6 +323,10 @@ def main():
             "pinnacle": oddspapi.resumen_pinnacle(PIN.get(r.Index)),
             "fuente_cuotas": "Pinnacle (OddsPapi)" if r.Index in PIN else ("promedio de casas" if mk is not None else None),
         })
+
+    # Copas internacionales (Libertadores, Sudamericana, Champions...): el bot no las modela, pero publica las cuotas de Pinnacle
+    ya_c = {(x["local"], x["visita"]) for x in partidos}
+    partidos.extend(x for x in oddspapi.COPAS if (x["local"], x["visita"]) not in ya_c)
 
     # Si esta corrida perdió partidos (p. ej. la API ya no tenía consultas), conserva los de la corrida anterior
     try:

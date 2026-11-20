@@ -29,7 +29,7 @@ SALIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data")
 RUTA_CACHE = os.path.join(SALIDA, "oddspapi_cache.json")
 RUTA_USO = os.path.join(SALIDA, "oddspapi_uso.json")
 RUTA_EQUIPOS = os.path.join(SALIDA, "oddspapi_equipos.json")
-VERSION_CACHE = 3
+VERSION_CACHE = 4
 
 # liga interna -> (país/categoría, palabras del torneo). Se busca en el catálogo de OddsPapi.
 TORNEOS = {
@@ -49,11 +49,13 @@ TORNEOS = {
     "Bélgica": [("belgium", ("pro-league", "first-division-a", "jupiler"))],
     "Turquía": [("turkey", ("super-lig",)), ("turkiye", ("super-lig",))],
     "Escocia": [("scotland", ("premiership",))],
+    "Copas": [("international-clubs", ("libertadores", "sudamericana", "champions-league", "europa-league",
+                                        "conference-league", "recopa"))],
     "Selecciones": [("international", ("nations-league", "world-cup-qualification", "friendl",
                                        "copa-america", "uefa-euro", "european-championship", "africa-cup", "gold-cup", "asian-cup"))],
 }
 # Orden de prioridad cuando no alcanza la cuota del día
-PRIORIDAD = ["Liga BetPlay", "Selecciones", "Brasil", "Argentina", "México", "Premier League", "LaLiga",
+PRIORIDAD = ["Copas", "Liga BetPlay", "Selecciones", "Brasil", "Argentina", "México", "Premier League", "LaLiga",
              "Serie A", "Bundesliga", "Ligue 1", "MLS", "Portugal", "Eredivisie", "Championship",
              "Bélgica", "Turquía", "Escocia"]
 EXCLUIR = ("women", "femen", "u17", "u18", "u19", "u20", "u21", "u23", "youth", "reserve", "serie-b", "primera-b",
@@ -207,7 +209,10 @@ def _elegir_torneos(torneos):
                     continue
                 if slug.endswith("-w") or "-w-" in slug:
                     continue
-                if liga != "Selecciones" and any(x in slug for x in EXCLUIR):
+                if liga == "Copas":
+                    if any(x in slug for x in ("women", "u17", "u19", "u20", "u21", "youth", "qualif")):
+                        continue
+                elif liga != "Selecciones" and any(x in slug for x in EXCLUIR):
                     continue
                 if liga == "Selecciones" and any(x in slug for x in ("women", "u17", "u19", "u20", "u21", "u23")):
                     continue
@@ -216,9 +221,9 @@ def _elegir_torneos(torneos):
             continue
         cands.sort(key=lambda t: -((t.get("futureFixtures") or 0) + (t.get("upcomingFixtures") or 0)))
         # Colombia y México tienen Apertura y Clausura como torneos distintos: se piden los dos
-        tope = cands if liga == "Selecciones" else cands[:2] if liga in ("Liga BetPlay", "México", "Argentina") else cands[:1]
+        tope = cands if liga in ("Selecciones", "Copas") else cands[:2] if liga in ("Liga BetPlay", "México", "Argentina") else cands[:1]
         elegidos[liga] = [{"id": t["tournamentId"], "slug": t.get("tournamentSlug"), "pais": t.get("categorySlug")}
-                          for t in tope if (t.get("futureFixtures") or 0) + (t.get("upcomingFixtures") or 0) > 0 or liga != "Selecciones"]
+                          for t in tope if (t.get("futureFixtures") or 0) + (t.get("upcomingFixtures") or 0) > 0 or liga not in ("Selecciones", "Copas")]
     return elegidos
 
 
@@ -338,7 +343,7 @@ def cuotas_pinnacle(prox, ahora, dias=2):
     hoy = pd.Timestamp(ahora.date())
     cerca = prox[(prox["fecha"] >= hoy) & (prox["fecha"] <= hoy + pd.Timedelta(days=dias))]
     cuenta = cerca["liga"].value_counts().to_dict()
-    ligas = [l for l in PRIORIDAD if cuenta.get(l) and l in cat["torneos"]]
+    ligas = [l for l in PRIORIDAD if (cuenta.get(l) or l == "Copas") and l in cat["torneos"]]
     ids = []
     for l in ligas:
         for t in cat["torneos"][l]:
@@ -379,8 +384,25 @@ def cuotas_pinnacle(prox, ahora, dias=2):
             d["fixture"] = fx.get("fixtureId")
             d["nombres"] = [fx["_local"], fx["_visita"]]
             out[i] = d
-    print(f"  oddspapi: {len(fixtures)} partidos de Pinnacle recibidos, {len(out)} unidos a partidos del bot")
+    usados = {id(fx) for fx in pares.values()}
+    limite = hoy + pd.Timedelta(days=dias)
+    global COPAS
+    COPAS = []
+    for fx in fixtures:
+        if fx.get("_liga") != "Copas" or id(fx) in usados or fx["_fecha"] > limite or fx["_fecha"] < hoy:
+            continue
+        d = leer_fixture(fx, cat["mercados"])
+        if d:
+            ini = pd.Timestamp(fx.get("startTime") or fx.get("trueStartTime")).tz_convert("America/Bogota")
+            COPAS.append({"inicio": ini.strftime("%Y-%m-%dT%H:%M-05:00"), "fecha": ini.strftime("%Y-%m-%d"),
+                          "liga": "Copas", "local": fx["_local"], "visita": fx["_visita"], "solo_mercado": True,
+                          "pinnacle": resumen_pinnacle(d), "fuente_cuotas": "Pinnacle (OddsPapi)",
+                          "mercados": [], "recomendacion": [], "valor": []})
+    print(f"  oddspapi: {len(fixtures)} partidos de Pinnacle recibidos, {len(out)} unidos a partidos del bot, {len(COPAS)} de copas sin modelo")
     return out
+
+
+COPAS = []  # partidos de copas internacionales que el bot no modela: solo cuotas de Pinnacle
 
 
 def resumen_pinnacle(d):
