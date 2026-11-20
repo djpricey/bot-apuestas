@@ -289,3 +289,133 @@ def idea(k):
     if fam in ("1x2", "dc"):
         return "local" if tipo in ("OT_ONE", "OT_ONE_OR_CROSS") else "visita" if tipo in ("OT_TWO", "OT_CROSS_OR_TWO") else "otro"
     return f"{fam}-{tipo}"
+
+
+# ------------------------------------------------------------------ mercados de estadísticas (todos los partidos de BetPlay)
+
+VAR_FACTOR = {"corners": 1.5, "tarjetas": 1.4, "tiros": 1.8, "tiros_puerta": 1.3, "atajadas": 1.2, "faltas": 1.4}
+
+
+def _nb_cdf(k, mu, f):
+    """P(X <= k) con binomial negativa de media mu y varianza f*mu (f<=1 → Poisson)."""
+    k = int(math.floor(k))
+    if mu <= 0:
+        return 1.0
+    if f <= 1.0001:
+        return sum(math.exp(-mu) * mu ** i / math.factorial(i) for i in range(k + 1))
+    p = 1 / f
+    r = mu * p / (1 - p)
+    tot, term = 0.0, p ** r
+    for i in range(k + 1):
+        if i > 0:
+            term *= (r + i - 1) / i * (1 - p)
+        tot += term
+    return min(tot, 1.0)
+
+
+def _buscar_equipo(nombre, est, liga=None):
+    from . import oddspapi as op
+    mejor, s_mejor = None, 0
+    ligas = [liga] if liga in est else list(est)
+    for lg in ligas:
+        for eq in est[lg]:
+            s = op.parecido(nombre, eq)
+            if s > s_mejor:
+                mejor, s_mejor = (lg, eq), s
+    return mejor if s_mejor >= 0.8 else None
+
+
+def _esperados(sl, sv):
+    """Valores esperados por equipo combinando lo que hace cada uno y lo que concede el rival."""
+    def m(a, b):
+        xs = [x for x in (a, b) if x is not None]
+        return sum(xs) / len(xs) if xs else None
+    e = {}
+    for c in ("corners", "tarjetas", "tiros", "tiros_puerta", "faltas", "goles"):
+        e[c + "_l"] = m(sl.get(c), sv.get(c + "_contra"))
+        e[c + "_v"] = m(sv.get(c), sl.get(c + "_contra"))
+    if e["tiros_puerta_v"] is not None and e["goles_v"] is not None:
+        e["atajadas_l"] = max(e["tiros_puerta_v"] - e["goles_v"], 0.3)  # paradas del portero local
+    if e["tiros_puerta_l"] is not None and e["goles_l"] is not None:
+        e["atajadas_v"] = max(e["tiros_puerta_l"] - e["goles_l"], 0.3)
+    return e
+
+
+def _tipo_stat(en, local_bp, visita_bp):
+    """('corners', 'l'|'v'|'t') a partir de la etiqueta en inglés de Kambi; None si no es de estadísticas a tiempo completo."""
+    from . import oddspapi as op
+    en0 = en.replace(" (Settled using Opta data)", "").strip()
+    if any(x in en0 for x in ("Half", "Interval", "0:00", "Most", "Next", "Handicap", "Player", "To ")):
+        return None
+    bases = [("Total Shots on Target", "tiros_puerta"), ("Total Shots", "tiros"), ("Total Corners", "corners"),
+             ("Total Cards", "tarjetas"), ("Goalkeeper Saves", "atajadas"), ("Total Fouls conceded", "faltas")]
+    for pref, clave in bases:
+        if en0 == pref:
+            return clave, "t"
+        if en0.startswith(pref):
+            resto = en0[len(pref):].replace(" by ", " ").replace(" By ", " ").strip(" -")
+            if not resto:
+                return clave, "t"
+            sl, sv = op.parecido(resto, local_bp), op.parecido(resto, visita_bp)
+            if max(sl, sv) < 0.6:
+                return None
+            return clave, "l" if sl >= sv else "v"
+    return None
+
+
+def escanear_estadisticas(ahora, est, horas=40, max_eventos=180, ev_min=0.05):
+    """Recorre los partidos de BetPlay de las próximas `horas` con equipos en `est` y compara cada línea de
+    córners, tarjetas, tiros, tiros a puerta, atajadas y faltas con lo esperado por las estadísticas."""
+    try:
+        lista = partidos_futbol()
+    except Exception as e:  # noqa: BLE001
+        print("  stats-betplay: no se pudo leer la lista:", repr(e)[:120])
+        return [], 0
+    fin = ahora + timedelta(hours=horas)
+    out, n = [], 0
+    for e in lista:
+        if n >= max_eventos or not e.get("local") or not e.get("inicio"):
+            continue
+        ini = datetime.fromisoformat(e["inicio"].replace("Z", "+00:00"))
+        if ini <= ahora or ini > fin:
+            continue
+        el, ev = _buscar_equipo(e["local"], est), _buscar_equipo(e["visita"], est)
+        if not el or not ev or el[0] != ev[0]:
+            continue
+        sl, sv = est[el[0]][el[1]]["casa"], est[ev[0]][ev[1]]["fuera"]
+        if sl.get("n", 0) < 4 or sv.get("n", 0) < 4:
+            continue
+        try:
+            time.sleep(0.3)
+            ms = _parse(_get(f"/betoffer/event/{e['id']}.json").get("betOffers", []))
+        except Exception:  # noqa: BLE001
+            continue
+        n += 1
+        esp = _esperados(sl, sv)
+        hora = ini.astimezone(timezone(timedelta(hours=-5))).strftime("%Y-%m-%d %H:%M")
+        for m in ms:
+            t = _tipo_stat(m["en"], e["local"], e["visita"])
+            if not t or m["linea"] is None or m["tipo"] not in ("OT_OVER", "OT_UNDER"):
+                continue
+            clave, lado = t
+            mu = (esp.get(clave + "_l") or 0) + (esp.get(clave + "_v") or 0) if lado == "t" else esp.get(f"{clave}_{lado}")
+            if not mu:
+                continue
+            pu = _nb_cdf(m["linea"], mu, VAR_FACTOR[clave])
+            pj = 1 - pu if m["tipo"] == "OT_OVER" else pu
+            evv = pj * m["cuota"] - 1
+            if evv >= ev_min and pj >= 0.35:
+                out.append({"inicio": hora, "liga": el[0], "partido": e["nombre"], "mercado": m["mercado"],
+                            "seleccion": f"{m['op']} {m['linea']}", "cuota": m["cuota"], "esperado": round(mu, 2),
+                            "prob": round(pj, 3), "cuota_minima": round(1.04 / pj, 2), "ventaja": round(evv, 3),
+                            "kelly": round(evv / (m["cuota"] - 1), 3), "clave": clave, "lado": lado,
+                            "datos": {"local_casa": {k: sl.get(k) for k in (clave, clave + "_contra", "n")},
+                                      "visita_fuera": {k: sv.get(k) for k in (clave, clave + "_contra", "n")}}})
+    # una sola línea por partido/mercado/lado/dirección: la de mejor Kelly
+    mejores = {}
+    for x in sorted(out, key=lambda x: -x["kelly"]):
+        k = (x["partido"], x["clave"], x["lado"], x["seleccion"].split()[0])
+        mejores.setdefault(k, x)
+    res = sorted(mejores.values(), key=lambda x: -x["ventaja"])
+    print(f"  stats-betplay: {n} partidos de BetPlay con estadísticas revisados, {len(res)} líneas con ventaja ≥ {ev_min:.0%}")
+    return res, n

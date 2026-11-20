@@ -387,6 +387,17 @@ def main():
         json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "umbral": kambi.EDGE_ERROR,
                    "picks": getattr(kambi.detectar, "picks", []), "errores": errores},
                   fh, ensure_ascii=False, indent=1)
+    # Todos los partidos de BetPlay con estadísticas: córners, tarjetas, tiros, tiros a puerta, atajadas y faltas
+    try:
+        with open(os.path.join(SALIDA, "estadisticas.json"), encoding="utf-8") as fh:
+            est_eq = json.load(fh).get("equipos", {})
+        cand, revisados = kambi.escanear_estadisticas(ahora, est_eq)
+        with open(os.path.join(SALIDA, "mercados_stats.json"), "w", encoding="utf-8") as fh:
+            json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "revisados": revisados,
+                       "nota": "Candidatos por estadísticas (casa/fuera, últimos 10). No son picks: requieren revisión de contexto.",
+                       "candidatos": cand}, fh, ensure_ascii=False, indent=1)
+    except Exception as e:  # noqa: BLE001
+        print("  stats-betplay: error", repr(e)[:200])
     escalera = elegir_escalera(partidos, ahora.isoformat(timespec="minutes"))
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
     with open(os.path.join(SALIDA, "hoy.json"), "w", encoding="utf-8") as fh:
