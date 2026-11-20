@@ -1,5 +1,105 @@
 {
- "actualizado": "2026-11-20T10:58-05:00",
+ "actualizado": "2026-11-20T11:02-05:00",
  "umbral": 0.02,
- "errores": []
+ "errores": [
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.63,
+   "prob_pinnacle": 0.446,
+   "cuota_justa": 2.24,
+   "ventaja": 0.173
+  },
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 2.5",
+   "cuota_betplay": 1.66,
+   "prob_pinnacle": 0.651,
+   "cuota_justa": 1.54,
+   "ventaja": 0.081
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Escocia",
+   "partido": "Hibernian vs Dundee United",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 3.85,
+   "prob_pinnacle": 0.273,
+   "cuota_justa": 3.66,
+   "ventaja": 0.051
+  },
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 2.55,
+   "prob_pinnacle": 0.411,
+   "cuota_justa": 2.43,
+   "ventaja": 0.048
+  },
+  {
+   "inicio": "2026-11-21T09:30-05:00",
+   "liga": "Bundesliga",
+   "partido": "Ein Frankfurt vs Hoffenheim",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.1,
+   "prob_pinnacle": 0.336,
+   "cuota_justa": 2.98,
+   "ventaja": 0.042
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Bélgica",
+   "partido": "Charleroi vs St Truiden",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.3,
+   "prob_pinnacle": 0.242,
+   "cuota_justa": 4.13,
+   "ventaja": 0.041
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Bélgica",
+   "partido": "Charleroi vs St Truiden",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 3.7,
+   "prob_pinnacle": 0.279,
+   "cuota_justa": 3.58,
+   "ventaja": 0.032
+  },
+  {
+   "inicio": "2026-11-20T22:00-05:00",
+   "liga": "México",
+   "partido": "Juarez vs Atlas",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.2,
+   "prob_pinnacle": 0.197,
+   "cuota_justa": 5.08,
+   "ventaja": 0.024
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Championship",
+   "partido": "Stoke vs Birmingham",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 3.3,
+   "prob_pinnacle": 0.31,
+   "cuota_justa": 3.23,
+   "ventaja": 0.023
+  }
+ ]
 }
