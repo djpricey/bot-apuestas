@@ -325,15 +325,26 @@ def _buscar_equipo(nombre, est, liga=None):
     return mejor if s_mejor >= 0.8 else None
 
 
-def _esperados(sl, sv):
-    """Valores esperados por equipo combinando lo que hace cada uno y lo que concede el rival."""
-    def m(a, b):
-        xs = [x for x in (a, b) if x is not None]
-        return sum(xs) / len(xs) if xs else None
+def _medias_liga(est_liga):
+    """Promedios de la liga: lo que hace un local en casa y un visitante fuera, por estadística."""
+    med = {}
+    for c in ("corners", "tarjetas", "tiros", "tiros_puerta", "faltas", "goles"):
+        h = [v["casa"].get(c) for v in est_liga.values() if v["casa"].get(c) is not None]
+        a = [v["fuera"].get(c) for v in est_liga.values() if v["fuera"].get(c) is not None]
+        med[c + "_casa"] = sum(h) / len(h) if h else None
+        med[c + "_fuera"] = sum(a) / len(a) if a else None
+    return med
+
+
+def _esperados(sl, sv, med):
+    """Esperado = lo que hace el equipo x lo que concede el rival / promedio de la liga (modelo multiplicativo)."""
     e = {}
     for c in ("corners", "tarjetas", "tiros", "tiros_puerta", "faltas", "goles"):
-        e[c + "_l"] = m(sl.get(c), sv.get(c + "_contra"))
-        e[c + "_v"] = m(sv.get(c), sl.get(c + "_contra"))
+        hc, ac = med.get(c + "_casa"), med.get(c + "_fuera")
+        a, b = sl.get(c), sv.get(c + "_contra")
+        e[c + "_l"] = a * b / hc if (a is not None and b is not None and hc) else None
+        a, b = sv.get(c), sl.get(c + "_contra")
+        e[c + "_v"] = a * b / ac if (a is not None and b is not None and ac) else None
     if e["tiros_puerta_v"] is not None and e["goles_v"] is not None:
         e["atajadas_l"] = max(e["tiros_puerta_v"] - e["goles_v"], 0.3)  # paradas del portero local
     if e["tiros_puerta_l"] is not None and e["goles_l"] is not None:
@@ -372,7 +383,7 @@ def escanear_estadisticas(ahora, est, horas=40, max_eventos=180, ev_min=0.05):
         print("  stats-betplay: no se pudo leer la lista:", repr(e)[:120])
         return [], 0
     fin = ahora + timedelta(hours=horas)
-    out, n = [], 0
+    out, n, medias = [], 0, {}
     for e in lista:
         if n >= max_eventos or not e.get("local") or not e.get("inicio"):
             continue
@@ -391,7 +402,7 @@ def escanear_estadisticas(ahora, est, horas=40, max_eventos=180, ev_min=0.05):
         except Exception:  # noqa: BLE001
             continue
         n += 1
-        esp = _esperados(sl, sv)
+        esp = _esperados(sl, sv, medias.setdefault(el[0], _medias_liga(est[el[0]])))
         hora = ini.astimezone(timezone(timedelta(hours=-5))).strftime("%Y-%m-%d %H:%M")
         for m in ms:
             t = _tipo_stat(m["en"], e["local"], e["visita"])
@@ -401,6 +412,8 @@ def escanear_estadisticas(ahora, est, horas=40, max_eventos=180, ev_min=0.05):
             mu = (esp.get(clave + "_l") or 0) + (esp.get(clave + "_v") or 0) if lado == "t" else esp.get(f"{clave}_{lado}")
             if not mu:
                 continue
+            if abs(m["linea"] - mu) > 3 * math.sqrt(VAR_FACTOR[clave] * mu) + 1:
+                continue  # línea muy lejos de lo esperado: probablemente otro mercado o dato raro
             pu = _nb_cdf(m["linea"], mu, VAR_FACTOR[clave])
             pj = 1 - pu if m["tipo"] == "OT_OVER" else pu
             evv = pj * m["cuota"] - 1

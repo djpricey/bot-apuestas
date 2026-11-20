@@ -394,7 +394,7 @@ def main():
         cand, revisados = kambi.escanear_estadisticas(ahora, est_eq)
         with open(os.path.join(SALIDA, "mercados_stats.json"), "w", encoding="utf-8") as fh:
             json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "revisados": revisados,
-                       "nota": "Candidatos por estadísticas (casa/fuera, últimos 10). No son picks: requieren revisión de contexto.",
+                       "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
                        "candidatos": cand}, fh, ensure_ascii=False, indent=1)
     except Exception as e:  # noqa: BLE001
         print("  stats-betplay: error", repr(e)[:200])
