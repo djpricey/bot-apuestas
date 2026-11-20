@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 
 from .config import DIAS_HISTORIA, XI_CANDIDATOS, EDGE_MIN
-from .datos import descargar_resultados, descargar_proximos, descargar_selecciones, leer_manual
+from .datos import descargar_resultados, descargar_proximos, descargar_selecciones, leer_manual, descargar_estadisticas
+from . import estadisticas
 from .modelo import ajustar, goles_esperados, probabilidades, implicitas, logloss, resultado
 from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
@@ -324,6 +325,18 @@ def main():
             "pinnacle": oddspapi.resumen_pinnacle(PIN.get(r.Index)),
             "fuente_cuotas": "Pinnacle (OddsPapi)" if r.Index in PIN else ("promedio de casas" if mk is not None else None),
         })
+
+    # Estadísticas por equipo (tiros, tiros a puerta, atajadas, córners, tarjetas, faltas) para el análisis
+    try:
+        extra = descargar_estadisticas()
+        base_st = pd.concat([res, extra], ignore_index=True) if not extra.empty else res
+        EST = estadisticas.generar(base_st, pd.Timestamp(hoy), SALIDA)
+        for x in partidos:
+            e = EST.get(x["liga"]) or {}
+            if x["local"] in e and x["visita"] in e:
+                x["stats"] = {"local_casa": e[x["local"]]["casa"], "visita_fuera": e[x["visita"]]["fuera"]}
+    except Exception as e:  # noqa: BLE001 - nunca rompe la corrida
+        print("  estadísticas: error", repr(e)[:200])
 
     # Copas internacionales (Libertadores, Sudamericana, Champions...): el bot no las modela, pero publica las cuotas de Pinnacle
     ya_c = {(x["local"], x["visita"]) for x in partidos}

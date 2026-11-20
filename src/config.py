@@ -25,6 +25,12 @@ LIGAS_EXTRA = {
     "USA": "MLS",
 }
 
+# Ligas solo para estadísticas por equipo (tiros, tiros a puerta, atajadas, córners, tarjetas, faltas)
+LIGAS_ESTADISTICAS = {
+    "E2": "League One", "E3": "League Two", "D2": "2. Bundesliga", "I2": "Serie B", "SP2": "LaLiga 2",
+    "F2": "Ligue 2", "SC1": "Escocia Championship", "G1": "Grecia",
+}
+
 # Temporadas a descargar para las ligas principales (formato 2526 = 2025-26)
 TEMPORADAS = ["2425", "2526", "2627"]
 

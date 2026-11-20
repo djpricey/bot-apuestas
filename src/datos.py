@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import requests
 
-from .config import BASE, LIGAS_PRINCIPALES, LIGAS_EXTRA, TEMPORADAS
+from .config import BASE, LIGAS_PRINCIPALES, LIGAS_EXTRA, LIGAS_ESTADISTICAS, TEMPORADAS
 
 ALIAS = {
     "home": ["HomeTeam", "Home", "HT"],
@@ -21,6 +21,8 @@ ALIAS = {
     "co_l": ["HC"], "co_v": ["AC"],
     "am_l": ["HY"], "am_v": ["AY"], "ro_l": ["HR"], "ro_v": ["AR"],
     "arbitro": ["Referee"],
+    # tiros, tiros a puerta y faltas (para tiros, atajadas y tarjetas)
+    "ti_l": ["HS"], "ti_v": ["AS"], "tp_l": ["HST"], "tp_v": ["AST"], "fa_l": ["HF"], "fa_v": ["AF"],
 }
 
 
@@ -63,7 +65,8 @@ def normalizar(df, liga):
     out["hora"] = df["Time"] if "Time" in df.columns else ""
     out["liga"] = liga
     out = out.dropna(subset=["home", "away", "fecha"])
-    for c in ["hg", "ag", "c1", "cx", "c2", "o25", "u25", "co_l", "co_v", "am_l", "am_v", "ro_l", "ro_v"]:
+    for c in ["hg", "ag", "c1", "cx", "c2", "o25", "u25", "co_l", "co_v", "am_l", "am_v", "ro_l", "ro_v",
+              "ti_l", "ti_v", "tp_l", "tp_v", "fa_l", "fa_v"]:
         out[c] = pd.to_numeric(out[c], errors="coerce")
     # tarjetas = amarillas + rojas (así cuentan la mayoría de casas)
     out["tj_l"] = out["am_l"] + out["ro_l"].fillna(0)
@@ -167,3 +170,17 @@ def leer_manual(ruta):
     for col in ["c1", "cx", "c2", "o25", "u25"]:
         out[col] = pd.to_numeric(m[col], errors="coerce") if col in m.columns else pd.NA
     return out.dropna(subset=["hg", "ag"]).reset_index(drop=True), out[out["hg"].isna()].reset_index(drop=True)
+
+
+def descargar_estadisticas():
+    """Segundas divisiones y ligas extra con tiros/córners/tarjetas: solo para estadísticas, no para el modelo de goles."""
+    partes = []
+    for cod, nombre in LIGAS_ESTADISTICAS.items():
+        for t in TEMPORADAS[-2:]:
+            c = _get(f"{BASE}/mmz4281/{t}/{cod}.csv")
+            if c:
+                partes.append(normalizar(_leer_csv(c), nombre))
+    if not partes:
+        return pd.DataFrame()
+    df = pd.concat(partes, ignore_index=True).dropna(subset=["hg", "ag"])
+    return df.drop_duplicates(subset=["liga", "fecha", "home", "away"]).sort_values("fecha").reset_index(drop=True)
