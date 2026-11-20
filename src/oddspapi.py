@@ -21,7 +21,7 @@ import requests
 
 BASE = "https://api.oddspapi.io/v4"
 PRESUPUESTO_MES = 230      # deja margen sobre las 250 del plan gratis
-MAX_POR_DIA = 7
+MAX_POR_DIA = 10
 COOLDOWN = 1.2             # segundos entre consultas (la API pide 1 s)
 SOCCER = 10
 

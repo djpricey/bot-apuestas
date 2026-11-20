@@ -345,6 +345,17 @@ def main():
         pass
     partidos = [x for x in partidos if not x.get("inicio") or x["inicio"] > ahora.isoformat(timespec="minutes")]
     partidos.sort(key=lambda x: (x["fecha"], x.get("inicio") or ""))
+    # Si esta corrida no pudo bajar Pinnacle (cupo del día), usa las de la corrida anterior para el mismo partido
+    try:
+        with open(os.path.join(SALIDA, "hoy.json"), encoding="utf-8") as fh:
+            ant = {(x["liga"], x["local"], x["visita"]): x.get("pinnacle") for x in json.load(fh).get("partidos", []) if x.get("pinnacle")}
+        for x in partidos:
+            if not x.get("pinnacle") and ant.get((x["liga"], x["local"], x["visita"])):
+                x["pinnacle"] = ant[(x["liga"], x["local"], x["visita"])]
+                x["pinnacle_anterior"] = True
+    except (OSError, ValueError, KeyError):
+        pass
+
     # Cuotas de BetPlay y errores de cuota contra Pinnacle
     errores = []
     try:
