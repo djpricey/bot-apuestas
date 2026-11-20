@@ -1,184 +1,320 @@
 {
- "paginas": [
+ "ok": true,
+ "partidos": 471,
+ "muestra": [
   {
-   "url": "https://betplay.com.co/apuestas",
-   "status": 200,
-   "largo": 130982,
-   "pistas": [
-    "KAMBI",
-    "KambiWidget.ready.then(function",
-    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
-    "kambicdn.com"
-   ],
-   "offering": []
-  },
-  {
-   "url": "https://betplay.com.co/",
-   "status": 200,
-   "largo": 130982,
-   "pistas": [
-    "KAMBI",
-    "KambiWidget.ready.then(function",
-    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
-    "kambicdn.com"
-   ],
-   "offering": []
-  },
-  {
-   "url": "https://betplay.com.co/apuestas#home",
-   "status": 200,
-   "largo": 130982,
-   "pistas": [
-    "KAMBI",
-    "KambiWidget.ready.then(function",
-    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
-    "kambicdn.com"
-   ],
-   "offering": []
-  }
- ],
- "codigos_en_html": [],
- "intentos": [
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  },
-  {
-   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
-   "error": "URLError(gaierror(-2, 'Name or service not known'))"
-  }
- ],
- "ok": null,
- "scripts": [
-  "https://challenges.cloudflare.com/turnstile/v0/api.js",
-  "https://sdk.optimove.net/websdk/?tenant_id=960&amp;tenant_token=161c3dd0193a4fb489a1734ababf4321",
-  "https://sdk.optimove.net/websdk/?tenant_id=960&amp;tenant_token=161c3dd0193a4fb489a1734ababf4321",
-  "https://www.clarity.ms/tag/",
-  "https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json",
-  "https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js",
-  "https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js",
-  "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
-  "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js",
-  "https://cdn-cookieyes.com/client_data/3215ba7da6fb12c12f7c43a5c57b285d/script.js",
-  "https://www.googletagmanager.com/ns.html?id=GTM-KGJDDFS",
-  "https://ctag.containermedia.net/secure/initializer.js",
-  "https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
-  "./assets/bpcaptcha/bpcaptcha.min.js",
-  "runtime.d990c1c208c6caa3.js",
-  "polyfills.8d93a077ec680f8d.js",
-  "scripts.245336e8b282bb49.js",
-  "main.9efcd8bcd270f5f9.js",
-  "https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit",
-  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
-  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
-  "./assets/js/emblue-sdk-worker.js",
-  "./assets/js/navigate.js"
- ],
- "kambi_ctx": [
-  "ps://www.gstatic.com\">\r\n        <link rel=\"preconnect\" href=\"https://www.gstatic.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://d2kl3vz0o53wtj.cloudfront.net\">\r\n        <link rel=\"preconnect\" href=\"https://d2kl3vz0o53wtj.cloudfront.net\">\r\n        <link rel=\"dns-prefetch\" href=\"https://static.kambicdn.com\">\r\n        <link rel=\"preconnect\" href=\"https://static.kambicdn.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://cdn.livechatinc.com\">\r\n        <link rel=\"preconnect\" href=\"https://cdn.livechatinc.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\r\n        <link rel=\"preconnect\" href=\"https://www.googletagmanager.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://apicms.betplay.com.co\">\r\n        <link rel=\"preconnect\" href=\"https://apicms.betpla",
-  "/www.gstatic.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://d2kl3vz0o53wtj.cloudfront.net\">\r\n        <link rel=\"preconnect\" href=\"https://d2kl3vz0o53wtj.cloudfront.net\">\r\n        <link rel=\"dns-prefetch\" href=\"https://static.kambicdn.com\">\r\n        <link rel=\"preconnect\" href=\"https://static.kambicdn.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://cdn.livechatinc.com\">\r\n        <link rel=\"preconnect\" href=\"https://cdn.livechatinc.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://www.googletagmanager.com\">\r\n        <link rel=\"preconnect\" href=\"https://www.googletagmanager.com\">\r\n        <link rel=\"dns-prefetch\" href=\"https://apicms.betplay.com.co\">\r\n        <link rel=\"preconnect\" href=\"https://apicms.betplay.com.co\">\r\n        <link rel=\"dns-prefetch\" href=\"https://code.jque",
-  "t(\"script\");containerTag.src=\"https://ctag.containermedia.net/secure/initializer.js\";containerTag.async =\"true\";document.head.appendChild(containerTag);localStorage.setItem('CTID', '667f0fb3b836e386827a1572')}containerTag(); </script>\r\n        <!-- Fin Pixel CTAG -->\r\n\r\n        <script src=\"https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js\"></script>\r\n        <!-- WAPI KAMBI -->\r\n        <!-- <script>\r\n            window.KambiWidget.ready.then(function (wapi) {\r\n\r\n            //  wapi.set(wapi.CLIENT_HIDE);\r\n            //  wapi.set(wapi.BETSLIP_HIDE);\r\n            // wapi.set(wapi.WIDGET_HEIGHT, 800);\r\n\r\n            })\r\n        </script> -->\r\n\r\n        <script>\r\n            var widgets = setInterval(function () {\r\n\r\n                    // const vaix = document.createElement('sc",
-  "rTag.src=\"https://ctag.containermedia.net/secure/initializer.js\";containerTag.async =\"true\";document.head.appendChild(containerTag);localStorage.setItem('CTID', '667f0fb3b836e386827a1572')}containerTag(); </script>\r\n        <!-- Fin Pixel CTAG -->\r\n\r\n        <script src=\"https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js\"></script>\r\n        <!-- WAPI KAMBI -->\r\n        <!-- <script>\r\n            window.KambiWidget.ready.then(function (wapi) {\r\n\r\n            //  wapi.set(wapi.CLIENT_HIDE);\r\n            //  wapi.set(wapi.BETSLIP_HIDE);\r\n            // wapi.set(wapi.WIDGET_HEIGHT, 800);\r\n\r\n            })\r\n        </script> -->\r\n\r\n        <script>\r\n            var widgets = setInterval(function () {\r\n\r\n                    // const vaix = document.createElement('script');\r\n           ",
-  "ps://ctag.containermedia.net/secure/initializer.js\";containerTag.async =\"true\";document.head.appendChild(containerTag);localStorage.setItem('CTID', '667f0fb3b836e386827a1572')}containerTag(); </script>\r\n        <!-- Fin Pixel CTAG -->\r\n\r\n        <script src=\"https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js\"></script>\r\n        <!-- WAPI KAMBI -->\r\n        <!-- <script>\r\n            window.KambiWidget.ready.then(function (wapi) {\r\n\r\n            //  wapi.set(wapi.CLIENT_HIDE);\r\n            //  wapi.set(wapi.BETSLIP_HIDE);\r\n            // wapi.set(wapi.WIDGET_HEIGHT, 800);\r\n\r\n            })\r\n        </script> -->\r\n\r\n        <script>\r\n            var widgets = setInterval(function () {\r\n\r\n                    // const vaix = document.createElement('script');\r\n                    // v",
-  "\";containerTag.async =\"true\";document.head.appendChild(containerTag);localStorage.setItem('CTID', '667f0fb3b836e386827a1572')}containerTag(); </script>\r\n        <!-- Fin Pixel CTAG -->\r\n\r\n        <script src=\"https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js\"></script>\r\n        <!-- WAPI KAMBI -->\r\n        <!-- <script>\r\n            window.KambiWidget.ready.then(function (wapi) {\r\n\r\n            //  wapi.set(wapi.CLIENT_HIDE);\r\n            //  wapi.set(wapi.BETSLIP_HIDE);\r\n            // wapi.set(wapi.WIDGET_HEIGHT, 800);\r\n\r\n            })\r\n        </script> -->\r\n\r\n        <script>\r\n            var widgets = setInterval(function () {\r\n\r\n                    // const vaix = document.createElement('script');\r\n                    // vaix.setAttribute('type', 'text/javascript');\r\n\r\n  "
- ],
- "scripts_leidos": [
-  {
-   "url": "https://apps.mypurecloud.com/widgets/9.0/i18n/widgets-es.i18n.json",
-   "offering": [],
-   "pistas": []
-  },
-  {
-   "url": "https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js",
-   "offering": [],
-   "pistas": []
-  },
-  {
-   "url": "https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js",
-   "offering": [],
-   "pistas": []
-  },
-  {
-   "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js",
-   "offering": [],
-   "pistas": []
-  },
-  {
-   "url": "https://kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
-   "offering": [],
-   "pistas": [
-    "KAMBI_REQUEST_CLIENT_READY_RESPONSE",
-    "KAMBI_RESPOND_CLIENT_READY",
-    "KambiBC",
-    "KambiBC_RequestClientReadyResponse",
-    "KambiBC_RespondClientReady",
-    "O.KAMBI_REQUEST_CLIENT_READY_RESPONSE",
-    "O.KAMBI_RESPOND_CLIENT_READY",
-    "e.KambiWidget",
-    "e.KambiWidget.apiReady",
-    "kambi-",
-    "kambi-widget-api",
-    "window.KambiWidget",
-    "window.KambiWidget.receiveResponse"
+   "id": 1029897491,
+   "nombre": "Muscat FC - Al-Suwaiq (OMN)",
+   "local": "Muscat FC",
+   "visita": "Al-Suwaiq (OMN)",
+   "inicio": "2026-11-20T13:51:00Z",
+   "grupo": "Liga First Division",
+   "ruta": [
+    "Fútbol",
+    "Omán",
+    "Liga First Division"
    ]
   },
   {
-   "url": "https://betplay.com.co/main.9efcd8bcd270f5f9.js",
-   "offering": [],
-   "pistas": []
+   "id": 1029930033,
+   "nombre": "Al Orouba (OMN) - Bidiyah Club",
+   "local": "Al Orouba (OMN)",
+   "visita": "Bidiyah Club",
+   "inicio": "2026-11-20T13:51:00Z",
+   "grupo": "Liga First Division",
+   "ruta": [
+    "Fútbol",
+    "Omán",
+    "Liga First Division"
+   ]
   },
   {
-   "url": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
-   "offering": [],
-   "pistas": []
+   "id": 1029623440,
+   "nombre": "Al Minaa Basra FC - Karbalaa FC",
+   "local": "Al Minaa Basra FC",
+   "visita": "Karbalaa FC",
+   "inicio": "2026-11-20T13:58:00Z",
+   "grupo": "Stars League",
+   "ruta": [
+    "Fútbol",
+    "Irak",
+    "Stars League"
+   ]
+  },
+  {
+   "id": 1029849732,
+   "nombre": "Hussein Dey - El Harrach",
+   "local": "Hussein Dey",
+   "visita": "El Harrach",
+   "inicio": "2026-11-20T13:58:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849737,
+   "nombre": "CA Batna - JSM Skikda",
+   "local": "CA Batna",
+   "visita": "JSM Skikda",
+   "inicio": "2026-11-20T13:59:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849750,
+   "nombre": "ESM Kolea - WA Tlemcen",
+   "local": "ESM Kolea",
+   "visita": "WA Tlemcen",
+   "inicio": "2026-11-20T13:59:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029297201,
+   "nombre": "Bengaluru FC - Mumbai City",
+   "local": "Bengaluru FC",
+   "visita": "Mumbai City",
+   "inicio": "2026-11-20T14:00:00Z",
+   "grupo": "Super League",
+   "ruta": [
+    "Fútbol",
+    "India",
+    "Super League"
+   ]
+  },
+  {
+   "id": 1029849751,
+   "nombre": "Sidi M'hamed Benali - WA Mostaganem",
+   "local": "Sidi M'hamed Benali",
+   "visita": "WA Mostaganem",
+   "inicio": "2026-11-20T14:01:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849728,
+   "nombre": "RC Arbaâ - RC Kouba",
+   "local": "RC Arbaâ",
+   "visita": "RC Kouba",
+   "inicio": "2026-11-20T14:02:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849733,
+   "nombre": "Mostaganem - ASM Oran",
+   "local": "Mostaganem",
+   "visita": "ASM Oran",
+   "inicio": "2026-11-20T14:02:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029861703,
+   "nombre": "MC EL Bayadh - Taghit",
+   "local": "MC EL Bayadh",
+   "visita": "Taghit",
+   "inicio": "2026-11-20T14:03:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849729,
+   "nombre": "GC Mascara - MC Saïda",
+   "local": "GC Mascara",
+   "visita": "MC Saïda",
+   "inicio": "2026-11-20T14:03:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029849734,
+   "nombre": "USM Blida - JSM Tiaret",
+   "local": "USM Blida",
+   "visita": "JSM Tiaret",
+   "inicio": "2026-11-20T14:04:00Z",
+   "grupo": "Ligue 2",
+   "ruta": [
+    "Fútbol",
+    "Argelia",
+    "Ligue 2"
+   ]
+  },
+  {
+   "id": 1029874982,
+   "nombre": "Al Salmiyah - Khaitan",
+   "local": "Al Salmiyah",
+   "visita": "Khaitan",
+   "inicio": "2026-11-20T14:20:00Z",
+   "grupo": "Crown Prince Cup",
+   "ruta": [
+    "Fútbol",
+    "Kuwait",
+    "Crown Prince Cup"
+   ]
+  },
+  {
+   "id": 1029623351,
+   "nombre": "Al Ittihad (BHR) - Bouri",
+   "local": "Al Ittihad (BHR)",
+   "visita": "Bouri",
+   "inicio": "2026-11-20T15:00:00Z",
+   "grupo": "2.ª División",
+   "ruta": [
+    "Fútbol",
+    "Bahrein",
+    "2.ª División"
+   ]
   }
- ]
+ ],
+ "ejemplo": {
+  "partido": "Sumgayit FK - Sabah FK",
+  "grupo": "Premier Liga",
+  "n_mercados": 6,
+  "nombres_mercados": [
+   "Doble Oportunidad",
+   "Próximo gol (3) (Opción empate: no se marcarán más goles)",
+   "Resultado Final",
+   "Total de goles"
+  ],
+  "primeros": [
+   {
+    "mercado": "Resultado Final",
+    "tipo": "Partido",
+    "opciones": [
+     [
+      "1",
+      11.5,
+      null
+     ],
+     [
+      "X",
+      4.75,
+      null
+     ],
+     [
+      "2",
+      1.19,
+      null
+     ]
+    ]
+   },
+   {
+    "mercado": "Total de goles",
+    "tipo": "Más/Menos de",
+    "opciones": [
+     [
+      "Más de",
+      1.28,
+      3.5
+     ],
+     [
+      "Menos de",
+      3.0,
+      3.5
+     ]
+    ]
+   },
+   {
+    "mercado": "Doble Oportunidad",
+    "tipo": "Dobles",
+    "opciones": [
+     [
+      "1X",
+      3.3,
+      null
+     ],
+     [
+      "12",
+      1.1,
+      null
+     ]
+    ]
+   },
+   {
+    "mercado": "Total de goles",
+    "tipo": "Más/Menos de",
+    "opciones": [
+     [
+      "Más de",
+      1.97,
+      4.5
+     ],
+     [
+      "Menos de",
+      1.65,
+      4.5
+     ]
+    ]
+   },
+   {
+    "mercado": "Próximo gol (3) (Opción empate: no se marcarán más goles)",
+    "tipo": "Partido",
+    "opciones": [
+     [
+      "1",
+      5.4,
+      null
+     ],
+     [
+      "X",
+      8.5,
+      null
+     ],
+     [
+      "2",
+      1.19,
+      null
+     ]
+    ]
+   },
+   {
+    "mercado": "Total de goles",
+    "tipo": "Más/Menos de",
+    "opciones": [
+     [
+      "Más de",
+      3.45,
+      5.5
+     ],
+     [
+      "Menos de",
+      1.21,
+      5.5
+     ]
+    ]
+   }
+  ]
+ }
 }
