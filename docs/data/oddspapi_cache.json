@@ -1,36 +1,36 @@
 {
- "version": 3,
- "actualizado": "2026-11-18T12:06-05:00",
+ "version": 4,
+ "actualizado": "2026-11-20T10:56-05:00",
  "mercados": {
   "101": {
    "tipo": "1x2",
    "lados": {
-    "103": "2",
     "101": "1",
-    "102": "x"
+    "102": "x",
+    "103": "2"
    }
   },
   "104": {
    "tipo": "btts",
    "lados": {
-    "105": "no",
-    "104": "yes"
+    "104": "yes",
+    "105": "no"
    }
   },
   "106": {
    "tipo": "totales",
    "linea": 0.5,
    "lados": {
-    "107": "under",
-    "106": "over"
+    "106": "over",
+    "107": "under"
    }
   },
   "108": {
    "tipo": "totales",
    "linea": 1.5,
    "lados": {
-    "109": "under",
-    "108": "over"
+    "108": "over",
+    "109": "under"
    }
   },
   "1010": {
@@ -45,8 +45,8 @@
    "tipo": "totales",
    "linea": 3.5,
    "lados": {
-    "1013": "under",
-    "1012": "over"
+    "1012": "over",
+    "1013": "under"
    }
   },
   "1014": {
@@ -69,8 +69,8 @@
    "tipo": "totales",
    "linea": 6.5,
    "lados": {
-    "1018": "over",
-    "1019": "under"
+    "1019": "under",
+    "1018": "over"
    }
   },
   "1020": {
@@ -85,16 +85,16 @@
    "tipo": "totales",
    "linea": 8.5,
    "lados": {
-    "1022": "over",
-    "1023": "under"
+    "1023": "under",
+    "1022": "over"
    }
   },
   "10158": {
    "tipo": "totales",
    "linea": 0.25,
    "lados": {
-    "10158": "over",
-    "10159": "under"
+    "10159": "under",
+    "10158": "over"
    }
   },
   "10160": {
@@ -125,8 +125,8 @@
    "tipo": "totales",
    "linea": 1.75,
    "lados": {
-    "10167": "under",
-    "10166": "over"
+    "10166": "over",
+    "10167": "under"
    }
   },
   "10168": {
@@ -141,24 +141,24 @@
    "tipo": "totales",
    "linea": 2.25,
    "lados": {
-    "10170": "over",
-    "10171": "under"
+    "10171": "under",
+    "10170": "over"
    }
   },
   "10172": {
    "tipo": "totales",
    "linea": 2.75,
    "lados": {
-    "10172": "over",
-    "10173": "under"
+    "10173": "under",
+    "10172": "over"
    }
   },
   "10174": {
    "tipo": "totales",
    "linea": 3.0,
    "lados": {
-    "10175": "under",
-    "10174": "over"
+    "10174": "over",
+    "10175": "under"
    }
   },
   "10176": {
@@ -181,8 +181,8 @@
    "tipo": "totales",
    "linea": 4.0,
    "lados": {
-    "10181": "under",
-    "10180": "over"
+    "10180": "over",
+    "10181": "under"
    }
   },
   "10182": {
@@ -197,8 +197,8 @@
    "tipo": "totales",
    "linea": 4.75,
    "lados": {
-    "10185": "under",
-    "10184": "over"
+    "10184": "over",
+    "10185": "under"
    }
   },
   "10186": {
@@ -221,16 +221,16 @@
    "tipo": "totales",
    "linea": 5.75,
    "lados": {
-    "10191": "under",
-    "10190": "over"
+    "10190": "over",
+    "10191": "under"
    }
   },
   "10192": {
    "tipo": "totales",
    "linea": 6.0,
    "lados": {
-    "10193": "under",
-    "10192": "over"
+    "10192": "over",
+    "10193": "under"
    }
   },
   "10194": {
@@ -301,6 +301,278 @@
    "lados": {
     "10299": "no",
     "10298": "yes"
+   }
+  },
+  "1010699": {
+   "tipo": "totales",
+   "linea": 8.75,
+   "lados": {
+    "1010700": "under",
+    "1010699": "over"
+   }
+  },
+  "1010701": {
+   "tipo": "totales",
+   "linea": 9.0,
+   "lados": {
+    "1010702": "under",
+    "1010701": "over"
+   }
+  },
+  "1010703": {
+   "tipo": "totales",
+   "linea": 9.25,
+   "lados": {
+    "1010703": "over",
+    "1010704": "under"
+   }
+  },
+  "1010705": {
+   "tipo": "totales",
+   "linea": 9.5,
+   "lados": {
+    "1010705": "over",
+    "1010706": "under"
+   }
+  },
+  "1010707": {
+   "tipo": "totales",
+   "linea": 9.75,
+   "lados": {
+    "1010707": "over",
+    "1010708": "under"
+   }
+  },
+  "1010709": {
+   "tipo": "totales",
+   "linea": 10.0,
+   "lados": {
+    "1010710": "under",
+    "1010709": "over"
+   }
+  },
+  "1010711": {
+   "tipo": "totales",
+   "linea": 10.25,
+   "lados": {
+    "1010712": "under",
+    "1010711": "over"
+   }
+  },
+  "1010713": {
+   "tipo": "totales",
+   "linea": 10.5,
+   "lados": {
+    "1010713": "over",
+    "1010714": "under"
+   }
+  },
+  "1010715": {
+   "tipo": "totales",
+   "linea": 10.75,
+   "lados": {
+    "1010715": "over",
+    "1010716": "under"
+   }
+  },
+  "1010717": {
+   "tipo": "totales",
+   "linea": 11.0,
+   "lados": {
+    "1010718": "under",
+    "1010717": "over"
+   }
+  },
+  "1010719": {
+   "tipo": "totales",
+   "linea": 11.25,
+   "lados": {
+    "1010719": "over",
+    "1010720": "under"
+   }
+  },
+  "1010721": {
+   "tipo": "totales",
+   "linea": 11.5,
+   "lados": {
+    "1010722": "under",
+    "1010721": "over"
+   }
+  },
+  "1010723": {
+   "tipo": "totales",
+   "linea": 11.75,
+   "lados": {
+    "1010723": "over",
+    "1010724": "under"
+   }
+  },
+  "1010725": {
+   "tipo": "totales",
+   "linea": 12.0,
+   "lados": {
+    "1010725": "over",
+    "1010726": "under"
+   }
+  },
+  "1010727": {
+   "tipo": "totales",
+   "linea": 12.25,
+   "lados": {
+    "1010727": "over",
+    "1010728": "under"
+   }
+  },
+  "1010729": {
+   "tipo": "totales",
+   "linea": 12.5,
+   "lados": {
+    "1010730": "under",
+    "1010729": "over"
+   }
+  },
+  "1010731": {
+   "tipo": "totales",
+   "linea": 12.75,
+   "lados": {
+    "1010731": "over",
+    "1010732": "under"
+   }
+  },
+  "1010733": {
+   "tipo": "totales",
+   "linea": 13.0,
+   "lados": {
+    "1010733": "over",
+    "1010734": "under"
+   }
+  },
+  "1010735": {
+   "tipo": "totales",
+   "linea": 13.25,
+   "lados": {
+    "1010735": "over",
+    "1010736": "under"
+   }
+  },
+  "1010737": {
+   "tipo": "totales",
+   "linea": 13.5,
+   "lados": {
+    "1010737": "over",
+    "1010738": "under"
+   }
+  },
+  "1010739": {
+   "tipo": "totales",
+   "linea": 13.75,
+   "lados": {
+    "1010740": "under",
+    "1010739": "over"
+   }
+  },
+  "1010741": {
+   "tipo": "totales",
+   "linea": 14.0,
+   "lados": {
+    "1010741": "over",
+    "1010742": "under"
+   }
+  },
+  "1010743": {
+   "tipo": "totales",
+   "linea": 14.25,
+   "lados": {
+    "1010744": "under",
+    "1010743": "over"
+   }
+  },
+  "1010745": {
+   "tipo": "totales",
+   "linea": 14.5,
+   "lados": {
+    "1010745": "over",
+    "1010746": "under"
+   }
+  },
+  "1010747": {
+   "tipo": "totales",
+   "linea": 14.75,
+   "lados": {
+    "1010748": "under",
+    "1010747": "over"
+   }
+  },
+  "1010749": {
+   "tipo": "totales",
+   "linea": 15.0,
+   "lados": {
+    "1010750": "under",
+    "1010749": "over"
+   }
+  },
+  "1010751": {
+   "tipo": "totales",
+   "linea": 15.25,
+   "lados": {
+    "1010751": "over",
+    "1010752": "under"
+   }
+  },
+  "1010753": {
+   "tipo": "totales",
+   "linea": 15.5,
+   "lados": {
+    "1010753": "over",
+    "1010754": "under"
+   }
+  },
+  "1010755": {
+   "tipo": "totales",
+   "linea": 15.75,
+   "lados": {
+    "1010756": "under",
+    "1010755": "over"
+   }
+  },
+  "1010757": {
+   "tipo": "totales",
+   "linea": 16.0,
+   "lados": {
+    "1010757": "over",
+    "1010758": "under"
+   }
+  },
+  "1010759": {
+   "tipo": "totales",
+   "linea": 16.25,
+   "lados": {
+    "1010759": "over",
+    "1010760": "under"
+   }
+  },
+  "1010761": {
+   "tipo": "totales",
+   "linea": 16.5,
+   "lados": {
+    "1010762": "under",
+    "1010761": "over"
+   }
+  },
+  "1010763": {
+   "tipo": "totales",
+   "linea": 16.75,
+   "lados": {
+    "1010763": "over",
+    "1010764": "under"
+   }
+  },
+  "1010765": {
+   "tipo": "totales",
+   "linea": 17.0,
+   "lados": {
+    "1010766": "under",
+    "1010765": "over"
    }
   }
  },
@@ -425,6 +697,48 @@
     "id": 36,
     "slug": "premiership",
     "pais": "scotland"
+   }
+  ],
+  "Copas": [
+   {
+    "id": 7,
+    "slug": "uefa-champions-league",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 679,
+    "slug": "uefa-europa-league",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 463,
+    "slug": "afc-champions-league-elite",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 34480,
+    "slug": "uefa-conference-league",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 1054,
+    "slug": "caf-champions-league",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 668,
+    "slug": "afc-champions-league-two",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 384,
+    "slug": "copa-libertadores",
+    "pais": "international-clubs"
+   },
+   {
+    "id": 480,
+    "slug": "copa-sudamericana",
+    "pais": "international-clubs"
    }
   ],
   "Selecciones": [
