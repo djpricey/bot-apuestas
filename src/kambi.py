@@ -10,8 +10,7 @@ import urllib.request
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 PAGINAS = ["https://betplay.com.co/apuestas", "https://betplay.com.co/", "https://betplay.com.co/apuestas#home"]
-HOSTS = ["https://eu-offering-api.kambicdn.com", "https://us1-offering-api.kambicdn.com",
-         "https://eu1.offering-api.kambicdn.com", "https://na-offering-api.kambicdn.com"]
+HOSTS = ["https://eu-offering-api.kambicdn.com", "https://us1-offering-api.kambicdn.com"]
 CODIGOS = ["betplay", "betplayco", "bpco", "cecl", "ceco", "corredor", "betplaycol"]
 RUTA = "/offering/v2018/{op}/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true"
 
@@ -35,6 +34,27 @@ def probar():
         except Exception as e:  # noqa: BLE001 - es una prueba, se registra todo
             out["paginas"].append({"url": url, "error": repr(e)[:200]})
         time.sleep(1)
+    # scripts y configuración que carga la página: ahí suele estar el código del operador de Kambi
+    try:
+        st, html = _get(PAGINAS[0])
+        srcs = re.findall(r'src=["\']([^"\']+)["\']', html)
+        out["scripts"] = srcs[:60]
+        out["kambi_ctx"] = [html[max(0, m.start() - 300):m.start() + 500] for m in re.finditer(r'kambi', html, re.I)][:6]
+        for src in srcs:
+            if not any(k in src.lower() for k in ("kambi", "config", "bootstrap", "main", "app", "sportsbook")):
+                continue
+            url = src if src.startswith("http") else "https://betplay.com.co" + ("" if src.startswith("/") else "/") + src
+            try:
+                _, js = _get(url)
+                ops = re.findall(r'offering["\']?\s*[:=]\s*["\']([a-z0-9_]{2,20})["\']', js, re.I)
+                encontrados += ops
+                out.setdefault("scripts_leidos", []).append({"url": url, "offering": ops[:5],
+                    "pistas": sorted(set(re.findall(r'[a-z0-9.-]*kambi[a-z0-9./_-]{0,60}', js, re.I)))[:15]})
+            except Exception as e:  # noqa: BLE001
+                out.setdefault("scripts_leidos", []).append({"url": url, "error": repr(e)[:120]})
+            time.sleep(0.5)
+    except Exception as e:  # noqa: BLE001
+        out["scripts_error"] = repr(e)[:200]
     out["codigos_en_html"] = sorted(set(encontrados))
     for op in list(dict.fromkeys(encontrados + CODIGOS)):
         for host in HOSTS:
@@ -57,7 +77,7 @@ def probar():
                                     for o in ev.get("betOffers", [])[:3]]}}
             except Exception as e:  # noqa: BLE001
                 out["intentos"].append({"url": url, "error": repr(e)[:160]})
-            time.sleep(0.5)
+            time.sleep(2)
         if out["ok"]:
             break
     with open("docs/data/kambi_probe.json", "w", encoding="utf-8") as fh:
