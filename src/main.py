@@ -14,6 +14,7 @@ from .evaluar import walk_forward, metricas, mejor_peso
 from .libro import correr as correr_libro
 from . import apifutbol
 from . import oddspapi
+from . import kambi
 from . import mercados as mc
 from . import analisis as an
 import math
@@ -344,6 +345,15 @@ def main():
         pass
     partidos = [x for x in partidos if not x.get("inicio") or x["inicio"] > ahora.isoformat(timespec="minutes")]
     partidos.sort(key=lambda x: (x["fecha"], x.get("inicio") or ""))
+    # Cuotas de BetPlay y errores de cuota contra Pinnacle
+    errores = []
+    try:
+        errores = kambi.detectar(partidos, ahora)
+    except Exception as e:  # noqa: BLE001 - nunca rompe la corrida
+        print("  betplay: error", repr(e)[:200])
+    with open(os.path.join(SALIDA, "errores.json"), "w", encoding="utf-8") as fh:
+        json.dump({"actualizado": ahora.isoformat(timespec="minutes"), "umbral": kambi.EDGE_ERROR, "errores": errores},
+                  fh, ensure_ascii=False, indent=1)
     escalera = elegir_escalera(partidos, ahora.isoformat(timespec="minutes"))
     meta = {"actualizado": ahora.isoformat(timespec="minutes"), "edge_min": EDGE_MIN}
     with open(os.path.join(SALIDA, "hoy.json"), "w", encoding="utf-8") as fh:

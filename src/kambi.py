@@ -5,6 +5,7 @@ Sin claves ni sesión. Guarda una muestra en docs/data/kambi_probe.json para rev
 import json
 import time
 import urllib.request
+from datetime import datetime, timedelta, timezone
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 BASE = "https://us.offering-api.kambicdn.com/offering/v2018/betplay"
@@ -71,3 +72,111 @@ def probar():
 
 if __name__ == "__main__":
     probar()
+
+
+# ------------------------------------------------------------------ detector de errores de cuota
+
+EDGE_ERROR = 0.02  # BetPlay paga al menos 2 % más que la cuota justa de Pinnacle
+
+
+def _parse(bo_list):
+    """Mercados de un partido en forma estable (usa las etiquetas en inglés y los tipos de Kambi)."""
+    res = []
+    for bo in bo_list:
+        crit = bo.get("criterion", {})
+        en = (crit.get("englishLabel") or crit.get("label") or "").strip()
+        for o in bo.get("outcomes", []):
+            if not o.get("odds") or o.get("status", "OPEN") != "OPEN":
+                continue
+            res.append({"mercado": crit.get("label"), "en": en, "tipo": o.get("type"),
+                        "op": o.get("label") or o.get("participant"),
+                        "linea": (o["line"] / 1000) if o.get("line") is not None else None,
+                        "cuota": round(o["odds"] / 1000, 2)})
+    return res
+
+
+def _justas(pin):
+    """Probabilidades sin margen de Pinnacle para cada (mercado, tipo, línea)."""
+    j = {}
+    p = (pin or {}).get("p1x2")
+    if p:
+        j[("1x2", "OT_ONE", None)], j[("1x2", "OT_CROSS", None)], j[("1x2", "OT_TWO", None)] = p
+        j[("dc", "OT_ONE_OR_CROSS", None)] = p[0] + p[1]
+        j[("dc", "OT_CROSS_OR_TWO", None)] = p[1] + p[2]
+        j[("dc", "OT_ONE_OR_TWO", None)] = p[0] + p[2]
+    for linea, v in ((pin or {}).get("totales") or {}).items():
+        if v.get("p_mas") is None or float(linea) % 1 != 0.5:
+            continue  # solo líneas .5: las asiáticas (2.25, 3...) no se comparan con las de BetPlay
+        j[("goles", "OT_OVER", float(linea))] = v["p_mas"]
+        j[("goles", "OT_UNDER", float(linea))] = 1 - v["p_mas"]
+    b = (pin or {}).get("btts")
+    if b and b.get("p_si") is not None:
+        j[("btts", "OT_YES", None)], j[("btts", "OT_NO", None)] = b["p_si"], 1 - b["p_si"]
+    return j
+
+
+def _clave(m):
+    en = m["en"].lower()
+    if en in ("full time", "match odds", "1x2"):
+        return ("1x2", m["tipo"], None)
+    if en == "double chance":
+        return ("dc", m["tipo"], None)
+    if en == "total goals":
+        return ("goles", m["tipo"], m["linea"])
+    if en == "both teams to score":
+        return ("btts", m["tipo"], None)
+    return None
+
+
+def detectar(partidos, ahora, max_eventos=120):
+    """Agrega a cada partido sus cuotas de BetPlay y devuelve la lista de errores de cuota contra Pinnacle."""
+    from . import oddspapi as op  # usa el mismo emparejador de nombres
+    try:
+        lista = partidos_futbol()
+    except Exception as e:  # noqa: BLE001
+        print("  betplay: no se pudo leer la lista:", repr(e)[:150])
+        return []
+    limite = (ahora + timedelta(days=2)).isoformat()
+    cand = [p for p in partidos if (p.get("inicio") or "") > ahora.isoformat(timespec="minutes")
+            and (p.get("inicio") or "") < limite]
+    errores, n = [], 0
+    for p in cand:
+        if n >= max_eventos:
+            break
+        mejor, puntaje = None, 0
+        for e in lista:
+            if not e.get("local") or not e.get("inicio"):
+                continue
+            ini = datetime.fromisoformat(e["inicio"].replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=-5)))
+            if abs((ini.date() - datetime.fromisoformat(p["inicio"]).date()).days) > 1:
+                continue
+            s = min(op.parecido(p["local"], e["local"]), op.parecido(p["visita"], e["visita"]))
+            if s > puntaje:
+                mejor, puntaje = e, s
+        if not mejor or puntaje < 0.72:
+            continue
+        try:
+            time.sleep(0.4)
+            crudo = _get(f"/betoffer/event/{mejor['id']}.json")
+        except Exception as e:  # noqa: BLE001
+            print("  betplay: falló", mejor["nombre"], repr(e)[:80])
+            continue
+        n += 1
+        ms = _parse(crudo.get("betOffers", []))
+        p["betplay"] = {"id": mejor["id"], "nombre": mejor["nombre"], "n_mercados": len({m["mercado"] for m in ms}),
+                        "mercados": ms}
+        just = _justas(p.get("pinnacle"))
+        for m in ms:
+            k = _clave(m)
+            if not k or k not in just:
+                continue
+            pj = just[k]
+            ev = pj * m["cuota"] - 1
+            if ev >= EDGE_ERROR and pj >= 0.15:
+                errores.append({"inicio": p["inicio"], "liga": p["liga"], "partido": f"{p['local']} vs {p['visita']}",
+                                "mercado": m["mercado"], "seleccion": m["op"] + (f" {m['linea']}" if m["linea"] else ""),
+                                "cuota_betplay": m["cuota"], "prob_pinnacle": round(pj, 3),
+                                "cuota_justa": round(1 / pj, 2), "ventaja": round(ev, 3)})
+    errores.sort(key=lambda x: -x["ventaja"])
+    print(f"  betplay: {len(lista)} partidos en BetPlay, {n} unidos y revisados, {len(errores)} errores de cuota")
+    return errores
