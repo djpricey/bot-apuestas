@@ -345,16 +345,24 @@ def main():
         pass
     partidos = [x for x in partidos if not x.get("inicio") or x["inicio"] > ahora.isoformat(timespec="minutes")]
     partidos.sort(key=lambda x: (x["fecha"], x.get("inicio") or ""))
-    # Si esta corrida no pudo bajar Pinnacle (cupo del día), usa las de la corrida anterior para el mismo partido
+    # Memoria de cuotas de Pinnacle: si esta corrida no pudo bajarlas (cupo del día), usa las últimas guardadas
+    ruta_pin = os.path.join(SALIDA, "pinnacle_ultimo.json")
     try:
-        with open(os.path.join(SALIDA, "hoy.json"), encoding="utf-8") as fh:
-            ant = {(x["liga"], x["local"], x["visita"]): x.get("pinnacle") for x in json.load(fh).get("partidos", []) if x.get("pinnacle")}
-        for x in partidos:
-            if not x.get("pinnacle") and ant.get((x["liga"], x["local"], x["visita"])):
-                x["pinnacle"] = ant[(x["liga"], x["local"], x["visita"])]
-                x["pinnacle_anterior"] = True
-    except (OSError, ValueError, KeyError):
-        pass
+        with open(ruta_pin, encoding="utf-8") as fh:
+            memoria = json.load(fh)
+    except (OSError, ValueError):
+        memoria = {}
+    ahora_s = ahora.isoformat(timespec="minutes")
+    for x in partidos:
+        k = "|".join((x["liga"], x["local"], x["visita"]))
+        if x.get("pinnacle") and not x.get("pinnacle_anterior"):
+            memoria[k] = {"inicio": x.get("inicio"), "pinnacle": x["pinnacle"], "hora": ahora_s}
+        elif not x.get("pinnacle") and k in memoria:
+            x["pinnacle"] = memoria[k]["pinnacle"]
+            x["pinnacle_anterior"] = memoria[k]["hora"]
+    memoria = {k: v for k, v in memoria.items() if (v.get("inicio") or "9") > ahora_s}
+    with open(ruta_pin, "w", encoding="utf-8") as fh:
+        json.dump(memoria, fh, ensure_ascii=False)
 
     # Cuotas de BetPlay y errores de cuota contra Pinnacle
     errores = []
