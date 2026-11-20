@@ -1,0 +1,7081 @@
+{
+ "actualizado": "2026-11-20T12:29-05:00",
+ "revisados": 147,
+ "nota": "Candidatos por estadísticas (casa/fuera, últimos 10). No son picks: requieren revisión de contexto.",
+ "candidatos": [
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "League Two",
+   "partido": "Newport County - Swindon Town",
+   "mercado": "Total de Tiros de Esquina a favor de Newport County",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.88,
+   "esperado": 8.3,
+   "prob": 0.778,
+   "cuota_minima": 1.34,
+   "ventaja": 0.462,
+   "kelly": 0.525,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.7,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.3,
+     "corners_contra": 9.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Número total de tiros por parte de Celtic (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 23.5",
+   "cuota": 1.48,
+   "esperado": 14.6,
+   "prob": 0.947,
+   "cuota_minima": 1.1,
+   "ventaja": 0.401,
+   "kelly": 0.836,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.3,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 9.7,
+     "tiros_contra": 11.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Eredivisie",
+   "partido": "Heracles Almelo - Jong PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina a favor de Heracles Almelo",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.43,
+   "esperado": 3.95,
+   "prob": 0.974,
+   "cuota_minima": 1.07,
+   "ventaja": 0.393,
+   "kelly": 0.914,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.0,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de tarjetas - Swansea City",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.1,
+   "esperado": 1.25,
+   "prob": 0.661,
+   "cuota_minima": 1.57,
+   "ventaja": 0.389,
+   "kelly": 0.354,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Eredivisie",
+   "partido": "Heracles Almelo - Jong PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina a favor de Jong PSV Eindhoven",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.65,
+   "esperado": 5.25,
+   "prob": 0.841,
+   "cuota_minima": 1.24,
+   "ventaja": 0.388,
+   "kelly": 0.597,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.0,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Número total de tiros por parte de 1. FC Union Berlin (Resuelta usando Opta Data)",
+   "seleccion": "Más de 11.5",
+   "cuota": 1.87,
+   "esperado": 15.1,
+   "prob": 0.742,
+   "cuota_minima": 1.4,
+   "ventaja": 0.387,
+   "kelly": 0.445,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.4,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 13.7,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Número total de tiros por parte de RB Leipzig (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 17.5",
+   "cuota": 1.6,
+   "esperado": 12.35,
+   "prob": 0.862,
+   "cuota_minima": 1.21,
+   "ventaja": 0.379,
+   "kelly": 0.632,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.4,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 13.7,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Número total de tiros por parte de Roma (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 19.5",
+   "cuota": 1.6,
+   "esperado": 14.3,
+   "prob": 0.849,
+   "cuota_minima": 1.23,
+   "ventaja": 0.358,
+   "kelly": 0.596,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 11.4,
+     "tiros_contra": 15.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.9,
+     "tiros_contra": 13.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Número total de tiros por parte de Bayern Múnich (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 24.5",
+   "cuota": 1.61,
+   "esperado": 18.9,
+   "prob": 0.835,
+   "cuota_minima": 1.25,
+   "ventaja": 0.344,
+   "kelly": 0.563,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 23.9,
+     "tiros_contra": 9.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.0,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:45",
+   "liga": "Premier League",
+   "partido": "Liverpool (F) - Chelsea (F)",
+   "mercado": "Total de Tiros de Esquina a favor de Liverpool (F)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.61,
+   "esperado": 5.15,
+   "prob": 0.833,
+   "cuota_minima": 1.25,
+   "ventaja": 0.341,
+   "kelly": 0.558,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.7,
+     "corners_contra": 5.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de tiros a puerta por parte de 1. FC Union Berlin (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.68,
+   "esperado": 5.8,
+   "prob": 0.793,
+   "cuota_minima": 1.31,
+   "ventaja": 0.331,
+   "kelly": 0.487,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.5,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.2,
+     "tiros_puerta_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Número total de tiros por parte de Lazio (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 18.5",
+   "cuota": 1.53,
+   "esperado": 13.55,
+   "prob": 0.844,
+   "cuota_minima": 1.23,
+   "ventaja": 0.292,
+   "kelly": 0.55,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 12.3,
+     "tiros_contra": 11.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.2,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Paradas del Portero - RB Leipzig (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.77,
+   "esperado": 3.9,
+   "prob": 0.72,
+   "cuota_minima": 1.44,
+   "ventaja": 0.274,
+   "kelly": 0.356,
+   "clave": "atajadas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "atajadas": 1.9,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.8,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Número total de tiros por parte de St Mirren (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 2.0,
+   "esperado": 10.35,
+   "prob": 0.635,
+   "cuota_minima": 1.64,
+   "ventaja": 0.27,
+   "kelly": 0.27,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.3,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 9.7,
+     "tiros_contra": 11.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Número total de tiros por parte de NEC Nijmegen (Resuelta usando Opta Data)",
+   "seleccion": "Más de 12.5",
+   "cuota": 1.7,
+   "esperado": 16.25,
+   "prob": 0.743,
+   "cuota_minima": 1.4,
+   "ventaja": 0.264,
+   "kelly": 0.377,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 20.7,
+     "tiros_contra": 9.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 17.2,
+     "tiros_contra": 11.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 32.5",
+   "cuota": 1.45,
+   "esperado": 24.95,
+   "prob": 0.868,
+   "cuota_minima": 1.2,
+   "ventaja": 0.259,
+   "kelly": 0.575,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.3,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 9.7,
+     "tiros_contra": 11.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de tarjetas - Falkirk",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.07,
+   "esperado": 1.44,
+   "prob": 0.606,
+   "cuota_minima": 1.72,
+   "ventaja": 0.254,
+   "kelly": 0.237,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.33,
+     "tarjetas_contra": 1.17,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 25.5",
+   "cuota": 2.55,
+   "esperado": 26.15,
+   "prob": 0.487,
+   "cuota_minima": 2.13,
+   "ventaja": 0.243,
+   "kelly": 0.157,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 12.4,
+     "tiros_contra": 13.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.9,
+     "tiros_contra": 15.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:00",
+   "liga": "2. Bundesliga",
+   "partido": "Hannover 96 - Greuther Fürth",
+   "mercado": "Total de Tiros de Esquina a favor de Greuther Fürth",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.49,
+   "esperado": 6.45,
+   "prob": 0.83,
+   "cuota_minima": 1.25,
+   "ventaja": 0.237,
+   "kelly": 0.483,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.3,
+     "corners_contra": 5.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 7.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de tiros a puerta por parte de Celtic (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.3,
+   "esperado": 5.05,
+   "prob": 0.945,
+   "cuota_minima": 1.1,
+   "ventaja": 0.229,
+   "kelly": 0.762,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.4,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "York City - Walsall",
+   "mercado": "Total de Tiros de Esquina a favor de Walsall",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.2,
+   "esperado": 5.24,
+   "prob": 0.559,
+   "cuota_minima": 1.86,
+   "ventaja": 0.229,
+   "kelly": 0.191,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.86,
+     "corners_contra": 4.57,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de tiros a puerta por parte de Parma (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.66,
+   "esperado": 4.1,
+   "prob": 0.737,
+   "cuota_minima": 1.41,
+   "ventaja": 0.223,
+   "kelly": 0.338,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.2,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.53,
+   "esperado": 2.95,
+   "prob": 0.798,
+   "cuota_minima": 1.3,
+   "ventaja": 0.221,
+   "kelly": 0.418,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Carrarese - Virtus Entella",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.53,
+   "esperado": 7.8,
+   "prob": 0.797,
+   "cuota_minima": 1.3,
+   "ventaja": 0.22,
+   "kelly": 0.415,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.2,
+     "corners_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Dunfermline Athletic - Greenock Morton",
+   "mercado": "Total de Tiros de Esquina a favor de Dunfermline Athletic",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.56,
+   "esperado": 5.45,
+   "prob": 0.782,
+   "cuota_minima": 1.33,
+   "ventaja": 0.22,
+   "kelly": 0.393,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.5,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.6,
+     "corners_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 27.5",
+   "cuota": 1.77,
+   "esperado": 24.6,
+   "prob": 0.687,
+   "cuota_minima": 1.51,
+   "ventaja": 0.217,
+   "kelly": 0.282,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 12.3,
+     "tiros_contra": 11.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.2,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Número total de tiros por parte de Parma (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.55,
+   "esperado": 12.3,
+   "prob": 0.783,
+   "cuota_minima": 1.33,
+   "ventaja": 0.213,
+   "kelly": 0.388,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 11.4,
+     "tiros_contra": 15.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.9,
+     "tiros_contra": 13.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Sampdoria - Benevento",
+   "mercado": "Total de Tiros de Esquina a favor de Sampdoria",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.85,
+   "esperado": 5.95,
+   "prob": 0.655,
+   "cuota_minima": 1.59,
+   "ventaja": 0.211,
+   "kelly": 0.248,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.4,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.5,
+     "corners_contra": 5.5,
+     "n": 4
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Carrarese - Virtus Entella",
+   "mercado": "Total de Tiros de Esquina a favor de Virtus Entella",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.49,
+   "esperado": 3.6,
+   "prob": 0.81,
+   "cuota_minima": 1.28,
+   "ventaja": 0.207,
+   "kelly": 0.423,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.2,
+     "corners_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de tiros a puerta por parte de 1. FC Köln (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.76,
+   "esperado": 3.75,
+   "prob": 0.685,
+   "cuota_minima": 1.52,
+   "ventaja": 0.205,
+   "kelly": 0.27,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 9.8,
+     "tiros_puerta_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Ligue 2",
+   "partido": "Red Star FC - Pau",
+   "mercado": "Total de Tiros de Esquina a favor de Pau",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.75,
+   "esperado": 2.8,
+   "prob": 0.687,
+   "cuota_minima": 1.51,
+   "ventaja": 0.202,
+   "kelly": 0.27,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.2,
+     "corners_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.7,
+     "corners_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de tarjetas - Bayern Múnich",
+   "seleccion": "Más de 1.5",
+   "cuota": 2.63,
+   "esperado": 1.65,
+   "prob": 0.456,
+   "cuota_minima": 2.28,
+   "ventaja": 0.2,
+   "kelly": 0.123,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.1,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 2.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de tarjetas - Kilmarnock",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.58,
+   "esperado": 1.65,
+   "prob": 0.759,
+   "cuota_minima": 1.37,
+   "ventaja": 0.199,
+   "kelly": 0.344,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Paradas del Portero - Celtic (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.7,
+   "esperado": 2.6,
+   "prob": 0.704,
+   "cuota_minima": 1.48,
+   "ventaja": 0.197,
+   "kelly": 0.281,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.7,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 2.4,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de tiros a puerta por parte de RB Leipzig (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.33,
+   "esperado": 4.35,
+   "prob": 0.899,
+   "cuota_minima": 1.16,
+   "ventaja": 0.196,
+   "kelly": 0.594,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.5,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.2,
+     "tiros_puerta_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Leyton Orient - AFC Wimbledon",
+   "mercado": "Total de Tiros de Esquina a favor de AFC Wimbledon",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.54,
+   "esperado": 5.8,
+   "prob": 0.771,
+   "cuota_minima": 1.35,
+   "ventaja": 0.187,
+   "kelly": 0.347,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 7.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.6,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "Eintracht Frankfurt - TSG Hoffenheim",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 30.5",
+   "cuota": 1.71,
+   "esperado": 27.3,
+   "prob": 0.693,
+   "cuota_minima": 1.5,
+   "ventaja": 0.186,
+   "kelly": 0.262,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.9,
+     "tiros_contra": 12.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 14.9,
+     "tiros_contra": 12.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de tiros a puerta por parte de Aberdeen (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.43,
+   "esperado": 3.55,
+   "prob": 0.827,
+   "cuota_minima": 1.26,
+   "ventaja": 0.183,
+   "kelly": 0.426,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.7,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 1.9,
+     "tiros_puerta_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Número total de tiros por parte de Como (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 21.5",
+   "cuota": 1.55,
+   "esperado": 17.7,
+   "prob": 0.763,
+   "cuota_minima": 1.36,
+   "ventaja": 0.183,
+   "kelly": 0.333,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 19.2,
+     "tiros_contra": 6.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.2,
+     "tiros_contra": 16.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.71,
+   "esperado": 8.1,
+   "prob": 0.691,
+   "cuota_minima": 1.51,
+   "ventaja": 0.182,
+   "kelly": 0.256,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.7,
+     "tiros_puerta_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.7,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Número total de tiros por parte de PSV Eindhoven (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 15.5",
+   "cuota": 1.72,
+   "esperado": 13.5,
+   "prob": 0.684,
+   "cuota_minima": 1.52,
+   "ventaja": 0.177,
+   "kelly": 0.246,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 20.7,
+     "tiros_contra": 9.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 17.2,
+     "tiros_contra": 11.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Lincoln City - Wrexham",
+   "mercado": "Total de tarjetas - Wrexham",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.06,
+   "esperado": 1.55,
+   "prob": 0.571,
+   "cuota_minima": 1.82,
+   "ventaja": 0.176,
+   "kelly": 0.166,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.14,
+     "tarjetas_contra": 1.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de Tiros de Esquina a favor de 1. FC Köln",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.66,
+   "esperado": 4.05,
+   "prob": 0.708,
+   "cuota_minima": 1.47,
+   "ventaja": 0.175,
+   "kelly": 0.265,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 9.0,
+     "corners_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "Turquía",
+   "partido": "Galatasaray - Samsunspor",
+   "mercado": "Total de Tiros de Esquina a favor de Samsunspor",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.71,
+   "esperado": 3.9,
+   "prob": 0.686,
+   "cuota_minima": 1.52,
+   "ventaja": 0.174,
+   "kelly": 0.244,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 7.6,
+     "corners_contra": 2.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.2,
+     "corners_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.42,
+   "esperado": 8.45,
+   "prob": 0.826,
+   "cuota_minima": 1.26,
+   "ventaja": 0.173,
+   "kelly": 0.412,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.4,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.71,
+   "esperado": 9.0,
+   "prob": 0.686,
+   "cuota_minima": 1.52,
+   "ventaja": 0.173,
+   "kelly": 0.243,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 4.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de tiros a puerta por parte de Manchester City (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.37,
+   "esperado": 4.85,
+   "prob": 0.855,
+   "cuota_minima": 1.22,
+   "ventaja": 0.172,
+   "kelly": 0.465,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.7,
+     "tiros_puerta_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.7,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.53,
+   "esperado": 4.4,
+   "prob": 0.765,
+   "cuota_minima": 1.36,
+   "ventaja": 0.17,
+   "kelly": 0.321,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.5,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "League Two",
+   "partido": "Newport County - Swindon Town",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.68,
+   "esperado": 11.9,
+   "prob": 0.697,
+   "cuota_minima": 1.49,
+   "ventaja": 0.17,
+   "kelly": 0.25,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.7,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.3,
+     "corners_contra": 9.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "West Ham - Preston North End",
+   "mercado": "Total de tiros a puerta por parte de West Ham (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.7,
+   "esperado": 6.31,
+   "prob": 0.688,
+   "cuota_minima": 1.51,
+   "ventaja": 0.17,
+   "kelly": 0.243,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.43,
+     "tiros_puerta_contra": 3.14,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.2,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de tarjetas - Real Betis",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.26,
+   "esperado": 1.9,
+   "prob": 0.927,
+   "cuota_minima": 1.12,
+   "ventaja": 0.169,
+   "kelly": 0.648,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de tiros a puerta por parte de St Mirren (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.87,
+   "esperado": 3.4,
+   "prob": 0.625,
+   "cuota_minima": 1.66,
+   "ventaja": 0.169,
+   "kelly": 0.194,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.4,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina a favor de PSV Eindhoven",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.27,
+   "esperado": 3.9,
+   "prob": 0.919,
+   "cuota_minima": 1.13,
+   "ventaja": 0.167,
+   "kelly": 0.617,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 7.7,
+     "corners_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de tarjetas - Celtic",
+   "seleccion": "Más de 0.5",
+   "cuota": 1.46,
+   "esperado": 1.9,
+   "prob": 0.798,
+   "cuota_minima": 1.3,
+   "ventaja": 0.165,
+   "kelly": 0.358,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.5,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 27.5",
+   "cuota": 2.02,
+   "esperado": 26.6,
+   "prob": 0.576,
+   "cuota_minima": 1.81,
+   "ventaja": 0.164,
+   "kelly": 0.16,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 11.4,
+     "tiros_contra": 15.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.9,
+     "tiros_contra": 13.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "Ligue 2",
+   "partido": "Stade Lavallois - Montpellier",
+   "mercado": "Total de Tiros de Esquina a favor de Stade Lavallois",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.55,
+   "esperado": 5.6,
+   "prob": 0.75,
+   "cuota_minima": 1.39,
+   "ventaja": 0.162,
+   "kelly": 0.295,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.0,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "West Ham - Preston North End",
+   "mercado": "Total de Tiros de Esquina a favor de Preston North End",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.53,
+   "esperado": 4.42,
+   "prob": 0.756,
+   "cuota_minima": 1.38,
+   "ventaja": 0.157,
+   "kelly": 0.297,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.57,
+     "corners_contra": 5.14,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 3.7,
+     "corners_contra": 6.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.19,
+   "esperado": 4.2,
+   "prob": 0.971,
+   "cuota_minima": 1.07,
+   "ventaja": 0.156,
+   "kelly": 0.82,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Southampton - Derby County",
+   "mercado": "Total de tiros a puerta por parte de Derby County (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.54,
+   "esperado": 4.2,
+   "prob": 0.751,
+   "cuota_minima": 1.39,
+   "ventaja": 0.156,
+   "kelly": 0.289,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.0,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.4,
+     "tiros_puerta_contra": 6.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 11:15",
+   "liga": "Serie B",
+   "partido": "Catanzaro - Palermo",
+   "mercado": "Total de Tiros de Esquina a favor de Palermo",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.58,
+   "esperado": 4.2,
+   "prob": 0.732,
+   "cuota_minima": 1.42,
+   "ventaja": 0.156,
+   "kelly": 0.269,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 4.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 4.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 34.5",
+   "cuota": 1.52,
+   "esperado": 29.6,
+   "prob": 0.76,
+   "cuota_minima": 1.37,
+   "ventaja": 0.155,
+   "kelly": 0.297,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 23.9,
+     "tiros_contra": 9.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.0,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Eredivisie",
+   "partido": "Heracles Almelo - Jong PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 13.5",
+   "cuota": 1.32,
+   "esperado": 9.2,
+   "prob": 0.874,
+   "cuota_minima": 1.19,
+   "ventaja": 0.153,
+   "kelly": 0.479,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.0,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.53,
+   "esperado": 3.25,
+   "prob": 0.753,
+   "cuota_minima": 1.38,
+   "ventaja": 0.152,
+   "kelly": 0.286,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.33,
+     "tarjetas_contra": 1.17,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de tarjetas - Westerlo",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.35,
+   "esperado": 1.85,
+   "prob": 0.49,
+   "cuota_minima": 2.12,
+   "ventaja": 0.151,
+   "kelly": 0.112,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 0.8,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.6,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:45",
+   "liga": "Premier League",
+   "partido": "Liverpool (F) - Chelsea (F)",
+   "mercado": "Total de Tiros de Esquina a favor de Chelsea (F)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.34,
+   "esperado": 5.45,
+   "prob": 0.858,
+   "cuota_minima": 1.21,
+   "ventaja": 0.15,
+   "kelly": 0.44,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.7,
+     "corners_contra": 5.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de tiros a puerta por parte de Real Betis (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.46,
+   "esperado": 3.85,
+   "prob": 0.788,
+   "cuota_minima": 1.32,
+   "ventaja": 0.15,
+   "kelly": 0.326,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.5,
+     "tiros_puerta_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.0,
+     "tiros_puerta_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.78,
+   "esperado": 9.4,
+   "prob": 0.646,
+   "cuota_minima": 1.61,
+   "ventaja": 0.15,
+   "kelly": 0.192,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.9,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de tiros a puerta por parte de Roma (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.35,
+   "esperado": 4.9,
+   "prob": 0.851,
+   "cuota_minima": 1.22,
+   "ventaja": 0.148,
+   "kelly": 0.424,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.2,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Número total de tiros por parte de Aston Villa (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 17.5",
+   "cuota": 1.5,
+   "esperado": 14.1,
+   "prob": 0.766,
+   "cuota_minima": 1.36,
+   "ventaja": 0.148,
+   "kelly": 0.297,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 12.4,
+     "tiros_contra": 13.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.9,
+     "tiros_contra": 15.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Módena - Juve Stabia",
+   "mercado": "Total de Tiros de Esquina a favor de Módena",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.49,
+   "esperado": 4.75,
+   "prob": 0.768,
+   "cuota_minima": 1.35,
+   "ventaja": 0.144,
+   "kelly": 0.294,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.0,
+     "corners_contra": 3.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 5.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Arbroath - Stenhousemuir",
+   "mercado": "Total de Tiros de Esquina a favor de Arbroath",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.49,
+   "esperado": 3.93,
+   "prob": 0.768,
+   "cuota_minima": 1.35,
+   "ventaja": 0.144,
+   "kelly": 0.294,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 3.0,
+     "corners_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.29,
+     "corners_contra": 4.86,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Dunfermline Athletic - Greenock Morton",
+   "mercado": "Total de Tiros de Esquina a favor de Greenock Morton",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.57,
+   "esperado": 4.2,
+   "prob": 0.728,
+   "cuota_minima": 1.43,
+   "ventaja": 0.144,
+   "kelly": 0.252,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.5,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.6,
+     "corners_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Ligue 1",
+   "partido": "Troyes - Le Havre",
+   "mercado": "Total de tarjetas - Le Havre",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.4,
+   "esperado": 1.9,
+   "prob": 0.477,
+   "cuota_minima": 2.18,
+   "ventaja": 0.144,
+   "kelly": 0.103,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.4,
+     "tarjetas_contra": 1.8,
+     "n": 5
+    },
+    "visita_fuera": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Número total de tiros por parte de Newcastle United (Resuelta usando Opta Data)",
+   "seleccion": "Más de 10.5",
+   "cuota": 1.8,
+   "esperado": 12.5,
+   "prob": 0.635,
+   "cuota_minima": 1.64,
+   "ventaja": 0.143,
+   "kelly": 0.179,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 13.4,
+     "tiros_contra": 16.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 11.6,
+     "tiros_contra": 11.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de Tiros de Esquina a favor de Lazio",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.32,
+   "esperado": 4.6,
+   "prob": 0.865,
+   "cuota_minima": 1.2,
+   "ventaja": 0.142,
+   "kelly": 0.443,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Paradas del Portero - Roma (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.49,
+   "esperado": 2.95,
+   "prob": 0.765,
+   "cuota_minima": 1.36,
+   "ventaja": 0.14,
+   "kelly": 0.286,
+   "clave": "atajadas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "atajadas": 3.8,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.6,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.72,
+   "esperado": 8.35,
+   "prob": 0.663,
+   "cuota_minima": 1.57,
+   "ventaja": 0.14,
+   "kelly": 0.195,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.2,
+     "tiros_puerta_contra": 1.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.4,
+     "tiros_puerta_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de tarjetas - Bristol City",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.5,
+   "esperado": 1.65,
+   "prob": 0.759,
+   "cuota_minima": 1.37,
+   "ventaja": 0.139,
+   "kelly": 0.277,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.2,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Número total de tiros por parte de 1. FC Köln (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.71,
+   "esperado": 10.7,
+   "prob": 0.665,
+   "cuota_minima": 1.56,
+   "ventaja": 0.138,
+   "kelly": 0.194,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 23.9,
+     "tiros_contra": 9.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.0,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.77,
+   "esperado": 8.5,
+   "prob": 0.643,
+   "cuota_minima": 1.62,
+   "ventaja": 0.138,
+   "kelly": 0.179,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:15",
+   "liga": "Bélgica",
+   "partido": "KRC Genk - RAAL La Louvière",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.84,
+   "esperado": 8.75,
+   "prob": 0.617,
+   "cuota_minima": 1.69,
+   "ventaja": 0.135,
+   "kelly": 0.161,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.8,
+     "tiros_puerta_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.7,
+     "tiros_puerta_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 31.5",
+   "cuota": 1.52,
+   "esperado": 27.15,
+   "prob": 0.746,
+   "cuota_minima": 1.39,
+   "ventaja": 0.134,
+   "kelly": 0.257,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 19.2,
+     "tiros_contra": 6.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.2,
+     "tiros_contra": 16.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Bélgica",
+   "partido": "Sporting de Charleroi - Sint-Truiden",
+   "mercado": "Total de tarjetas - Sint-Truiden",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.14,
+   "esperado": 1.7,
+   "prob": 0.53,
+   "cuota_minima": 1.96,
+   "ventaja": 0.134,
+   "kelly": 0.118,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.2,
+     "tarjetas_contra": 1.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "League Two",
+   "partido": "Gillingham - Crewe Alexandra",
+   "mercado": "Total de Tiros de Esquina a favor de Gillingham",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.42,
+   "esperado": 3.7,
+   "prob": 0.798,
+   "cuota_minima": 1.3,
+   "ventaja": 0.133,
+   "kelly": 0.316,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.6,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.4,
+     "corners_contra": 2.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Bolton - Portsmouth",
+   "mercado": "Total de tarjetas - Bolton",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.1,
+   "esperado": 1.67,
+   "prob": 0.54,
+   "cuota_minima": 1.93,
+   "ventaja": 0.133,
+   "kelly": 0.121,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.43,
+     "tarjetas_contra": 2.0,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "Eintracht Frankfurt - TSG Hoffenheim",
+   "mercado": "Número total de tiros por parte de Eintracht Frankfurt (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 16.5",
+   "cuota": 1.55,
+   "esperado": 13.75,
+   "prob": 0.731,
+   "cuota_minima": 1.42,
+   "ventaja": 0.132,
+   "kelly": 0.241,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.9,
+     "tiros_contra": 12.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 14.9,
+     "tiros_contra": 12.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Sampdoria - Benevento",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.91,
+   "esperado": 10.75,
+   "prob": 0.593,
+   "cuota_minima": 1.75,
+   "ventaja": 0.132,
+   "kelly": 0.146,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.4,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.5,
+     "corners_contra": 5.5,
+     "n": 4
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Wolves - Charlton Athletic",
+   "mercado": "Total de tiros a puerta por parte de Wolves (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.3,
+   "esperado": 5.47,
+   "prob": 0.87,
+   "cuota_minima": 1.2,
+   "ventaja": 0.131,
+   "kelly": 0.437,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.14,
+     "tiros_puerta_contra": 3.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.0,
+     "tiros_puerta_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "Ligue 2",
+   "partido": "Stade Lavallois - Montpellier",
+   "mercado": "Total de Tiros de Esquina a favor de Montpellier",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.38,
+   "esperado": 4.3,
+   "prob": 0.819,
+   "cuota_minima": 1.27,
+   "ventaja": 0.131,
+   "kelly": 0.343,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.0,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.41,
+   "esperado": 3.7,
+   "prob": 0.802,
+   "cuota_minima": 1.3,
+   "ventaja": 0.131,
+   "kelly": 0.321,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Norwich City - Cardiff City",
+   "mercado": "Total de tiros a puerta por parte de Cardiff City (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.23,
+   "esperado": 4.81,
+   "prob": 0.507,
+   "cuota_minima": 2.05,
+   "ventaja": 0.131,
+   "kelly": 0.106,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.1,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.43,
+     "tiros_puerta_contra": 6.43,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Southampton - Derby County",
+   "mercado": "Total de Tiros de Esquina a favor de Southampton",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.35,
+   "esperado": 5.7,
+   "prob": 0.837,
+   "cuota_minima": 1.24,
+   "ventaja": 0.13,
+   "kelly": 0.37,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de tiros a puerta por parte de Lazio (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.53,
+   "esperado": 5.05,
+   "prob": 0.738,
+   "cuota_minima": 1.41,
+   "ventaja": 0.13,
+   "kelly": 0.245,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.74,
+   "esperado": 3.6,
+   "prob": 0.649,
+   "cuota_minima": 1.6,
+   "ventaja": 0.13,
+   "kelly": 0.175,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.1,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 2.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Número total de tiros por parte de Real Betis (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 15.5",
+   "cuota": 1.47,
+   "esperado": 12.3,
+   "prob": 0.768,
+   "cuota_minima": 1.35,
+   "ventaja": 0.129,
+   "kelly": 0.275,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.8,
+     "tiros_contra": 10.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 14.1,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.81,
+   "esperado": 7.75,
+   "prob": 0.624,
+   "cuota_minima": 1.67,
+   "ventaja": 0.129,
+   "kelly": 0.16,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.9,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "West Ham - Preston North End",
+   "mercado": "Total de Tiros de Esquina a favor de West Ham",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.27,
+   "esperado": 6.58,
+   "prob": 0.888,
+   "cuota_minima": 1.17,
+   "ventaja": 0.128,
+   "kelly": 0.472,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.57,
+     "corners_contra": 5.14,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 3.7,
+     "corners_contra": 6.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "West Ham - Preston North End",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 2.12,
+   "esperado": 9.48,
+   "prob": 0.532,
+   "cuota_minima": 1.95,
+   "ventaja": 0.128,
+   "kelly": 0.115,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.43,
+     "tiros_puerta_contra": 3.14,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.2,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de tiros a puerta por parte de Bayern Múnich (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.26,
+   "esperado": 7.5,
+   "prob": 0.894,
+   "cuota_minima": 1.16,
+   "ventaja": 0.126,
+   "kelly": 0.486,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 9.8,
+     "tiros_puerta_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Paradas del Portero - Bayern Múnich (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.6,
+   "esperado": 2.6,
+   "prob": 0.704,
+   "cuota_minima": 1.48,
+   "ventaja": 0.126,
+   "kelly": 0.211,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.6,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.1,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Escocia Championship",
+   "partido": "Inverness CT - Ayr United",
+   "mercado": "Total de Tiros de Esquina a favor de Ayr United",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.55,
+   "esperado": 3.4,
+   "prob": 0.726,
+   "cuota_minima": 1.43,
+   "ventaja": 0.125,
+   "kelly": 0.227,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.86,
+     "corners_contra": 2.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 4.1,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de tiros a puerta por parte de Como (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.38,
+   "esperado": 5.25,
+   "prob": 0.815,
+   "cuota_minima": 1.28,
+   "ventaja": 0.124,
+   "kelly": 0.328,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.2,
+     "tiros_puerta_contra": 1.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.4,
+     "tiros_puerta_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Notts County - Stevenage FC",
+   "mercado": "Total de Tiros de Esquina a favor de Stevenage FC",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.3,
+   "esperado": 3.13,
+   "prob": 0.864,
+   "cuota_minima": 1.2,
+   "ventaja": 0.123,
+   "kelly": 0.41,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.83,
+     "corners_contra": 3.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 2.6,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Ligue 1",
+   "partido": "Troyes - Le Havre",
+   "mercado": "Total de Tiros de Esquina a favor de Le Havre",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.44,
+   "esperado": 3.05,
+   "prob": 0.78,
+   "cuota_minima": 1.33,
+   "ventaja": 0.123,
+   "kelly": 0.279,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.6,
+     "corners_contra": 2.2,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 3.9,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Wolves - Charlton Athletic",
+   "mercado": "Total de tarjetas - Wolves",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.91,
+   "esperado": 2.17,
+   "prob": 0.588,
+   "cuota_minima": 1.77,
+   "ventaja": 0.123,
+   "kelly": 0.135,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.43,
+     "tarjetas_contra": 2.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de tarjetas - Manchester City",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.4,
+   "esperado": 0.8,
+   "prob": 0.802,
+   "cuota_minima": 1.3,
+   "ventaja": 0.122,
+   "kelly": 0.306,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.0,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 0.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Plymouth Argyle - Peterborough United",
+   "mercado": "Total de Tiros de Esquina a favor de Peterborough United",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.41,
+   "esperado": 6.05,
+   "prob": 0.795,
+   "cuota_minima": 1.31,
+   "ventaja": 0.122,
+   "kelly": 0.297,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.1,
+     "corners_contra": 6.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 5.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de tarjetas - West Bromwich",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.5,
+   "esperado": 1.7,
+   "prob": 0.748,
+   "cuota_minima": 1.39,
+   "ventaja": 0.122,
+   "kelly": 0.244,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "League Two",
+   "partido": "Gillingham - Crewe Alexandra",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.43,
+   "esperado": 7.95,
+   "prob": 0.784,
+   "cuota_minima": 1.33,
+   "ventaja": 0.121,
+   "kelly": 0.283,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.6,
+     "corners_contra": 4.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.4,
+     "corners_contra": 2.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Chesterfield - Shrewsbury Town",
+   "mercado": "Total de Tiros de Esquina a favor de Chesterfield",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.56,
+   "esperado": 5.15,
+   "prob": 0.719,
+   "cuota_minima": 1.45,
+   "ventaja": 0.121,
+   "kelly": 0.216,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.9,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 4.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de tarjetas - Lecce",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.85,
+   "esperado": 2.25,
+   "prob": 0.393,
+   "cuota_minima": 2.65,
+   "ventaja": 0.12,
+   "kelly": 0.065,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.6,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "LaLiga 2",
+   "partido": "Sabadell FC - Granada",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.82,
+   "esperado": 7.82,
+   "prob": 0.615,
+   "cuota_minima": 1.69,
+   "ventaja": 0.119,
+   "kelly": 0.146,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.17,
+     "corners_contra": 2.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 4.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Número total de tiros por parte de Manchester City (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 18.5",
+   "cuota": 1.54,
+   "esperado": 15.65,
+   "prob": 0.724,
+   "cuota_minima": 1.44,
+   "ventaja": 0.116,
+   "kelly": 0.214,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.6,
+     "tiros_contra": 8.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 11.8,
+     "tiros_contra": 13.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Ligue 2",
+   "partido": "Nancy - Dijon",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.58,
+   "esperado": 7.9,
+   "prob": 0.706,
+   "cuota_minima": 1.47,
+   "ventaja": 0.115,
+   "kelly": 0.199,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.4,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.33,
+     "corners_contra": 5.17,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de tarjetas - PSV Eindhoven",
+   "seleccion": "Más de 2.5",
+   "cuota": 2.95,
+   "esperado": 2.25,
+   "prob": 0.378,
+   "cuota_minima": 2.75,
+   "ventaja": 0.115,
+   "kelly": 0.059,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.1,
+     "tarjetas_contra": 2.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de tarjetas - Sevilla",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.18,
+   "esperado": 2.3,
+   "prob": 0.944,
+   "cuota_minima": 1.1,
+   "ventaja": 0.114,
+   "kelly": 0.633,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Chesterfield - Shrewsbury Town",
+   "mercado": "Total de Tiros de Esquina a favor de Shrewsbury Town",
+   "seleccion": "Más de 3.5",
+   "cuota": 2.08,
+   "esperado": 4.05,
+   "prob": 0.536,
+   "cuota_minima": 1.94,
+   "ventaja": 0.114,
+   "kelly": 0.106,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.9,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 4.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Total de Tiros de Esquina a favor de Arsenal",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.28,
+   "esperado": 4.55,
+   "prob": 0.869,
+   "cuota_minima": 1.2,
+   "ventaja": 0.113,
+   "kelly": 0.402,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 4.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee United",
+   "mercado": "Total de tiros a puerta por parte de Hibernian (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.41,
+   "esperado": 4.65,
+   "prob": 0.79,
+   "cuota_minima": 1.32,
+   "ventaja": 0.113,
+   "kelly": 0.277,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.0,
+     "tiros_puerta_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.3,
+     "tiros_puerta_contra": 6.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Accrington Stanley - Salford City FC",
+   "mercado": "Total de Tiros de Esquina a favor de Accrington Stanley",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.53,
+   "esperado": 5.4,
+   "prob": 0.727,
+   "cuota_minima": 1.43,
+   "ventaja": 0.113,
+   "kelly": 0.213,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.1,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Wolves - Charlton Athletic",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.83,
+   "esperado": 8.82,
+   "prob": 0.608,
+   "cuota_minima": 1.71,
+   "ventaja": 0.113,
+   "kelly": 0.137,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.14,
+     "tiros_puerta_contra": 3.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.0,
+     "tiros_puerta_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.48,
+   "esperado": 9.2,
+   "prob": 0.751,
+   "cuota_minima": 1.39,
+   "ventaja": 0.111,
+   "kelly": 0.231,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 7.7,
+     "corners_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de tarjetas - Cagliari",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.33,
+   "esperado": 1.9,
+   "prob": 0.477,
+   "cuota_minima": 2.18,
+   "ventaja": 0.111,
+   "kelly": 0.083,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 0.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Wolves - Charlton Athletic",
+   "mercado": "Total de tiros a puerta por parte de Charlton Athletic (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.8,
+   "esperado": 3.35,
+   "prob": 0.617,
+   "cuota_minima": 1.69,
+   "ventaja": 0.11,
+   "kelly": 0.137,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.14,
+     "tiros_puerta_contra": 3.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.0,
+     "tiros_puerta_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de tiros a puerta por parte de Middlesbrough (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.38,
+   "esperado": 5.35,
+   "prob": 0.804,
+   "cuota_minima": 1.29,
+   "ventaja": 0.109,
+   "kelly": 0.288,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.1,
+     "tiros_puerta_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de tarjetas - NEC Nijmegen",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.38,
+   "esperado": 1.45,
+   "prob": 0.803,
+   "cuota_minima": 1.29,
+   "ventaja": 0.109,
+   "kelly": 0.286,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.1,
+     "tarjetas_contra": 2.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Leyton Orient - AFC Wimbledon",
+   "mercado": "Total de Tiros de Esquina a favor de Leyton Orient",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.53,
+   "esperado": 5.1,
+   "prob": 0.725,
+   "cuota_minima": 1.43,
+   "ventaja": 0.109,
+   "kelly": 0.206,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 7.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.6,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Total de tiros a puerta por parte de Aston Villa (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 2.1,
+   "esperado": 4.6,
+   "prob": 0.528,
+   "cuota_minima": 1.97,
+   "ventaja": 0.109,
+   "kelly": 0.099,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.5,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Paradas del Portero - PSV Eindhoven (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.61,
+   "esperado": 3.7,
+   "prob": 0.688,
+   "cuota_minima": 1.51,
+   "ventaja": 0.108,
+   "kelly": 0.177,
+   "clave": "atajadas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.3,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 2.6,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 12.5",
+   "cuota": 1.7,
+   "esperado": 11.25,
+   "prob": 0.651,
+   "cuota_minima": 1.6,
+   "ventaja": 0.107,
+   "kelly": 0.153,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 9.8,
+     "tiros_puerta_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Total de tiros a puerta por parte de Arsenal (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.34,
+   "esperado": 4.35,
+   "prob": 0.825,
+   "cuota_minima": 1.26,
+   "ventaja": 0.106,
+   "kelly": 0.312,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.9,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de tarjetas - Cercle Brugge",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.84,
+   "esperado": 1.45,
+   "prob": 0.601,
+   "cuota_minima": 1.73,
+   "ventaja": 0.106,
+   "kelly": 0.126,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 0.8,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.6,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga 2",
+   "partido": "CD Castellón - CD Eldense",
+   "mercado": "Total de Tiros de Esquina a favor de CD Eldense",
+   "seleccion": "Más de 3.5",
+   "cuota": 2.0,
+   "esperado": 4.16,
+   "prob": 0.553,
+   "cuota_minima": 1.88,
+   "ventaja": 0.106,
+   "kelly": 0.106,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.71,
+     "corners_contra": 5.86,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Cambridge United - Stockport County",
+   "mercado": "Total de Tiros de Esquina a favor de Cambridge United",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.29,
+   "esperado": 6.79,
+   "prob": 0.856,
+   "cuota_minima": 1.22,
+   "ventaja": 0.104,
+   "kelly": 0.359,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 9.29,
+     "corners_contra": 4.29,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 6.2,
+     "corners_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:00",
+   "liga": "2. Bundesliga",
+   "partido": "Hannover 96 - Greuther Fürth",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 12.5",
+   "cuota": 2.5,
+   "esperado": 12.2,
+   "prob": 0.441,
+   "cuota_minima": 2.36,
+   "ventaja": 0.103,
+   "kelly": 0.069,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.3,
+     "corners_contra": 5.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 7.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Notts County - Stevenage FC",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.62,
+   "esperado": 8.15,
+   "prob": 0.68,
+   "cuota_minima": 1.53,
+   "ventaja": 0.102,
+   "kelly": 0.164,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.83,
+     "corners_contra": 3.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 2.6,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Burton Albion - Luton Town",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.79,
+   "esperado": 9.7,
+   "prob": 0.615,
+   "cuota_minima": 1.69,
+   "ventaja": 0.102,
+   "kelly": 0.129,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.7,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.6,
+   "esperado": 11.05,
+   "prob": 0.424,
+   "cuota_minima": 2.45,
+   "ventaja": 0.102,
+   "kelly": 0.064,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 7.2,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de Tiros de Esquina a favor de Celtic",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.23,
+   "esperado": 7.25,
+   "prob": 0.894,
+   "cuota_minima": 1.16,
+   "ventaja": 0.1,
+   "kelly": 0.435,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 8.4,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.9,
+     "corners_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.8,
+   "esperado": 8.8,
+   "prob": 0.611,
+   "cuota_minima": 1.7,
+   "ventaja": 0.1,
+   "kelly": 0.125,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.5,
+     "tiros_puerta_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.0,
+     "tiros_puerta_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "League Two",
+   "partido": "Newport County - Swindon Town",
+   "mercado": "Total de Tiros de Esquina a favor de Swindon Town",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.58,
+   "esperado": 3.6,
+   "prob": 0.695,
+   "cuota_minima": 1.5,
+   "ventaja": 0.099,
+   "kelly": 0.17,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.7,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.3,
+     "corners_contra": 9.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Southampton - Derby County",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 2.0,
+   "esperado": 10.35,
+   "prob": 0.549,
+   "cuota_minima": 1.89,
+   "ventaja": 0.098,
+   "kelly": 0.098,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de tiros a puerta por parte de PSV Eindhoven (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.57,
+   "esperado": 5.35,
+   "prob": 0.698,
+   "cuota_minima": 1.49,
+   "ventaja": 0.096,
+   "kelly": 0.168,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.3,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 6.7,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Bolton - Portsmouth",
+   "mercado": "Total de Tiros de Esquina a favor de Portsmouth",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.33,
+   "esperado": 4.26,
+   "prob": 0.823,
+   "cuota_minima": 1.26,
+   "ventaja": 0.095,
+   "kelly": 0.287,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.86,
+     "corners_contra": 5.43,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 3.1,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.53,
+   "esperado": 2.65,
+   "prob": 0.716,
+   "cuota_minima": 1.45,
+   "ventaja": 0.095,
+   "kelly": 0.179,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.0,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 0.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:00",
+   "liga": "2. Bundesliga",
+   "partido": "Hannover 96 - Greuther Fürth",
+   "mercado": "Total de Tiros de Esquina a favor de Hannover 96",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.46,
+   "esperado": 5.75,
+   "prob": 0.749,
+   "cuota_minima": 1.39,
+   "ventaja": 0.094,
+   "kelly": 0.204,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.3,
+     "corners_contra": 5.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 7.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Ligue 2",
+   "partido": "Nancy - Dijon",
+   "mercado": "Total de Tiros de Esquina a favor de Nancy",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.52,
+   "esperado": 4.29,
+   "prob": 0.72,
+   "cuota_minima": 1.44,
+   "ventaja": 0.094,
+   "kelly": 0.181,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 3.4,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.33,
+     "corners_contra": 5.17,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Cheltenham - Bristol Rovers",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.57,
+   "esperado": 8.9,
+   "prob": 0.696,
+   "cuota_minima": 1.49,
+   "ventaja": 0.092,
+   "kelly": 0.162,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.0,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "Turquía",
+   "partido": "Galatasaray - Samsunspor",
+   "mercado": "Total de Tiros de Esquina a favor de Galatasaray",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.52,
+   "esperado": 6.9,
+   "prob": 0.718,
+   "cuota_minima": 1.45,
+   "ventaja": 0.091,
+   "kelly": 0.175,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 7.6,
+     "corners_contra": 2.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.2,
+     "corners_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.58,
+   "esperado": 8.95,
+   "prob": 0.691,
+   "cuota_minima": 1.51,
+   "ventaja": 0.091,
+   "kelly": 0.158,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.9,
+     "corners_contra": 1.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 5.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de tarjetas - 1. FC Union Berlin",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.48,
+   "esperado": 1.75,
+   "prob": 0.736,
+   "cuota_minima": 1.41,
+   "ventaja": 0.09,
+   "kelly": 0.188,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.2,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Bolton - Portsmouth",
+   "mercado": "Total de Tiros de Esquina a favor de Bolton",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.57,
+   "esperado": 6.28,
+   "prob": 0.694,
+   "cuota_minima": 1.5,
+   "ventaja": 0.09,
+   "kelly": 0.157,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.86,
+     "corners_contra": 5.43,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 3.1,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee United",
+   "mercado": "Total de Tiros de Esquina a favor de Dundee United",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.75,
+   "esperado": 5.7,
+   "prob": 0.623,
+   "cuota_minima": 1.67,
+   "ventaja": 0.09,
+   "kelly": 0.12,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.5,
+     "corners_contra": 7.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Norwich City - Cardiff City",
+   "mercado": "Total de tiros a puerta por parte de Norwich City (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.7,
+   "esperado": 5.76,
+   "prob": 0.64,
+   "cuota_minima": 1.62,
+   "ventaja": 0.089,
+   "kelly": 0.127,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.1,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.43,
+     "tiros_puerta_contra": 6.43,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee United",
+   "mercado": "Total de tiros a puerta por parte de Dundee United (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.35,
+   "esperado": 4.55,
+   "prob": 0.464,
+   "cuota_minima": 2.24,
+   "ventaja": 0.089,
+   "kelly": 0.066,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.0,
+     "tiros_puerta_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.3,
+     "tiros_puerta_contra": 6.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de tiros a puerta por parte de Lecce (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.45,
+   "esperado": 4.2,
+   "prob": 0.751,
+   "cuota_minima": 1.39,
+   "ventaja": 0.088,
+   "kelly": 0.196,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de tiros a puerta por parte de Bristol City (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 2.28,
+   "esperado": 3.65,
+   "prob": 0.477,
+   "cuota_minima": 2.18,
+   "ventaja": 0.088,
+   "kelly": 0.069,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.1,
+     "tiros_puerta_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Ligue 1",
+   "partido": "Troyes - Le Havre",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Más de 9.5",
+   "cuota": 2.8,
+   "esperado": 8.8,
+   "prob": 0.389,
+   "cuota_minima": 2.68,
+   "ventaja": 0.088,
+   "kelly": 0.049,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 3.8,
+     "n": 5
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.6,
+     "tiros_puerta_contra": 4.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de Tiros de Esquina a favor de Roma",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.32,
+   "esperado": 5.05,
+   "prob": 0.823,
+   "cuota_minima": 1.26,
+   "ventaja": 0.087,
+   "kelly": 0.271,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 3.5,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 4.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Bélgica",
+   "partido": "Sporting de Charleroi - Sint-Truiden",
+   "mercado": "Total de Tiros de Esquina a favor de Sporting de Charleroi",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.38,
+   "esperado": 5.4,
+   "prob": 0.787,
+   "cuota_minima": 1.32,
+   "ventaja": 0.087,
+   "kelly": 0.228,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.4,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.8,
+     "corners_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "LaLiga 2",
+   "partido": "FC Andorra - Leganés",
+   "mercado": "Total de Tiros de Esquina a favor de Leganés",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.72,
+   "esperado": 3.1,
+   "prob": 0.632,
+   "cuota_minima": 1.65,
+   "ventaja": 0.087,
+   "kelly": 0.121,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.4,
+     "corners_contra": 2.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.4,
+     "corners_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Escocia Championship",
+   "partido": "Inverness CT - Ayr United",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.91,
+   "esperado": 9.19,
+   "prob": 0.569,
+   "cuota_minima": 1.83,
+   "ventaja": 0.087,
+   "kelly": 0.096,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.86,
+     "corners_contra": 2.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 4.1,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.3,
+   "esperado": 9.0,
+   "prob": 0.473,
+   "cuota_minima": 2.2,
+   "ventaja": 0.087,
+   "kelly": 0.067,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.1,
+     "tiros_puerta_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.8,
+     "tiros_puerta_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Módena - Juve Stabia",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.47,
+   "esperado": 8.45,
+   "prob": 0.739,
+   "cuota_minima": 1.41,
+   "ventaja": 0.086,
+   "kelly": 0.183,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.0,
+     "corners_contra": 3.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 5.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "LaLiga 2",
+   "partido": "FC Andorra - Leganés",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.18,
+   "esperado": 8.85,
+   "prob": 0.498,
+   "cuota_minima": 2.09,
+   "ventaja": 0.086,
+   "kelly": 0.073,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.4,
+     "corners_contra": 2.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.4,
+     "corners_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Celtic - St Mirren",
+   "mercado": "Total de Tiros de Esquina a favor de St Mirren",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.23,
+   "esperado": 4.3,
+   "prob": 0.882,
+   "cuota_minima": 1.18,
+   "ventaja": 0.085,
+   "kelly": 0.367,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 8.4,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.9,
+     "corners_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Ligue 2",
+   "partido": "Red Star FC - Pau",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.04,
+   "esperado": 8.55,
+   "prob": 0.532,
+   "cuota_minima": 1.96,
+   "ventaja": 0.085,
+   "kelly": 0.082,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.2,
+     "corners_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.7,
+     "corners_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Arbroath - Stenhousemuir",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.6,
+   "esperado": 8.18,
+   "prob": 0.677,
+   "cuota_minima": 1.54,
+   "ventaja": 0.084,
+   "kelly": 0.14,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.0,
+     "corners_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.29,
+     "corners_contra": 4.86,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de tarjetas - St Johnstone",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.5,
+   "esperado": 1.81,
+   "prob": 0.722,
+   "cuota_minima": 1.44,
+   "ventaja": 0.083,
+   "kelly": 0.165,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.33,
+     "tarjetas_contra": 1.17,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Burton Albion - Luton Town",
+   "mercado": "Total de Tiros de Esquina a favor de Luton Town",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.52,
+   "esperado": 5.2,
+   "prob": 0.712,
+   "cuota_minima": 1.46,
+   "ventaja": 0.083,
+   "kelly": 0.159,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.7,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de tiros a puerta por parte de Falkirk (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 2.05,
+   "esperado": 4.6,
+   "prob": 0.528,
+   "cuota_minima": 1.97,
+   "ventaja": 0.083,
+   "kelly": 0.079,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.7,
+     "tiros_puerta_contra": 5.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.5,
+     "tiros_puerta_contra": 5.5,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Total de Tiros de Esquina a favor de Aston Villa",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.42,
+   "esperado": 4.8,
+   "prob": 0.762,
+   "cuota_minima": 1.37,
+   "ventaja": 0.082,
+   "kelly": 0.195,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.3,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.7,
+     "corners_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de tarjetas - Aberdeen",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.62,
+   "esperado": 2.05,
+   "prob": 0.668,
+   "cuota_minima": 1.56,
+   "ventaja": 0.082,
+   "kelly": 0.132,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de Tiros de Esquina a favor de Parma",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.96,
+   "esperado": 4.15,
+   "prob": 0.552,
+   "cuota_minima": 1.88,
+   "ventaja": 0.082,
+   "kelly": 0.086,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 3.5,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 4.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Bolton - Portsmouth",
+   "mercado": "Total de tiros a puerta por parte de Bolton (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.28,
+   "esperado": 4.62,
+   "prob": 0.474,
+   "cuota_minima": 2.19,
+   "ventaja": 0.082,
+   "kelly": 0.064,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.43,
+     "tiros_puerta_contra": 6.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.4,
+     "tiros_puerta_contra": 3.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee United",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 12.5",
+   "cuota": 2.65,
+   "esperado": 11.85,
+   "prob": 0.408,
+   "cuota_minima": 2.55,
+   "ventaja": 0.082,
+   "kelly": 0.05,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.5,
+     "corners_contra": 7.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Número total de tiros por parte de Sevilla (Resuelta usando Opta Data)",
+   "seleccion": "Más de 12.5",
+   "cuota": 1.67,
+   "esperado": 14.8,
+   "prob": 0.647,
+   "cuota_minima": 1.61,
+   "ventaja": 0.081,
+   "kelly": 0.121,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.8,
+     "tiros_contra": 10.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 14.1,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Paradas del Portero - Lazio (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.98,
+   "esperado": 2.95,
+   "prob": 0.546,
+   "cuota_minima": 1.91,
+   "ventaja": 0.081,
+   "kelly": 0.082,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.9,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.8,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Total de tarjetas - Arsenal",
+   "seleccion": "Más de 2.5",
+   "cuota": 2.43,
+   "esperado": 2.55,
+   "prob": 0.445,
+   "cuota_minima": 2.34,
+   "ventaja": 0.081,
+   "kelly": 0.057,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.9,
+     "tarjetas_contra": 3.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 3.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Número total de tiros por parte de Fulham (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.7,
+   "esperado": 10.35,
+   "prob": 0.635,
+   "cuota_minima": 1.64,
+   "ventaja": 0.08,
+   "kelly": 0.114,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.6,
+     "tiros_contra": 8.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 11.8,
+     "tiros_contra": 13.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Plymouth Argyle - Peterborough United",
+   "mercado": "Total de Tiros de Esquina a favor de Plymouth Argyle",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.38,
+   "esperado": 5.45,
+   "prob": 0.782,
+   "cuota_minima": 1.33,
+   "ventaja": 0.079,
+   "kelly": 0.209,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.1,
+     "corners_contra": 6.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 5.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 11:15",
+   "liga": "Serie B",
+   "partido": "Catanzaro - Palermo",
+   "mercado": "Total de Tiros de Esquina a favor de Catanzaro",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.9,
+   "esperado": 5.3,
+   "prob": 0.568,
+   "cuota_minima": 1.83,
+   "ventaja": 0.079,
+   "kelly": 0.088,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 4.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 4.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Bélgica",
+   "partido": "Sporting de Charleroi - Sint-Truiden",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.82,
+   "esperado": 3.3,
+   "prob": 0.593,
+   "cuota_minima": 1.76,
+   "ventaja": 0.078,
+   "kelly": 0.096,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.2,
+     "tarjetas_contra": 1.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Chelsea - Leeds United",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.23,
+   "esperado": 4.7,
+   "prob": 0.484,
+   "cuota_minima": 2.15,
+   "ventaja": 0.078,
+   "kelly": 0.064,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 3.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de Tiros de Esquina a favor de Falkirk",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.53,
+   "esperado": 6.37,
+   "prob": 0.704,
+   "cuota_minima": 1.48,
+   "ventaja": 0.077,
+   "kelly": 0.145,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.4,
+     "corners_contra": 6.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.83,
+     "corners_contra": 8.33,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de Tiros de Esquina a favor de Real Betis",
+   "seleccion": "Menos de 3.5",
+   "cuota": 2.28,
+   "esperado": 4.0,
+   "prob": 0.473,
+   "cuota_minima": 2.2,
+   "ventaja": 0.077,
+   "kelly": 0.06,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.1,
+     "corners_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 27.5",
+   "cuota": 2.04,
+   "esperado": 27.45,
+   "prob": 0.527,
+   "cuota_minima": 1.97,
+   "ventaja": 0.076,
+   "kelly": 0.073,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.4,
+     "tiros_contra": 11.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 13.7,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:30",
+   "liga": "Bundesliga",
+   "partido": "Bayern Múnich - 1. FC Köln",
+   "mercado": "Total de Tiros de Esquina a favor de Bayern Múnich",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.37,
+   "esperado": 7.1,
+   "prob": 0.784,
+   "cuota_minima": 1.33,
+   "ventaja": 0.075,
+   "kelly": 0.202,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 9.0,
+     "corners_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga 2",
+   "partido": "CD Castellón - CD Eldense",
+   "mercado": "Total de Tiros de Esquina a favor de CD Castellón",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.43,
+   "esperado": 5.73,
+   "prob": 0.751,
+   "cuota_minima": 1.38,
+   "ventaja": 0.075,
+   "kelly": 0.173,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.71,
+     "corners_contra": 5.86,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Total de tiros a puerta por parte de Sunderland (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.7,
+   "esperado": 4.55,
+   "prob": 0.633,
+   "cuota_minima": 1.64,
+   "ventaja": 0.075,
+   "kelly": 0.108,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.5,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Ligue 1",
+   "partido": "Troyes - Le Havre",
+   "mercado": "Paradas del Portero - Le Havre (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.77,
+   "esperado": 3.25,
+   "prob": 0.607,
+   "cuota_minima": 1.71,
+   "ventaja": 0.075,
+   "kelly": 0.097,
+   "clave": "atajadas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "atajadas": 1.6,
+     "atajadas_contra": null,
+     "n": 5
+    },
+    "visita_fuera": {
+     "atajadas": 2.7,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de tiros a puerta por parte de NEC Nijmegen (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.47,
+   "esperado": 5.25,
+   "prob": 0.73,
+   "cuota_minima": 1.42,
+   "ventaja": 0.074,
+   "kelly": 0.157,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.3,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 6.7,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 15:00",
+   "liga": "LaLiga",
+   "partido": "Athletic Bilbao - Espanyol",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 5.5",
+   "cuota": 2.15,
+   "esperado": 5.8,
+   "prob": 0.5,
+   "cuota_minima": 2.08,
+   "ventaja": 0.074,
+   "kelly": 0.064,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 3.8,
+     "tarjetas_contra": 3.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de Tiros de Esquina a favor de Swansea City",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.42,
+   "esperado": 5.65,
+   "prob": 0.755,
+   "cuota_minima": 1.38,
+   "ventaja": 0.073,
+   "kelly": 0.173,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Southampton - Derby County",
+   "mercado": "Total de tiros a puerta por parte de Southampton (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.67,
+   "esperado": 5.75,
+   "prob": 0.642,
+   "cuota_minima": 1.62,
+   "ventaja": 0.073,
+   "kelly": 0.109,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.0,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.4,
+     "tiros_puerta_contra": 6.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de tarjetas - Roma",
+   "seleccion": "Más de 1.5",
+   "cuota": 2.05,
+   "esperado": 1.9,
+   "prob": 0.523,
+   "cuota_minima": 1.99,
+   "ventaja": 0.073,
+   "kelly": 0.069,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 1.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee United",
+   "mercado": "Total de tarjetas - Hibernian",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.25,
+   "esperado": 1.9,
+   "prob": 0.477,
+   "cuota_minima": 2.18,
+   "ventaja": 0.073,
+   "kelly": 0.058,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 2.5",
+   "cuota": 2.38,
+   "esperado": 3.05,
+   "prob": 0.451,
+   "cuota_minima": 2.31,
+   "ventaja": 0.073,
+   "kelly": 0.053,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 0.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:15",
+   "liga": "Bélgica",
+   "partido": "KRC Genk - RAAL La Louvière",
+   "mercado": "Total de tiros a puerta por parte de KRC Genk (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 5.5",
+   "cuota": 2.45,
+   "esperado": 6.2,
+   "prob": 0.438,
+   "cuota_minima": 2.37,
+   "ventaja": 0.073,
+   "kelly": 0.051,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.8,
+     "tiros_puerta_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.7,
+     "tiros_puerta_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "partido": "Rayo Vallecano - Valencia",
+   "mercado": "Total de tiros a puerta por parte de Valencia (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.9,
+   "esperado": 4.0,
+   "prob": 0.37,
+   "cuota_minima": 2.81,
+   "ventaja": 0.073,
+   "kelly": 0.038,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.0,
+     "tiros_puerta_contra": 4.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.6,
+     "tiros_puerta_contra": 4.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Volendam - Jong Ajax",
+   "mercado": "Total de Tiros de Esquina a favor de FC Volendam",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.38,
+   "esperado": 5.5,
+   "prob": 0.777,
+   "cuota_minima": 1.34,
+   "ventaja": 0.072,
+   "kelly": 0.189,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.6,
+     "corners_contra": 5.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.8,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de Tiros de Esquina a favor de Fulham",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.4,
+   "esperado": 4.5,
+   "prob": 0.766,
+   "cuota_minima": 1.36,
+   "ventaja": 0.072,
+   "kelly": 0.181,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 7.0,
+     "corners_contra": 3.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.6,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.44,
+   "esperado": 3.3,
+   "prob": 0.745,
+   "cuota_minima": 1.4,
+   "ventaja": 0.072,
+   "kelly": 0.165,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 0.8,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.6,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:15",
+   "liga": "Bélgica",
+   "partido": "KRC Genk - RAAL La Louvière",
+   "mercado": "Total de Tiros de Esquina a favor de RAAL La Louvière",
+   "seleccion": "Más de 3.5",
+   "cuota": 2.0,
+   "esperado": 4.05,
+   "prob": 0.536,
+   "cuota_minima": 1.94,
+   "ventaja": 0.072,
+   "kelly": 0.072,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 7.5,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Ligue 1",
+   "partido": "Troyes - Le Havre",
+   "mercado": "Total de Tiros de Esquina a favor de Troyes",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.33,
+   "esperado": 6.15,
+   "prob": 0.805,
+   "cuota_minima": 1.29,
+   "ventaja": 0.07,
+   "kelly": 0.213,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.6,
+     "corners_contra": 2.2,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 3.9,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 11:00",
+   "liga": "Turquía",
+   "partido": "Kocaelispor - Fenerbahçe",
+   "mercado": "Total de Tiros de Esquina a favor de Fenerbahçe",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.71,
+   "esperado": 4.95,
+   "prob": 0.626,
+   "cuota_minima": 1.66,
+   "ventaja": 0.07,
+   "kelly": 0.098,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 4.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Volendam - Jong Ajax",
+   "mercado": "Total de Tiros de Esquina a favor de Jong Ajax",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.86,
+   "esperado": 5.35,
+   "prob": 0.575,
+   "cuota_minima": 1.81,
+   "ventaja": 0.07,
+   "kelly": 0.081,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.6,
+     "corners_contra": 5.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.8,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Cambridge United - Stockport County",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.06,
+   "esperado": 12.04,
+   "prob": 0.52,
+   "cuota_minima": 2.0,
+   "ventaja": 0.07,
+   "kelly": 0.066,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 9.29,
+     "corners_contra": 4.29,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 6.2,
+     "corners_contra": 4.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "partido": "Rayo Vallecano - Valencia",
+   "mercado": "Total de tarjetas - Valencia",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.2,
+   "esperado": 2.25,
+   "prob": 0.891,
+   "cuota_minima": 1.17,
+   "ventaja": 0.069,
+   "kelly": 0.346,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Championship",
+   "partido": "Southampton - Derby County",
+   "mercado": "Total de Tiros de Esquina a favor de Derby County",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.7,
+   "esperado": 4.65,
+   "prob": 0.629,
+   "cuota_minima": 1.65,
+   "ventaja": 0.069,
+   "kelly": 0.099,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.5,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:15",
+   "liga": "Bélgica",
+   "partido": "KRC Genk - RAAL La Louvière",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.72,
+   "esperado": 11.05,
+   "prob": 0.622,
+   "cuota_minima": 1.67,
+   "ventaja": 0.069,
+   "kelly": 0.096,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 7.5,
+     "corners_contra": 3.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 11:00",
+   "liga": "Turquía",
+   "partido": "Kocaelispor - Fenerbahçe",
+   "mercado": "Total de Tiros de Esquina a favor de Kocaelispor",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.83,
+   "esperado": 4.35,
+   "prob": 0.584,
+   "cuota_minima": 1.78,
+   "ventaja": 0.069,
+   "kelly": 0.083,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 4.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:15",
+   "liga": "Bélgica",
+   "partido": "KRC Genk - RAAL La Louvière",
+   "mercado": "Total de tiros a puerta por parte de RAAL La Louvière (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.45,
+   "esperado": 2.55,
+   "prob": 0.736,
+   "cuota_minima": 1.41,
+   "ventaja": 0.068,
+   "kelly": 0.15,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.8,
+     "tiros_puerta_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.7,
+     "tiros_puerta_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Wolves - Charlton Athletic",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.23,
+   "esperado": 4.67,
+   "prob": 0.479,
+   "cuota_minima": 2.17,
+   "ventaja": 0.068,
+   "kelly": 0.055,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.43,
+     "tarjetas_contra": 2.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tarjetas": 2.3,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:00",
+   "liga": "Serie A",
+   "partido": "Parma - Roma",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.32,
+   "esperado": 9.2,
+   "prob": 0.46,
+   "cuota_minima": 2.26,
+   "ventaja": 0.067,
+   "kelly": 0.051,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.5,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 4.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "York City - Walsall",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 10.5",
+   "cuota": 1.93,
+   "esperado": 11.37,
+   "prob": 0.552,
+   "cuota_minima": 1.88,
+   "ventaja": 0.066,
+   "kelly": 0.071,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.86,
+     "corners_contra": 4.57,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 5.9,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Chelsea - Leeds United",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.7,
+   "esperado": 10.75,
+   "prob": 0.395,
+   "cuota_minima": 2.63,
+   "ventaja": 0.066,
+   "kelly": 0.039,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.9,
+     "corners_contra": 5.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.5,
+     "corners_contra": 7.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de tiros a puerta por parte de West Bromwich (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.49,
+   "esperado": 3.5,
+   "prob": 0.715,
+   "cuota_minima": 1.45,
+   "ventaja": 0.065,
+   "kelly": 0.134,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 4.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Paradas del Portero - Manchester City (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.58,
+   "esperado": 2.45,
+   "prob": 0.674,
+   "cuota_minima": 1.54,
+   "ventaja": 0.065,
+   "kelly": 0.112,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.6,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.0,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Bélgica",
+   "partido": "Sporting de Charleroi - Sint-Truiden",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.87,
+   "esperado": 10.15,
+   "prob": 0.569,
+   "cuota_minima": 1.83,
+   "ventaja": 0.065,
+   "kelly": 0.074,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.4,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.8,
+     "corners_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 7.5",
+   "cuota": 3.0,
+   "esperado": 9.15,
+   "prob": 0.355,
+   "cuota_minima": 2.93,
+   "ventaja": 0.065,
+   "kelly": 0.032,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.1,
+     "corners_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de tarjetas - Como",
+   "seleccion": "Menos de 0.5",
+   "cuota": 2.8,
+   "esperado": 1.15,
+   "prob": 0.38,
+   "cuota_minima": 2.74,
+   "ventaja": 0.064,
+   "kelly": 0.036,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.5,
+     "tarjetas_contra": 0.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.95,
+   "esperado": 10.4,
+   "prob": 0.361,
+   "cuota_minima": 2.88,
+   "ventaja": 0.064,
+   "kelly": 0.033,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de tiros a puerta por parte de Kilmarnock (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.42,
+   "esperado": 5.4,
+   "prob": 0.749,
+   "cuota_minima": 1.39,
+   "ventaja": 0.063,
+   "kelly": 0.15,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.7,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 1.9,
+     "tiros_puerta_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de Tiros de Esquina a favor de Middlesbrough",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.47,
+   "esperado": 6.85,
+   "prob": 0.723,
+   "cuota_minima": 1.44,
+   "ventaja": 0.063,
+   "kelly": 0.134,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 8.1,
+     "corners_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Stoke City - Birmingham",
+   "mercado": "Total de tarjetas - Stoke City",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.49,
+   "esperado": 1.85,
+   "prob": 0.714,
+   "cuota_minima": 1.46,
+   "ventaja": 0.063,
+   "kelly": 0.129,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.6,
+     "tarjetas_contra": 2.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.2,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "West Ham - Preston North End",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 2.2,
+   "esperado": 11.0,
+   "prob": 0.483,
+   "cuota_minima": 2.15,
+   "ventaja": 0.063,
+   "kelly": 0.052,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.57,
+     "corners_contra": 5.14,
+     "n": 7
+    },
+    "visita_fuera": {
+     "corners": 3.7,
+     "corners_contra": 6.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "partido": "Rayo Vallecano - Valencia",
+   "mercado": "Total de tarjetas - Rayo Vallecano",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.95,
+   "esperado": 2.4,
+   "prob": 0.36,
+   "cuota_minima": 2.89,
+   "ventaja": 0.063,
+   "kelly": 0.033,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "1. FC Union Berlin - RB Leipzig",
+   "mercado": "Total de Tiros de Esquina a favor de RB Leipzig",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.16,
+   "esperado": 4.65,
+   "prob": 0.916,
+   "cuota_minima": 1.14,
+   "ventaja": 0.062,
+   "kelly": 0.388,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.9,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Número total de tiros por parte de Lecce (Resuelta usando Opta Data)",
+   "seleccion": "Más de 10.5",
+   "cuota": 2.08,
+   "esperado": 11.05,
+   "prob": 0.511,
+   "cuota_minima": 2.04,
+   "ventaja": 0.062,
+   "kelly": 0.057,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 12.3,
+     "tiros_contra": 11.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.2,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Cheltenham - Bristol Rovers",
+   "mercado": "Total de Tiros de Esquina a favor de Bristol Rovers",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.57,
+   "esperado": 4.6,
+   "prob": 0.676,
+   "cuota_minima": 1.54,
+   "ventaja": 0.061,
+   "kelly": 0.107,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.0,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie B",
+   "partido": "Carrarese - Virtus Entella",
+   "mercado": "Total de Tiros de Esquina a favor de Carrarese",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.77,
+   "esperado": 4.2,
+   "prob": 0.6,
+   "cuota_minima": 1.73,
+   "ventaja": 0.061,
+   "kelly": 0.079,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.2,
+     "corners_contra": 3.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Chelsea - Leeds United",
+   "mercado": "Total de tiros a puerta por parte de Leeds United (Resuelta usando Opta Data)",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.9,
+   "esperado": 4.1,
+   "prob": 0.559,
+   "cuota_minima": 1.86,
+   "ventaja": 0.061,
+   "kelly": 0.068,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.1,
+     "tiros_puerta_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.7,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de tiros a puerta por parte de Westerlo (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.92,
+   "esperado": 5.1,
+   "prob": 0.552,
+   "cuota_minima": 1.88,
+   "ventaja": 0.061,
+   "kelly": 0.066,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.0,
+     "tiros_puerta_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.4,
+     "tiros_puerta_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League One",
+   "partido": "Bradford City - Doncaster Rovers",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.97,
+   "esperado": 10.45,
+   "prob": 0.539,
+   "cuota_minima": 1.93,
+   "ventaja": 0.061,
+   "kelly": 0.063,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.7,
+     "corners_contra": 3.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.8,
+     "corners_contra": 6.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Dunfermline Athletic - Greenock Morton",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 2.04,
+   "esperado": 9.65,
+   "prob": 0.52,
+   "cuota_minima": 2.0,
+   "ventaja": 0.06,
+   "kelly": 0.058,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.5,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.6,
+     "corners_contra": 5.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:30",
+   "liga": "Eredivisie",
+   "partido": "NEC Nijmegen - PSV Eindhoven",
+   "mercado": "Total de Tiros de Esquina a favor de NEC Nijmegen",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.48,
+   "esperado": 5.3,
+   "prob": 0.715,
+   "cuota_minima": 1.45,
+   "ventaja": 0.059,
+   "kelly": 0.123,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 7.7,
+     "corners_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Kilmarnock - Aberdeen",
+   "mercado": "Total de Tiros de Esquina a favor de Aberdeen",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.52,
+   "esperado": 4.45,
+   "prob": 0.697,
+   "cuota_minima": 1.49,
+   "ventaja": 0.059,
+   "kelly": 0.114,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.9,
+     "corners_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Chelsea - Leeds United",
+   "mercado": "Paradas del Portero - Chelsea (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 2.02,
+   "esperado": 2.85,
+   "prob": 0.524,
+   "cuota_minima": 1.98,
+   "ventaja": 0.059,
+   "kelly": 0.058,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.8,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.8,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 23.5",
+   "cuota": 2.8,
+   "esperado": 26.0,
+   "prob": 0.378,
+   "cuota_minima": 2.75,
+   "ventaja": 0.059,
+   "kelly": 0.033,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.6,
+     "tiros_contra": 8.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 11.8,
+     "tiros_contra": 13.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 15:00",
+   "liga": "LaLiga",
+   "partido": "Athletic Bilbao - Espanyol",
+   "mercado": "Total de tiros a puerta por parte de Athletic Bilbao (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 3.0,
+   "esperado": 5.75,
+   "prob": 0.353,
+   "cuota_minima": 2.95,
+   "ventaja": 0.059,
+   "kelly": 0.029,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 6.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "partido": "Rayo Vallecano - Valencia",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.22,
+   "esperado": 4.65,
+   "prob": 0.867,
+   "cuota_minima": 1.2,
+   "ventaja": 0.058,
+   "kelly": 0.262,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.8,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Lazio - Lecce",
+   "mercado": "Total de Tiros de Esquina a favor de Lecce",
+   "seleccion": "Más de 4.5",
+   "cuota": 3.0,
+   "esperado": 3.9,
+   "prob": 0.352,
+   "cuota_minima": 2.95,
+   "ventaja": 0.057,
+   "kelly": 0.029,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.5,
+     "corners_contra": 3.6,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Raith Rovers - Partick Thistle",
+   "mercado": "Total de Tiros de Esquina a favor de Partick Thistle",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.43,
+   "esperado": 4.15,
+   "prob": 0.738,
+   "cuota_minima": 1.41,
+   "ventaja": 0.056,
+   "kelly": 0.13,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.7,
+     "corners_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough - Bristol City",
+   "mercado": "Total de Tiros de Esquina a favor de Bristol City",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.45,
+   "esperado": 4.2,
+   "prob": 0.728,
+   "cuota_minima": 1.43,
+   "ventaja": 0.056,
+   "kelly": 0.125,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 8.1,
+     "corners_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Swansea City - West Bromwich",
+   "mercado": "Total de tiros a puerta por parte de Swansea City (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.32,
+   "esperado": 4.5,
+   "prob": 0.455,
+   "cuota_minima": 2.28,
+   "ventaja": 0.056,
+   "kelly": 0.042,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.3,
+     "tiros_puerta_contra": 4.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "Premier League",
+   "partido": "Newcastle United - Arsenal",
+   "mercado": "Número total de tiros por parte de Arsenal (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 15.5",
+   "cuota": 1.67,
+   "esperado": 14.2,
+   "prob": 0.632,
+   "cuota_minima": 1.65,
+   "ventaja": 0.055,
+   "kelly": 0.083,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 13.4,
+     "tiros_contra": 16.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 11.6,
+     "tiros_contra": 11.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia Championship",
+   "partido": "Raith Rovers - Partick Thistle",
+   "mercado": "Total de Tiros de Esquina a favor de Raith Rovers",
+   "seleccion": "Más de 4.5",
+   "cuota": 2.04,
+   "esperado": 4.95,
+   "prob": 0.517,
+   "cuota_minima": 2.01,
+   "ventaja": 0.055,
+   "kelly": 0.053,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.7,
+     "corners_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.4,
+     "corners_contra": 5.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:30",
+   "liga": "Premier League",
+   "partido": "Manchester City - Fulham",
+   "mercado": "Total de Tiros de Esquina a favor de Manchester City",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.28,
+   "esperado": 5.85,
+   "prob": 0.823,
+   "cuota_minima": 1.26,
+   "ventaja": 0.054,
+   "kelly": 0.192,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 7.0,
+     "corners_contra": 3.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.6,
+     "corners_contra": 4.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Bélgica",
+   "partido": "Sporting de Charleroi - Sint-Truiden",
+   "mercado": "Total de tarjetas - Sporting de Charleroi",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.89,
+   "esperado": 1.6,
+   "prob": 0.558,
+   "cuota_minima": 1.86,
+   "ventaja": 0.054,
+   "kelly": 0.061,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.1,
+     "tarjetas_contra": 1.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.2,
+     "tarjetas_contra": 1.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 08:00",
+   "liga": "LaLiga 2",
+   "partido": "Sabadell FC - Granada",
+   "mercado": "Total de Tiros de Esquina a favor de Granada",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.4,
+   "esperado": 3.23,
+   "prob": 0.752,
+   "cuota_minima": 1.38,
+   "ventaja": 0.053,
+   "kelly": 0.132,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.17,
+     "corners_contra": 2.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 4.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "League Two",
+   "partido": "Tranmere Rovers - Colchester United",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.91,
+   "esperado": 9.35,
+   "prob": 0.552,
+   "cuota_minima": 1.89,
+   "ventaja": 0.053,
+   "kelly": 0.059,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.4,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 6.4,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:00",
+   "liga": "Serie A",
+   "partido": "Como - Cagliari",
+   "mercado": "Total de Tiros de Esquina a favor de Como",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.3,
+   "esperado": 6.0,
+   "prob": 0.809,
+   "cuota_minima": 1.28,
+   "ventaja": 0.052,
+   "kelly": 0.174,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.9,
+     "corners_contra": 1.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 5.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-20 14:45",
+   "liga": "Bélgica",
+   "partido": "Cercle Brugge - Westerlo",
+   "mercado": "Total de Tiros de Esquina a favor de Cercle Brugge",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.81,
+   "esperado": 6.45,
+   "prob": 0.581,
+   "cuota_minima": 1.79,
+   "ventaja": 0.052,
+   "kelly": 0.065,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 7.2,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "AFC Bournemouth - Nottingham Forest",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.55,
+   "esperado": 9.65,
+   "prob": 0.413,
+   "cuota_minima": 2.52,
+   "ventaja": 0.052,
+   "kelly": 0.033,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.0,
+     "corners_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 09:30",
+   "liga": "Bundesliga",
+   "partido": "Eintracht Frankfurt - TSG Hoffenheim",
+   "mercado": "Total de tiros a puerta por parte de Eintracht Frankfurt (Resuelta usando Opta Data)",
+   "seleccion": "Más de 6.5",
+   "cuota": 3.0,
+   "esperado": 5.7,
+   "prob": 0.351,
+   "cuota_minima": 2.97,
+   "ventaja": 0.052,
+   "kelly": 0.026,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.3,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.4,
+     "tiros_puerta_contra": 5.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Championship",
+   "partido": "Lincoln City - Wrexham",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.5,
+   "esperado": 3.58,
+   "prob": 0.701,
+   "cuota_minima": 1.48,
+   "ventaja": 0.051,
+   "kelly": 0.102,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.14,
+     "tarjetas_contra": 1.71,
+     "n": 7
+    },
+    "visita_fuera": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:15",
+   "liga": "LaLiga",
+   "partido": "Rayo Vallecano - Valencia",
+   "mercado": "Total de Tiros de Esquina a favor de Valencia",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.67,
+   "esperado": 4.65,
+   "prob": 0.629,
+   "cuota_minima": 1.65,
+   "ventaja": 0.051,
+   "kelly": 0.075,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.9,
+     "corners_contra": 5.1,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.2,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Premier League",
+   "partido": "Aston Villa - Sunderland",
+   "mercado": "Total de Tiros de Esquina a favor de Sunderland",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.71,
+   "esperado": 4.55,
+   "prob": 0.614,
+   "cuota_minima": 1.69,
+   "ventaja": 0.051,
+   "kelly": 0.071,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.3,
+     "corners_contra": 5.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.7,
+     "corners_contra": 5.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 07:00",
+   "liga": "2. Bundesliga",
+   "partido": "1. FC Nürnberg - Eintracht Braunschweig",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 2.55,
+   "esperado": 10.7,
+   "prob": 0.412,
+   "cuota_minima": 2.52,
+   "ventaja": 0.051,
+   "kelly": 0.033,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 6.6,
+     "corners_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.9,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 10:00",
+   "liga": "Escocia",
+   "partido": "Falkirk - St Johnstone",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.55,
+   "esperado": 10.93,
+   "prob": 0.412,
+   "cuota_minima": 2.52,
+   "ventaja": 0.051,
+   "kelly": 0.033,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.4,
+     "corners_contra": 6.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.83,
+     "corners_contra": 8.33,
+     "n": 6
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-21 12:30",
+   "liga": "LaLiga",
+   "partido": "Sevilla - Real Betis",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 24.5",
+   "cuota": 2.8,
+   "esperado": 27.1,
+   "prob": 0.375,
+   "cuota_minima": 2.77,
+   "ventaja": 0.05,
+   "kelly": 0.028,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.8,
+     "tiros_contra": 10.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 14.1,
+     "tiros_contra": 14.8,
+     "n": 10
+    }
+   }
+  }
+ ]
+}

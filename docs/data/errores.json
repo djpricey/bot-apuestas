@@ -1,6 +1,273 @@
 {
- "actualizado": "2026-11-20T11:54-05:00",
+ "actualizado": "2026-11-20T12:29-05:00",
  "umbral": 0.02,
- "picks": [],
- "errores": []
+ "picks": [
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Championship",
+   "partido": "Stoke vs Birmingham",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 3.3,
+   "prob_pinnacle": 0.31,
+   "cuota_justa": 3.23,
+   "ventaja": 0.023,
+   "kelly": 0.01,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.308,
+    "rachas": 0.325
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  }
+ ],
+ "errores": [
+  {
+   "inicio": "2026-11-21T18:00-05:00",
+   "liga": "México",
+   "partido": "Santos Laguna vs Club Leon",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.85,
+   "prob_pinnacle": 0.417,
+   "cuota_justa": 2.4,
+   "ventaja": 0.188,
+   "kelly": 0.102,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.326,
+    "rachas": 0.2,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo",
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.63,
+   "prob_pinnacle": 0.446,
+   "cuota_justa": 2.24,
+   "ventaja": 0.173,
+   "kelly": 0.106,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.317,
+    "rachas": 0.55,
+    "cruces": 0.4
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T18:00-05:00",
+   "liga": "México",
+   "partido": "Santos Laguna vs Club Leon",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 2.5",
+   "cuota_betplay": 1.76,
+   "prob_pinnacle": 0.621,
+   "cuota_justa": 1.61,
+   "ventaja": 0.093,
+   "kelly": 0.122,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.549,
+    "rachas": 0.4,
+    "cruces": 0.667
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 2.5",
+   "cuota_betplay": 1.66,
+   "prob_pinnacle": 0.651,
+   "cuota_justa": 1.54,
+   "ventaja": 0.081,
+   "kelly": 0.122,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.54,
+    "rachas": 0.8,
+    "cruces": 0.4
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Escocia",
+   "partido": "Hibernian vs Dundee United",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 3.85,
+   "prob_pinnacle": 0.273,
+   "cuota_justa": 3.66,
+   "ventaja": 0.051,
+   "kelly": 0.018,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.179,
+    "rachas": 0.5,
+    "cruces": 0.2
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 2.55,
+   "prob_pinnacle": 0.411,
+   "cuota_justa": 2.43,
+   "ventaja": 0.048,
+   "kelly": 0.031,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.345,
+    "rachas": 0.225,
+    "cruces": 0.2
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T09:30-05:00",
+   "liga": "Bundesliga",
+   "partido": "Ein Frankfurt vs Hoffenheim",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.1,
+   "prob_pinnacle": 0.336,
+   "cuota_justa": 2.98,
+   "ventaja": 0.042,
+   "kelly": 0.02,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.348,
+    "rachas": 0.2,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Bélgica",
+   "partido": "Charleroi vs St Truiden",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.3,
+   "prob_pinnacle": 0.242,
+   "cuota_justa": 4.13,
+   "ventaja": 0.041,
+   "kelly": 0.012,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.188,
+    "rachas": 0.775,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Bélgica",
+   "partido": "Charleroi vs St Truiden",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 3.7,
+   "prob_pinnacle": 0.279,
+   "cuota_justa": 3.58,
+   "ventaja": 0.032,
+   "kelly": 0.012,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.275,
+    "rachas": 0.425,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-20T22:00-05:00",
+   "liga": "México",
+   "partido": "Juarez vs Atlas",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.2,
+   "prob_pinnacle": 0.197,
+   "cuota_justa": 5.08,
+   "ventaja": 0.024,
+   "kelly": 0.006,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.2,
+    "rachas": 0.25,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Championship",
+   "partido": "Stoke vs Birmingham",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 3.3,
+   "prob_pinnacle": 0.31,
+   "cuota_justa": 3.23,
+   "ventaja": 0.023,
+   "kelly": 0.01,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.308,
+    "rachas": 0.325
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  }
+ ]
 }
