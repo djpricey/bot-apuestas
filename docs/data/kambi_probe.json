@@ -1,0 +1,156 @@
+{
+ "paginas": [
+  {
+   "url": "https://betplay.com.co/apuestas",
+   "status": 200,
+   "largo": 130982,
+   "pistas": [
+    "KAMBI",
+    "KambiWidget.ready.then(function",
+    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
+    "kambicdn.com"
+   ],
+   "offering": []
+  },
+  {
+   "url": "https://betplay.com.co/",
+   "status": 200,
+   "largo": 130982,
+   "pistas": [
+    "KAMBI",
+    "KambiWidget.ready.then(function",
+    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
+    "kambicdn.com"
+   ],
+   "offering": []
+  },
+  {
+   "url": "https://betplay.com.co/apuestas#home",
+   "status": 200,
+   "largo": 130982,
+   "pistas": [
+    "KAMBI",
+    "KambiWidget.ready.then(function",
+    "kambi-widget-api.bc.kambicdn.com/kambi-widget-api.js",
+    "kambicdn.com"
+   ],
+   "offering": []
+  }
+ ],
+ "codigos_en_html": [],
+ "intentos": [
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/betplay/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/betplayco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/bpco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/cecl/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/ceco/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/corredor/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu-offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://us1-offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  },
+  {
+   "url": "https://eu1.offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "<HTTPError 429: 'Too Many Requests'>"
+  },
+  {
+   "url": "https://na-offering-api.kambicdn.com/offering/v2018/betplaycol/listView/football/all/all/all/matches.json?lang=es_CO&market=CO&useCombined=true",
+   "error": "URLError(gaierror(-2, 'Name or service not known'))"
+  }
+ ],
+ "ok": null
+}
