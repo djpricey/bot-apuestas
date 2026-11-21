@@ -1,7 +1,53 @@
 {
- "actualizado": "2026-11-21T06:39-05:00",
+ "actualizado": "2026-11-21T12:19-05:00",
  "umbral": 0.02,
  "picks": [
+  {
+   "inicio": "2026-11-22T18:07-05:00",
+   "liga": "México",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 2.5",
+   "cuota_betplay": 1.96,
+   "prob_pinnacle": 0.615,
+   "cuota_justa": 1.63,
+   "ventaja": 0.205,
+   "kelly": 0.214,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.57,
+    "rachas": 0.6,
+    "cruces": 0.8
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "Más de 3.5",
+    "Más de 1.5"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T13:00-05:00",
+   "liga": "Argentina",
+   "partido": "Defensa y Justicia vs Barracas Central",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "X2",
+   "cuota_betplay": 1.94,
+   "prob_pinnacle": 0.532,
+   "cuota_justa": 1.88,
+   "ventaja": 0.032,
+   "kelly": 0.034,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.615,
+    "rachas": 0.6
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "2"
+   ]
+  },
   {
    "inicio": "2026-11-21T15:00-05:00",
    "liga": "Escocia",
@@ -66,62 +112,43 @@
  ],
  "errores": [
   {
-   "inicio": "2026-11-21T12:45-05:00",
-   "liga": "Eredivisie",
-   "partido": "Feyenoord vs Excelsior",
-   "mercado": "Total de goles",
-   "seleccion": "Menos de 1.5",
-   "cuota_betplay": 8.0,
-   "prob_pinnacle": 0.151,
-   "cuota_justa": 6.62,
-   "ventaja": 0.208,
-   "kelly": 0.03,
-   "idea": "goles-OT_UNDER",
-   "senales": {
-    "modelo": 0.118,
-    "rachas": 0.1
-   },
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-21T17:50-05:00",
+   "inicio": "2026-11-22T18:07-05:00",
    "liga": "México",
-   "partido": "Pachuca vs Toluca",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.63,
-   "prob_pinnacle": 0.444,
-   "cuota_justa": 2.25,
-   "ventaja": 0.168,
-   "kelly": 0.103,
-   "idea": "goles-OT_OVER",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 4.35,
+   "prob_pinnacle": 0.348,
+   "cuota_justa": 2.87,
+   "ventaja": 0.514,
+   "kelly": 0.153,
+   "idea": "visita",
    "senales": {
-    "modelo": 0.317,
-    "rachas": 0.55,
-    "cruces": 0.4
+    "modelo": 0.31,
+    "rachas": 0.2,
+    "cruces": 0.6
    },
    "veredicto": "en contra",
    "en_contra": [
-    "modelo"
+    "rachas"
    ]
   },
   {
-   "inicio": "2026-11-21T17:50-05:00",
+   "inicio": "2026-11-22T20:10-05:00",
    "liga": "México",
-   "partido": "Pachuca vs Toluca",
+   "partido": "Queretaro vs Necaxa",
    "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 2.75,
-   "prob_pinnacle": 0.397,
-   "cuota_justa": 2.52,
-   "ventaja": 0.092,
-   "kelly": 0.052,
-   "idea": "visita",
+   "seleccion": "1",
+   "cuota_betplay": 2.95,
+   "prob_pinnacle": 0.461,
+   "cuota_justa": 2.17,
+   "ventaja": 0.36,
+   "kelly": 0.185,
+   "idea": "local",
    "senales": {
-    "modelo": 0.345,
-    "rachas": 0.225,
-    "cruces": 0.2
+    "modelo": 0.425,
+    "rachas": 0.1,
+    "cruces": 0.333
    },
    "veredicto": "en contra",
    "en_contra": [
@@ -130,46 +157,136 @@
    ]
   },
   {
-   "inicio": "2026-11-21T17:50-05:00",
+   "inicio": "2026-11-22T18:07-05:00",
    "liga": "México",
-   "partido": "Pachuca vs Toluca",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
    "mercado": "Total de goles",
-   "seleccion": "Más de 2.5",
-   "cuota_betplay": 1.66,
-   "prob_pinnacle": 0.65,
-   "cuota_justa": 1.54,
-   "ventaja": 0.079,
-   "kelly": 0.12,
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 3.35,
+   "prob_pinnacle": 0.401,
+   "cuota_justa": 2.49,
+   "ventaja": 0.343,
+   "kelly": 0.146,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.54,
-    "rachas": 0.8,
+    "modelo": 0.346,
+    "rachas": 0.4,
     "cruces": 0.4
+   },
+   "veredicto": "respaldado",
+   "en_contra": []
+  },
+  {
+   "inicio": "2026-11-22T18:07-05:00",
+   "liga": "México",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 2.5",
+   "cuota_betplay": 1.96,
+   "prob_pinnacle": 0.615,
+   "cuota_justa": 1.63,
+   "ventaja": 0.205,
+   "kelly": 0.214,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.57,
+    "rachas": 0.6,
+    "cruces": 0.8
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "Más de 3.5",
+    "Más de 1.5"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T13:00-05:00",
+   "liga": "Argentina",
+   "partido": "Defensa y Justicia vs Barracas Central",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 4.7,
+   "prob_pinnacle": 0.238,
+   "cuota_justa": 4.2,
+   "ventaja": 0.119,
+   "kelly": 0.032,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.303,
+    "rachas": 0.1
    },
    "veredicto": "en contra",
    "en_contra": [
-    "modelo",
+    "rachas"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T20:10-05:00",
+   "liga": "México",
+   "partido": "Queretaro vs Necaxa",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "1X",
+   "cuota_betplay": 1.55,
+   "prob_pinnacle": 0.717,
+   "cuota_justa": 1.39,
+   "ventaja": 0.111,
+   "kelly": 0.202,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.71,
+    "rachas": 0.4,
+    "cruces": 0.333
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas",
     "cruces"
    ]
   },
   {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Eredivisie",
-   "partido": "Telstar vs Zwolle",
+   "inicio": "2026-11-22T18:07-05:00",
+   "liga": "México",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "X2",
+   "cuota_betplay": 1.89,
+   "prob_pinnacle": 0.578,
+   "cuota_justa": 1.73,
+   "ventaja": 0.092,
+   "kelly": 0.104,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.565,
+    "rachas": 0.4,
+    "cruces": 1.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T14:00-05:00",
+   "liga": "MLS",
+   "partido": "New England Revolution vs Philadelphia Union",
    "mercado": "Total de goles",
    "seleccion": "Más de 4.5",
-   "cuota_betplay": 4.7,
-   "prob_pinnacle": 0.229,
-   "cuota_justa": 4.37,
-   "ventaja": 0.076,
-   "kelly": 0.021,
+   "cuota_betplay": 4.6,
+   "prob_pinnacle": 0.235,
+   "cuota_justa": 4.26,
+   "ventaja": 0.081,
+   "kelly": 0.022,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.2,
-    "rachas": 0.2
+    "modelo": 0.181,
+    "rachas": 0.4,
+    "cruces": 0.0
    },
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
   },
   {
    "inicio": "2026-11-21T15:30-05:00",
@@ -213,65 +330,90 @@
    "misma_idea": []
   },
   {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
+   "inicio": "2026-11-22T20:10-05:00",
+   "liga": "México",
+   "partido": "Queretaro vs Necaxa",
    "mercado": "Total de goles",
    "seleccion": "Más de 3.5",
-   "cuota_betplay": 5.1,
-   "prob_pinnacle": 0.206,
-   "cuota_justa": 4.85,
-   "ventaja": 0.051,
-   "kelly": 0.012,
+   "cuota_betplay": 2.8,
+   "prob_pinnacle": 0.379,
+   "cuota_justa": 2.64,
+   "ventaja": 0.061,
+   "kelly": 0.034,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.165,
-    "rachas": 0.2
-   },
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-21T10:00-05:00",
-   "liga": "Escocia",
-   "partido": "Kilmarnock vs Aberdeen",
-   "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 2.6,
-   "prob_pinnacle": 0.403,
-   "cuota_justa": 2.48,
-   "ventaja": 0.048,
-   "kelly": 0.03,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.448,
-    "rachas": 0.25,
-    "cruces": 0.2
+    "modelo": 0.234,
+    "rachas": 0.3,
+    "cruces": 0.667
    },
    "veredicto": "en contra",
    "en_contra": [
-    "rachas",
+    "modelo"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T18:07-05:00",
+   "liga": "México",
+   "partido": "Guadalajara Chivas vs Cruz Azul",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 1.5",
+   "cuota_betplay": 1.3,
+   "prob_pinnacle": 0.814,
+   "cuota_justa": 1.23,
+   "ventaja": 0.058,
+   "kelly": 0.194,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.796,
+    "rachas": 0.8,
+    "cruces": 0.8
+   },
+   "veredicto": "respaldado",
+   "en_contra": []
+  },
+  {
+   "inicio": "2026-11-22T10:45-05:00",
+   "liga": "Eredivisie",
+   "partido": "Go Ahead Eagles vs For Sittard",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.1,
+   "prob_pinnacle": 0.257,
+   "cuota_justa": 3.89,
+   "ventaja": 0.054,
+   "kelly": 0.017,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.248,
+    "rachas": 0.45,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
     "cruces"
    ]
   },
   {
-   "inicio": "2026-11-21T07:30-05:00",
-   "liga": "Championship",
-   "partido": "Southampton vs Derby",
+   "inicio": "2026-11-21T17:50-05:00",
+   "liga": "México",
+   "partido": "Pachuca vs Toluca",
    "mercado": "Total de goles",
-   "seleccion": "Menos de 1.5",
-   "cuota_betplay": 4.9,
-   "prob_pinnacle": 0.213,
-   "cuota_justa": 4.69,
-   "ventaja": 0.044,
-   "kelly": 0.011,
-   "idea": "goles-OT_UNDER",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.9,
+   "prob_pinnacle": 0.269,
+   "cuota_justa": 3.72,
+   "ventaja": 0.049,
+   "kelly": 0.017,
+   "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.178,
-    "rachas": 0.2
+    "modelo": 0.159,
+    "rachas": 0.325,
+    "cruces": 0.2
    },
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo"
+   ]
   },
   {
    "inicio": "2026-11-21T15:00-05:00",
@@ -295,24 +437,68 @@
    ]
   },
   {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
+   "inicio": "2026-11-21T12:45-05:00",
+   "liga": "Eredivisie",
+   "partido": "Feyenoord vs Excelsior",
    "mercado": "Total de goles",
-   "seleccion": "Más de 2.5",
-   "cuota_betplay": 2.6,
-   "prob_pinnacle": 0.397,
-   "cuota_justa": 2.52,
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.45,
+   "prob_pinnacle": 0.299,
+   "cuota_justa": 3.34,
    "ventaja": 0.032,
-   "kelly": 0.02,
+   "kelly": 0.013,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.356,
-    "rachas": 0.3
+    "modelo": 0.309,
+    "rachas": 0.125
    },
    "veredicto": "en contra",
    "en_contra": [
     "rachas"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T13:00-05:00",
+   "liga": "Argentina",
+   "partido": "Defensa y Justicia vs Barracas Central",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "X2",
+   "cuota_betplay": 1.94,
+   "prob_pinnacle": 0.532,
+   "cuota_justa": 1.88,
+   "ventaja": 0.032,
+   "kelly": 0.034,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.615,
+    "rachas": 0.6
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "2"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T14:00-05:00",
+   "liga": "MLS",
+   "partido": "New England Revolution vs Philadelphia Union",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.55,
+   "prob_pinnacle": 0.404,
+   "cuota_justa": 2.48,
+   "ventaja": 0.03,
+   "kelly": 0.019,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.348,
+    "rachas": 0.5,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
    ]
   },
   {
@@ -337,84 +523,48 @@
    ]
   },
   {
-   "inicio": "2026-11-21T17:30-05:00",
-   "liga": "Copas",
-   "partido": "Atletico Mineiro MG vs Boca Juniors",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 2.3,
-   "prob_pinnacle": 0.446,
-   "cuota_justa": 2.24,
-   "ventaja": 0.026,
-   "kelly": 0.02,
-   "idea": "visita",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-21T10:00-05:00",
-   "liga": "Championship",
-   "partido": "West Ham vs Preston",
+   "inicio": "2026-11-22T08:00-05:00",
+   "liga": "Turquía",
+   "partido": "Kasimpasa vs Alanyaspor",
    "mercado": "Total de goles",
-   "seleccion": "Menos de 1.5",
-   "cuota_betplay": 6.25,
-   "prob_pinnacle": 0.164,
-   "cuota_justa": 6.1,
-   "ventaja": 0.025,
-   "kelly": 0.005,
-   "idea": "goles-OT_UNDER",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 3.55,
+   "prob_pinnacle": 0.289,
+   "cuota_justa": 3.46,
+   "ventaja": 0.026,
+   "kelly": 0.01,
+   "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.089,
-    "rachas": 0.0
+    "modelo": 0.236,
+    "rachas": 0.475,
+    "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
-    "rachas"
+    "cruces"
    ]
   },
   {
-   "inicio": "2026-11-21T10:00-05:00",
-   "liga": "Escocia",
-   "partido": "Hibernian vs Dundee United",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 3.55,
-   "prob_pinnacle": 0.288,
-   "cuota_justa": 3.47,
-   "ventaja": 0.022,
-   "kelly": 0.009,
-   "idea": "visita",
+   "inicio": "2026-11-22T08:30-05:00",
+   "liga": "Eredivisie",
+   "partido": "Sparta Rotterdam vs AZ Alkmaar",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.85,
+   "prob_pinnacle": 0.266,
+   "cuota_justa": 3.76,
+   "ventaja": 0.024,
+   "kelly": 0.008,
+   "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.179,
-    "rachas": 0.5,
-    "cruces": 0.2
+    "modelo": 0.171,
+    "rachas": 0.3,
+    "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
     "modelo",
     "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
-   "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 2.18,
-   "prob_pinnacle": 0.468,
-   "cuota_justa": 2.14,
-   "ventaja": 0.02,
-   "kelly": 0.017,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.385,
-    "rachas": 0.4
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo"
    ]
   },
   {
