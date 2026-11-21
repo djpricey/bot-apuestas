@@ -1,0 +1,17 @@
+name: Cuotas BetPlay ahora
+on:
+  workflow_dispatch:
+    inputs:
+      equipos:
+        description: "Equipos separados por coma"
+        required: true
+jobs:
+  cuotas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m src.cuotas_ahora "${{ inputs.equipos }}"
