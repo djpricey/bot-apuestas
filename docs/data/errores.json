@@ -1,7 +1,133 @@
 {
- "actualizado": "2026-11-20T12:39-05:00",
+ "actualizado": "2026-11-20T21:46-05:00",
  "umbral": 0.02,
  "picks": [
+  {
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 3.5",
+   "cuota_betplay": 1.57,
+   "prob_pinnacle": 0.677,
+   "cuota_justa": 1.48,
+   "ventaja": 0.063,
+   "kelly": 0.11,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.749,
+    "rachas": 0.7
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "Menos de 2.5"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T15:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bahia vs Coritiba",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 7.0,
+   "prob_pinnacle": 0.161,
+   "cuota_justa": 6.21,
+   "ventaja": 0.127,
+   "kelly": 0.021,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.167,
+    "rachas": 0.625
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "X2"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T15:00-05:00",
+   "liga": "Escocia",
+   "partido": "Motherwell vs Rangers",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 5.8,
+   "prob_pinnacle": 0.185,
+   "cuota_justa": 5.41,
+   "ventaja": 0.073,
+   "kelly": 0.015,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.276,
+    "rachas": 0.533,
+    "cruces": 0.2
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-20T22:10-05:00",
+   "liga": "México",
+   "partido": "Club Tijuana vs Atlante",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 4.2,
+   "prob_pinnacle": 0.248,
+   "cuota_justa": 4.03,
+   "ventaja": 0.042,
+   "kelly": 0.013,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.243,
+    "rachas": 0.35
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-21T15:00-05:00",
+   "liga": "Eredivisie",
+   "partido": "Telstar vs Zwolle",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.0,
+   "prob_pinnacle": 0.209,
+   "cuota_justa": 4.78,
+   "ventaja": 0.045,
+   "kelly": 0.011,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.2,
+    "rachas": 0.2
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-21T10:30-05:00",
+   "liga": "Eredivisie",
+   "partido": "Nijmegen vs PSV Eindhoven",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 4.4,
+   "prob_pinnacle": 0.236,
+   "cuota_justa": 4.24,
+   "ventaja": 0.038,
+   "kelly": 0.011,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.232,
+    "rachas": 0.3,
+    "cruces": 0.333
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
   {
    "inicio": "2026-11-21T10:00-05:00",
    "liga": "Championship",
@@ -25,27 +151,45 @@
  ],
  "errores": [
   {
-   "inicio": "2026-11-21T18:00-05:00",
-   "liga": "México",
-   "partido": "Santos Laguna vs Club Leon",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.85,
-   "prob_pinnacle": 0.417,
-   "cuota_justa": 2.4,
-   "ventaja": 0.188,
-   "kelly": 0.102,
-   "idea": "goles-OT_OVER",
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 4.4,
+   "prob_pinnacle": 0.334,
+   "cuota_justa": 2.99,
+   "ventaja": 0.47,
+   "kelly": 0.138,
+   "idea": "visita",
    "senales": {
-    "modelo": 0.326,
-    "rachas": 0.2,
-    "cruces": 0.0
+    "modelo": 0.239,
+    "rachas": 0.5
    },
    "veredicto": "en contra",
    "en_contra": [
-    "modelo",
-    "rachas",
-    "cruces"
+    "modelo"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "X2",
+   "cuota_betplay": 2.12,
+   "prob_pinnacle": 0.603,
+   "cuota_justa": 1.66,
+   "ventaja": 0.278,
+   "kelly": 0.249,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.509,
+    "rachas": 0.7
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo"
    ]
   },
   {
@@ -71,26 +215,45 @@
    ]
   },
   {
-   "inicio": "2026-11-21T18:00-05:00",
-   "liga": "México",
-   "partido": "Santos Laguna vs Club Leon",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 2.5",
-   "cuota_betplay": 1.76,
-   "prob_pinnacle": 0.621,
-   "cuota_justa": 1.61,
-   "ventaja": 0.093,
-   "kelly": 0.122,
-   "idea": "goles-OT_OVER",
+   "inicio": "2026-11-21T15:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bahia vs Coritiba",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 7.0,
+   "prob_pinnacle": 0.161,
+   "cuota_justa": 6.21,
+   "ventaja": 0.127,
+   "kelly": 0.021,
+   "idea": "visita",
    "senales": {
-    "modelo": 0.549,
-    "rachas": 0.4,
-    "cruces": 0.667
+    "modelo": 0.167,
+    "rachas": 0.625
    },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "X2"
    ]
+  },
+  {
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 2.5",
+   "cuota_betplay": 2.4,
+   "prob_pinnacle": 0.463,
+   "cuota_justa": 2.16,
+   "ventaja": 0.111,
+   "kelly": 0.079,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.534,
+    "rachas": 0.5
+   },
+   "veredicto": "respaldado",
+   "en_contra": []
   },
   {
    "inicio": "2026-11-21T17:50-05:00",
@@ -116,25 +279,89 @@
    ]
   },
   {
-   "inicio": "2026-11-21T10:00-05:00",
-   "liga": "Escocia",
-   "partido": "Hibernian vs Dundee United",
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
    "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 3.85,
-   "prob_pinnacle": 0.273,
-   "cuota_justa": 3.66,
-   "ventaja": 0.051,
-   "kelly": 0.018,
-   "idea": "visita",
+   "seleccion": "X",
+   "cuota_betplay": 4.0,
+   "prob_pinnacle": 0.269,
+   "cuota_justa": 3.72,
+   "ventaja": 0.076,
+   "kelly": 0.025,
+   "idea": "otro",
    "senales": {
-    "modelo": 0.179,
-    "rachas": 0.5,
-    "cruces": 0.2
+    "modelo": 0.27,
+    "rachas": 0.2
+   },
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
+  },
+  {
+   "inicio": "2026-11-21T18:00-05:00",
+   "liga": "México",
+   "partido": "Santos Laguna vs Club Leon",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.3,
+   "prob_pinnacle": 0.25,
+   "cuota_justa": 4.0,
+   "ventaja": 0.075,
+   "kelly": 0.023,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.165,
+    "rachas": 0.1,
+    "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
-    "modelo"
+    "modelo",
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-21T15:00-05:00",
+   "liga": "Escocia",
+   "partido": "Motherwell vs Rangers",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 5.8,
+   "prob_pinnacle": 0.185,
+   "cuota_justa": 5.41,
+   "ventaja": 0.073,
+   "kelly": 0.015,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.276,
+    "rachas": 0.533,
+    "cruces": 0.2
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-21T05:30-05:00",
+   "liga": "Turquía",
+   "partido": "Genclerbirligi vs Gaziantep",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 3.5",
+   "cuota_betplay": 1.57,
+   "prob_pinnacle": 0.677,
+   "cuota_justa": 1.48,
+   "ventaja": 0.063,
+   "kelly": 0.11,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.749,
+    "rachas": 0.7
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "Menos de 2.5"
    ]
   },
   {
@@ -159,6 +386,46 @@
     "rachas",
     "cruces"
    ]
+  },
+  {
+   "inicio": "2026-11-21T15:00-05:00",
+   "liga": "Eredivisie",
+   "partido": "Telstar vs Zwolle",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.0,
+   "prob_pinnacle": 0.209,
+   "cuota_justa": 4.78,
+   "ventaja": 0.045,
+   "kelly": 0.011,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.2,
+    "rachas": 0.2
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-20T22:10-05:00",
+   "liga": "México",
+   "partido": "Club Tijuana vs Atlante",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 4.2,
+   "prob_pinnacle": 0.248,
+   "cuota_justa": 4.03,
+   "ventaja": 0.042,
+   "kelly": 0.013,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.243,
+    "rachas": 0.35
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
   },
   {
    "inicio": "2026-11-21T09:30-05:00",
@@ -206,6 +473,49 @@
    ]
   },
   {
+   "inicio": "2026-11-21T10:30-05:00",
+   "liga": "Eredivisie",
+   "partido": "Nijmegen vs PSV Eindhoven",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 4.4,
+   "prob_pinnacle": 0.236,
+   "cuota_justa": 4.24,
+   "ventaja": 0.038,
+   "kelly": 0.011,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.232,
+    "rachas": 0.3,
+    "cruces": 0.333
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-21T10:00-05:00",
+   "liga": "Escocia",
+   "partido": "Hibernian vs Dundee United",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 3.8,
+   "prob_pinnacle": 0.273,
+   "cuota_justa": 3.66,
+   "ventaja": 0.037,
+   "kelly": 0.013,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.179,
+    "rachas": 0.5,
+    "cruces": 0.2
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo"
+   ]
+  },
+  {
    "inicio": "2026-11-21T10:00-05:00",
    "liga": "Bélgica",
    "partido": "Charleroi vs St Truiden",
@@ -226,6 +536,25 @@
    "en_contra": [
     "cruces"
    ]
+  },
+  {
+   "inicio": "2026-11-21T15:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bahia vs Coritiba",
+   "mercado": "Doble Oportunidad",
+   "seleccion": "X2",
+   "cuota_betplay": 2.8,
+   "prob_pinnacle": 0.366,
+   "cuota_justa": 2.73,
+   "ventaja": 0.025,
+   "kelly": 0.014,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.4,
+    "rachas": 0.625
+   },
+   "veredicto": "respaldado",
+   "en_contra": []
   },
   {
    "inicio": "2026-11-20T22:00-05:00",
@@ -268,6 +597,25 @@
    "veredicto": "respaldado",
    "en_contra": [],
    "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-21T15:00-05:00",
+   "liga": "Argentina",
+   "partido": "Argentinos Jrs vs Independiente",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 2.7,
+   "prob_pinnacle": 0.378,
+   "cuota_justa": 2.65,
+   "ventaja": 0.021,
+   "kelly": 0.012,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.403,
+    "rachas": 0.3
+   },
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
   }
  ]
 }
