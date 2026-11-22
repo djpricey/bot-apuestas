@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-21T19:38-05:00",
- "revisados": 27,
+ "actualizado": "2026-11-21T21:49-05:00",
+ "revisados": 30,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
   {
@@ -1030,33 +1030,6 @@
    }
   },
   {
-   "inicio": "2026-11-22 09:00",
-   "liga": "Serie A",
-   "partido": "Sassuolo - Genoa",
-   "mercado": "Total de tarjetas - Sassuolo",
-   "seleccion": "Más de 1.5",
-   "cuota": 1.84,
-   "esperado": 2.49,
-   "prob": 0.659,
-   "cuota_minima": 1.58,
-   "ventaja": 0.212,
-   "kelly": 0.252,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.0,
-     "tarjetas_contra": 2.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.3,
-     "tarjetas_contra": 2.1,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-22 07:30",
    "liga": "Bélgica",
    "partido": "SK Beveren - KAA Gent",
@@ -1539,60 +1512,6 @@
      "corners": 4.2,
      "corners_contra": 4.8,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-22 06:15",
-   "liga": "Eredivisie",
-   "partido": "FC Twente - Willem II",
-   "mercado": "Total de Tiros de Esquina a favor de FC Twente",
-   "seleccion": "Más de 5.5",
-   "cuota": 1.27,
-   "esperado": 10.87,
-   "prob": 0.924,
-   "cuota_minima": 1.13,
-   "ventaja": 0.173,
-   "kelly": 0.641,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 7.0,
-     "corners_contra": 3.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 2.33,
-     "corners_contra": 8.67,
-     "n": 6
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-22 12:00",
-   "liga": "Serie A",
-   "partido": "AC Milán - Frosinone",
-   "mercado": "Total de tarjetas - Frosinone",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.63,
-   "esperado": 1.83,
-   "prob": 0.719,
-   "cuota_minima": 1.45,
-   "ventaja": 0.173,
-   "kelly": 0.274,
-   "clave": "tarjetas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.5,
-     "tarjetas_contra": 1.9,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.8,
-     "tarjetas_contra": 2.2,
-     "n": 5
     }
    }
   },
@@ -2191,60 +2110,6 @@
    }
   },
   {
-   "inicio": "2026-11-22 09:00",
-   "liga": "Serie A",
-   "partido": "Sassuolo - Genoa",
-   "mercado": "Total de Faltas Cometidas por Sassuolo (Resuelta usando Opta Data)",
-   "seleccion": "Más de 12.5",
-   "cuota": 1.46,
-   "esperado": 16.2,
-   "prob": 0.774,
-   "cuota_minima": 1.34,
-   "ventaja": 0.131,
-   "kelly": 0.284,
-   "clave": "faltas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "faltas": 11.9,
-     "faltas_contra": 12.3,
-     "n": 10
-    },
-    "visita_fuera": {
-     "faltas": 9.9,
-     "faltas_contra": 15.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-22 09:00",
-   "liga": "Serie A",
-   "partido": "Sassuolo - Genoa",
-   "mercado": "Total de tarjetas - Genoa",
-   "seleccion": "Menos de 1.5",
-   "cuota": 2.17,
-   "esperado": 1.73,
-   "prob": 0.521,
-   "cuota_minima": 2.0,
-   "ventaja": 0.13,
-   "kelly": 0.111,
-   "clave": "tarjetas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.0,
-     "tarjetas_contra": 2.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.3,
-     "tarjetas_contra": 2.1,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-22 14:45",
    "liga": "Ligue 1",
    "partido": "Marsella - Le Mans",
@@ -2461,6 +2326,33 @@
    }
   },
   {
+   "inicio": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "partido": "Sassuolo - Genoa",
+   "mercado": "Total de Faltas Cometidas por Sassuolo (Resuelta usando Opta Data)",
+   "seleccion": "Más de 12.5",
+   "cuota": 1.45,
+   "esperado": 16.2,
+   "prob": 0.774,
+   "cuota_minima": 1.34,
+   "ventaja": 0.123,
+   "kelly": 0.273,
+   "clave": "faltas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "faltas": 11.9,
+     "faltas_contra": 12.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "faltas": 9.9,
+     "faltas_contra": 15.5,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-22 11:15",
    "liga": "Ligue 1",
    "partido": "Lorient - Rennes",
@@ -2569,29 +2461,29 @@
    }
   },
   {
-   "inicio": "2026-11-22 06:15",
-   "liga": "Eredivisie",
-   "partido": "FC Twente - Willem II",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.34,
-   "esperado": 12.71,
-   "prob": 0.834,
-   "cuota_minima": 1.25,
-   "ventaja": 0.117,
-   "kelly": 0.344,
-   "clave": "corners",
-   "lado": "t",
+   "inicio": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "partido": "Sassuolo - Genoa",
+   "mercado": "Total de tarjetas - Sassuolo",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.7,
+   "esperado": 2.49,
+   "prob": 0.659,
+   "cuota_minima": 1.58,
+   "ventaja": 0.12,
+   "kelly": 0.171,
+   "clave": "tarjetas",
+   "lado": "l",
    "datos": {
     "local_casa": {
-     "corners": 7.0,
-     "corners_contra": 3.5,
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.5,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 2.33,
-     "corners_contra": 8.67,
-     "n": 6
+     "tarjetas": 1.3,
+     "tarjetas_contra": 2.1,
+     "n": 10
     }
    }
   },
@@ -2812,6 +2704,33 @@
    }
   },
   {
+   "inicio": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "partido": "Sassuolo - Genoa",
+   "mercado": "Total de tarjetas - Genoa",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.5,
+   "esperado": 1.73,
+   "prob": 0.74,
+   "cuota_minima": 1.41,
+   "ventaja": 0.11,
+   "kelly": 0.22,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 2.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.3,
+     "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-22 14:45",
    "liga": "Serie A",
    "partido": "Atalanta - Inter",
@@ -2889,6 +2808,33 @@
      "tiros_puerta": 2.7,
      "tiros_puerta_contra": 3.8,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-22 06:15",
+   "liga": "Eredivisie",
+   "partido": "FC Twente - Willem II",
+   "mercado": "Total de Tiros de Esquina a favor de FC Twente",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.2,
+   "esperado": 10.87,
+   "prob": 0.924,
+   "cuota_minima": 1.13,
+   "ventaja": 0.108,
+   "kelly": 0.542,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 7.0,
+     "corners_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.33,
+     "corners_contra": 8.67,
+     "n": 6
     }
    }
   },
@@ -3105,6 +3051,33 @@
      "corners": 3.6,
      "corners_contra": 4.2,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-22 06:15",
+   "liga": "Eredivisie",
+   "partido": "FC Twente - Willem II",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.45,
+   "esperado": 12.71,
+   "prob": 0.759,
+   "cuota_minima": 1.37,
+   "ventaja": 0.101,
+   "kelly": 0.224,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 7.0,
+     "corners_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.33,
+     "corners_contra": 8.67,
+     "n": 6
     }
    }
   },
@@ -3544,16 +3517,16 @@
    "inicio": "2026-11-22 12:00",
    "liga": "Serie A",
    "partido": "AC Milán - Frosinone",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.62,
-   "esperado": 3.78,
-   "prob": 0.666,
-   "cuota_minima": 1.56,
+   "mercado": "Total de tarjetas - Frosinone",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.5,
+   "esperado": 1.83,
+   "prob": 0.719,
+   "cuota_minima": 1.45,
    "ventaja": 0.079,
-   "kelly": 0.128,
+   "kelly": 0.158,
    "clave": "tarjetas",
-   "lado": "t",
+   "lado": "v",
    "datos": {
     "local_casa": {
      "tarjetas": 1.5,
@@ -3811,33 +3784,6 @@
    }
   },
   {
-   "inicio": "2026-11-22 09:00",
-   "liga": "Serie A",
-   "partido": "Sassuolo - Genoa",
-   "mercado": "Total de Tiros de Esquina a favor de Genoa",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.67,
-   "esperado": 3.95,
-   "prob": 0.64,
-   "cuota_minima": 1.62,
-   "ventaja": 0.069,
-   "kelly": 0.103,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 3.5,
-     "corners_contra": 4.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 3.6,
-     "corners_contra": 4.2,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-22 13:15",
    "liga": "Bélgica",
    "partido": "Lommel SK - Standard de Lieja",
@@ -4027,6 +3973,33 @@
    }
   },
   {
+   "inicio": "2026-11-22 09:00",
+   "liga": "Serie A",
+   "partido": "Sassuolo - Genoa",
+   "mercado": "Total de Tiros de Esquina a favor de Genoa",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.66,
+   "esperado": 3.95,
+   "prob": 0.64,
+   "cuota_minima": 1.62,
+   "ventaja": 0.062,
+   "kelly": 0.095,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 3.5,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.6,
+     "corners_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-22 06:30",
    "liga": "Serie A",
    "partido": "Juventus - Venezia",
@@ -4076,33 +4049,6 @@
     "visita_fuera": {
      "tiros": 14.3,
      "tiros_contra": 14.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-22 09:00",
-   "liga": "Serie A",
-   "partido": "Sassuolo - Genoa",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.85,
-   "esperado": 4.23,
-   "prob": 0.572,
-   "cuota_minima": 1.82,
-   "ventaja": 0.059,
-   "kelly": 0.069,
-   "clave": "tarjetas",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.0,
-     "tarjetas_contra": 2.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.3,
-     "tarjetas_contra": 2.1,
      "n": 10
     }
    }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T19:38-05:00",
+ "actualizado": "2026-11-21T21:49-05:00",
  "umbral": 0.02,
  "picks": [
   {
@@ -32,11 +32,11 @@
    "partido": "Bragantino vs Vasco",
    "mercado": "Total de goles",
    "seleccion": "Más de 4.5",
-   "cuota_betplay": 5.6,
+   "cuota_betplay": 5.75,
    "prob_pinnacle": 0.198,
    "cuota_justa": 5.05,
-   "ventaja": 0.109,
-   "kelly": 0.024,
+   "ventaja": 0.139,
+   "kelly": 0.029,
    "idea": "goles-OT_OVER",
    "senales": {
     "modelo": 0.168,
@@ -113,6 +113,53 @@
    "en_contra": []
   },
   {
+   "inicio": "2026-11-22T20:10-05:00",
+   "liga": "México",
+   "partido": "Queretaro vs Necaxa",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.9,
+   "prob_pinnacle": 0.217,
+   "cuota_justa": 4.61,
+   "ventaja": 0.063,
+   "kelly": 0.016,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.104,
+    "rachas": 0.1,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo",
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T17:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bragantino vs Vasco",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.95,
+   "prob_pinnacle": 0.357,
+   "cuota_justa": 2.8,
+   "ventaja": 0.053,
+   "kelly": 0.027,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.33,
+    "rachas": 0.225,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
    "inicio": "2026-11-22T16:30-05:00",
    "liga": "Brasil",
    "partido": "Fluminense vs Mirassol",
@@ -176,29 +223,6 @@
    "veredicto": "en contra",
    "en_contra": [
     "modelo"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T17:30-05:00",
-   "liga": "Brasil",
-   "partido": "Bragantino vs Vasco",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.9,
-   "prob_pinnacle": 0.357,
-   "cuota_justa": 2.8,
-   "ventaja": 0.035,
-   "kelly": 0.019,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.33,
-    "rachas": 0.225,
-    "cruces": 0.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas",
-    "cruces"
    ]
   }
  ]
