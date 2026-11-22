@@ -9,6 +9,9 @@ from datetime import datetime, timedelta, timezone
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 BASE = "https://us.offering-api.kambicdn.com/offering/v2018/betplay"
+EXCLUIR_KAMBI = ("u21", "u-21", "sub-21", "sub 21", "u23", "u-23", "sub-23", "u20", "u19", "u18", "u17",
+                 "femenil", "femenino", "women", "(f)", "liga f", "frauen", "féminine", "feminine", "reserves", "reservas",
+                 "esports", "cyber", "(2x4", "esoccer")
 PARAMS = "lang=es_CO&market=CO&client_id=200&channel_id=1&useCombined=true"
 
 
@@ -27,6 +30,9 @@ def partidos_futbol():
     out = []
     for ev in d.get("events", []):
         e = ev.get("event", {})
+        texto = " ".join([e.get("name") or "", e.get("group") or ""] + [p.get("name") or "" for p in e.get("path", [])]).lower()
+        if any(x in texto for x in EXCLUIR_KAMBI):
+            continue  # juveniles, femenino, reservas y e-sports: no son el partido de Pinnacle
         out.append({"id": e.get("id"), "nombre": e.get("name"), "local": e.get("homeName"), "visita": e.get("awayName"),
                     "inicio": e.get("start"), "grupo": e.get("group"), "ruta": [p.get("name") for p in e.get("path", [])]})
     return out
