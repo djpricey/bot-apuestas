@@ -9,7 +9,15 @@ def main(nombres):
     horas = float(nombres[1:]) if nombres.startswith("@") else None
     pedidos = [n.strip().lower() for n in nombres.split(",") if n.strip()]
     ahora = datetime.now(timezone.utc)
-    for ev in kambi.partidos_futbol():
+    if nombres.startswith("ruta:"):
+        ruta, nombres = nombres[5:].split("|")
+        pedidos = [n.strip().lower() for n in nombres.split(",") if n.strip()]
+        d = kambi._get(f"/listView/football/{ruta}/all/matches.json")
+        lista = [{"id": e["event"]["id"], "nombre": e["event"]["name"], "inicio": e["event"]["start"],
+                  "grupo": e["event"].get("group")} for e in d.get("events", [])]
+    else:
+        lista = kambi.partidos_futbol()
+    for ev in lista:
         nom = (ev["nombre"] or "").lower()
         if horas is not None:
             try:
