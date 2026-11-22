@@ -1,31 +1,7 @@
 {
- "actualizado": "2026-11-21T19:05-05:00",
+ "actualizado": "2026-11-21T19:35-05:00",
  "umbral": 0.02,
  "picks": [
-  {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 2.5",
-   "cuota_betplay": 1.96,
-   "prob_pinnacle": 0.615,
-   "cuota_justa": 1.63,
-   "ventaja": 0.205,
-   "kelly": 0.214,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.57,
-    "rachas": 0.6,
-    "cruces": 0.8
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": [
-    "Más de 3.5",
-    "Más de 1.5"
-   ]
-  },
   {
    "inicio": "2026-11-22T14:00-05:00",
    "liga": "Brasil",
@@ -50,118 +26,6 @@
   }
  ],
  "errores": [
-  {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 4.35,
-   "prob_pinnacle": 0.348,
-   "cuota_justa": 2.87,
-   "ventaja": 0.514,
-   "kelly": 0.153,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.31,
-    "rachas": 0.2,
-    "cruces": 0.6
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T20:10-05:00",
-   "liga": "México",
-   "partido": "Queretaro vs Necaxa",
-   "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 2.95,
-   "prob_pinnacle": 0.461,
-   "cuota_justa": 2.17,
-   "ventaja": 0.36,
-   "kelly": 0.185,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.425,
-    "rachas": 0.1,
-    "cruces": 0.333
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas",
-    "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 3.35,
-   "prob_pinnacle": 0.401,
-   "cuota_justa": 2.49,
-   "ventaja": 0.343,
-   "kelly": 0.146,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.346,
-    "rachas": 0.4,
-    "cruces": 0.4
-   },
-   "veredicto": "respaldado",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 2.5",
-   "cuota_betplay": 1.96,
-   "prob_pinnacle": 0.615,
-   "cuota_justa": 1.63,
-   "ventaja": 0.205,
-   "kelly": 0.214,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.57,
-    "rachas": 0.6,
-    "cruces": 0.8
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": [
-    "Más de 3.5",
-    "Más de 1.5"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T20:10-05:00",
-   "liga": "México",
-   "partido": "Queretaro vs Necaxa",
-   "mercado": "Doble Oportunidad",
-   "seleccion": "1X",
-   "cuota_betplay": 1.55,
-   "prob_pinnacle": 0.717,
-   "cuota_justa": 1.39,
-   "ventaja": 0.111,
-   "kelly": 0.202,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.71,
-    "rachas": 0.4,
-    "cruces": 0.333
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas",
-    "cruces"
-   ]
-  },
   {
    "inicio": "2026-11-22T17:30-05:00",
    "liga": "Brasil",
@@ -208,28 +72,6 @@
    ]
   },
   {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Doble Oportunidad",
-   "seleccion": "X2",
-   "cuota_betplay": 1.89,
-   "prob_pinnacle": 0.578,
-   "cuota_justa": 1.73,
-   "ventaja": 0.092,
-   "kelly": 0.104,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.565,
-    "rachas": 0.4,
-    "cruces": 1.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
-  },
-  {
    "inicio": "2026-11-22T10:45-05:00",
    "liga": "Eredivisie",
    "partido": "Go Ahead Eagles vs For Sittard",
@@ -268,48 +110,6 @@
     "rachas": 0.125
    },
    "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-22T20:10-05:00",
-   "liga": "México",
-   "partido": "Queretaro vs Necaxa",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.8,
-   "prob_pinnacle": 0.379,
-   "cuota_justa": 2.64,
-   "ventaja": 0.061,
-   "kelly": 0.034,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.234,
-    "rachas": 0.3,
-    "cruces": 0.667
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T18:07-05:00",
-   "liga": "México",
-   "partido": "Guadalajara Chivas vs Cruz Azul",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 1.5",
-   "cuota_betplay": 1.3,
-   "prob_pinnacle": 0.814,
-   "cuota_justa": 1.23,
-   "ventaja": 0.058,
-   "kelly": 0.194,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.796,
-    "rachas": 0.8,
-    "cruces": 0.8
-   },
-   "veredicto": "respaldado",
    "en_contra": []
   },
   {
@@ -398,28 +198,6 @@
    "veredicto": "en contra",
    "en_contra": [
     "rachas",
-    "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-22T08:00-05:00",
-   "liga": "Turquía",
-   "partido": "Kasimpasa vs Alanyaspor",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 3.55,
-   "prob_pinnacle": 0.289,
-   "cuota_justa": 3.46,
-   "ventaja": 0.026,
-   "kelly": 0.01,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.236,
-    "rachas": 0.475,
-    "cruces": 0.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
     "cruces"
    ]
   }
