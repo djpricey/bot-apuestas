@@ -6,6 +6,9 @@ CLAVES = ("Corners", "Cards", "Both Teams", "Total Goals", "Full Time")
 
 def main(nombres):
     from datetime import datetime, timedelta, timezone
+    solo_lista = nombres.startswith("lista")
+    if solo_lista:
+        nombres = nombres[5:]
     horas = float(nombres[1:]) if nombres.startswith("@") else None
     pedidos = [n.strip().lower() for n in nombres.split(",") if n.strip()]
     ahora = datetime.now(timezone.utc)
@@ -30,6 +33,8 @@ def main(nombres):
         elif not any(p in nom for p in pedidos):
             continue
         print(f"\n=== {ev['nombre']} | {ev['inicio']} | {ev['grupo']}")
+        if solo_lista:
+            continue
         d = kambi._get(f"/betoffer/event/{ev['id']}.json")
         for m in kambi._parse(d.get("betOffers", [])):
             if any(k in m["en"] for k in CLAVES) and "Half" not in m["en"]:
