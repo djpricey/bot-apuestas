@@ -5,10 +5,21 @@ from src import kambi
 CLAVES = ("Corners", "Cards", "Both Teams", "Total Goals", "Full Time")
 
 def main(nombres):
+    from datetime import datetime, timedelta, timezone
+    horas = float(nombres[1:]) if nombres.startswith("@") else None
     pedidos = [n.strip().lower() for n in nombres.split(",") if n.strip()]
+    ahora = datetime.now(timezone.utc)
     for ev in kambi.partidos_futbol():
         nom = (ev["nombre"] or "").lower()
-        if not any(p in nom for p in pedidos):
+        if horas is not None:
+            try:
+                t = datetime.fromisoformat((ev["inicio"] or "").replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if not (ahora < t < ahora + timedelta(hours=horas)) or "cyber" in (ev["grupo"] or "").lower() \
+                    or "esport" in nom or "(" in nom:
+                continue
+        elif not any(p in nom for p in pedidos):
             continue
         print(f"\n=== {ev['nombre']} | {ev['inicio']} | {ev['grupo']}")
         d = kambi._get(f"/betoffer/event/{ev['id']}.json")
