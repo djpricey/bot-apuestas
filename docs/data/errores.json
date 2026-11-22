@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T12:19-05:00",
+ "actualizado": "2026-11-21T19:01-05:00",
  "umbral": 0.02,
  "picks": [
   {
@@ -27,87 +27,26 @@
    ]
   },
   {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
-   "mercado": "Doble Oportunidad",
-   "seleccion": "X2",
-   "cuota_betplay": 1.94,
-   "prob_pinnacle": 0.532,
-   "cuota_justa": 1.88,
-   "ventaja": 0.032,
-   "kelly": 0.034,
-   "idea": "visita",
+   "inicio": "2026-11-22T14:00-05:00",
+   "liga": "Brasil",
+   "partido": "Athletico-PR vs Remo",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.9,
+   "prob_pinnacle": 0.359,
+   "cuota_justa": 2.79,
+   "ventaja": 0.041,
+   "kelly": 0.022,
+   "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.615,
-    "rachas": 0.6
+    "modelo": 0.355,
+    "rachas": 0.375
    },
    "veredicto": "respaldado",
    "en_contra": [],
    "misma_idea": [
-    "2"
+    "Más de 4.5"
    ]
-  },
-  {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Escocia",
-   "partido": "Motherwell vs Rangers",
-   "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 5.75,
-   "prob_pinnacle": 0.186,
-   "cuota_justa": 5.38,
-   "ventaja": 0.069,
-   "kelly": 0.015,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.276,
-    "rachas": 0.533,
-    "cruces": 0.2
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
-  },
-  {
-   "inicio": "2026-11-21T15:30-05:00",
-   "liga": "Brasil",
-   "partido": "Bahia vs Coritiba",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 7.0,
-   "prob_pinnacle": 0.153,
-   "cuota_justa": 6.54,
-   "ventaja": 0.071,
-   "kelly": 0.012,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.167,
-    "rachas": 0.625
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
-  },
-  {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Argentina",
-   "partido": "Argentinos Jrs vs Independiente",
-   "mercado": "Resultado Final",
-   "seleccion": "X",
-   "cuota_betplay": 3.25,
-   "prob_pinnacle": 0.314,
-   "cuota_justa": 3.18,
-   "ventaja": 0.02,
-   "kelly": 0.009,
-   "idea": "otro",
-   "senales": {
-    "modelo": 0.312,
-    "rachas": 0.4
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
   }
  ],
  "errores": [
@@ -201,27 +140,6 @@
    ]
   },
   {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 4.7,
-   "prob_pinnacle": 0.238,
-   "cuota_justa": 4.2,
-   "ventaja": 0.119,
-   "kelly": 0.032,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.303,
-    "rachas": 0.1
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
-  },
-  {
    "inicio": "2026-11-22T20:10-05:00",
    "liga": "México",
    "partido": "Queretaro vs Necaxa",
@@ -237,6 +155,51 @@
     "modelo": 0.71,
     "rachas": 0.4,
     "cruces": 0.333
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas",
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T17:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bragantino vs Vasco",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.6,
+   "prob_pinnacle": 0.198,
+   "cuota_justa": 5.05,
+   "ventaja": 0.109,
+   "kelly": 0.024,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.168,
+    "rachas": 0.125,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T16:30-05:00",
+   "liga": "Brasil",
+   "partido": "Fluminense vs Mirassol",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 6.5,
+   "prob_pinnacle": 0.169,
+   "cuota_justa": 5.92,
+   "ventaja": 0.099,
+   "kelly": 0.018,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.116,
+    "rachas": 0.0,
+    "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
@@ -267,20 +230,20 @@
    ]
   },
   {
-   "inicio": "2026-11-21T14:00-05:00",
-   "liga": "MLS",
-   "partido": "New England Revolution vs Philadelphia Union",
+   "inicio": "2026-11-22T10:45-05:00",
+   "liga": "Eredivisie",
+   "partido": "Go Ahead Eagles vs For Sittard",
    "mercado": "Total de goles",
    "seleccion": "Más de 4.5",
-   "cuota_betplay": 4.6,
-   "prob_pinnacle": 0.235,
-   "cuota_justa": 4.26,
-   "ventaja": 0.081,
-   "kelly": 0.022,
+   "cuota_betplay": 4.2,
+   "prob_pinnacle": 0.257,
+   "cuota_justa": 3.89,
+   "ventaja": 0.079,
+   "kelly": 0.025,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.181,
-    "rachas": 0.4,
+    "modelo": 0.248,
+    "rachas": 0.45,
     "cruces": 0.0
    },
    "veredicto": "en contra",
@@ -289,45 +252,23 @@
    ]
   },
   {
-   "inicio": "2026-11-21T15:30-05:00",
+   "inicio": "2026-11-22T14:00-05:00",
    "liga": "Brasil",
-   "partido": "Bahia vs Coritiba",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 7.0,
-   "prob_pinnacle": 0.153,
-   "cuota_justa": 6.54,
-   "ventaja": 0.071,
-   "kelly": 0.012,
-   "idea": "visita",
+   "partido": "Athletico-PR vs Remo",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 5.5,
+   "prob_pinnacle": 0.196,
+   "cuota_justa": 5.1,
+   "ventaja": 0.078,
+   "kelly": 0.017,
+   "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.167,
-    "rachas": 0.625
+    "modelo": 0.186,
+    "rachas": 0.125
    },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
-  },
-  {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Escocia",
-   "partido": "Motherwell vs Rangers",
-   "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 5.75,
-   "prob_pinnacle": 0.186,
-   "cuota_justa": 5.38,
-   "ventaja": 0.069,
-   "kelly": 0.015,
-   "idea": "local",
-   "senales": {
-    "modelo": 0.276,
-    "rachas": 0.533,
-    "cruces": 0.2
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
   },
   {
    "inicio": "2026-11-22T20:10-05:00",
@@ -372,43 +313,65 @@
    "en_contra": []
   },
   {
-   "inicio": "2026-11-22T10:45-05:00",
-   "liga": "Eredivisie",
-   "partido": "Go Ahead Eagles vs For Sittard",
+   "inicio": "2026-11-22T16:30-05:00",
+   "liga": "Brasil",
+   "partido": "Fluminense vs Mirassol",
    "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 4.1,
-   "prob_pinnacle": 0.257,
-   "cuota_justa": 3.89,
-   "ventaja": 0.054,
-   "kelly": 0.017,
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 3.25,
+   "prob_pinnacle": 0.322,
+   "cuota_justa": 3.11,
+   "ventaja": 0.046,
+   "kelly": 0.021,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.248,
-    "rachas": 0.45,
+    "modelo": 0.253,
+    "rachas": 0.125,
     "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
+    "rachas",
     "cruces"
    ]
   },
   {
-   "inicio": "2026-11-21T17:50-05:00",
-   "liga": "México",
-   "partido": "Pachuca vs Toluca",
+   "inicio": "2026-11-22T14:00-05:00",
+   "liga": "Brasil",
+   "partido": "Athletico-PR vs Remo",
    "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 3.9,
-   "prob_pinnacle": 0.269,
-   "cuota_justa": 3.72,
-   "ventaja": 0.049,
-   "kelly": 0.017,
+   "seleccion": "Más de 3.5",
+   "cuota_betplay": 2.9,
+   "prob_pinnacle": 0.359,
+   "cuota_justa": 2.79,
+   "ventaja": 0.041,
+   "kelly": 0.022,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.159,
-    "rachas": 0.325,
-    "cruces": 0.2
+    "modelo": 0.355,
+    "rachas": 0.375
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": [
+    "Más de 4.5"
+   ]
+  },
+  {
+   "inicio": "2026-11-22T13:15-05:00",
+   "liga": "Bélgica",
+   "partido": "Lommel SK vs Standard",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 4.6,
+   "prob_pinnacle": 0.226,
+   "cuota_justa": 4.42,
+   "ventaja": 0.04,
+   "kelly": 0.011,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.06,
+    "rachas": 0.2
    },
    "veredicto": "en contra",
    "en_contra": [
@@ -416,110 +379,26 @@
    ]
   },
   {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Argentina",
-   "partido": "Argentinos Jrs vs Independiente",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 4.1,
-   "prob_pinnacle": 0.253,
-   "cuota_justa": 3.95,
-   "ventaja": 0.037,
-   "kelly": 0.012,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.229,
-    "rachas": 0.1
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T12:45-05:00",
-   "liga": "Eredivisie",
-   "partido": "Feyenoord vs Excelsior",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 3.45,
-   "prob_pinnacle": 0.299,
-   "cuota_justa": 3.34,
-   "ventaja": 0.032,
-   "kelly": 0.013,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.309,
-    "rachas": 0.125
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T13:00-05:00",
-   "liga": "Argentina",
-   "partido": "Defensa y Justicia vs Barracas Central",
-   "mercado": "Doble Oportunidad",
-   "seleccion": "X2",
-   "cuota_betplay": 1.94,
-   "prob_pinnacle": 0.532,
-   "cuota_justa": 1.88,
-   "ventaja": 0.032,
-   "kelly": 0.034,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.615,
-    "rachas": 0.6
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": [
-    "2"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T14:00-05:00",
-   "liga": "MLS",
-   "partido": "New England Revolution vs Philadelphia Union",
+   "inicio": "2026-11-22T17:30-05:00",
+   "liga": "Brasil",
+   "partido": "Bragantino vs Vasco",
    "mercado": "Total de goles",
    "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.55,
-   "prob_pinnacle": 0.404,
-   "cuota_justa": 2.48,
-   "ventaja": 0.03,
+   "cuota_betplay": 2.9,
+   "prob_pinnacle": 0.357,
+   "cuota_justa": 2.8,
+   "ventaja": 0.035,
    "kelly": 0.019,
    "idea": "goles-OT_OVER",
    "senales": {
-    "modelo": 0.348,
-    "rachas": 0.5,
+    "modelo": 0.33,
+    "rachas": 0.225,
     "cruces": 0.0
    },
    "veredicto": "en contra",
    "en_contra": [
+    "rachas",
     "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T19:00-05:00",
-   "liga": "Brasil",
-   "partido": "Chapecoense-SC vs Cruzeiro",
-   "mercado": "Total de goles",
-   "seleccion": "Menos de 1.5",
-   "cuota_betplay": 5.2,
-   "prob_pinnacle": 0.198,
-   "cuota_justa": 5.05,
-   "ventaja": 0.03,
-   "kelly": 0.007,
-   "idea": "goles-OT_UNDER",
-   "senales": {
-    "modelo": 0.198,
-    "rachas": 0.1
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
    ]
   },
   {
@@ -543,49 +422,6 @@
    "en_contra": [
     "cruces"
    ]
-  },
-  {
-   "inicio": "2026-11-22T08:30-05:00",
-   "liga": "Eredivisie",
-   "partido": "Sparta Rotterdam vs AZ Alkmaar",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 3.85,
-   "prob_pinnacle": 0.266,
-   "cuota_justa": 3.76,
-   "ventaja": 0.024,
-   "kelly": 0.008,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.171,
-    "rachas": 0.3,
-    "cruces": 0.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo",
-    "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-21T15:00-05:00",
-   "liga": "Argentina",
-   "partido": "Argentinos Jrs vs Independiente",
-   "mercado": "Resultado Final",
-   "seleccion": "X",
-   "cuota_betplay": 3.25,
-   "prob_pinnacle": 0.314,
-   "cuota_justa": 3.18,
-   "ventaja": 0.02,
-   "kelly": 0.009,
-   "idea": "otro",
-   "senales": {
-    "modelo": 0.312,
-    "rachas": 0.4
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
   }
  ]
 }
