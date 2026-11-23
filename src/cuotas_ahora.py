@@ -2,7 +2,7 @@
 import sys
 from src import kambi
 
-CLAVES = ("Corners", "Cards", "Both Teams", "Total Goals", "Full Time")
+CLAVES = ("Corners", "Cards", "Both Teams", "Total Goals", "Full Time", "Double Chance", "Draw No Bet")
 
 def main(nombres):
     from datetime import datetime, timedelta, timezone
