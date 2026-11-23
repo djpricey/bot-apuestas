@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-22T16:44-05:00",
- "revisados": 13,
+ "actualizado": "2026-11-22T21:53-05:00",
+ "revisados": 12,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
   {
@@ -139,60 +139,6 @@
    }
   },
   {
-   "inicio": "2026-11-23 14:45",
-   "liga": "Serie A",
-   "partido": "Monza - Fiorentina",
-   "mercado": "Total de Tiros de Esquina a favor de Fiorentina",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.22,
-   "esperado": 2.75,
-   "prob": 0.949,
-   "cuota_minima": 1.1,
-   "ventaja": 0.157,
-   "kelly": 0.716,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 4.2,
-     "corners_contra": 3.8,
-     "n": 5
-    },
-    "visita_fuera": {
-     "corners": 3.1,
-     "corners_contra": 4.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-23 14:45",
-   "liga": "Serie A",
-   "partido": "Monza - Fiorentina",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 11.5",
-   "cuota": 1.25,
-   "esperado": 6.67,
-   "prob": 0.925,
-   "cuota_minima": 1.12,
-   "ventaja": 0.156,
-   "kelly": 0.623,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 4.2,
-     "corners_contra": 3.8,
-     "n": 5
-    },
-    "visita_fuera": {
-     "corners": 3.1,
-     "corners_contra": 4.6,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-23 15:00",
    "liga": "Premier League",
    "partido": "Brentford - Everton",
@@ -301,6 +247,33 @@
    }
   },
   {
+   "inicio": "2026-11-24 13:00",
+   "liga": "Serie B",
+   "partido": "Juve Stabia - Catanzaro",
+   "mercado": "Total de Tiros de Esquina a favor de Catanzaro",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.68,
+   "esperado": 4.93,
+   "prob": 0.668,
+   "cuota_minima": 1.56,
+   "ventaja": 0.123,
+   "kelly": 0.18,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.8,
+     "corners_contra": 4.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.6,
+     "corners_contra": 5.6,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-23 14:45",
    "liga": "Serie A",
    "partido": "Monza - Fiorentina",
@@ -323,6 +296,33 @@
     "visita_fuera": {
      "tiros_puerta": 4.0,
      "tiros_puerta_contra": 5.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-23 14:45",
+   "liga": "Serie A",
+   "partido": "Monza - Fiorentina",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 12.5",
+   "cuota": 1.17,
+   "esperado": 6.67,
+   "prob": 0.953,
+   "cuota_minima": 1.09,
+   "ventaja": 0.115,
+   "kelly": 0.678,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 3.8,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 3.1,
+     "corners_contra": 4.6,
      "n": 10
     }
    }
@@ -517,6 +517,33 @@
    }
   },
   {
+   "inicio": "2026-11-23 14:45",
+   "liga": "Serie A",
+   "partido": "Monza - Fiorentina",
+   "mercado": "Total de Tiros de Esquina a favor de Monza",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.26,
+   "esperado": 3.92,
+   "prob": 0.858,
+   "cuota_minima": 1.21,
+   "ventaja": 0.081,
+   "kelly": 0.313,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 3.8,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 3.1,
+     "corners_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-23 14:00",
    "liga": "Eredivisie",
    "partido": "Jong PSV Eindhoven - Jong FC Utrecht",
@@ -574,33 +601,6 @@
    "inicio": "2026-11-23 14:45",
    "liga": "Serie A",
    "partido": "Monza - Fiorentina",
-   "mercado": "Total de Tiros de Esquina a favor de Monza",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.4,
-   "esperado": 3.92,
-   "prob": 0.769,
-   "cuota_minima": 1.35,
-   "ventaja": 0.077,
-   "kelly": 0.192,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 4.2,
-     "corners_contra": 3.8,
-     "n": 5
-    },
-    "visita_fuera": {
-     "corners": 3.1,
-     "corners_contra": 4.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-23 14:45",
-   "liga": "Serie A",
-   "partido": "Monza - Fiorentina",
    "mercado": "Total de tarjetas - Monza",
    "seleccion": "Más de 0.5",
    "cuota": 1.15,
@@ -620,6 +620,33 @@
     "visita_fuera": {
      "tarjetas": 2.4,
      "tarjetas_contra": 2.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-23 14:45",
+   "liga": "Serie A",
+   "partido": "Monza - Fiorentina",
+   "mercado": "Total de Tiros de Esquina a favor de Fiorentina",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.1,
+   "esperado": 2.75,
+   "prob": 0.974,
+   "cuota_minima": 1.07,
+   "ventaja": 0.072,
+   "kelly": 0.716,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.2,
+     "corners_contra": 3.8,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 3.1,
+     "corners_contra": 4.6,
      "n": 10
     }
    }
