@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T00:56-05:00",
+ "actualizado": "2026-11-23T01:13-05:00",
  "edge_min": 0.05,
  "escalera": null,
  "partidos": [
@@ -11,19 +11,19 @@
    "visita": "Al Hilal SFC",
    "solo_mercado": true,
    "pinnacle": {
-    "c1": 7.4,
-    "cx": 5.63,
-    "c2": 1.354,
+    "c1": 7.38,
+    "cx": 5.61,
+    "c2": 1.355,
     "p1x2": [
      0.129,
      0.169,
-     0.703
+     0.702
     ],
     "totales": {
      "1.5": {
       "mas": 1.15,
-      "menos": 5.37,
-      "p_mas": 0.824
+      "menos": 5.36,
+      "p_mas": 0.823
      },
      "2.5": {
       "mas": 1.478,
@@ -31,14 +31,14 @@
       "p_mas": 0.64
      },
      "2.75": {
-      "mas": 1.588,
-      "menos": 2.37,
-      "p_mas": 0.599
+      "mas": 1.591,
+      "menos": 2.36,
+      "p_mas": 0.597
      },
      "3": {
-      "mas": 1.746,
+      "mas": 1.751,
       "menos": 2.08,
-      "p_mas": 0.544
+      "p_mas": 0.543
      },
      "3.25": {
       "mas": 2.01,
@@ -51,12 +51,12 @@
       "p_mas": 0.426
      },
      "3.75": {
-      "mas": 2.58,
-      "menos": 1.505,
-      "p_mas": 0.368
+      "mas": 2.59,
+      "menos": 1.502,
+      "p_mas": 0.367
      },
      "4.5": {
-      "mas": 3.87,
+      "mas": 3.88,
       "menos": 1.251,
       "p_mas": 0.244
      }
@@ -6468,9 +6468,7 @@
      "prob_datos": 0.85,
      "prob": 0.629,
      "cuota_minima": 1.65,
-     "por": "Más de 2.5 en 80 % de los de Monza y 90 % de los de Fiorentina",
-     "cuota_casa": 1.61,
-     "paga_suficiente": false
+     "por": "Más de 2.5 en 80 % de los de Monza y 90 % de los de Fiorentina"
     },
     {
      "seleccion": "Fiorentina o empate",
@@ -6556,21 +6554,13 @@
    "marcador": "1-1",
    "goles_local": 1.24,
    "goles_visita": 2.0,
-   "c1": 3.78,
-   "cx": 3.73,
-   "c2": 2.0,
-   "co25": 1.61,
-   "cu25": 2.4,
-   "mercado": [
-    0.256,
-    0.26,
-    0.484
-   ],
-   "final": [
-    0.251,
-    0.253,
-    0.496
-   ],
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
    "peso_modelo": 0.2,
    "valor": [],
    "bajas": {
@@ -6640,7 +6630,7 @@
     },
     "fuente": "Pinnacle vía OddsPapi"
    },
-   "fuente_cuotas": "Pinnacle (OddsPapi)",
+   "fuente_cuotas": null,
    "stats": {
     "local_casa": {
      "n": 5,
@@ -6677,6 +6667,7 @@
      "atajadas_rival": 2.2
     }
    },
+   "pinnacle_anterior": "2026-11-23T00:56-05:00",
    "betplay": {
     "id": 1027911528,
     "nombre": "Monza - Fiorentina",
@@ -15143,21 +15134,13 @@
    "marcador": "1-1",
    "goles_local": 1.44,
    "goles_visita": 1.03,
-   "c1": 2.36,
-   "cx": 3.54,
-   "c2": 3.08,
-   "co25": 1.83,
-   "cu25": 2.05,
-   "mercado": [
-    0.411,
-    0.274,
-    0.315
-   ],
-   "final": [
-    0.416,
-    0.275,
-    0.31
-   ],
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
    "peso_modelo": 0.1,
    "valor": [],
    "bajas": {
@@ -15227,7 +15210,7 @@
     },
     "fuente": "Pinnacle vía OddsPapi"
    },
-   "fuente_cuotas": "Pinnacle (OddsPapi)",
+   "fuente_cuotas": null,
    "stats": {
     "local_casa": {
      "n": 10,
@@ -15264,6 +15247,7 @@
      "atajadas_rival": 3.8
     }
    },
+   "pinnacle_anterior": "2026-11-23T00:56-05:00",
    "betplay": {
     "id": 1028072784,
     "nombre": "Brentford - Everton",
@@ -22799,21 +22783,13 @@
    "marcador": "1-1",
    "goles_local": 1.64,
    "goles_visita": 1.29,
-   "c1": 2.2,
-   "cx": 3.6,
-   "c2": 3.36,
-   "co25": 1.7,
-   "cu25": 2.24,
-   "mercado": [
-    0.441,
-    0.27,
-    0.289
-   ],
-   "final": [
-    0.441,
-    0.27,
-    0.289
-   ],
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
@@ -22883,7 +22859,7 @@
     },
     "fuente": "Pinnacle vía OddsPapi"
    },
-   "fuente_cuotas": "Pinnacle (OddsPapi)",
+   "fuente_cuotas": null,
    "stats": {
     "local_casa": {
      "n": 10,
@@ -22919,7 +22895,8 @@
      "atajadas": 3.6,
      "atajadas_rival": 2.6
     }
-   }
+   },
+   "pinnacle_anterior": "2026-11-23T00:56-05:00"
   },
   {
    "inicio": "2026-11-23T15:00-05:00",
@@ -42811,21 +42788,13 @@
    "marcador": "1-1",
    "goles_local": 1.4,
    "goles_visita": 1.5,
-   "c1": 2.48,
-   "cx": 3.56,
-   "c2": 2.84,
-   "co25": 1.68,
-   "cu25": 2.27,
-   "mercado": [
-    0.389,
-    0.271,
-    0.34
-   ],
-   "final": [
-    0.389,
-    0.271,
-    0.34
-   ],
+   "c1": null,
+   "cx": null,
+   "c2": null,
+   "co25": null,
+   "cu25": null,
+   "mercado": null,
+   "final": null,
    "peso_modelo": 0.0,
    "valor": [],
    "bajas": {
@@ -42890,7 +42859,7 @@
     },
     "fuente": "Pinnacle vía OddsPapi"
    },
-   "fuente_cuotas": "Pinnacle (OddsPapi)",
+   "fuente_cuotas": null,
    "stats": {
     "local_casa": {
      "n": 10,
@@ -42927,6 +42896,7 @@
      "atajadas_rival": null
     }
    },
+   "pinnacle_anterior": "2026-11-23T00:56-05:00",
    "betplay": {
     "id": 1029801389,
     "nombre": "St. Louis City SC - Los Angeles FC",
@@ -47064,9 +47034,9 @@
      }
     },
     "btts": {
-     "si": 1.943,
-     "no": 1.909,
-     "p_si": 0.496
+     "si": 1.917,
+     "no": 1.934,
+     "p_si": 0.502
     },
     "fuente": "Pinnacle vía OddsPapi"
    },
