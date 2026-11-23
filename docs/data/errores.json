@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T21:53-05:00",
+ "actualizado": "2026-11-23T00:56-05:00",
  "umbral": 0.02,
  "picks": [
   {
@@ -9,13 +9,13 @@
    "mercado": "Resultado Final",
    "seleccion": "2",
    "cuota_betplay": 5.6,
-   "prob_pinnacle": 0.199,
-   "cuota_justa": 5.03,
-   "ventaja": 0.114,
-   "kelly": 0.025,
+   "prob_pinnacle": 0.195,
+   "cuota_justa": 5.13,
+   "ventaja": 0.092,
+   "kelly": 0.02,
    "idea": "visita",
    "senales": {
-    "modelo": 0.212,
+    "modelo": 0.22,
     "rachas": 0.25,
     "cruces": 0.667
    },
@@ -29,34 +29,13 @@
    "inicio": "2026-11-23T19:00-05:00",
    "liga": "Brasil",
    "partido": "Santos vs Gremio",
-   "mercado": "Resultado Final",
-   "seleccion": "2",
-   "cuota_betplay": 5.6,
-   "prob_pinnacle": 0.199,
-   "cuota_justa": 5.03,
-   "ventaja": 0.114,
-   "kelly": 0.025,
-   "idea": "visita",
-   "senales": {
-    "modelo": 0.212,
-    "rachas": 0.25,
-    "cruces": 0.667
-   },
-   "veredicto": "respaldado",
-   "en_contra": [],
-   "misma_idea": []
-  },
-  {
-   "inicio": "2026-11-23T19:00-05:00",
-   "liga": "Brasil",
-   "partido": "Santos vs Gremio",
    "mercado": "Total de goles",
    "seleccion": "Más de 4.5",
-   "cuota_betplay": 5.1,
-   "prob_pinnacle": 0.217,
-   "cuota_justa": 4.61,
-   "ventaja": 0.107,
-   "kelly": 0.026,
+   "cuota_betplay": 4.9,
+   "prob_pinnacle": 0.223,
+   "cuota_justa": 4.48,
+   "ventaja": 0.093,
+   "kelly": 0.024,
    "idea": "goles-OT_OVER",
    "senales": {
     "modelo": 0.124,
@@ -70,26 +49,25 @@
    ]
   },
   {
-   "inicio": "2026-11-23T17:30-05:00",
+   "inicio": "2026-11-23T19:00-05:00",
    "liga": "Brasil",
-   "partido": "Internacional vs Vitoria",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 6.75,
-   "prob_pinnacle": 0.162,
-   "cuota_justa": 6.17,
-   "ventaja": 0.094,
-   "kelly": 0.016,
-   "idea": "goles-OT_OVER",
+   "partido": "Santos vs Gremio",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 5.6,
+   "prob_pinnacle": 0.195,
+   "cuota_justa": 5.13,
+   "ventaja": 0.092,
+   "kelly": 0.02,
+   "idea": "visita",
    "senales": {
-    "modelo": 0.092,
-    "rachas": 0.125,
-    "cruces": 0.0
+    "modelo": 0.22,
+    "rachas": 0.25,
+    "cruces": 0.667
    },
-   "veredicto": "en contra",
-   "en_contra": [
-    "cruces"
-   ]
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
   },
   {
    "inicio": "2026-11-23T19:00-05:00",
@@ -97,11 +75,11 @@
    "partido": "Santos vs Gremio",
    "mercado": "Total de goles",
    "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.7,
-   "prob_pinnacle": 0.385,
-   "cuota_justa": 2.6,
-   "ventaja": 0.04,
-   "kelly": 0.023,
+   "cuota_betplay": 2.63,
+   "prob_pinnacle": 0.395,
+   "cuota_justa": 2.53,
+   "ventaja": 0.039,
+   "kelly": 0.024,
    "idea": "goles-OT_OVER",
    "senales": {
     "modelo": 0.266,
@@ -114,43 +92,20 @@
    ]
   },
   {
-   "inicio": "2026-11-24T15:00-05:00",
+   "inicio": "2026-11-23T13:15-05:00",
    "liga": "Copas",
-   "partido": "RB Leipzig vs Racing Club De Lens",
+   "partido": "Al Quwa Al Jawiya vs Al Gharafa SC",
    "mercado": "Resultado Final",
    "seleccion": "2",
-   "cuota_betplay": 6.75,
-   "prob_pinnacle": 0.152,
-   "cuota_justa": 6.58,
-   "ventaja": 0.026,
-   "kelly": 0.005,
+   "cuota_betplay": 3.2,
+   "prob_pinnacle": 0.321,
+   "cuota_justa": 3.12,
+   "ventaja": 0.027,
+   "kelly": 0.012,
    "idea": "visita",
    "senales": {},
    "veredicto": "sin datos suficientes",
    "en_contra": []
-  },
-  {
-   "inicio": "2026-11-23T17:30-05:00",
-   "liga": "Brasil",
-   "partido": "Internacional vs Vitoria",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 3.3,
-   "prob_pinnacle": 0.31,
-   "cuota_justa": 3.23,
-   "ventaja": 0.023,
-   "kelly": 0.01,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.215,
-    "rachas": 0.25,
-    "cruces": 0.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo",
-    "cruces"
-   ]
   }
  ]
 }

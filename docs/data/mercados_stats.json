@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-22T21:53-05:00",
- "revisados": 12,
+ "actualizado": "2026-11-23T00:56-05:00",
+ "revisados": 11,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
   {
@@ -139,33 +139,6 @@
    }
   },
   {
-   "inicio": "2026-11-23 15:00",
-   "liga": "Premier League",
-   "partido": "Brentford - Everton",
-   "mercado": "Número total de tiros por parte de Everton (Resuelta usando Opta Data)",
-   "seleccion": "Más de 11.5",
-   "cuota": 1.74,
-   "esperado": 13.92,
-   "prob": 0.662,
-   "cuota_minima": 1.57,
-   "ventaja": 0.151,
-   "kelly": 0.205,
-   "clave": "tiros",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros": 13.6,
-     "tiros_contra": 13.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 11.9,
-     "tiros_contra": 17.1,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-23 14:00",
    "liga": "Eredivisie",
    "partido": "Jong Ajax - Jong AZ Alkmaar",
@@ -188,6 +161,33 @@
     "visita_fuera": {
      "corners": 7.3,
      "corners_contra": 3.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-23 15:00",
+   "liga": "Premier League",
+   "partido": "Brentford - Everton",
+   "mercado": "Total de tiros a puerta por parte de Brentford (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.79,
+   "esperado": 3.94,
+   "prob": 0.639,
+   "cuota_minima": 1.63,
+   "ventaja": 0.145,
+   "kelly": 0.183,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.7,
+     "tiros_puerta_contra": 4.6,
      "n": 10
     }
    }
@@ -223,52 +223,25 @@
    "inicio": "2026-11-23 15:00",
    "liga": "Premier League",
    "partido": "Brentford - Everton",
-   "mercado": "Total de Tiros de Esquina a favor de Everton",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.48,
-   "esperado": 5.71,
-   "prob": 0.762,
-   "cuota_minima": 1.36,
-   "ventaja": 0.128,
-   "kelly": 0.266,
-   "clave": "corners",
+   "mercado": "Número total de tiros por parte de Everton (Resuelta usando Opta Data)",
+   "seleccion": "Más de 11.5",
+   "cuota": 1.7,
+   "esperado": 13.92,
+   "prob": 0.662,
+   "cuota_minima": 1.57,
+   "ventaja": 0.125,
+   "kelly": 0.179,
+   "clave": "tiros",
    "lado": "v",
    "datos": {
     "local_casa": {
-     "corners": 4.4,
-     "corners_contra": 5.2,
+     "tiros": 13.6,
+     "tiros_contra": 13.8,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 4.9,
-     "corners_contra": 6.2,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 13:00",
-   "liga": "Serie B",
-   "partido": "Juve Stabia - Catanzaro",
-   "mercado": "Total de Tiros de Esquina a favor de Catanzaro",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.68,
-   "esperado": 4.93,
-   "prob": 0.668,
-   "cuota_minima": 1.56,
-   "ventaja": 0.123,
-   "kelly": 0.18,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 4.8,
-     "corners_contra": 4.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.6,
-     "corners_contra": 5.6,
+     "tiros": 11.9,
+     "tiros_contra": 17.1,
      "n": 10
     }
    }
@@ -331,25 +304,25 @@
    "inicio": "2026-11-23 15:00",
    "liga": "Premier League",
    "partido": "Brentford - Everton",
-   "mercado": "Paradas del Portero - Brentford (Resuelta usando Opta Data)",
-   "seleccion": "Más de 1.5",
-   "cuota": 1.27,
-   "esperado": 3.85,
-   "prob": 0.874,
-   "cuota_minima": 1.19,
-   "ventaja": 0.11,
-   "kelly": 0.408,
-   "clave": "atajadas",
-   "lado": "l",
+   "mercado": "Total de Tiros de Esquina a favor de Everton",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.46,
+   "esperado": 5.71,
+   "prob": 0.762,
+   "cuota_minima": 1.36,
+   "ventaja": 0.112,
+   "kelly": 0.244,
+   "clave": "corners",
+   "lado": "v",
    "datos": {
     "local_casa": {
-     "atajadas": 2.8,
-     "atajadas_contra": null,
+     "corners": 4.4,
+     "corners_contra": 5.2,
      "n": 10
     },
     "visita_fuera": {
-     "atajadas": 3.2,
-     "atajadas_contra": null,
+     "corners": 4.9,
+     "corners_contra": 6.2,
      "n": 10
     }
    }
@@ -404,6 +377,33 @@
     "visita_fuera": {
      "tiros": 10.0,
      "tiros_contra": 16.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-23 15:00",
+   "liga": "Premier League",
+   "partido": "Brentford - Everton",
+   "mercado": "Paradas del Portero - Brentford (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.26,
+   "esperado": 3.85,
+   "prob": 0.874,
+   "cuota_minima": 1.19,
+   "ventaja": 0.101,
+   "kelly": 0.39,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.8,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.2,
+     "atajadas_contra": null,
      "n": 10
     }
    }
@@ -466,25 +466,25 @@
    "inicio": "2026-11-23 15:00",
    "liga": "Premier League",
    "partido": "Brentford - Everton",
-   "mercado": "Total de tiros a puerta por parte de Brentford (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.4,
-   "esperado": 3.94,
-   "prob": 0.775,
-   "cuota_minima": 1.34,
-   "ventaja": 0.084,
-   "kelly": 0.211,
-   "clave": "tiros_puerta",
+   "mercado": "Número total de tiros por parte de Brentford (Resuelta usando Opta Data)",
+   "seleccion": "Más de 13.5",
+   "cuota": 1.58,
+   "esperado": 16.46,
+   "prob": 0.687,
+   "cuota_minima": 1.51,
+   "ventaja": 0.086,
+   "kelly": 0.148,
+   "clave": "tiros",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 3.9,
-     "tiros_puerta_contra": 3.7,
+     "tiros": 13.6,
+     "tiros_contra": 13.8,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 4.7,
-     "tiros_puerta_contra": 4.6,
+     "tiros": 11.9,
+     "tiros_contra": 17.1,
      "n": 10
     }
    }
@@ -652,33 +652,6 @@
    }
   },
   {
-   "inicio": "2026-11-23 15:00",
-   "liga": "Premier League",
-   "partido": "Brentford - Everton",
-   "mercado": "Número total de tiros por parte de Brentford (Resuelta usando Opta Data)",
-   "seleccion": "Más de 13.5",
-   "cuota": 1.56,
-   "esperado": 16.46,
-   "prob": 0.687,
-   "cuota_minima": 1.51,
-   "ventaja": 0.072,
-   "kelly": 0.128,
-   "clave": "tiros",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros": 13.6,
-     "tiros_contra": 13.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 11.9,
-     "tiros_contra": 17.1,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-23 14:45",
    "liga": "Serie A",
    "partido": "Monza - Fiorentina",
@@ -701,33 +674,6 @@
     "visita_fuera": {
      "atajadas": 4.1,
      "atajadas_contra": null,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-23 15:00",
-   "liga": "Premier League",
-   "partido": "Brentford - Everton",
-   "mercado": "Total de tiros a puerta por parte de Everton (Resuelta usando Opta Data)",
-   "seleccion": "Más de 4.5",
-   "cuota": 2.3,
-   "esperado": 4.55,
-   "prob": 0.463,
-   "cuota_minima": 2.25,
-   "ventaja": 0.064,
-   "kelly": 0.049,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.9,
-     "tiros_puerta_contra": 3.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.7,
-     "tiros_puerta_contra": 4.6,
      "n": 10
     }
    }
