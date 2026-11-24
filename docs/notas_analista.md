@@ -4,6 +4,7 @@
 - (ninguno)
 
 ## Lecciones de método
+- ESCALERA: busca en TODOS los mercados con cuota 1.25–1.60 (córners y tarjetas totales y por equipo, doble oportunidad, goles, hándicap), no solo 1X2 y goles. El 24-nov se dijo "no hay escalón" mirando solo 1X2/goles y el usuario lo cuestionó con razón. Prioriza partidos de la misma liga (sin sesgo de datos).
 - Estadísticas domésticas en copas europeas: los equipos que dominan ligas débiles (Galatasaray, PSV, Feyenoord, Porto, AEK, Brujas, Olympiakos, Celtic) tienen "a favor" inflado y "en contra" bajo. Contra rivales de Champions eso NO se sostiene. Ejemplo: Galatasaray saca 7.2 córners en casa en Turquía, pero en la Champions pasada promedió 4 por partido y esta temporada remata ~8 por partido. Antes de usar datos domésticos en copas, búscale al equipo sus números en la competición (uefa.com/.../clubs/ID/statistics, Squawka, FotMob).
 - Patrón: el modelo doméstico casi siempre da "más córners" para el equipo inferior y "menos tarjetas" en Champions; el mercado tiene razón en general (los árbitros UEFA sacan ~4 amarillas por partido, más que Serie A/Eredivisie esta temporada). Trátalo como sesgo, no como ventaja.
 - Tiros, tiros a puerta y atajadas: las cifras de football-data (HS/HST) no coinciden con Opta (con lo que liquida BetPlay); el modelo sale sesgado a "menos". No apostar esos mercados sin datos Opta de la temporada.
