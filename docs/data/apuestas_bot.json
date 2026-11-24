@@ -132,9 +132,9 @@
    "prob": 0.435,
    "ev": 0.106,
    "stake": 1.5,
-   "estado": "pendiente",
-   "resultado": "",
-   "ganancia": 0.0,
+   "estado": "ganada",
+   "resultado": "2-0",
+   "ganancia": 2.31,
    "creada": "2026-11-20T06:52-05:00"
   },
   {
@@ -149,9 +149,9 @@
    "prob": 0.455,
    "ev": 0.097,
    "stake": 1.5,
-   "estado": "pendiente",
-   "resultado": "",
-   "ganancia": 0.0,
+   "estado": "perdida",
+   "resultado": "3-0",
+   "ganancia": -1.5,
    "creada": "2026-11-20T06:52-05:00"
   },
   {
@@ -166,9 +166,9 @@
    "prob": 0.435,
    "ev": 0.119,
    "stake": 2.0,
-   "estado": "pendiente",
-   "resultado": "",
-   "ganancia": 0.0,
+   "estado": "perdida",
+   "resultado": "1-5",
+   "ganancia": -2.0,
    "creada": "2026-11-20T06:52-05:00"
   },
   {
@@ -183,19 +183,19 @@
    "prob": 0.465,
    "ev": 0.061,
    "stake": 1.0,
-   "estado": "pendiente",
-   "resultado": "",
-   "ganancia": 0.0,
+   "estado": "perdida",
+   "resultado": "4-0",
+   "ganancia": -1.0,
    "creada": "2026-11-20T06:52-05:00"
   }
  ],
  "resumen": {
-  "bankroll": 101.76,
-  "ganancia": 1.76,
-  "roi": 0.1304,
-  "cerradas": 7,
-  "ganadas": 3,
-  "pendientes": 4
+  "bankroll": 99.57,
+  "ganancia": -0.43,
+  "roi": -0.0221,
+  "cerradas": 11,
+  "ganadas": 4,
+  "pendientes": 0
  },
- "actualizado": "2026-11-23T06:48-05:00"
+ "actualizado": "2026-11-23T21:52-05:00"
 }

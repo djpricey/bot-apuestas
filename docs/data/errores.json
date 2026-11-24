@@ -1,6 +1,39 @@
 {
- "actualizado": "2026-11-23T06:48-05:00",
+ "actualizado": "2026-11-23T21:52-05:00",
  "umbral": 0.02,
  "picks": [],
- "errores": []
+ "errores": [
+  {
+   "inicio": "2026-11-24T05:00-05:00",
+   "liga": "Copas",
+   "partido": "Daejeon Citizen FC vs Beijing Guoan",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 5.4,
+   "prob_pinnacle": 0.196,
+   "cuota_justa": 5.1,
+   "ventaja": 0.058,
+   "kelly": 0.013,
+   "idea": "visita",
+   "senales": {},
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
+  },
+  {
+   "inicio": "2026-11-24T12:45-05:00",
+   "liga": "Copas",
+   "partido": "Galatasaray Istanbul vs Aston Villa",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 4.5",
+   "cuota_betplay": 3.05,
+   "prob_pinnacle": 0.336,
+   "cuota_justa": 2.98,
+   "ventaja": 0.025,
+   "kelly": 0.012,
+   "idea": "goles-OT_OVER",
+   "senales": {},
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
+  }
+ ]
 }
