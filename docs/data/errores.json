@@ -1,119 +1,98 @@
 {
- "actualizado": "2026-11-24T00:56-05:00",
+ "actualizado": "2026-11-24T06:52-05:00",
  "umbral": 0.02,
  "picks": [],
  "errores": [
   {
-   "inicio": "2026-11-24T11:00-05:00",
-   "liga": "Copas",
-   "partido": "Shabab Al Ahli Dubai vs Al Qadsiah",
+   "inicio": "2026-11-24T14:45-05:00",
+   "liga": "Championship",
+   "partido": "Middlesbrough vs Swansea",
    "mercado": "Total de goles",
    "seleccion": "Más de 4.5",
-   "cuota_betplay": 5.8,
-   "prob_pinnacle": 0.187,
-   "cuota_justa": 5.35,
-   "ventaja": 0.085,
-   "kelly": 0.018,
-   "idea": "goles-OT_OVER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-24T05:00-05:00",
-   "liga": "Copas",
-   "partido": "Daejeon Citizen FC vs Beijing Guoan",
-   "mercado": "Total de goles",
-   "seleccion": "Menos de 1.5",
-   "cuota_betplay": 4.75,
-   "prob_pinnacle": 0.22,
-   "cuota_justa": 4.55,
-   "ventaja": 0.045,
+   "cuota_betplay": 4.1,
+   "prob_pinnacle": 0.253,
+   "cuota_justa": 3.95,
+   "ventaja": 0.037,
    "kelly": 0.012,
-   "idea": "goles-OT_UNDER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-24T07:15-05:00",
-   "liga": "Copas",
-   "partido": "Shanghai Port FC vs Buriram United",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 4.7,
-   "prob_pinnacle": 0.221,
-   "cuota_justa": 4.52,
-   "ventaja": 0.039,
-   "kelly": 0.01,
    "idea": "goles-OT_OVER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
+   "senales": {
+    "modelo": 0.16,
+    "rachas": 0.1,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo",
+    "rachas",
+    "cruces"
+   ]
   },
   {
-   "inicio": "2026-11-24T07:15-05:00",
-   "liga": "Copas",
-   "partido": "Cong An Ha Noi FC vs Vissel Kobe",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 5.0,
-   "prob_pinnacle": 0.207,
-   "cuota_justa": 4.83,
+   "inicio": "2026-11-24T14:45-05:00",
+   "liga": "Escocia",
+   "partido": "Hibernian vs Dundee",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 1.68,
+   "prob_pinnacle": 0.616,
+   "cuota_justa": 1.62,
    "ventaja": 0.035,
-   "kelly": 0.009,
-   "idea": "goles-OT_OVER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
+   "kelly": 0.051,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.619,
+    "rachas": 0.125,
+    "cruces": 0.8
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas"
+   ]
   },
   {
-   "inicio": "2026-11-24T11:00-05:00",
-   "liga": "Copas",
-   "partido": "Shabab Al Ahli Dubai vs Al Qadsiah",
+   "inicio": "2026-11-24T15:00-05:00",
+   "liga": "Escocia",
+   "partido": "Rangers vs Aberdeen",
+   "mercado": "Total de goles",
+   "seleccion": "Más de 5.5",
+   "cuota_betplay": 5.75,
+   "prob_pinnacle": 0.18,
+   "cuota_justa": 5.56,
+   "ventaja": 0.035,
+   "kelly": 0.007,
+   "idea": "goles-OT_OVER",
+   "senales": {
+    "modelo": 0.105,
+    "rachas": 0.1,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  },
+  {
+   "inicio": "2026-11-24T15:00-05:00",
+   "liga": "Escocia",
+   "partido": "Rangers vs Aberdeen",
    "mercado": "Total de goles",
    "seleccion": "Más de 3.5",
-   "cuota_betplay": 3.05,
-   "prob_pinnacle": 0.338,
-   "cuota_justa": 2.96,
-   "ventaja": 0.031,
-   "kelly": 0.015,
+   "cuota_betplay": 1.95,
+   "prob_pinnacle": 0.527,
+   "cuota_justa": 1.9,
+   "ventaja": 0.028,
+   "kelly": 0.029,
    "idea": "goles-OT_OVER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-24T07:15-05:00",
-   "liga": "Copas",
-   "partido": "Cong An Ha Noi FC vs Vissel Kobe",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 2.75,
-   "prob_pinnacle": 0.373,
-   "cuota_justa": 2.68,
-   "ventaja": 0.026,
-   "kelly": 0.015,
-   "idea": "goles-OT_OVER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
-  },
-  {
-   "inicio": "2026-11-24T05:00-05:00",
-   "liga": "Copas",
-   "partido": "Daejeon Citizen FC vs Beijing Guoan",
-   "mercado": "Total de goles",
-   "seleccion": "Menos de 2.5",
-   "cuota_betplay": 2.33,
-   "prob_pinnacle": 0.438,
-   "cuota_justa": 2.28,
-   "ventaja": 0.021,
-   "kelly": 0.015,
-   "idea": "goles-OT_UNDER",
-   "senales": {},
-   "veredicto": "sin datos suficientes",
-   "en_contra": []
+   "senales": {
+    "modelo": 0.397,
+    "rachas": 0.55,
+    "cruces": 0.4
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "modelo",
+    "cruces"
+   ]
   }
  ]
 }

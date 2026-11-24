@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T00:56-05:00",
+ "actualizado": "2026-11-24T06:52-05:00",
  "revisados": 20,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
@@ -9,12 +9,12 @@
    "partido": "Vicenza - Carrarese",
    "mercado": "Total de Tiros de Esquina a favor de Carrarese",
    "seleccion": "Más de 4.5",
-   "cuota": 1.88,
+   "cuota": 1.8,
    "esperado": 8.65,
    "prob": 0.887,
    "cuota_minima": 1.17,
-   "ventaja": 0.668,
-   "kelly": 0.759,
+   "ventaja": 0.597,
+   "kelly": 0.746,
    "clave": "corners",
    "lado": "v",
    "datos": {
@@ -36,12 +36,12 @@
    "partido": "Vicenza - Carrarese",
    "mercado": "Total de Tiros de Esquina",
    "seleccion": "Más de 9.5",
-   "cuota": 1.68,
+   "cuota": 1.7,
    "esperado": 16.45,
    "prob": 0.932,
    "cuota_minima": 1.12,
-   "ventaja": 0.566,
-   "kelly": 0.832,
+   "ventaja": 0.585,
+   "kelly": 0.835,
    "clave": "corners",
    "lado": "t",
    "datos": {
@@ -63,12 +63,12 @@
    "partido": "Rangers FC - Aberdeen",
    "mercado": "Total de tarjetas - Rangers FC",
    "seleccion": "Menos de 1.5",
-   "cuota": 1.74,
+   "cuota": 1.76,
    "esperado": 0.63,
    "prob": 0.853,
    "cuota_minima": 1.22,
-   "ventaja": 0.484,
-   "kelly": 0.654,
+   "ventaja": 0.501,
+   "kelly": 0.659,
    "clave": "tarjetas",
    "lado": "l",
    "datos": {
@@ -112,33 +112,6 @@
    }
   },
   {
-   "inicio": "2026-11-24 14:00",
-   "liga": "Serie B",
-   "partido": "Cesena - Ascoli",
-   "mercado": "Total de Tiros de Esquina a favor de Ascoli",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.78,
-   "esperado": 7.35,
-   "prob": 0.8,
-   "cuota_minima": 1.3,
-   "ventaja": 0.424,
-   "kelly": 0.543,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 5.8,
-     "corners_contra": 5.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.8,
-     "corners_contra": 4.0,
-     "n": 5
-    }
-   }
-  },
-  {
    "inicio": "2026-11-24 15:00",
    "liga": "Escocia",
    "partido": "Rangers FC - Aberdeen",
@@ -161,6 +134,60 @@
     "visita_fuera": {
      "tarjetas": 1.8,
      "tarjetas_contra": 1.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:00",
+   "liga": "Serie B",
+   "partido": "Vicenza - Carrarese",
+   "mercado": "Total de Tiros de Esquina a favor de Vicenza",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.66,
+   "esperado": 7.8,
+   "prob": 0.835,
+   "cuota_minima": 1.25,
+   "ventaja": 0.386,
+   "kelly": 0.584,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.6,
+     "corners_contra": 6.0,
+     "n": 5
+    },
+    "visita_fuera": {
+     "corners": 6.6,
+     "corners_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee FC",
+   "mercado": "Total de tiros a puerta por parte de Hibernian (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.52,
+   "esperado": 3.51,
+   "prob": 0.909,
+   "cuota_minima": 1.14,
+   "ventaja": 0.381,
+   "kelly": 0.734,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.2,
+     "tiros_puerta_contra": 5.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 3.8,
+     "tiros_puerta_contra": 5.2,
      "n": 10
     }
    }
@@ -196,95 +223,14 @@
    "inicio": "2026-11-24 14:45",
    "liga": "Escocia",
    "partido": "Hibernian - Dundee FC",
-   "mercado": "Total de tiros a puerta por parte de Hibernian (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.5,
-   "esperado": 3.51,
-   "prob": 0.909,
-   "cuota_minima": 1.14,
-   "ventaja": 0.363,
-   "kelly": 0.727,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.2,
-     "tiros_puerta_contra": 5.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.8,
-     "tiros_puerta_contra": 5.2,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Portsmouth - West Ham",
-   "mercado": "Total de tarjetas - Portsmouth",
-   "seleccion": "Menos de 1.5",
-   "cuota": 1.73,
-   "esperado": 0.86,
-   "prob": 0.783,
-   "cuota_minima": 1.33,
-   "ventaja": 0.355,
-   "kelly": 0.486,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.4,
-     "tarjetas_contra": 1.9,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 2.88,
-     "tarjetas_contra": 1.12,
-     "n": 8
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:00",
-   "liga": "Serie B",
-   "partido": "Vicenza - Carrarese",
-   "mercado": "Total de Tiros de Esquina a favor de Vicenza",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.6,
-   "esperado": 7.8,
-   "prob": 0.835,
-   "cuota_minima": 1.25,
-   "ventaja": 0.335,
-   "kelly": 0.559,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 6.6,
-     "corners_contra": 6.0,
-     "n": 5
-    },
-    "visita_fuera": {
-     "corners": 6.6,
-     "corners_contra": 6.2,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Escocia",
-   "partido": "Hibernian - Dundee FC",
    "mercado": "Total de Tiros de Esquina a favor de Dundee FC",
    "seleccion": "Más de 3.5",
-   "cuota": 1.61,
+   "cuota": 1.63,
    "esperado": 6.43,
    "prob": 0.829,
    "cuota_minima": 1.25,
-   "ventaja": 0.334,
-   "kelly": 0.548,
+   "ventaja": 0.351,
+   "kelly": 0.557,
    "clave": "corners",
    "lado": "v",
    "datos": {
@@ -297,6 +243,33 @@
      "corners": 4.7,
      "corners_contra": 5.4,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Portsmouth - West Ham",
+   "mercado": "Total de tarjetas - Portsmouth",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.72,
+   "esperado": 0.86,
+   "prob": 0.783,
+   "cuota_minima": 1.33,
+   "ventaja": 0.347,
+   "kelly": 0.482,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 1.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.88,
+     "tarjetas_contra": 1.12,
+     "n": 8
     }
    }
   },
@@ -330,6 +303,33 @@
   {
    "inicio": "2026-11-24 14:00",
    "liga": "Serie B",
+   "partido": "Cesena - Ascoli",
+   "mercado": "Total de Tiros de Esquina a favor de Ascoli",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.64,
+   "esperado": 7.35,
+   "prob": 0.8,
+   "cuota_minima": 1.3,
+   "ventaja": 0.312,
+   "kelly": 0.487,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 5.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.8,
+     "corners_contra": 4.0,
+     "n": 5
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:00",
+   "liga": "Serie B",
    "partido": "Benevento - Empoli",
    "mercado": "Total de Tiros de Esquina a favor de Empoli",
    "seleccion": "Más de 3.5",
@@ -350,6 +350,33 @@
     "visita_fuera": {
      "corners": 5.1,
      "corners_contra": 5.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Bristol City - Wrexham",
+   "mercado": "Total de Tiros de Esquina a favor de Wrexham",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.46,
+   "esperado": 7.29,
+   "prob": 0.887,
+   "cuota_minima": 1.17,
+   "ventaja": 0.295,
+   "kelly": 0.641,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.1,
+     "corners_contra": 6.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 5.4,
      "n": 10
     }
    }
@@ -378,33 +405,6 @@
      "tiros_puerta": 2.5,
      "tiros_puerta_contra": 4.62,
      "n": 8
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de Tiros de Esquina a favor de Wrexham",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.44,
-   "esperado": 7.29,
-   "prob": 0.887,
-   "cuota_minima": 1.17,
-   "ventaja": 0.277,
-   "kelly": 0.63,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 5.1,
-     "corners_contra": 6.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.0,
-     "corners_contra": 5.4,
-     "n": 10
     }
    }
   },
@@ -459,33 +459,6 @@
      "tiros_puerta": 2.5,
      "tiros_puerta_contra": 4.62,
      "n": 8
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Escocia",
-   "partido": "Rangers FC - Aberdeen",
-   "mercado": "Paradas del Portero - Aberdeen (Resuelta usando Opta Data)",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.92,
-   "esperado": 5.65,
-   "prob": 0.643,
-   "cuota_minima": 1.62,
-   "ventaja": 0.235,
-   "kelly": 0.256,
-   "clave": "atajadas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "atajadas": 2.2,
-     "atajadas_contra": null,
-     "n": 10
-    },
-    "visita_fuera": {
-     "atajadas": 4.0,
-     "atajadas_contra": null,
-     "n": 10
     }
    }
   },
@@ -598,6 +571,33 @@
    }
   },
   {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Championship",
+   "partido": "Wolves - Derby County",
+   "mercado": "Total de tiros a puerta por parte de Derby County (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.79,
+   "esperado": 3.71,
+   "prob": 0.677,
+   "cuota_minima": 1.54,
+   "ventaja": 0.213,
+   "kelly": 0.269,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.12,
+     "tiros_puerta_contra": 3.5,
+     "n": 8
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 6.5,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-24 14:45",
    "liga": "Championship",
    "partido": "Sheffield United - Southampton",
@@ -620,60 +620,6 @@
     "visita_fuera": {
      "atajadas": 3.4,
      "atajadas_contra": null,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "League One",
-   "partido": "Bromley FC - Wycombe Wanderers",
-   "mercado": "Total de Tiros de Esquina a favor de Wycombe Wanderers",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.36,
-   "esperado": 8.65,
-   "prob": 0.887,
-   "cuota_minima": 1.17,
-   "ventaja": 0.206,
-   "kelly": 0.572,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 3.0,
-     "corners_contra": 6.67,
-     "n": 6
-    },
-    "visita_fuera": {
-     "corners": 6.6,
-     "corners_contra": 6.8,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 8.5",
-   "cuota": 1.52,
-   "esperado": 6.29,
-   "prob": 0.792,
-   "cuota_minima": 1.31,
-   "ventaja": 0.204,
-   "kelly": 0.393,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.8,
-     "tiros_puerta_contra": 4.2,
      "n": 10
     }
    }
@@ -733,33 +679,6 @@
    }
   },
   {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Championship",
-   "partido": "Wolves - Derby County",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.65,
-   "esperado": 5.29,
-   "prob": 0.724,
-   "cuota_minima": 1.44,
-   "ventaja": 0.195,
-   "kelly": 0.3,
-   "clave": "tarjetas",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.38,
-     "tarjetas_contra": 2.62,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tarjetas": 2.6,
-     "tarjetas_contra": 1.6,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-24 14:45",
    "liga": "Championship",
    "partido": "Sheffield United - Southampton",
@@ -782,6 +701,60 @@
     "visita_fuera": {
      "tiros_puerta": 5.1,
      "tiros_puerta_contra": 4.6,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Bristol City - Wrexham",
+   "mercado": "Total de tiros a puerta por parte de Wrexham (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.68,
+   "esperado": 2.68,
+   "prob": 0.711,
+   "cuota_minima": 1.46,
+   "ventaja": 0.194,
+   "kelly": 0.286,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Championship",
+   "partido": "Wolves - Derby County",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Más de 3.5",
+   "cuota": 1.64,
+   "esperado": 5.29,
+   "prob": 0.724,
+   "cuota_minima": 1.44,
+   "ventaja": 0.188,
+   "kelly": 0.294,
+   "clave": "tarjetas",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.38,
+     "tarjetas_contra": 2.62,
+     "n": 8
+    },
+    "visita_fuera": {
+     "tarjetas": 2.6,
+     "tarjetas_contra": 1.6,
      "n": 10
     }
    }
@@ -868,44 +841,17 @@
    }
   },
   {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Escocia",
-   "partido": "Rangers FC - Aberdeen",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 10.5",
-   "cuota": 1.72,
-   "esperado": 12.85,
-   "prob": 0.685,
-   "cuota_minima": 1.52,
-   "ventaja": 0.178,
-   "kelly": 0.247,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 7.9,
-     "corners_contra": 3.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.4,
-     "corners_contra": 7.1,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-24 14:45",
    "liga": "Championship",
    "partido": "Bristol City - Wrexham",
    "mercado": "Total de tarjetas - Wrexham",
    "seleccion": "Menos de 1.5",
-   "cuota": 1.7,
+   "cuota": 1.71,
    "esperado": 1.16,
    "prob": 0.689,
    "cuota_minima": 1.51,
-   "ventaja": 0.171,
-   "kelly": 0.245,
+   "ventaja": 0.178,
+   "kelly": 0.251,
    "clave": "tarjetas",
    "lado": "v",
    "datos": {
@@ -917,6 +863,87 @@
     "visita_fuera": {
      "tarjetas": 1.3,
      "tarjetas_contra": 1.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "League One",
+   "partido": "Bromley FC - Wycombe Wanderers",
+   "mercado": "Total de Tiros de Esquina a favor de Wycombe Wanderers",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.32,
+   "esperado": 8.65,
+   "prob": 0.887,
+   "cuota_minima": 1.17,
+   "ventaja": 0.17,
+   "kelly": 0.532,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 3.0,
+     "corners_contra": 6.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 6.6,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Cardiff City - Preston North End",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.7,
+   "esperado": 11.58,
+   "prob": 0.687,
+   "cuota_minima": 1.51,
+   "ventaja": 0.168,
+   "kelly": 0.239,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 7.12,
+     "tiros_puerta_contra": 5.38,
+     "n": 8
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.9,
+     "tiros_puerta_contra": 5.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Escocia",
+   "partido": "Hibernian - Dundee FC",
+   "mercado": "Total de Tiros de Esquina a favor de Hibernian",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.34,
+   "esperado": 5.31,
+   "prob": 0.87,
+   "cuota_minima": 1.2,
+   "ventaja": 0.165,
+   "kelly": 0.486,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 6.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.7,
+     "corners_contra": 5.4,
      "n": 10
     }
    }
@@ -944,6 +971,33 @@
     "visita_fuera": {
      "corners": 5.7,
      "corners_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Escocia",
+   "partido": "Rangers FC - Aberdeen",
+   "mercado": "Paradas del Portero - Aberdeen (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.81,
+   "esperado": 5.65,
+   "prob": 0.643,
+   "cuota_minima": 1.62,
+   "ventaja": 0.165,
+   "kelly": 0.203,
+   "clave": "atajadas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.2,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 4.0,
+     "atajadas_contra": null,
      "n": 10
     }
    }
@@ -1030,46 +1084,19 @@
    }
   },
   {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Cardiff City - Preston North End",
-   "mercado": "Total de tiros a puerta por parte de Cardiff City (Resuelta usando Opta Data)",
-   "seleccion": "Más de 5.5",
-   "cuota": 1.57,
-   "esperado": 7.65,
-   "prob": 0.738,
-   "cuota_minima": 1.41,
-   "ventaja": 0.158,
-   "kelly": 0.278,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 7.12,
-     "tiros_puerta_contra": 5.38,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.9,
-     "tiros_puerta_contra": 5.0,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-24 15:00",
    "liga": "Escocia",
    "partido": "Rangers FC - Aberdeen",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Más de 10.5",
-   "cuota": 2.15,
-   "esperado": 11.13,
-   "prob": 0.539,
-   "cuota_minima": 1.93,
+   "mercado": "Total de tiros a puerta por parte de Rangers FC (Resuelta usando Opta Data)",
+   "seleccion": "Más de 6.5",
+   "cuota": 1.55,
+   "esperado": 8.89,
+   "prob": 0.747,
+   "cuota_minima": 1.39,
    "ventaja": 0.158,
-   "kelly": 0.138,
+   "kelly": 0.287,
    "clave": "tiros_puerta",
-   "lado": "t",
+   "lado": "l",
    "datos": {
     "local_casa": {
      "tiros_puerta": 6.8,
@@ -1138,28 +1165,109 @@
    }
   },
   {
+   "inicio": "2026-11-24 14:00",
+   "liga": "Serie B",
+   "partido": "Cesena - Ascoli",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 9.5",
+   "cuota": 1.68,
+   "esperado": 11.77,
+   "prob": 0.686,
+   "cuota_minima": 1.52,
+   "ventaja": 0.152,
+   "kelly": 0.224,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.8,
+     "corners_contra": 5.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.8,
+     "corners_contra": 4.0,
+     "n": 5
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Escocia",
+   "partido": "Rangers FC - Aberdeen",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 10.5",
+   "cuota": 1.68,
+   "esperado": 12.85,
+   "prob": 0.685,
+   "cuota_minima": 1.52,
+   "ventaja": 0.151,
+   "kelly": 0.222,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 7.9,
+     "corners_contra": 3.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.4,
+     "corners_contra": 7.1,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-24 14:45",
    "liga": "Championship",
-   "partido": "Cardiff City - Preston North End",
-   "mercado": "Total de Tiros de Esquina a favor de Cardiff City",
-   "seleccion": "Más de 5.5",
+   "partido": "Bristol City - Wrexham",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
    "cuota": 1.45,
-   "esperado": 8.48,
+   "esperado": 6.29,
    "prob": 0.792,
    "cuota_minima": 1.31,
    "ventaja": 0.149,
-   "kelly": 0.33,
-   "clave": "corners",
-   "lado": "l",
+   "kelly": 0.331,
+   "clave": "tiros_puerta",
+   "lado": "t",
    "datos": {
     "local_casa": {
-     "corners": 6.62,
-     "corners_contra": 4.12,
-     "n": 8
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 3.8,
+     "n": 10
     },
     "visita_fuera": {
-     "corners": 3.5,
-     "corners_contra": 7.3,
+     "tiros_puerta": 2.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Bristol City - Wrexham",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.44,
+   "esperado": 12.12,
+   "prob": 0.797,
+   "cuota_minima": 1.3,
+   "ventaja": 0.148,
+   "kelly": 0.337,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.1,
+     "corners_contra": 6.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.0,
+     "corners_contra": 5.4,
      "n": 10
     }
    }
@@ -1219,28 +1327,28 @@
    }
   },
   {
-   "inicio": "2026-11-24 15:00",
+   "inicio": "2026-11-24 14:45",
    "liga": "Championship",
-   "partido": "Wolves - Derby County",
-   "mercado": "Total de tarjetas - Wolves",
-   "seleccion": "Más de 1.5",
-   "cuota": 2.0,
-   "esperado": 2.09,
-   "prob": 0.57,
-   "cuota_minima": 1.82,
-   "ventaja": 0.14,
-   "kelly": 0.14,
-   "clave": "tarjetas",
+   "partido": "Cardiff City - Preston North End",
+   "mercado": "Total de Tiros de Esquina a favor de Cardiff City",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.44,
+   "esperado": 8.48,
+   "prob": 0.792,
+   "cuota_minima": 1.31,
+   "ventaja": 0.141,
+   "kelly": 0.32,
+   "clave": "corners",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "tarjetas": 2.38,
-     "tarjetas_contra": 2.62,
+     "corners": 6.62,
+     "corners_contra": 4.12,
      "n": 8
     },
     "visita_fuera": {
-     "tarjetas": 2.6,
-     "tarjetas_contra": 1.6,
+     "corners": 3.5,
+     "corners_contra": 7.3,
      "n": 10
     }
    }
@@ -1273,82 +1381,82 @@
    }
   },
   {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Escocia",
-   "partido": "Rangers FC - Aberdeen",
-   "mercado": "Total de tiros a puerta por parte de Rangers FC (Resuelta usando Opta Data)",
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Cardiff City - Preston North End",
+   "mercado": "Total de tiros a puerta por parte de Cardiff City (Resuelta usando Opta Data)",
    "seleccion": "Más de 5.5",
-   "cuota": 1.35,
-   "esperado": 8.89,
-   "prob": 0.843,
-   "cuota_minima": 1.23,
-   "ventaja": 0.138,
-   "kelly": 0.395,
+   "cuota": 1.54,
+   "esperado": 7.65,
+   "prob": 0.738,
+   "cuota_minima": 1.41,
+   "ventaja": 0.136,
+   "kelly": 0.253,
    "clave": "tiros_puerta",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 6.8,
-     "tiros_puerta_contra": 3.5,
-     "n": 10
+     "tiros_puerta": 7.12,
+     "tiros_puerta_contra": 5.38,
+     "n": 8
     },
     "visita_fuera": {
-     "tiros_puerta": 2.8,
-     "tiros_puerta_contra": 6.2,
+     "tiros_puerta": 2.9,
+     "tiros_puerta_contra": 5.0,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-24 14:00",
-   "liga": "Serie B",
-   "partido": "Cesena - Ascoli",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.47,
-   "esperado": 11.77,
-   "prob": 0.774,
-   "cuota_minima": 1.34,
-   "ventaja": 0.137,
-   "kelly": 0.292,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 5.8,
-     "corners_contra": 5.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.8,
-     "corners_contra": 4.0,
-     "n": 5
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "League One",
-   "partido": "Bromley FC - Wycombe Wanderers",
+   "inicio": "2026-11-24 15:00",
+   "liga": "Championship",
+   "partido": "Wolves - Derby County",
    "mercado": "Total de Tiros de Esquina",
    "seleccion": "Más de 10.5",
-   "cuota": 1.8,
-   "esperado": 12.17,
-   "prob": 0.627,
-   "cuota_minima": 1.66,
-   "ventaja": 0.128,
-   "kelly": 0.16,
+   "cuota": 1.95,
+   "esperado": 11.68,
+   "prob": 0.582,
+   "cuota_minima": 1.79,
+   "ventaja": 0.135,
+   "kelly": 0.142,
    "clave": "corners",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "corners": 3.0,
-     "corners_contra": 6.67,
-     "n": 6
+     "corners": 7.38,
+     "corners_contra": 3.88,
+     "n": 8
     },
     "visita_fuera": {
-     "corners": 6.6,
-     "corners_contra": 6.8,
+     "corners": 4.7,
+     "corners_contra": 6.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Championship",
+   "partido": "Wolves - Derby County",
+   "mercado": "Total de tarjetas - Wolves",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.98,
+   "esperado": 2.09,
+   "prob": 0.57,
+   "cuota_minima": 1.82,
+   "ventaja": 0.128,
+   "kelly": 0.131,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.38,
+     "tarjetas_contra": 2.62,
+     "n": 8
+    },
+    "visita_fuera": {
+     "tarjetas": 2.6,
+     "tarjetas_contra": 1.6,
      "n": 10
     }
    }
@@ -1436,45 +1544,18 @@
   },
   {
    "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.41,
-   "esperado": 12.12,
-   "prob": 0.797,
-   "cuota_minima": 1.3,
-   "ventaja": 0.124,
-   "kelly": 0.303,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 5.1,
-     "corners_contra": 6.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.0,
-     "corners_contra": 5.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
    "liga": "League One",
    "partido": "Bromley FC - Wycombe Wanderers",
-   "mercado": "Total de Tiros de Esquina a favor de Bromley FC",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.37,
-   "esperado": 3.52,
-   "prob": 0.82,
-   "cuota_minima": 1.27,
-   "ventaja": 0.123,
-   "kelly": 0.332,
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Más de 10.5",
+   "cuota": 1.79,
+   "esperado": 12.17,
+   "prob": 0.627,
+   "cuota_minima": 1.66,
+   "ventaja": 0.122,
+   "kelly": 0.154,
    "clave": "corners",
-   "lado": "l",
+   "lado": "t",
    "datos": {
     "local_casa": {
      "corners": 3.0,
@@ -1484,114 +1565,6 @@
     "visita_fuera": {
      "corners": 6.6,
      "corners_contra": 6.8,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Championship",
-   "partido": "Wolves - Derby County",
-   "mercado": "Total de tiros a puerta por parte de Derby County (Resuelta usando Opta Data)",
-   "seleccion": "Más de 2.5",
-   "cuota": 1.65,
-   "esperado": 3.71,
-   "prob": 0.677,
-   "cuota_minima": 1.54,
-   "ventaja": 0.118,
-   "kelly": 0.181,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.12,
-     "tiros_puerta_contra": 3.5,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.2,
-     "tiros_puerta_contra": 6.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de tiros a puerta por parte de Bristol City (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.6,
-   "esperado": 3.61,
-   "prob": 0.697,
-   "cuota_minima": 1.49,
-   "ventaja": 0.115,
-   "kelly": 0.191,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.8,
-     "tiros_puerta_contra": 4.2,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Cardiff City - Preston North End",
-   "mercado": "Total de Tiros de Esquina a favor de Preston North End",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.44,
-   "esperado": 3.09,
-   "prob": 0.773,
-   "cuota_minima": 1.34,
-   "ventaja": 0.114,
-   "kelly": 0.259,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 6.62,
-     "corners_contra": 4.12,
-     "n": 8
-    },
-    "visita_fuera": {
-     "corners": 3.5,
-     "corners_contra": 7.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de tiros a puerta por parte de Wrexham (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.32,
-   "esperado": 2.68,
-   "prob": 0.842,
-   "cuota_minima": 1.23,
-   "ventaja": 0.112,
-   "kelly": 0.349,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.8,
-     "tiros_puerta_contra": 4.2,
      "n": 10
     }
    }
@@ -1733,27 +1706,54 @@
   },
   {
    "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Cardiff City - Preston North End",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.41,
-   "esperado": 11.58,
-   "prob": 0.78,
-   "cuota_minima": 1.33,
-   "ventaja": 0.099,
-   "kelly": 0.242,
-   "clave": "tiros_puerta",
-   "lado": "t",
+   "liga": "League One",
+   "partido": "Bromley FC - Wycombe Wanderers",
+   "mercado": "Total de Tiros de Esquina a favor de Bromley FC",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.34,
+   "esperado": 3.52,
+   "prob": 0.82,
+   "cuota_minima": 1.27,
+   "ventaja": 0.098,
+   "kelly": 0.289,
+   "clave": "corners",
+   "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 7.12,
-     "tiros_puerta_contra": 5.38,
+     "corners": 3.0,
+     "corners_contra": 6.67,
+     "n": 6
+    },
+    "visita_fuera": {
+     "corners": 6.6,
+     "corners_contra": 6.8,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Cardiff City - Preston North End",
+   "mercado": "Total de Tiros de Esquina a favor de Preston North End",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.42,
+   "esperado": 3.09,
+   "prob": 0.773,
+   "cuota_minima": 1.34,
+   "ventaja": 0.098,
+   "kelly": 0.234,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.62,
+     "corners_contra": 4.12,
      "n": 8
     },
     "visita_fuera": {
-     "tiros_puerta": 2.9,
-     "tiros_puerta_contra": 5.0,
+     "corners": 3.5,
+     "corners_contra": 7.3,
      "n": 10
     }
    }
@@ -1786,83 +1786,56 @@
    }
   },
   {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Escocia",
-   "partido": "Hibernian - Dundee FC",
-   "mercado": "Total de Tiros de Esquina a favor de Hibernian",
-   "seleccion": "Menos de 8.5",
-   "cuota": 1.26,
-   "esperado": 5.31,
-   "prob": 0.87,
-   "cuota_minima": 1.2,
-   "ventaja": 0.096,
-   "kelly": 0.368,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 6.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.7,
-     "corners_contra": 5.4,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-24 15:00",
-   "liga": "Championship",
-   "partido": "Wolves - Derby County",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 10.5",
-   "cuota": 1.88,
-   "esperado": 11.68,
-   "prob": 0.582,
-   "cuota_minima": 1.79,
-   "ventaja": 0.094,
-   "kelly": 0.107,
-   "clave": "corners",
-   "lado": "t",
+   "liga": "Escocia",
+   "partido": "Rangers FC - Aberdeen",
+   "mercado": "Total de tiros a puerta por parte de Aberdeen (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.38,
+   "esperado": 2.24,
+   "prob": 0.794,
+   "cuota_minima": 1.31,
+   "ventaja": 0.095,
+   "kelly": 0.251,
+   "clave": "tiros_puerta",
+   "lado": "v",
    "datos": {
     "local_casa": {
-     "corners": 7.38,
-     "corners_contra": 3.88,
-     "n": 8
+     "tiros_puerta": 6.8,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
     },
     "visita_fuera": {
-     "corners": 4.7,
-     "corners_contra": 6.0,
+     "tiros_puerta": 2.8,
+     "tiros_puerta_contra": 6.2,
      "n": 10
     }
    }
   },
   {
    "inicio": "2026-11-24 14:45",
-   "liga": "Escocia",
-   "partido": "Hibernian - Dundee FC",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 11.5",
-   "cuota": 2.23,
-   "esperado": 11.74,
-   "prob": 0.491,
-   "cuota_minima": 2.12,
-   "ventaja": 0.094,
-   "kelly": 0.077,
-   "clave": "corners",
-   "lado": "t",
+   "liga": "Championship",
+   "partido": "Portsmouth - West Ham",
+   "mercado": "Total de tiros a puerta por parte de West Ham (Resuelta usando Opta Data)",
+   "seleccion": "Más de 4.5",
+   "cuota": 1.63,
+   "esperado": 5.93,
+   "prob": 0.671,
+   "cuota_minima": 1.55,
+   "ventaja": 0.093,
+   "kelly": 0.148,
+   "clave": "tiros_puerta",
+   "lado": "v",
    "datos": {
     "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 6.8,
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 4.0,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 4.7,
-     "corners_contra": 5.4,
-     "n": 10
+     "tiros_puerta": 5.88,
+     "tiros_puerta_contra": 3.88,
+     "n": 8
     }
    }
   },
@@ -1894,17 +1867,44 @@
    }
   },
   {
+   "inicio": "2026-11-24 14:45",
+   "liga": "Championship",
+   "partido": "Portsmouth - West Ham",
+   "mercado": "Total de tiros a puerta por parte de Portsmouth (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 2.5",
+   "cuota": 3.05,
+   "esperado": 3.5,
+   "prob": 0.357,
+   "cuota_minima": 2.91,
+   "ventaja": 0.089,
+   "kelly": 0.044,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 4.0,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 5.88,
+     "tiros_puerta_contra": 3.88,
+     "n": 8
+    }
+   }
+  },
+  {
    "inicio": "2026-11-24 15:00",
    "liga": "Championship",
    "partido": "Wolves - Derby County",
    "mercado": "Total de Tiros de Esquina a favor de Wolves",
    "seleccion": "Más de 5.5",
-   "cuota": 1.48,
+   "cuota": 1.49,
    "esperado": 7.77,
    "prob": 0.73,
    "cuota_minima": 1.43,
-   "ventaja": 0.08,
-   "kelly": 0.167,
+   "ventaja": 0.087,
+   "kelly": 0.178,
    "clave": "corners",
    "lado": "l",
    "datos": {
@@ -1926,12 +1926,12 @@
    "partido": "Middlesbrough - Swansea City",
    "mercado": "Total de Tiros de Esquina a favor de Middlesbrough",
    "seleccion": "Más de 5.5",
-   "cuota": 1.45,
+   "cuota": 1.46,
    "esperado": 7.92,
    "prob": 0.744,
    "cuota_minima": 1.4,
-   "ventaja": 0.079,
-   "kelly": 0.175,
+   "ventaja": 0.086,
+   "kelly": 0.188,
    "clave": "corners",
    "lado": "l",
    "datos": {
@@ -1943,6 +1943,60 @@
     "visita_fuera": {
      "corners": 4.1,
      "corners_contra": 6.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Escocia",
+   "partido": "Rangers FC - Aberdeen",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Más de 11.5",
+   "cuota": 2.5,
+   "esperado": 11.13,
+   "prob": 0.434,
+   "cuota_minima": 2.4,
+   "ventaja": 0.085,
+   "kelly": 0.057,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 6.8,
+     "tiros_puerta_contra": 3.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.8,
+     "tiros_puerta_contra": 6.2,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-24 15:00",
+   "liga": "Escocia",
+   "partido": "Rangers FC - Aberdeen",
+   "mercado": "Número total de tiros por parte de Aberdeen (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.86,
+   "esperado": 8.18,
+   "prob": 0.578,
+   "cuota_minima": 1.8,
+   "ventaja": 0.075,
+   "kelly": 0.088,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 19.7,
+     "tiros_contra": 10.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.1,
+     "tiros_contra": 16.0,
      "n": 10
     }
    }
@@ -1977,81 +2031,27 @@
   {
    "inicio": "2026-11-24 14:45",
    "liga": "Championship",
-   "partido": "Portsmouth - West Ham",
-   "mercado": "Total de tiros a puerta por parte de West Ham (Resuelta usando Opta Data)",
-   "seleccion": "Más de 5.5",
-   "cuota": 2.05,
-   "esperado": 5.93,
-   "prob": 0.523,
-   "cuota_minima": 1.99,
+   "partido": "Bristol City - Wrexham",
+   "mercado": "Total de tiros a puerta por parte de Bristol City (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 1.54,
+   "esperado": 3.61,
+   "prob": 0.697,
+   "cuota_minima": 1.49,
    "ventaja": 0.073,
-   "kelly": 0.069,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.2,
-     "tiros_puerta_contra": 4.0,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 5.88,
-     "tiros_puerta_contra": 3.88,
-     "n": 8
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Championship",
-   "partido": "Wolves - Derby County",
-   "mercado": "Total de tiros a puerta por parte de Wolves (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.67,
-   "esperado": 5.75,
-   "prob": 0.642,
-   "cuota_minima": 1.62,
-   "ventaja": 0.072,
-   "kelly": 0.108,
+   "kelly": 0.135,
    "clave": "tiros_puerta",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 4.12,
-     "tiros_puerta_contra": 3.5,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.2,
-     "tiros_puerta_contra": 6.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 14:45",
-   "liga": "Championship",
-   "partido": "Portsmouth - West Ham",
-   "mercado": "Total de tiros a puerta por parte de Portsmouth (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 2.5",
-   "cuota": 3.0,
-   "esperado": 3.5,
-   "prob": 0.357,
-   "cuota_minima": 2.91,
-   "ventaja": 0.071,
-   "kelly": 0.036,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.2,
-     "tiros_puerta_contra": 4.0,
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 3.8,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 5.88,
-     "tiros_puerta_contra": 3.88,
-     "n": 8
+     "tiros_puerta": 2.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
     }
    }
   },
@@ -2059,25 +2059,25 @@
    "inicio": "2026-11-24 15:00",
    "liga": "Escocia",
    "partido": "Rangers FC - Aberdeen",
-   "mercado": "Número total de tiros por parte de Rangers FC (Resuelta usando Opta Data)",
-   "seleccion": "Más de 19.5",
-   "cuota": 1.68,
-   "esperado": 22.05,
-   "prob": 0.636,
-   "cuota_minima": 1.64,
-   "ventaja": 0.068,
-   "kelly": 0.1,
-   "clave": "tiros",
-   "lado": "l",
+   "mercado": "Total de Tiros de Esquina a favor de Aberdeen",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.65,
+   "esperado": 3.01,
+   "prob": 0.648,
+   "cuota_minima": 1.6,
+   "ventaja": 0.07,
+   "kelly": 0.107,
+   "clave": "corners",
+   "lado": "v",
    "datos": {
     "local_casa": {
-     "tiros": 19.7,
-     "tiros_contra": 10.2,
+     "corners": 7.9,
+     "corners_contra": 3.4,
      "n": 10
     },
     "visita_fuera": {
-     "tiros": 10.1,
-     "tiros_contra": 16.0,
+     "corners": 4.4,
+     "corners_contra": 7.1,
      "n": 10
     }
    }
@@ -2106,33 +2106,6 @@
      "corners": 3.25,
      "corners_contra": 9.38,
      "n": 8
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Escocia",
-   "partido": "Rangers FC - Aberdeen",
-   "mercado": "Total de tiros a puerta por parte de Aberdeen (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 3.5",
-   "cuota": 1.34,
-   "esperado": 2.24,
-   "prob": 0.794,
-   "cuota_minima": 1.31,
-   "ventaja": 0.064,
-   "kelly": 0.187,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 6.8,
-     "tiros_puerta_contra": 3.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.8,
-     "tiros_puerta_contra": 6.2,
-     "n": 10
     }
    }
   },
@@ -2191,28 +2164,28 @@
    }
   },
   {
-   "inicio": "2026-11-24 14:45",
+   "inicio": "2026-11-24 15:00",
    "liga": "Championship",
-   "partido": "Bristol City - Wrexham",
-   "mercado": "Total de Tiros de Esquina a favor de Bristol City",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.64,
-   "esperado": 4.83,
-   "prob": 0.642,
-   "cuota_minima": 1.62,
-   "ventaja": 0.054,
-   "kelly": 0.084,
-   "clave": "corners",
+   "partido": "Wolves - Derby County",
+   "mercado": "Total de tiros a puerta por parte de Wolves (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 4.5",
+   "cuota": 3.0,
+   "esperado": 5.75,
+   "prob": 0.352,
+   "cuota_minima": 2.95,
+   "ventaja": 0.057,
+   "kelly": 0.029,
+   "clave": "tiros_puerta",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "corners": 5.1,
-     "corners_contra": 6.8,
-     "n": 10
+     "tiros_puerta": 4.12,
+     "tiros_puerta_contra": 3.5,
+     "n": 8
     },
     "visita_fuera": {
-     "corners": 5.0,
-     "corners_contra": 5.4,
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 6.5,
      "n": 10
     }
    }
@@ -2245,55 +2218,28 @@
    }
   },
   {
-   "inicio": "2026-11-24 14:45",
+   "inicio": "2026-11-24 15:00",
    "liga": "Championship",
-   "partido": "Cardiff City - Preston North End",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 12.5",
-   "cuota": 2.75,
-   "esperado": 11.57,
-   "prob": 0.382,
-   "cuota_minima": 2.72,
-   "ventaja": 0.051,
-   "kelly": 0.029,
-   "clave": "corners",
+   "partido": "Wolves - Derby County",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Más de 10.5",
+   "cuota": 2.95,
+   "esperado": 9.46,
+   "prob": 0.357,
+   "cuota_minima": 2.91,
+   "ventaja": 0.053,
+   "kelly": 0.027,
+   "clave": "tiros_puerta",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "corners": 6.62,
-     "corners_contra": 4.12,
+     "tiros_puerta": 4.12,
+     "tiros_puerta_contra": 3.5,
      "n": 8
     },
     "visita_fuera": {
-     "corners": 3.5,
-     "corners_contra": 7.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-24 15:00",
-   "liga": "Escocia",
-   "partido": "Rangers FC - Aberdeen",
-   "mercado": "Total de Tiros de Esquina a favor de Aberdeen",
-   "seleccion": "Menos de 3.5",
-   "cuota": 1.62,
-   "esperado": 3.01,
-   "prob": 0.648,
-   "cuota_minima": 1.6,
-   "ventaja": 0.05,
-   "kelly": 0.081,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 7.9,
-     "corners_contra": 3.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.4,
-     "corners_contra": 7.1,
+     "tiros_puerta": 4.2,
+     "tiros_puerta_contra": 6.5,
      "n": 10
     }
    }

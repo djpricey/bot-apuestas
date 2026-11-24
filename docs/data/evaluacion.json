@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-24T00:56-05:00",
+ "actualizado": "2026-11-24T06:52-05:00",
  "edge_min": 0.05,
  "en_vivo": {
-  "n": 193,
-  "logloss_modelo": 0.9012,
+  "n": 223,
+  "logloss_modelo": 0.9236,
   "logloss_mercado": 0.824,
   "logloss_modelo_mismos": 0.8692,
   "logloss_combinado": 0.8692,
@@ -20,39 +20,39 @@
    },
    {
     "rango": "10-20%",
-    "esperado": 0.154,
-    "real": 0.098,
-    "n": 92
+    "esperado": 0.155,
+    "real": 0.109,
+    "n": 101
    },
    {
     "rango": "20-30%",
     "esperado": 0.251,
-    "real": 0.236,
-    "n": 216
+    "real": 0.24,
+    "n": 254
    },
    {
     "rango": "30-40%",
-    "esperado": 0.34,
-    "real": 0.333,
-    "n": 84
+    "esperado": 0.341,
+    "real": 0.34,
+    "n": 103
    },
    {
     "rango": "40-50%",
-    "esperado": 0.45,
-    "real": 0.455,
-    "n": 66
+    "esperado": 0.451,
+    "real": 0.436,
+    "n": 78
    },
    {
     "rango": "50-60%",
     "esperado": 0.553,
-    "real": 0.612,
-    "n": 49
+    "real": 0.614,
+    "n": 57
    },
    {
     "rango": "60-70%",
     "esperado": 0.638,
-    "real": 0.806,
-    "n": 31
+    "real": 0.771,
+    "n": 35
    },
    {
     "rango": "70-80%",
@@ -75,8 +75,8 @@
   ]
  },
  "backtest_global": {
-  "n": 6460,
-  "logloss_modelo": 0.9916,
+  "n": 6494,
+  "logloss_modelo": 0.992,
   "logloss_mercado": 0.9598,
   "logloss_modelo_mismos": 0.9869,
   "logloss_combinado": 0.9869,
@@ -95,43 +95,43 @@
     "rango": "10-20%",
     "esperado": 0.16,
     "real": 0.159,
-    "n": 2326
+    "n": 2336
    },
    {
     "rango": "20-30%",
     "esperado": 0.255,
     "real": 0.256,
-    "n": 7395
+    "n": 7437
    },
    {
     "rango": "30-40%",
     "esperado": 0.343,
     "real": 0.334,
-    "n": 3926
+    "n": 3948
    },
    {
     "rango": "40-50%",
     "esperado": 0.446,
     "real": 0.448,
-    "n": 2368
+    "n": 2382
    },
    {
     "rango": "50-60%",
     "esperado": 0.547,
-    "real": 0.539,
-    "n": 1520
+    "real": 0.538,
+    "n": 1531
    },
    {
     "rango": "60-70%",
     "esperado": 0.644,
-    "real": 0.691,
-    "n": 790
+    "real": 0.692,
+    "n": 792
    },
    {
     "rango": "70-80%",
     "esperado": 0.742,
-    "real": 0.765,
-    "n": 404
+    "real": 0.763,
+    "n": 405
    },
    {
     "rango": "80-90%",
@@ -150,8 +150,8 @@
  },
  "por_liga": {
   "Argentina": {
-   "n": 502,
-   "logloss_modelo": 1.0574,
+   "n": 509,
+   "logloss_modelo": 1.0566,
    "logloss_mercado": 1.2052,
    "logloss_modelo_mismos": 1.283,
    "logloss_combinado": 1.2052,
@@ -169,32 +169,32 @@
     {
      "rango": "10-20%",
      "esperado": 0.169,
-     "real": 0.188,
-     "n": 112
+     "real": 0.186,
+     "n": 113
     },
     {
      "rango": "20-30%",
      "esperado": 0.261,
      "real": 0.28,
-     "n": 439
+     "n": 446
     },
     {
      "rango": "30-40%",
-     "esperado": 0.34,
-     "real": 0.33,
-     "n": 618
+     "esperado": 0.339,
+     "real": 0.328,
+     "n": 625
     },
     {
      "rango": "40-50%",
      "esperado": 0.444,
-     "real": 0.426,
-     "n": 216
+     "real": 0.43,
+     "n": 221
     },
     {
      "rango": "50-60%",
      "esperado": 0.54,
-     "real": 0.488,
-     "n": 84
+     "real": 0.494,
+     "n": 85
     },
     {
      "rango": "60-70%",
@@ -223,11 +223,11 @@
    ],
    "xi": 0.0035,
    "peso_aprendido": false,
-   "partidos_usados": 1059
+   "partidos_usados": 1066
   },
   "Brasil": {
-   "n": 380,
-   "logloss_modelo": 0.996,
+   "n": 389,
+   "logloss_modelo": 0.9979,
    "logloss_mercado": 0.8802,
    "logloss_modelo_mismos": 0.95,
    "logloss_combinado": 0.8802,
@@ -245,14 +245,14 @@
     {
      "rango": "10-20%",
      "esperado": 0.164,
-     "real": 0.153,
-     "n": 131
+     "real": 0.157,
+     "n": 134
     },
     {
      "rango": "20-30%",
      "esperado": 0.259,
      "real": 0.254,
-     "n": 481
+     "n": 496
     },
     {
      "rango": "30-40%",
@@ -264,19 +264,19 @@
      "rango": "40-50%",
      "esperado": 0.45,
      "real": 0.493,
-     "n": 148
+     "n": 150
     },
     {
      "rango": "50-60%",
-     "esperado": 0.545,
-     "real": 0.52,
-     "n": 100
+     "esperado": 0.544,
+     "real": 0.509,
+     "n": 106
     },
     {
      "rango": "60-70%",
-     "esperado": 0.649,
-     "real": 0.69,
-     "n": 42
+     "esperado": 0.648,
+     "real": 0.698,
+     "n": 43
     },
     {
      "rango": "70-80%",
@@ -299,7 +299,7 @@
    ],
    "xi": 0.001,
    "peso_aprendido": false,
-   "partidos_usados": 767
+   "partidos_usados": 776
   },
   "Bundesliga": {
    "n": 294,
@@ -834,8 +834,8 @@
    "partidos_usados": 607
   },
   "MLS": {
-   "n": 515,
-   "logloss_modelo": 1.0479,
+   "n": 524,
+   "logloss_modelo": 1.0492,
    "logloss_mercado": 0.8798,
    "logloss_modelo_mismos": 0.9075,
    "logloss_combinado": 0.8798,
@@ -853,44 +853,44 @@
     {
      "rango": "10-20%",
      "esperado": 0.164,
-     "real": 0.247,
-     "n": 182
+     "real": 0.246,
+     "n": 187
     },
     {
      "rango": "20-30%",
      "esperado": 0.247,
-     "real": 0.248,
-     "n": 650
+     "real": 0.247,
+     "n": 659
     },
     {
      "rango": "30-40%",
      "esperado": 0.351,
-     "real": 0.307,
-     "n": 257
+     "real": 0.313,
+     "n": 262
     },
     {
      "rango": "40-50%",
      "esperado": 0.447,
-     "real": 0.473,
-     "n": 222
+     "real": 0.471,
+     "n": 225
     },
     {
      "rango": "50-60%",
      "esperado": 0.553,
-     "real": 0.532,
-     "n": 124
+     "real": 0.528,
+     "n": 127
     },
     {
      "rango": "60-70%",
      "esperado": 0.641,
-     "real": 0.592,
-     "n": 71
+     "real": 0.597,
+     "n": 72
     },
     {
      "rango": "70-80%",
-     "esperado": 0.734,
-     "real": 0.52,
-     "n": 25
+     "esperado": 0.733,
+     "real": 0.5,
+     "n": 26
     },
     {
      "rango": "80-90%",
@@ -907,11 +907,11 @@
    ],
    "xi": 0.0035,
    "peso_aprendido": false,
-   "partidos_usados": 1056
+   "partidos_usados": 1065
   },
   "México": {
-   "n": 324,
-   "logloss_modelo": 1.063,
+   "n": 333,
+   "logloss_modelo": 1.0633,
    "logloss_mercado": null,
    "logloss_modelo_mismos": null,
    "logloss_combinado": null,
@@ -929,32 +929,32 @@
     {
      "rango": "10-20%",
      "esperado": 0.162,
-     "real": 0.254,
-     "n": 126
+     "real": 0.252,
+     "n": 127
     },
     {
      "rango": "20-30%",
      "esperado": 0.253,
-     "real": 0.266,
-     "n": 395
+     "real": 0.268,
+     "n": 406
     },
     {
      "rango": "30-40%",
-     "esperado": 0.348,
-     "real": 0.331,
-     "n": 163
+     "esperado": 0.349,
+     "real": 0.329,
+     "n": 173
     },
     {
      "rango": "40-50%",
      "esperado": 0.444,
-     "real": 0.444,
-     "n": 117
+     "real": 0.438,
+     "n": 121
     },
     {
      "rango": "50-60%",
      "esperado": 0.55,
-     "real": 0.418,
-     "n": 79
+     "real": 0.425,
+     "n": 80
     },
     {
      "rango": "60-70%",
@@ -983,7 +983,7 @@
    ],
    "xi": 0.0035,
    "peso_aprendido": false,
-   "partidos_usados": 665
+   "partidos_usados": 674
   },
   "Portugal": {
    "n": 303,
