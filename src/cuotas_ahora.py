@@ -6,6 +6,10 @@ CLAVES = ("Corners", "Cards", "Both Teams", "Total Goals", "Full Time", "Double 
 
 def main(nombres):
     from datetime import datetime, timedelta, timezone
+    global CLAVES
+    if nombres.startswith("todo:"):
+        nombres = nombres[5:]
+        CLAVES = ("",)
     solo_lista = nombres.startswith("lista")
     if solo_lista:
         nombres = nombres[5:]
