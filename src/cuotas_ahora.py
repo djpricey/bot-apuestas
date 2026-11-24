@@ -30,7 +30,7 @@ def main(nombres):
             if not (ahora < t < ahora + timedelta(hours=horas)) or "cyber" in (ev["grupo"] or "").lower() \
                     or "esport" in nom or "(" in nom:
                 continue
-        elif not any(p in nom for p in pedidos):
+        elif "*" not in pedidos and not any(p in nom for p in pedidos):
             continue
         print(f"\n=== {ev['nombre']} | {ev['inicio']} | {ev['grupo']}")
         if solo_lista:
