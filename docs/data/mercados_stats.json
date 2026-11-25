@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T00:55-05:00",
+ "actualizado": "2026-11-25T06:54-05:00",
  "revisados": 11,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
@@ -27,6 +27,33 @@
      "tarjetas": 1.9,
      "tarjetas_contra": 1.4,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-25 14:00",
+   "liga": "Serie B",
+   "partido": "Mantova - Arezzo",
+   "mercado": "Total de Tiros de Esquina a favor de Arezzo",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.85,
+   "esperado": 2.63,
+   "prob": 0.718,
+   "cuota_minima": 1.45,
+   "ventaja": 0.328,
+   "kelly": 0.385,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 4.3,
+     "corners_contra": 3.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.17,
+     "corners_contra": 5.5,
+     "n": 6
     }
    }
   },
@@ -81,33 +108,6 @@
      "corners": 5.6,
      "corners_contra": 3.6,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Mantova - Arezzo",
-   "mercado": "Total de Tiros de Esquina a favor de Arezzo",
-   "seleccion": "Menos de 3.5",
-   "cuota": 1.81,
-   "esperado": 2.63,
-   "prob": 0.718,
-   "cuota_minima": 1.45,
-   "ventaja": 0.299,
-   "kelly": 0.369,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 4.3,
-     "corners_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 3.17,
-     "corners_contra": 5.5,
-     "n": 6
     }
    }
   },
@@ -171,12 +171,12 @@
    "partido": "Mantova - Arezzo",
    "mercado": "Total de Tiros de Esquina",
    "seleccion": "Menos de 9.5",
-   "cuota": 1.55,
+   "cuota": 1.54,
    "esperado": 7.14,
    "prob": 0.781,
    "cuota_minima": 1.33,
-   "ventaja": 0.21,
-   "kelly": 0.382,
+   "ventaja": 0.202,
+   "kelly": 0.375,
    "clave": "corners",
    "lado": "t",
    "datos": {
@@ -837,33 +837,6 @@
      "tarjetas": 1.9,
      "tarjetas_contra": 1.4,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Mantova - Arezzo",
-   "mercado": "Total de Tiros de Esquina a favor de Mantova",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.93,
-   "esperado": 4.51,
-   "prob": 0.551,
-   "cuota_minima": 1.89,
-   "ventaja": 0.063,
-   "kelly": 0.068,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 4.3,
-     "corners_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 3.17,
-     "corners_contra": 5.5,
-     "n": 6
     }
    }
   },
