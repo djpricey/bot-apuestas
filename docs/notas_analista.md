@@ -15,6 +15,11 @@
 - La página (index.html) solo muestra en la pestaña Partidos los partidos con la fecha MÁS ALTA de partidos[]. Pon ahí solo los del día D; los de días siguientes van en otros_partidos ("Mañana ..." / "Jue 26 ...").
 - Pinnacle vía hoy.json solo cubre copas; para ligas domésticas no hay precio de referencia: usa el promedio modelo + BetPlay sin margen y el log de cuotas_ahora (los logs se leen con get_job_logs; la descarga directa de logs está bloqueada).
 
+- El comparador del bot (errores.json) puede emparejar el partido equivocado: el 25-nov marcó Atlético–Viking "ambos marcan NO" a 2.18 (+16 %) con cuotas del partido SUB-19 (pocas decenas de mercados y "Total Goals by Atlético Madrid U19"). Si n_mercados es muy bajo para un partido grande, verifica con cuotas_ahora "ruta:..." antes de usarlo.
+- Tras recalcular el escáner con promedio simple y promediar con BetPlay, casi todo queda entre -3 % y +4 %: las "ventajas" de 15-45 % del escáner son humo. Las únicas líneas que se acercan al mínimo suelen ser colas (cuotas 2.3+) con muestras de 4 partidos de copa: no publicarlas.
+- No ir a "más córners" de un equipo que viene de una goleada grave en su último partido (Dundee 0-8 → 3 córners el 24-nov): el mercado lo descuenta mejor que los últimos 10.
+- Para republicar la página: Artifact read sin path (guarda el HTML completo), leerlo entero y publicar ese archivo como file_path con files {"data.json": ...}.
+
 ## Candidatos vistos el 23-nov 11 p. m. (re-verificar cuotas, alineaciones y árbitro)
 - Jue 26 Olympiakos–Milan: Milan menos de 3.5 córners (2.08) / menos de 4.5 (1.55). Milan saca solo 3.0 córners fuera en Serie A.
 - Jue 26 Celta–Bournemouth: DESCARTADO el 24-nov (en la EL los dos sacan muchos córners).
