@@ -1,98 +1,67 @@
 {
- "actualizado": "2026-11-24T06:52-05:00",
+ "actualizado": "2026-11-24T21:53-05:00",
  "umbral": 0.02,
- "picks": [],
+ "picks": [
+  {
+   "inicio": "2026-11-25T19:00-05:00",
+   "liga": "Argentina",
+   "partido": "Boca Juniors vs Ind. Rivadavia",
+   "mercado": "Resultado Final",
+   "seleccion": "2",
+   "cuota_betplay": 6.4,
+   "prob_pinnacle": 0.165,
+   "cuota_justa": 6.06,
+   "ventaja": 0.056,
+   "kelly": 0.01,
+   "idea": "visita",
+   "senales": {
+    "modelo": 0.166,
+    "rachas": 0.3
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  }
+ ],
  "errores": [
   {
-   "inicio": "2026-11-24T14:45-05:00",
-   "liga": "Championship",
-   "partido": "Middlesbrough vs Swansea",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 4.5",
-   "cuota_betplay": 4.1,
-   "prob_pinnacle": 0.253,
-   "cuota_justa": 3.95,
-   "ventaja": 0.037,
-   "kelly": 0.012,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.16,
-    "rachas": 0.1,
-    "cruces": 0.0
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo",
-    "rachas",
-    "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-24T14:45-05:00",
-   "liga": "Escocia",
-   "partido": "Hibernian vs Dundee",
+   "inicio": "2026-11-25T19:00-05:00",
+   "liga": "Argentina",
+   "partido": "Boca Juniors vs Ind. Rivadavia",
    "mercado": "Resultado Final",
-   "seleccion": "1",
-   "cuota_betplay": 1.68,
-   "prob_pinnacle": 0.616,
-   "cuota_justa": 1.62,
-   "ventaja": 0.035,
-   "kelly": 0.051,
-   "idea": "local",
+   "seleccion": "2",
+   "cuota_betplay": 6.4,
+   "prob_pinnacle": 0.165,
+   "cuota_justa": 6.06,
+   "ventaja": 0.056,
+   "kelly": 0.01,
+   "idea": "visita",
    "senales": {
-    "modelo": 0.619,
-    "rachas": 0.125,
-    "cruces": 0.8
+    "modelo": 0.166,
+    "rachas": 0.3
    },
-   "veredicto": "en contra",
-   "en_contra": [
-    "rachas"
-   ]
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
   },
   {
-   "inicio": "2026-11-24T15:00-05:00",
-   "liga": "Escocia",
-   "partido": "Rangers vs Aberdeen",
+   "inicio": "2026-11-25T19:00-05:00",
+   "liga": "Argentina",
+   "partido": "Boca Juniors vs Ind. Rivadavia",
    "mercado": "Total de goles",
-   "seleccion": "Más de 5.5",
-   "cuota_betplay": 5.75,
-   "prob_pinnacle": 0.18,
-   "cuota_justa": 5.56,
-   "ventaja": 0.035,
-   "kelly": 0.007,
-   "idea": "goles-OT_OVER",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 3.2,
+   "prob_pinnacle": 0.323,
+   "cuota_justa": 3.1,
+   "ventaja": 0.034,
+   "kelly": 0.015,
+   "idea": "goles-OT_UNDER",
    "senales": {
-    "modelo": 0.105,
-    "rachas": 0.1,
-    "cruces": 0.0
+    "modelo": 0.262,
+    "rachas": 0.45
    },
-   "veredicto": "en contra",
-   "en_contra": [
-    "cruces"
-   ]
-  },
-  {
-   "inicio": "2026-11-24T15:00-05:00",
-   "liga": "Escocia",
-   "partido": "Rangers vs Aberdeen",
-   "mercado": "Total de goles",
-   "seleccion": "Más de 3.5",
-   "cuota_betplay": 1.95,
-   "prob_pinnacle": 0.527,
-   "cuota_justa": 1.9,
-   "ventaja": 0.028,
-   "kelly": 0.029,
-   "idea": "goles-OT_OVER",
-   "senales": {
-    "modelo": 0.397,
-    "rachas": 0.55,
-    "cruces": 0.4
-   },
-   "veredicto": "en contra",
-   "en_contra": [
-    "modelo",
-    "cruces"
-   ]
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
   }
  ]
 }
