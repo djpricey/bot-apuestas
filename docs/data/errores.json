@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T21:53-05:00",
+ "actualizado": "2026-11-25T00:55-05:00",
  "umbral": 0.02,
  "picks": [
   {
@@ -24,6 +24,22 @@
   }
  ],
  "errores": [
+  {
+   "inicio": "2026-11-25T15:00-05:00",
+   "liga": "Copas",
+   "partido": "Atletico Madrid vs Viking FK",
+   "mercado": "Ambos Equipos Marcarán",
+   "seleccion": "No",
+   "cuota_betplay": 2.18,
+   "prob_pinnacle": 0.532,
+   "cuota_justa": 1.88,
+   "ventaja": 0.16,
+   "kelly": 0.135,
+   "idea": "btts-OT_NO",
+   "senales": {},
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
+  },
   {
    "inicio": "2026-11-25T19:00-05:00",
    "liga": "Argentina",
@@ -51,15 +67,31 @@
    "mercado": "Total de goles",
    "seleccion": "Menos de 1.5",
    "cuota_betplay": 3.2,
-   "prob_pinnacle": 0.323,
-   "cuota_justa": 3.1,
-   "ventaja": 0.034,
-   "kelly": 0.015,
+   "prob_pinnacle": 0.322,
+   "cuota_justa": 3.11,
+   "ventaja": 0.03,
+   "kelly": 0.014,
    "idea": "goles-OT_UNDER",
    "senales": {
     "modelo": 0.262,
     "rachas": 0.45
    },
+   "veredicto": "sin datos suficientes",
+   "en_contra": []
+  },
+  {
+   "inicio": "2026-11-25T15:00-05:00",
+   "liga": "Copas",
+   "partido": "Atletico Madrid vs Viking FK",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 1.18,
+   "prob_pinnacle": 0.867,
+   "cuota_justa": 1.15,
+   "ventaja": 0.023,
+   "kelly": 0.128,
+   "idea": "local",
+   "senales": {},
    "veredicto": "sin datos suficientes",
    "en_contra": []
   }
