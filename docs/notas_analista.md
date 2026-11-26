@@ -20,6 +20,9 @@
 - No ir a "más córners" de un equipo que viene de una goleada grave en su último partido (Dundee 0-8 → 3 córners el 24-nov): el mercado lo descuenta mejor que los últimos 10.
 - Para republicar la página: Artifact read sin path (guarda el HTML completo), leerlo entero y publicar ese archivo como file_path con files {"data.json": ...}.
 
+- Cuotas largas (4.0+): quitar el margen de Pinnacle en partes iguales (proporcional) infla la probabilidad de los "longshots" y fabrica ventajas falsas (26-nov: menos de 1.5 goles a 7.00 en Lyon y Beşiktaş, Ajax pierde a 15, más de 4.5 goles en Olympiakos–Milan). Para cuotas largas usa el método potencia (p_i = (1/o_i)^k con k tal que sumen 1) antes de calcular EV; con eso casi todas desaparecen.
+- Antes de "Milan/Juve menos córners": mira también si el equipo está obligado a ganar en la tabla de la fase de liga (Milan 28.º el 26-nov) y separa casa/fuera en la propia copa (la media de 4 partidos la infla un solo partido en casa).
+
 ## Candidatos vistos el 23-nov 11 p. m. (re-verificar cuotas, alineaciones y árbitro)
 - Jue 26 Olympiakos–Milan: Milan menos de 3.5 córners (2.08) / menos de 4.5 (1.55). Milan saca solo 3.0 córners fuera en Serie A.
 - Jue 26 Celta–Bournemouth: DESCARTADO el 24-nov (en la EL los dos sacan muchos córners).
