@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T00:56-05:00",
+ "actualizado": "2026-11-26T06:54-05:00",
  "revisados": 4,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
@@ -9,12 +9,12 @@
    "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tiros a puerta por parte de Lillestrøm (Resuelta usando Opta Data)",
    "seleccion": "Más de 2.5",
-   "cuota": 1.71,
+   "cuota": 1.73,
    "esperado": 5.11,
    "prob": 0.85,
    "cuota_minima": 1.22,
-   "ventaja": 0.454,
-   "kelly": 0.639,
+   "ventaja": 0.471,
+   "kelly": 0.645,
    "clave": "tiros_puerta",
    "lado": "v",
    "datos": {
@@ -36,12 +36,12 @@
    "partido": "Lyon - Lillestrøm",
    "mercado": "Número total de tiros por parte de Lyon (Resuelta usando Opta Data)",
    "seleccion": "Menos de 19.5",
-   "cuota": 1.7,
+   "cuota": 1.61,
    "esperado": 14.81,
    "prob": 0.824,
    "cuota_minima": 1.26,
-   "ventaja": 0.4,
-   "kelly": 0.572,
+   "ventaja": 0.326,
+   "kelly": 0.535,
    "clave": "tiros",
    "lado": "l",
    "datos": {
@@ -61,25 +61,25 @@
    "inicio": "2026-11-26 15:00",
    "liga": "Ligue 1",
    "partido": "Lyon - Lillestrøm",
-   "mercado": "Número total de tiros por parte de Lillestrøm (Resuelta usando Opta Data)",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.95,
-   "esperado": 10.67,
-   "prob": 0.663,
-   "cuota_minima": 1.57,
-   "ventaja": 0.293,
-   "kelly": 0.309,
-   "clave": "tiros",
-   "lado": "v",
+   "mercado": "Paradas del Portero - Lyon (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.55,
+   "esperado": 3.4,
+   "prob": 0.828,
+   "cuota_minima": 1.26,
+   "ventaja": 0.283,
+   "kelly": 0.514,
+   "clave": "atajadas",
+   "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros": 15.2,
-     "tiros_contra": 11.7,
+     "atajadas": 2.9,
+     "atajadas_contra": null,
      "n": 10
     },
     "visita_fuera": {
-     "tiros": 10.5,
-     "tiros_contra": 13.9,
+     "atajadas": 3.1,
+     "atajadas_contra": null,
      "n": 10
     }
    }
@@ -90,12 +90,12 @@
    "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tiros a puerta por parte de Lyon (Resuelta usando Opta Data)",
    "seleccion": "Menos de 8.5",
-   "cuota": 1.35,
+   "cuota": 1.33,
    "esperado": 4.25,
    "prob": 0.95,
    "cuota_minima": 1.09,
-   "ventaja": 0.283,
-   "kelly": 0.807,
+   "ventaja": 0.264,
+   "kelly": 0.798,
    "clave": "tiros_puerta",
    "lado": "l",
    "datos": {
@@ -115,97 +115,16 @@
    "inicio": "2026-11-26 15:00",
    "liga": "Ligue 1",
    "partido": "Lyon - Lillestrøm",
-   "mercado": "Paradas del Portero - Lyon (Resuelta usando Opta Data)",
-   "seleccion": "Más de 1.5",
-   "cuota": 1.54,
-   "esperado": 3.4,
-   "prob": 0.828,
-   "cuota_minima": 1.26,
-   "ventaja": 0.275,
-   "kelly": 0.509,
-   "clave": "atajadas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "atajadas": 2.9,
-     "atajadas_contra": null,
-     "n": 10
-    },
-    "visita_fuera": {
-     "atajadas": 3.1,
-     "atajadas_contra": null,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-26 15:00",
-   "liga": "League One",
-   "partido": "Doncaster Rovers - Huddersfield Town",
-   "mercado": "Total de Tiros de Esquina a favor de Doncaster Rovers",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.33,
-   "esperado": 2.69,
-   "prob": 0.907,
-   "cuota_minima": 1.15,
-   "ventaja": 0.207,
-   "kelly": 0.627,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 3.8,
-     "corners_contra": 5.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.8,
-     "corners_contra": 4.1,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-26 15:00",
-   "liga": "League One",
-   "partido": "Doncaster Rovers - Huddersfield Town",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 11.5",
-   "cuota": 1.56,
-   "esperado": 9.18,
+   "mercado": "Número total de tiros por parte de Lillestrøm (Resuelta usando Opta Data)",
+   "seleccion": "Más de 7.5",
+   "cuota": 1.68,
+   "esperado": 10.67,
    "prob": 0.752,
    "cuota_minima": 1.38,
-   "ventaja": 0.173,
-   "kelly": 0.31,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 3.8,
-     "corners_contra": 5.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.8,
-     "corners_contra": 4.1,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-26 15:00",
-   "liga": "Ligue 1",
-   "partido": "Lyon - Lillestrøm",
-   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 28.5",
-   "cuota": 1.64,
-   "esperado": 25.49,
-   "prob": 0.69,
-   "cuota_minima": 1.51,
-   "ventaja": 0.132,
-   "kelly": 0.206,
+   "ventaja": 0.264,
+   "kelly": 0.388,
    "clave": "tiros",
-   "lado": "t",
+   "lado": "v",
    "datos": {
     "local_casa": {
      "tiros": 15.2,
@@ -221,27 +140,27 @@
   },
   {
    "inicio": "2026-11-26 15:00",
-   "liga": "Ligue 1",
-   "partido": "Lyon - Lillestrøm",
-   "mercado": "Total de Tiros de Esquina a favor de Lillestrøm",
-   "seleccion": "Más de 2.5",
-   "cuota": 1.63,
-   "esperado": 3.9,
-   "prob": 0.686,
-   "cuota_minima": 1.52,
-   "ventaja": 0.118,
-   "kelly": 0.188,
+   "liga": "League One",
+   "partido": "Doncaster Rovers - Huddersfield Town",
+   "mercado": "Total de Tiros de Esquina a favor de Doncaster Rovers",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.33,
+   "esperado": 2.68,
+   "prob": 0.908,
+   "cuota_minima": 1.15,
+   "ventaja": 0.207,
+   "kelly": 0.629,
    "clave": "corners",
-   "lado": "v",
+   "lado": "l",
    "datos": {
     "local_casa": {
-     "corners": 6.1,
-     "corners_contra": 5.8,
+     "corners": 3.8,
+     "corners_contra": 5.7,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 2.8,
-     "corners_contra": 5.7,
+     "corners": 5.8,
+     "corners_contra": 4.1,
      "n": 10
     }
    }
@@ -252,12 +171,12 @@
    "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tarjetas",
    "seleccion": "Más de 2.5",
-   "cuota": 1.32,
+   "cuota": 1.43,
    "esperado": 5.08,
    "prob": 0.836,
    "cuota_minima": 1.24,
-   "ventaja": 0.104,
-   "kelly": 0.325,
+   "ventaja": 0.196,
+   "kelly": 0.456,
    "clave": "tarjetas",
    "lado": "t",
    "datos": {
@@ -277,41 +196,14 @@
    "inicio": "2026-11-26 15:00",
    "liga": "Ligue 1",
    "partido": "Lyon - Lillestrøm",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 9.5",
-   "cuota": 2.02,
-   "esperado": 9.37,
-   "prob": 0.546,
-   "cuota_minima": 1.9,
-   "ventaja": 0.103,
-   "kelly": 0.101,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 5.8,
-     "tiros_puerta_contra": 4.2,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.9,
-     "tiros_puerta_contra": 3.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-26 15:00",
-   "liga": "Ligue 1",
-   "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tarjetas - Lillestrøm",
    "seleccion": "Más de 1.5",
-   "cuota": 1.42,
+   "cuota": 1.53,
    "esperado": 3.11,
    "prob": 0.765,
    "cuota_minima": 1.36,
-   "ventaja": 0.087,
-   "kelly": 0.206,
+   "ventaja": 0.171,
+   "kelly": 0.322,
    "clave": "tarjetas",
    "lado": "v",
    "datos": {
@@ -333,12 +225,12 @@
    "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tarjetas - Lyon",
    "seleccion": "Más de 1.5",
-   "cuota": 2.0,
+   "cuota": 2.15,
    "esperado": 1.96,
    "prob": 0.54,
    "cuota_minima": 1.93,
-   "ventaja": 0.079,
-   "kelly": 0.079,
+   "ventaja": 0.16,
+   "kelly": 0.139,
    "clave": "tarjetas",
    "lado": "l",
    "datos": {
@@ -350,6 +242,114 @@
     "visita_fuera": {
      "tarjetas": 2.5,
      "tarjetas_contra": 2.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 25.5",
+   "cuota": 2.2,
+   "esperado": 25.49,
+   "prob": 0.526,
+   "cuota_minima": 1.98,
+   "ventaja": 0.158,
+   "kelly": 0.132,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.2,
+     "tiros_contra": 11.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.5,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de Tiros de Esquina a favor de Lillestrøm",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.65,
+   "esperado": 3.9,
+   "prob": 0.686,
+   "cuota_minima": 1.52,
+   "ventaja": 0.132,
+   "kelly": 0.203,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 6.1,
+     "corners_contra": 5.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.8,
+     "corners_contra": 5.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 2.6,
+   "esperado": 9.37,
+   "prob": 0.431,
+   "cuota_minima": 2.42,
+   "ventaja": 0.12,
+   "kelly": 0.075,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "League One",
+   "partido": "Doncaster Rovers - Huddersfield Town",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 12.5",
+   "cuota": 1.35,
+   "esperado": 9.15,
+   "prob": 0.823,
+   "cuota_minima": 1.26,
+   "ventaja": 0.111,
+   "kelly": 0.318,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.8,
+     "corners_contra": 5.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.8,
+     "corners_contra": 4.1,
      "n": 10
     }
    }

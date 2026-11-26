@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T00:56-05:00",
+ "actualizado": "2026-11-26T06:54-05:00",
  "edge_min": 0.05,
  "ligas": {
   "Argentina": {
@@ -610,7 +610,7 @@
   },
   "Championship": {
    "local": 1.13,
-   "goles_partido": 2.73,
+   "goles_partido": 2.72,
    "equipos": [
     {
      "equipo": "Leeds",
@@ -620,135 +620,129 @@
     },
     {
      "equipo": "Coventry",
-     "ataque": 1.36,
-     "defensa": 0.78,
-     "fuerza": 1.75
+     "ataque": 1.37,
+     "defensa": 0.77,
+     "fuerza": 1.78
     },
     {
      "equipo": "Southampton",
-     "ataque": 1.33,
-     "defensa": 0.8,
-     "fuerza": 1.66
+     "ataque": 1.32,
+     "defensa": 0.79,
+     "fuerza": 1.67
     },
     {
      "equipo": "Ipswich",
-     "ataque": 1.24,
-     "defensa": 0.8,
-     "fuerza": 1.55
+     "ataque": 1.25,
+     "defensa": 0.79,
+     "fuerza": 1.58
     },
     {
      "equipo": "Middlesbrough",
-     "ataque": 1.21,
-     "defensa": 0.85,
-     "fuerza": 1.43
-    },
-    {
-     "equipo": "West Ham",
-     "ataque": 1.52,
-     "defensa": 1.12,
-     "fuerza": 1.36
-    },
-    {
-     "equipo": "Birmingham",
-     "ataque": 1.07,
-     "defensa": 0.8,
-     "fuerza": 1.35
+     "ataque": 1.22,
+     "defensa": 0.84,
+     "fuerza": 1.45
     },
     {
      "equipo": "Wolves",
-     "ataque": 1.16,
-     "defensa": 0.87,
-     "fuerza": 1.34
+     "ataque": 1.2,
+     "defensa": 0.83,
+     "fuerza": 1.45
+    },
+    {
+     "equipo": "Birmingham",
+     "ataque": 1.08,
+     "defensa": 0.76,
+     "fuerza": 1.42
+    },
+    {
+     "equipo": "West Ham",
+     "ataque": 1.44,
+     "defensa": 1.09,
+     "fuerza": 1.32
     },
     {
      "equipo": "Norwich",
-     "ataque": 1.24,
-     "defensa": 1.0,
-     "fuerza": 1.25
+     "ataque": 1.23,
+     "defensa": 0.99,
+     "fuerza": 1.24
+    },
+    {
+     "equipo": "West Brom",
+     "ataque": 0.99,
+     "defensa": 0.83,
+     "fuerza": 1.19
     },
     {
      "equipo": "Sheffield United",
      "ataque": 1.09,
-     "defensa": 0.97,
-     "fuerza": 1.13
-    },
-    {
-     "equipo": "West Brom",
-     "ataque": 0.95,
-     "defensa": 0.84,
-     "fuerza": 1.13
+     "defensa": 0.95,
+     "fuerza": 1.14
     },
     {
      "equipo": "Swansea",
      "ataque": 1.01,
-     "defensa": 0.95,
+     "defensa": 0.96,
      "fuerza": 1.06
     },
     {
-     "equipo": "Millwall",
-     "ataque": 1.0,
-     "defensa": 0.98,
-     "fuerza": 1.03
+     "equipo": "Hull",
+     "ataque": 1.03,
+     "defensa": 0.99,
+     "fuerza": 1.04
     },
     {
      "equipo": "Wrexham",
      "ataque": 1.0,
-     "defensa": 0.97,
-     "fuerza": 1.03
-    },
-    {
-     "equipo": "Hull",
-     "ataque": 1.02,
-     "defensa": 1.0,
-     "fuerza": 1.02
+     "defensa": 0.96,
+     "fuerza": 1.04
     },
     {
      "equipo": "QPR",
-     "ataque": 1.02,
-     "defensa": 1.0,
-     "fuerza": 1.02
+     "ataque": 1.01,
+     "defensa": 0.98,
+     "fuerza": 1.03
     },
     {
      "equipo": "Stoke",
-     "ataque": 0.92,
+     "ataque": 0.94,
      "defensa": 0.91,
-     "fuerza": 1.01
+     "fuerza": 1.03
+    },
+    {
+     "equipo": "Millwall",
+     "ataque": 1.01,
+     "defensa": 0.99,
+     "fuerza": 1.02
+    },
+    {
+     "equipo": "Portsmouth",
+     "ataque": 0.88,
+     "defensa": 0.91,
+     "fuerza": 0.97
     },
     {
      "equipo": "Sunderland",
-     "ataque": 0.85,
+     "ataque": 0.86,
      "defensa": 0.89,
      "fuerza": 0.96
     },
     {
-     "equipo": "Cardiff",
-     "ataque": 1.16,
-     "defensa": 1.23,
-     "fuerza": 0.94
-    },
-    {
-     "equipo": "Portsmouth",
-     "ataque": 0.89,
-     "defensa": 0.95,
-     "fuerza": 0.94
-    },
-    {
      "equipo": "Blackburn",
      "ataque": 0.87,
-     "defensa": 0.97,
-     "fuerza": 0.9
-    },
-    {
-     "equipo": "Burnley",
-     "ataque": 1.1,
-     "defensa": 1.23,
-     "fuerza": 0.89
+     "defensa": 0.95,
+     "fuerza": 0.92
     },
     {
      "equipo": "Leicester",
-     "ataque": 0.92,
-     "defensa": 1.08,
-     "fuerza": 0.86
+     "ataque": 0.93,
+     "defensa": 1.07,
+     "fuerza": 0.87
+    },
+    {
+     "equipo": "Burnley",
+     "ataque": 1.06,
+     "defensa": 1.25,
+     "fuerza": 0.84
     },
     {
      "equipo": "Luton",
@@ -759,20 +753,20 @@
     {
      "equipo": "Oxford",
      "ataque": 0.77,
-     "defensa": 0.94,
+     "defensa": 0.93,
+     "fuerza": 0.83
+    },
+    {
+     "equipo": "Cardiff",
+     "ataque": 1.1,
+     "defensa": 1.33,
      "fuerza": 0.82
     },
     {
      "equipo": "Bristol City",
      "ataque": 0.84,
-     "defensa": 1.05,
-     "fuerza": 0.8
-    },
-    {
-     "equipo": "Derby",
-     "ataque": 0.87,
-     "defensa": 1.1,
-     "fuerza": 0.79
+     "defensa": 1.04,
+     "fuerza": 0.81
     },
     {
      "equipo": "Plymouth",
@@ -781,38 +775,44 @@
      "fuerza": 0.78
     },
     {
-     "equipo": "Bolton",
-     "ataque": 0.95,
-     "defensa": 1.26,
-     "fuerza": 0.75
+     "equipo": "Derby",
+     "ataque": 0.85,
+     "defensa": 1.12,
+     "fuerza": 0.76
     },
     {
      "equipo": "Preston",
-     "ataque": 0.79,
-     "defensa": 1.16,
-     "fuerza": 0.68
+     "ataque": 0.85,
+     "defensa": 1.12,
+     "fuerza": 0.76
     },
     {
      "equipo": "Charlton",
-     "ataque": 0.69,
-     "defensa": 1.02,
-     "fuerza": 0.67
+     "ataque": 0.75,
+     "defensa": 1.0,
+     "fuerza": 0.75
+    },
+    {
+     "equipo": "Bolton",
+     "ataque": 0.94,
+     "defensa": 1.32,
+     "fuerza": 0.71
     },
     {
      "equipo": "Watford",
-     "ataque": 0.71,
-     "defensa": 1.11,
-     "fuerza": 0.64
+     "ataque": 0.69,
+     "defensa": 1.1,
+     "fuerza": 0.63
     },
     {
      "equipo": "Lincoln",
-     "ataque": 0.73,
-     "defensa": 1.18,
-     "fuerza": 0.62
+     "ataque": 0.7,
+     "defensa": 1.3,
+     "fuerza": 0.54
     },
     {
      "equipo": "Sheffield Weds",
-     "ataque": 0.62,
+     "ataque": 0.63,
      "defensa": 1.27,
      "fuerza": 0.49
     }
@@ -952,19 +952,19 @@
   },
   "Escocia": {
    "local": 1.09,
-   "goles_partido": 2.9,
+   "goles_partido": 2.91,
    "equipos": [
     {
      "equipo": "Celtic",
      "ataque": 1.56,
-     "defensa": 0.7,
+     "defensa": 0.69,
      "fuerza": 2.25
     },
     {
      "equipo": "Rangers",
-     "ataque": 1.46,
-     "defensa": 0.77,
-     "fuerza": 1.9
+     "ataque": 1.47,
+     "defensa": 0.78,
+     "fuerza": 1.88
     },
     {
      "equipo": "Hearts",
@@ -975,13 +975,13 @@
     {
      "equipo": "Hibernian",
      "ataque": 1.1,
-     "defensa": 0.85,
+     "defensa": 0.84,
      "fuerza": 1.3
     },
     {
      "equipo": "Motherwell",
      "ataque": 0.97,
-     "defensa": 0.89,
+     "defensa": 0.88,
      "fuerza": 1.1
     },
     {
@@ -998,20 +998,20 @@
     },
     {
      "equipo": "Dundee",
-     "ataque": 0.91,
-     "defensa": 1.19,
+     "ataque": 0.9,
+     "defensa": 1.18,
      "fuerza": 0.76
     },
     {
      "equipo": "Aberdeen",
-     "ataque": 0.77,
-     "defensa": 1.05,
-     "fuerza": 0.73
+     "ataque": 0.78,
+     "defensa": 1.06,
+     "fuerza": 0.74
     },
     {
      "equipo": "Kilmarnock",
      "ataque": 0.9,
-     "defensa": 1.26,
+     "defensa": 1.25,
      "fuerza": 0.72
     },
     {
@@ -1034,7 +1034,7 @@
     },
     {
      "equipo": "Livingston",
-     "ataque": 0.78,
+     "ataque": 0.77,
      "defensa": 1.3,
      "fuerza": 0.6
     }
