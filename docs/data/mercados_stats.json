@@ -1,922 +1,382 @@
 {
- "actualizado": "2026-11-25T06:54-05:00",
- "revisados": 11,
+ "actualizado": "2026-11-25T21:50-05:00",
+ "revisados": 4,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
   {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tarjetas - Bolton",
-   "seleccion": "Menos de 1.5",
-   "cuota": 2.12,
-   "esperado": 1.15,
-   "prob": 0.692,
-   "cuota_minima": 1.5,
-   "ventaja": 0.467,
-   "kelly": 0.417,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.5,
-     "tarjetas_contra": 2.0,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tarjetas": 1.9,
-     "tarjetas_contra": 1.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Mantova - Arezzo",
-   "mercado": "Total de Tiros de Esquina a favor de Arezzo",
-   "seleccion": "Menos de 3.5",
-   "cuota": 1.85,
-   "esperado": 2.63,
-   "prob": 0.718,
-   "cuota_minima": 1.45,
-   "ventaja": 0.328,
-   "kelly": 0.385,
-   "clave": "corners",
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de tiros a puerta por parte de Lillestrøm (Resuelta usando Opta Data)",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.71,
+   "esperado": 5.11,
+   "prob": 0.85,
+   "cuota_minima": 1.22,
+   "ventaja": 0.454,
+   "kelly": 0.639,
+   "clave": "tiros_puerta",
    "lado": "v",
    "datos": {
     "local_casa": {
-     "corners": 4.3,
-     "corners_contra": 3.8,
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 4.2,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 3.17,
-     "corners_contra": 5.5,
-     "n": 6
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Paradas del Portero (Resuelta usando Opta Data)",
-   "seleccion": "Más de 5.5",
-   "cuota": 1.67,
-   "esperado": 8.02,
-   "prob": 0.785,
-   "cuota_minima": 1.32,
-   "ventaja": 0.311,
-   "kelly": 0.465,
-   "clave": "atajadas",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "atajadas": 4.0,
-     "atajadas_contra": null,
-     "n": 8
-    },
-    "visita_fuera": {
-     "atajadas": 3.5,
-     "atajadas_contra": null,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Padova - Sampdoria",
-   "mercado": "Total de Tiros de Esquina a favor de Padova",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.68,
-   "esperado": 3.09,
-   "prob": 0.774,
-   "cuota_minima": 1.34,
-   "ventaja": 0.3,
-   "kelly": 0.442,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 4.5,
-     "corners_contra": 4.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.6,
-     "corners_contra": 3.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de Tiros de Esquina a favor de Bolton",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.4,
-   "esperado": 7.73,
-   "prob": 0.909,
-   "cuota_minima": 1.14,
-   "ventaja": 0.273,
-   "kelly": 0.683,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 6.88,
-     "corners_contra": 5.25,
-     "n": 8
-    },
-    "visita_fuera": {
-     "corners": 5.6,
-     "corners_contra": 6.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
-   "mercado": "Total de tarjetas - Burnley",
-   "seleccion": "Más de 1.5",
-   "cuota": 1.55,
-   "esperado": 3.26,
-   "prob": 0.786,
-   "cuota_minima": 1.32,
-   "ventaja": 0.218,
-   "kelly": 0.397,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.38,
-     "tarjetas_contra": 1.75,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tarjetas": 2.3,
-     "tarjetas_contra": 2.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Mantova - Arezzo",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 9.5",
-   "cuota": 1.54,
-   "esperado": 7.14,
-   "prob": 0.781,
-   "cuota_minima": 1.33,
-   "ventaja": 0.202,
-   "kelly": 0.375,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 4.3,
-     "corners_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 3.17,
-     "corners_contra": 5.5,
-     "n": 6
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de Tiros de Esquina a favor de Stoke City",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.44,
-   "esperado": 7.75,
-   "prob": 0.831,
-   "cuota_minima": 1.25,
-   "ventaja": 0.197,
-   "kelly": 0.447,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 6.4,
-     "corners_contra": 3.6,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.8,
-     "corners_contra": 6.9,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Más de 7.5",
-   "cuota": 1.41,
-   "esperado": 11.3,
-   "prob": 0.841,
-   "cuota_minima": 1.24,
-   "ventaja": 0.186,
-   "kelly": 0.453,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 5.5,
-     "tiros_puerta_contra": 6.0,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.8,
-     "tiros_puerta_contra": 4.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.3,
-   "esperado": 14.03,
-   "prob": 0.896,
-   "cuota_minima": 1.16,
-   "ventaja": 0.164,
-   "kelly": 0.548,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 6.88,
-     "corners_contra": 5.25,
-     "n": 8
-    },
-    "visita_fuera": {
-     "corners": 5.6,
-     "corners_contra": 6.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de tarjetas - Stoke City",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.5,
-   "esperado": 1.59,
-   "prob": 0.774,
-   "cuota_minima": 1.34,
-   "ventaja": 0.16,
-   "kelly": 0.321,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.7,
-     "tarjetas_contra": 2.6,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 2.1,
-     "tarjetas_contra": 1.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 9.5",
-   "cuota": 1.34,
-   "esperado": 6.39,
-   "prob": 0.86,
-   "cuota_minima": 1.21,
-   "ventaja": 0.152,
-   "kelly": 0.447,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.7,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.1,
-     "tiros_puerta_contra": 4.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.44,
-   "esperado": 2.94,
-   "prob": 0.8,
-   "cuota_minima": 1.3,
-   "ventaja": 0.152,
-   "kelly": 0.346,
-   "clave": "tarjetas",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.5,
-     "tarjetas_contra": 2.0,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tarjetas": 1.9,
-     "tarjetas_contra": 1.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
-   "mercado": "Total de tiros a puerta por parte de Burnley (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.27,
-   "esperado": 2.88,
-   "prob": 0.903,
-   "cuota_minima": 1.15,
-   "ventaja": 0.147,
-   "kelly": 0.543,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.62,
-     "tiros_puerta_contra": 3.75,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.8,
+     "tiros_puerta": 4.9,
      "tiros_puerta_contra": 3.7,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Watford - Blackburn Rovers",
-   "mercado": "Total de Tiros de Esquina a favor de Watford",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.36,
-   "esperado": 4.17,
-   "prob": 0.833,
-   "cuota_minima": 1.25,
-   "ventaja": 0.133,
-   "kelly": 0.37,
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Número total de tiros por parte de Lyon (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 19.5",
+   "cuota": 1.7,
+   "esperado": 14.81,
+   "prob": 0.824,
+   "cuota_minima": 1.26,
+   "ventaja": 0.4,
+   "kelly": 0.572,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.2,
+     "tiros_contra": 11.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.5,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Número total de tiros por parte de Lillestrøm (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.95,
+   "esperado": 10.67,
+   "prob": 0.663,
+   "cuota_minima": 1.57,
+   "ventaja": 0.293,
+   "kelly": 0.309,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.2,
+     "tiros_contra": 11.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.5,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de tiros a puerta por parte de Lyon (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 8.5",
+   "cuota": 1.35,
+   "esperado": 4.25,
+   "prob": 0.95,
+   "cuota_minima": 1.09,
+   "ventaja": 0.283,
+   "kelly": 0.807,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Paradas del Portero - Lyon (Resuelta usando Opta Data)",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.54,
+   "esperado": 3.4,
+   "prob": 0.828,
+   "cuota_minima": 1.26,
+   "ventaja": 0.275,
+   "kelly": 0.509,
+   "clave": "atajadas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "atajadas": 2.9,
+     "atajadas_contra": null,
+     "n": 10
+    },
+    "visita_fuera": {
+     "atajadas": 3.1,
+     "atajadas_contra": null,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "League One",
+   "partido": "Doncaster Rovers - Huddersfield Town",
+   "mercado": "Total de Tiros de Esquina a favor de Doncaster Rovers",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.33,
+   "esperado": 2.69,
+   "prob": 0.907,
+   "cuota_minima": 1.15,
+   "ventaja": 0.207,
+   "kelly": 0.627,
    "clave": "corners",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "corners": 4.4,
-     "corners_contra": 5.9,
+     "corners": 3.8,
+     "corners_contra": 5.7,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 5.1,
-     "corners_contra": 5.4,
+     "corners": 5.8,
+     "corners_contra": 4.1,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
-   "mercado": "Total de Tiros de Esquina a favor de Birmingham",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.43,
-   "esperado": 6.01,
-   "prob": 0.791,
-   "cuota_minima": 1.31,
+   "inicio": "2026-11-26 15:00",
+   "liga": "League One",
+   "partido": "Doncaster Rovers - Huddersfield Town",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.56,
+   "esperado": 9.18,
+   "prob": 0.752,
+   "cuota_minima": 1.38,
+   "ventaja": 0.173,
+   "kelly": 0.31,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 3.8,
+     "corners_contra": 5.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 5.8,
+     "corners_contra": 4.1,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 28.5",
+   "cuota": 1.64,
+   "esperado": 25.49,
+   "prob": 0.69,
+   "cuota_minima": 1.51,
    "ventaja": 0.132,
-   "kelly": 0.307,
+   "kelly": 0.206,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 15.2,
+     "tiros_contra": 11.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 10.5,
+     "tiros_contra": 13.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de Tiros de Esquina a favor de Lillestrøm",
+   "seleccion": "Más de 2.5",
+   "cuota": 1.63,
+   "esperado": 3.9,
+   "prob": 0.686,
+   "cuota_minima": 1.52,
+   "ventaja": 0.118,
+   "kelly": 0.188,
    "clave": "corners",
    "lado": "v",
    "datos": {
     "local_casa": {
-     "corners": 4.75,
-     "corners_contra": 4.75,
-     "n": 8
+     "corners": 6.1,
+     "corners_contra": 5.8,
+     "n": 10
     },
     "visita_fuera": {
-     "corners": 5.9,
-     "corners_contra": 4.6,
+     "corners": 2.8,
+     "corners_contra": 5.7,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tarjetas",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.6,
-   "esperado": 5.15,
-   "prob": 0.708,
-   "cuota_minima": 1.47,
-   "ventaja": 0.132,
-   "kelly": 0.22,
+   "seleccion": "Más de 2.5",
+   "cuota": 1.32,
+   "esperado": 5.08,
+   "prob": 0.836,
+   "cuota_minima": 1.24,
+   "ventaja": 0.104,
+   "kelly": 0.325,
    "clave": "tarjetas",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "tarjetas": 2.38,
-     "tarjetas_contra": 1.75,
-     "n": 8
+     "tarjetas": 1.5,
+     "tarjetas_contra": 2.4,
+     "n": 10
     },
     "visita_fuera": {
-     "tarjetas": 2.3,
-     "tarjetas_contra": 2.5,
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.3,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Watford - Blackburn Rovers",
-   "mercado": "Total de Tiros de Esquina a favor de Blackburn Rovers",
-   "seleccion": "Más de 3.5",
-   "cuota": 1.36,
-   "esperado": 6.45,
-   "prob": 0.83,
-   "cuota_minima": 1.25,
-   "ventaja": 0.129,
-   "kelly": 0.358,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 4.4,
-     "corners_contra": 5.9,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.1,
-     "corners_contra": 5.4,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
    "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
    "seleccion": "Menos de 9.5",
-   "cuota": 1.46,
-   "esperado": 7.41,
+   "cuota": 2.02,
+   "esperado": 9.37,
+   "prob": 0.546,
+   "cuota_minima": 1.9,
+   "ventaja": 0.103,
+   "kelly": 0.101,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 4.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.9,
+     "tiros_puerta_contra": 3.7,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de tarjetas - Lillestrøm",
+   "seleccion": "Más de 1.5",
+   "cuota": 1.42,
+   "esperado": 3.11,
    "prob": 0.765,
    "cuota_minima": 1.36,
-   "ventaja": 0.116,
-   "kelly": 0.253,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.62,
-     "tiros_puerta_contra": 3.75,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.8,
-     "tiros_puerta_contra": 3.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tiros a puerta por parte de Bolton (Resuelta usando Opta Data)",
-   "seleccion": "Más de 2.5",
-   "cuota": 1.26,
-   "esperado": 5.55,
-   "prob": 0.884,
-   "cuota_minima": 1.18,
-   "ventaja": 0.114,
-   "kelly": 0.439,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 5.5,
-     "tiros_puerta_contra": 6.0,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.8,
-     "tiros_puerta_contra": 4.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tiros a puerta por parte de West Bromwich (Resuelta usando Opta Data)",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.72,
-   "esperado": 5.75,
-   "prob": 0.647,
-   "cuota_minima": 1.61,
-   "ventaja": 0.112,
-   "kelly": 0.156,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 5.5,
-     "tiros_puerta_contra": 6.0,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.8,
-     "tiros_puerta_contra": 4.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Watford - Blackburn Rovers",
-   "mercado": "Total de tiros a puerta por parte de Blackburn Rovers (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 3.5",
-   "cuota": 2.05,
-   "esperado": 3.55,
-   "prob": 0.542,
-   "cuota_minima": 1.92,
-   "ventaja": 0.111,
-   "kelly": 0.105,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.1,
-     "tiros_puerta_contra": 4.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.2,
-     "tiros_puerta_contra": 4.9,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Padova - Sampdoria",
-   "mercado": "Total de Tiros de Esquina a favor de Sampdoria",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.72,
-   "esperado": 5.87,
-   "prob": 0.645,
-   "cuota_minima": 1.61,
-   "ventaja": 0.11,
-   "kelly": 0.152,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 4.5,
-     "corners_contra": 4.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.6,
-     "corners_contra": 3.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Watford - Blackburn Rovers",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 8.5",
-   "cuota": 1.8,
-   "esperado": 7.87,
-   "prob": 0.61,
-   "cuota_minima": 1.71,
-   "ventaja": 0.098,
-   "kelly": 0.122,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 4.1,
-     "tiros_puerta_contra": 4.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.2,
-     "tiros_puerta_contra": 4.9,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de tiros a puerta por parte de Stoke City (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.3,
-   "esperado": 3.42,
-   "prob": 0.844,
-   "cuota_minima": 1.23,
-   "ventaja": 0.097,
-   "kelly": 0.323,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.7,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.1,
-     "tiros_puerta_contra": 4.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de tiros a puerta por parte de Millwall (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.37,
-   "esperado": 2.97,
-   "prob": 0.8,
-   "cuota_minima": 1.3,
-   "ventaja": 0.096,
-   "kelly": 0.261,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.7,
-     "tiros_puerta_contra": 3.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 3.1,
-     "tiros_puerta_contra": 4.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
-   "mercado": "Total de Tiros de Esquina a favor de Burnley",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.26,
-   "esperado": 3.83,
-   "prob": 0.867,
-   "cuota_minima": 1.2,
-   "ventaja": 0.092,
-   "kelly": 0.354,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 4.75,
-     "corners_contra": 4.75,
-     "n": 8
-    },
-    "visita_fuera": {
-     "corners": 5.9,
-     "corners_contra": 4.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de Tiros de Esquina a favor de Millwall",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.24,
-   "esperado": 3.7,
-   "prob": 0.879,
-   "cuota_minima": 1.18,
-   "ventaja": 0.09,
-   "kelly": 0.373,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 6.4,
-     "corners_contra": 3.6,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.8,
-     "corners_contra": 6.9,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Burnley - Birmingham",
-   "mercado": "Total de tarjetas - Birmingham",
-   "seleccion": "Menos de 1.5",
-   "cuota": 2.25,
-   "esperado": 1.89,
-   "prob": 0.479,
-   "cuota_minima": 2.17,
-   "ventaja": 0.078,
-   "kelly": 0.062,
-   "clave": "tarjetas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.38,
-     "tarjetas_contra": 1.75,
-     "n": 8
-    },
-    "visita_fuera": {
-     "tarjetas": 2.3,
-     "tarjetas_contra": 2.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:00",
-   "liga": "Serie B",
-   "partido": "Padova - Sampdoria",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 8.5",
-   "cuota": 2.2,
-   "esperado": 8.96,
-   "prob": 0.486,
-   "cuota_minima": 2.14,
-   "ventaja": 0.069,
-   "kelly": 0.058,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 4.5,
-     "corners_contra": 4.8,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.6,
-     "corners_contra": 3.6,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Bolton - West Bromwich",
-   "mercado": "Total de tarjetas - West Bromwich",
-   "seleccion": "Menos de 1.5",
-   "cuota": 2.1,
-   "esperado": 1.79,
-   "prob": 0.507,
-   "cuota_minima": 2.05,
-   "ventaja": 0.064,
-   "kelly": 0.058,
+   "ventaja": 0.087,
+   "kelly": 0.206,
    "clave": "tarjetas",
    "lado": "v",
    "datos": {
     "local_casa": {
      "tarjetas": 1.5,
-     "tarjetas_contra": 2.0,
-     "n": 8
+     "tarjetas_contra": 2.4,
+     "n": 10
     },
     "visita_fuera": {
-     "tarjetas": 1.9,
-     "tarjetas_contra": 1.4,
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.3,
      "n": 10
     }
    }
   },
   {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Más de 12.5",
-   "cuota": 2.85,
-   "esperado": 11.45,
-   "prob": 0.371,
-   "cuota_minima": 2.8,
-   "ventaja": 0.059,
-   "kelly": 0.032,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 6.4,
-     "corners_contra": 3.6,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.8,
-     "corners_contra": 6.9,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 15:00",
-   "liga": "Championship",
-   "partido": "Stoke City - Millwall",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Menos de 3.5",
-   "cuota": 2.4,
-   "esperado": 4.15,
-   "prob": 0.44,
-   "cuota_minima": 2.36,
-   "ventaja": 0.057,
-   "kelly": 0.041,
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de tarjetas - Lyon",
+   "seleccion": "Más de 1.5",
+   "cuota": 2.0,
+   "esperado": 1.96,
+   "prob": 0.54,
+   "cuota_minima": 1.93,
+   "ventaja": 0.079,
+   "kelly": 0.079,
    "clave": "tarjetas",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.7,
-     "tarjetas_contra": 2.6,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 2.1,
-     "tarjetas_contra": 1.7,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-25 14:45",
-   "liga": "Championship",
-   "partido": "Watford - Blackburn Rovers",
-   "mercado": "Total de tiros a puerta por parte de Watford (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 3.5",
-   "cuota": 2.6,
-   "esperado": 4.32,
-   "prob": 0.405,
-   "cuota_minima": 2.57,
-   "ventaja": 0.053,
-   "kelly": 0.033,
-   "clave": "tiros_puerta",
    "lado": "l",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 4.1,
-     "tiros_puerta_contra": 4.4,
+     "tarjetas": 1.5,
+     "tarjetas_contra": 2.4,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 3.2,
-     "tiros_puerta_contra": 4.9,
+     "tarjetas": 2.5,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-26 15:00",
+   "liga": "Ligue 1",
+   "partido": "Lyon - Lillestrøm",
+   "mercado": "Total de Tiros de Esquina a favor de Lyon",
+   "seleccion": "Menos de 7.5",
+   "cuota": 1.66,
+   "esperado": 6.71,
+   "prob": 0.636,
+   "cuota_minima": 1.63,
+   "ventaja": 0.056,
+   "kelly": 0.085,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 6.1,
+     "corners_contra": 5.8,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.8,
+     "corners_contra": 5.7,
      "n": 10
     }
    }
