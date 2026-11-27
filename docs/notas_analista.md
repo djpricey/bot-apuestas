@@ -34,3 +34,9 @@
 - Árbitros de la jornada 5 de Champions sin publicar al 23-nov 11 p. m.
 
 - Jue 26 Crystal Palace–Real Sociedad: Real Sociedad más de 4.5 córners (1.93) quedó en la soñadora del 24-nov. Revisar alineaciones y la cuota el jueves.
+
+## Aprendizaje diario (desde 26-nov)
+- Después de liquidar el día anterior (paso 2), corre `python -m src.calibracion RUTA/data.json` (el data.json ya actualizado) y lee `docs/calibracion.md` ANTES de analizar. Haz commit de calibracion.md.
+- Aplica sus reglas: grupo con n ≥ 20 y acierto real 8+ puntos bajo lo prometido → recorta esas probabilidades o deja ese mercado; n < 20 → solo alerta, pero dilo en los avisos.
+- Alerta al 26-nov: "córners menos" va 1 de 5 (prometía 69 %). Hasta que haya más casos, exige más margen en "menos córners" de un equipo, sobre todo si ese equipo necesita ganar o va de favorito.
+- Cada error nuevo (dato malo, sesgo, regla mal aplicada) se anota aquí con fecha, en una línea, para no repetirlo.
