@@ -50,3 +50,6 @@ Pedido del usuario: "seamos más cuidadosos con los siguientes 4 escalones". Hoy
 4. Preferir partidos con alineación o árbitro ya confirmados y avisar al usuario que lo revise 1 hora antes.
 5. Si nada cumple, NO hay escalón ese día: decirlo con los 2–3 candidatos más cercanos y por qué fallan. La escalera es diaria, pero en estos 4 escalones se permite saltar días.
 6. Recordar al usuario la protección sugerida: al ganar el escalón 10, retirar los 20,000 iniciales y parte de la ganancia.
+
+- 27-nov: escalón 10 saltado (modo cuidadoso): ninguna línea 1.25–1.60 tenía 75 % con dos fuentes y colchón. Lección: en ligas sin Pinnacle, revisa los marcadores reales de los últimos partidos de la misma fase (Bucaramanga 5 y 4 goles en cuadrangulares) antes de proponer "menos de 3.5" de escalera aunque BetPlay dé 74 %.
+- 27-nov: antes de publicar un "más goles" por promedios de temporada, contrástalo con un modelo externo (Sports Mole/Opta) y con la cuota: el revisor tumbó Groningen–Willem II más de 3.5 (2.12) porque el 50 % propio era optimista.
