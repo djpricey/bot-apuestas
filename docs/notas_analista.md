@@ -41,3 +41,12 @@
 - Alerta al 26-nov: "córners menos" va 1 de 5 (prometía 69 %). Hasta que haya más casos, exige más margen en "menos córners" de un equipo, sobre todo si ese equipo necesita ganar o va de favorito.
 - Cada error nuevo (dato malo, sesgo, regla mal aplicada) se anota aquí con fecha, en una línea, para no repetirlo.
 - 26-nov: la corrida soltó Milan menos de 3.5 córners (1.95, mínimo 1.89) y Real Sociedad más de 4.5 córners, y los dos se dieron (Milan 1 córner, RS 7). Regla: si un pick del día anterior sigue en o por encima de su mínimo, no lo quites solo porque bajó la cuota; quítalo únicamente con un dato nuevo concreto (baja, alineación, árbitro) y dilo.
+
+## ESCALONES 10 A 13 (meta ampliada a 2 millones, 26-nov): MODO CUIDADOSO
+Pedido del usuario: "seamos más cuidadosos con los siguientes 4 escalones". Hoy (esc. 9) se ganó a un gol de perder. Para estos 4 escalones, por encima de la regla general de escalera:
+1. Probabilidad ≥ 75 % y con DOS fuentes de acuerdo: Pinnacle sin margen ≥ 72 % Y modelo/datos propios ≥ 75 %. Por la calibración (el tramo 1.25–1.60 promete 74 % y acierta 55 %), réstale 5 puntos a tu probabilidad antes de comparar.
+2. Colchón: la línea debe quedar lejos de lo esperado. Ej.: goles esperados 2.4 → no "menos de 3.5" (un gol tardío lo tumba); mejor "menos de 4.5" o mercado de un equipo. En córners/tarjetas, la línea a 2+ unidades del promedio esperado.
+3. Evitar: partidos donde alguien necesita remontar o ganar sí o sí (sube el riesgo de goles/córners tardíos), cruces de ligas de distinto nivel (sesgo de copas), árbitro desconocido en tarjetas, datos de menos de 6 partidos.
+4. Preferir partidos con alineación o árbitro ya confirmados y avisar al usuario que lo revise 1 hora antes.
+5. Si nada cumple, NO hay escalón ese día: decirlo con los 2–3 candidatos más cercanos y por qué fallan. La escalera es diaria, pero en estos 4 escalones se permite saltar días.
+6. Recordar al usuario la protección sugerida: al ganar el escalón 10, retirar los 20,000 iniciales y parte de la ganancia.
