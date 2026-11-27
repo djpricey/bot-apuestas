@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T00:56-05:00",
+ "actualizado": "2026-11-27T06:51-05:00",
  "edge_min": 0.05,
  "ligas": {
   "Argentina": {
@@ -8,9 +8,9 @@
    "equipos": [
     {
      "equipo": "Boca Juniors",
-     "ataque": 1.33,
-     "defensa": 0.7,
-     "fuerza": 1.9
+     "ataque": 1.34,
+     "defensa": 0.67,
+     "fuerza": 1.98
     },
     {
      "equipo": "Rosario Central",
@@ -55,21 +55,21 @@
      "fuerza": 1.15
     },
     {
+     "equipo": "Independiente",
+     "ataque": 1.07,
+     "defensa": 0.95,
+     "fuerza": 1.14
+    },
+    {
      "equipo": "Barracas Central",
      "ataque": 0.97,
      "defensa": 0.86,
-     "fuerza": 1.14
+     "fuerza": 1.13
     },
     {
      "equipo": "Belgrano",
      "ataque": 1.02,
      "defensa": 0.9,
-     "fuerza": 1.13
-    },
-    {
-     "equipo": "Independiente",
-     "ataque": 1.07,
-     "defensa": 0.94,
      "fuerza": 1.13
     },
     {
@@ -79,16 +79,16 @@
      "fuerza": 1.11
     },
     {
-     "equipo": "Ind. Rivadavia",
-     "ataque": 1.23,
-     "defensa": 1.14,
-     "fuerza": 1.08
-    },
-    {
      "equipo": "Tigre",
      "ataque": 0.91,
      "defensa": 0.86,
      "fuerza": 1.06
+    },
+    {
+     "equipo": "Ind. Rivadavia",
+     "ataque": 1.21,
+     "defensa": 1.15,
+     "fuerza": 1.05
     },
     {
      "equipo": "Union de Santa Fe",
@@ -98,14 +98,14 @@
     },
     {
      "equipo": "Defensa y Justicia",
-     "ataque": 1.04,
+     "ataque": 1.05,
      "defensa": 1.03,
      "fuerza": 1.01
     },
     {
      "equipo": "Huracan",
      "ataque": 0.87,
-     "defensa": 0.88,
+     "defensa": 0.89,
      "fuerza": 0.98
     },
     {
@@ -133,15 +133,15 @@
      "fuerza": 0.89
     },
     {
-     "equipo": "Atl. Tucuman",
-     "ataque": 0.94,
-     "defensa": 1.09,
-     "fuerza": 0.87
-    },
-    {
      "equipo": "Platense",
      "ataque": 0.9,
      "defensa": 1.03,
+     "fuerza": 0.88
+    },
+    {
+     "equipo": "Atl. Tucuman",
+     "ataque": 0.94,
+     "defensa": 1.09,
      "fuerza": 0.87
     },
     {
@@ -178,7 +178,7 @@
      "equipo": "Dep. Riestra",
      "ataque": 0.66,
      "defensa": 0.9,
-     "fuerza": 0.73
+     "fuerza": 0.74
     },
     {
      "equipo": "Central Cordoba",
@@ -201,26 +201,26 @@
    ]
   },
   "Brasil": {
-   "local": 1.2,
+   "local": 1.21,
    "goles_partido": 2.61,
    "equipos": [
     {
      "equipo": "Flamengo RJ",
-     "ataque": 1.6,
+     "ataque": 1.59,
      "defensa": 0.62,
      "fuerza": 2.56
     },
     {
      "equipo": "Palmeiras",
-     "ataque": 1.36,
-     "defensa": 0.6,
-     "fuerza": 2.25
+     "ataque": 1.33,
+     "defensa": 0.63,
+     "fuerza": 2.11
     },
     {
      "equipo": "Cruzeiro",
-     "ataque": 1.22,
+     "ataque": 1.21,
      "defensa": 0.83,
-     "fuerza": 1.47
+     "fuerza": 1.46
     },
     {
      "equipo": "Fluminense",
@@ -230,7 +230,7 @@
     },
     {
      "equipo": "Athletico-PR",
-     "ataque": 1.2,
+     "ataque": 1.19,
      "defensa": 0.96,
      "fuerza": 1.25
     },
@@ -249,26 +249,20 @@
     {
      "equipo": "Botafogo RJ",
      "ataque": 1.11,
-     "defensa": 0.97,
+     "defensa": 0.96,
      "fuerza": 1.15
     },
     {
      "equipo": "Atletico-MG",
-     "ataque": 0.95,
-     "defensa": 0.83,
+     "ataque": 0.94,
+     "defensa": 0.84,
      "fuerza": 1.13
-    },
-    {
-     "equipo": "Bragantino",
-     "ataque": 1.0,
-     "defensa": 0.93,
-     "fuerza": 1.08
     },
     {
      "equipo": "Corinthians",
      "ataque": 0.95,
      "defensa": 0.87,
-     "fuerza": 1.08
+     "fuerza": 1.09
     },
     {
      "equipo": "Santos",
@@ -277,16 +271,22 @@
      "fuerza": 1.08
     },
     {
-     "equipo": "Vasco",
-     "ataque": 1.11,
-     "defensa": 1.07,
-     "fuerza": 1.03
+     "equipo": "Bragantino",
+     "ataque": 1.0,
+     "defensa": 0.93,
+     "fuerza": 1.07
     },
     {
      "equipo": "Sao Paulo",
-     "ataque": 0.89,
-     "defensa": 0.87,
-     "fuerza": 1.01
+     "ataque": 0.9,
+     "defensa": 0.88,
+     "fuerza": 1.03
+    },
+    {
+     "equipo": "Vasco",
+     "ataque": 1.1,
+     "defensa": 1.07,
+     "fuerza": 1.03
     },
     {
      "equipo": "Gremio",
@@ -302,15 +302,9 @@
     },
     {
      "equipo": "Internacional",
-     "ataque": 0.92,
+     "ataque": 0.91,
      "defensa": 1.04,
      "fuerza": 0.88
-    },
-    {
-     "equipo": "Vitoria",
-     "ataque": 0.87,
-     "defensa": 1.02,
-     "fuerza": 0.86
     },
     {
      "equipo": "Coritiba",
@@ -319,16 +313,22 @@
      "fuerza": 0.85
     },
     {
+     "equipo": "Vitoria",
+     "ataque": 0.87,
+     "defensa": 1.02,
+     "fuerza": 0.85
+    },
+    {
      "equipo": "Fortaleza",
      "ataque": 0.94,
      "defensa": 1.11,
-     "fuerza": 0.85
+     "fuerza": 0.84
     },
     {
      "equipo": "Remo",
      "ataque": 0.92,
-     "defensa": 1.17,
-     "fuerza": 0.78
+     "defensa": 1.2,
+     "fuerza": 0.77
     },
     {
      "equipo": "Juventude",
@@ -338,14 +338,14 @@
     },
     {
      "equipo": "Chapecoense-SC",
-     "ataque": 0.77,
-     "defensa": 1.44,
-     "fuerza": 0.54
+     "ataque": 0.82,
+     "defensa": 1.39,
+     "fuerza": 0.59
     },
     {
      "equipo": "Sport Recife",
      "ataque": 0.65,
-     "defensa": 1.39,
+     "defensa": 1.4,
      "fuerza": 0.47
     }
    ]
@@ -1429,6 +1429,12 @@
      "fuerza": 1.01
     },
     {
+     "equipo": "San Jose Earthquakes",
+     "ataque": 1.01,
+     "defensa": 1.06,
+     "fuerza": 0.96
+    },
+    {
      "equipo": "Seattle Sounders",
      "ataque": 0.88,
      "defensa": 0.92,
@@ -1441,18 +1447,6 @@
      "fuerza": 0.95
     },
     {
-     "equipo": "San Jose Earthquakes",
-     "ataque": 1.0,
-     "defensa": 1.06,
-     "fuerza": 0.94
-    },
-    {
-     "equipo": "Houston Dynamo",
-     "ataque": 0.77,
-     "defensa": 0.83,
-     "fuerza": 0.93
-    },
-    {
      "equipo": "Orlando City",
      "ataque": 1.17,
      "defensa": 1.26,
@@ -1461,7 +1455,7 @@
     {
      "equipo": "Portland Timbers",
      "ataque": 1.02,
-     "defensa": 1.1,
+     "defensa": 1.09,
      "fuerza": 0.93
     },
     {
@@ -1469,6 +1463,12 @@
      "ataque": 0.89,
      "defensa": 0.96,
      "fuerza": 0.93
+    },
+    {
+     "equipo": "Houston Dynamo",
+     "ataque": 0.77,
+     "defensa": 0.84,
+     "fuerza": 0.92
     },
     {
      "equipo": "New York Red Bulls",
@@ -1528,49 +1528,49 @@
   },
   "México": {
    "local": 1.1,
-   "goles_partido": 2.92,
+   "goles_partido": 2.91,
    "equipos": [
     {
+     "equipo": "Cruz Azul",
+     "ataque": 1.38,
+     "defensa": 0.86,
+     "fuerza": 1.6
+    },
+    {
      "equipo": "Toluca",
-     "ataque": 1.3,
-     "defensa": 0.84,
-     "fuerza": 1.54
+     "ataque": 1.29,
+     "defensa": 0.82,
+     "fuerza": 1.57
     },
     {
      "equipo": "Guadalajara Chivas",
-     "ataque": 1.12,
-     "defensa": 0.73,
-     "fuerza": 1.53
-    },
-    {
-     "equipo": "Cruz Azul",
-     "ataque": 1.33,
-     "defensa": 0.88,
+     "ataque": 1.13,
+     "defensa": 0.75,
      "fuerza": 1.51
     },
     {
      "equipo": "Club America",
-     "ataque": 1.29,
-     "defensa": 0.88,
-     "fuerza": 1.47
+     "ataque": 1.26,
+     "defensa": 0.85,
+     "fuerza": 1.49
     },
     {
      "equipo": "Pachuca",
-     "ataque": 1.11,
-     "defensa": 0.77,
-     "fuerza": 1.44
-    },
-    {
-     "equipo": "Tigres UANL",
-     "ataque": 0.96,
-     "defensa": 0.84,
-     "fuerza": 1.15
+     "ataque": 1.13,
+     "defensa": 0.78,
+     "fuerza": 1.46
     },
     {
      "equipo": "Monterrey",
-     "ataque": 1.14,
-     "defensa": 1.0,
-     "fuerza": 1.14
+     "ataque": 1.11,
+     "defensa": 0.97,
+     "fuerza": 1.15
+    },
+    {
+     "equipo": "Tigres UANL",
+     "ataque": 0.97,
+     "defensa": 0.84,
+     "fuerza": 1.15
     },
     {
      "equipo": "Club Tijuana",
@@ -1580,26 +1580,26 @@
     },
     {
      "equipo": "UNAM Pumas",
-     "ataque": 1.07,
+     "ataque": 1.08,
      "defensa": 0.99,
      "fuerza": 1.08
     },
     {
-     "equipo": "Club Leon",
-     "ataque": 0.95,
-     "defensa": 1.04,
-     "fuerza": 0.91
-    },
-    {
      "equipo": "Atlas",
-     "ataque": 1.03,
+     "ataque": 1.01,
      "defensa": 1.16,
-     "fuerza": 0.88
+     "fuerza": 0.87
     },
     {
      "equipo": "Atl. San Luis",
-     "ataque": 0.88,
-     "defensa": 1.04,
+     "ataque": 0.89,
+     "defensa": 1.05,
+     "fuerza": 0.85
+    },
+    {
+     "equipo": "Club Leon",
+     "ataque": 0.92,
+     "defensa": 1.09,
      "fuerza": 0.85
     },
     {
@@ -1611,31 +1611,31 @@
     {
      "equipo": "Necaxa",
      "ataque": 0.87,
-     "defensa": 1.13,
+     "defensa": 1.14,
      "fuerza": 0.77
     },
     {
      "equipo": "Queretaro",
      "ataque": 0.78,
-     "defensa": 1.01,
+     "defensa": 1.02,
      "fuerza": 0.77
     },
     {
      "equipo": "Mazatlan FC",
      "ataque": 0.89,
-     "defensa": 1.26,
+     "defensa": 1.27,
      "fuerza": 0.7
     },
     {
      "equipo": "Puebla",
      "ataque": 0.76,
-     "defensa": 1.08,
+     "defensa": 1.09,
      "fuerza": 0.7
     },
     {
      "equipo": "Juarez",
      "ataque": 0.87,
-     "defensa": 1.27,
+     "defensa": 1.28,
      "fuerza": 0.68
     },
     {

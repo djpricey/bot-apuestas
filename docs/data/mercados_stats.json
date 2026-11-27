@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T00:56-05:00",
+ "actualizado": "2026-11-27T06:51-05:00",
  "revisados": 10,
  "nota": "SIN CALIBRAR: candidatos por estadísticas (casa/fuera, últimos 10). No son picks hasta probar el modelo contra resultados pasados.",
  "candidatos": [
@@ -8,13 +8,13 @@
    "liga": "Eredivisie",
    "partido": "FC Groningen - Willem II",
    "mercado": "Número total de tiros por parte de FC Groningen (Resuelta usando Opta Data)",
-   "seleccion": "Más de 18.5",
-   "cuota": 1.73,
+   "seleccion": "Más de 19.5",
+   "cuota": 1.8,
    "esperado": 27.64,
-   "prob": 0.912,
-   "cuota_minima": 1.14,
-   "ventaja": 0.578,
-   "kelly": 0.792,
+   "prob": 0.882,
+   "cuota_minima": 1.18,
+   "ventaja": 0.588,
+   "kelly": 0.734,
    "clave": "tiros",
    "lado": "l",
    "datos": {
@@ -36,12 +36,12 @@
    "partido": "Jong Ajax - Heracles Almelo",
    "mercado": "Total de Tiros de Esquina a favor de Jong Ajax",
    "seleccion": "Más de 3.5",
-   "cuota": 1.68,
+   "cuota": 1.71,
    "esperado": 6.75,
    "prob": 0.853,
    "cuota_minima": 1.22,
-   "ventaja": 0.433,
-   "kelly": 0.637,
+   "ventaja": 0.458,
+   "kelly": 0.646,
    "clave": "corners",
    "lado": "l",
    "datos": {
@@ -54,33 +54,6 @@
      "corners": 3.8,
      "corners_contra": 6.9,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
-   "seleccion": "Más de 27.5",
-   "cuota": 1.58,
-   "esperado": 35.77,
-   "prob": 0.851,
-   "cuota_minima": 1.22,
-   "ventaja": 0.344,
-   "kelly": 0.593,
-   "clave": "tiros",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros": 17.8,
-     "tiros_contra": 12.2,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 8.43,
-     "tiros_contra": 24.29,
-     "n": 7
     }
    }
   },
@@ -115,25 +88,25 @@
    "inicio": "2026-11-27 14:00",
    "liga": "Eredivisie",
    "partido": "FC Groningen - Willem II",
-   "mercado": "Total de tiros a puerta por parte de FC Groningen (Resuelta usando Opta Data)",
-   "seleccion": "Más de 5.5",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Más de 27.5",
    "cuota": 1.55,
-   "esperado": 9.16,
-   "prob": 0.861,
-   "cuota_minima": 1.21,
-   "ventaja": 0.334,
-   "kelly": 0.608,
-   "clave": "tiros_puerta",
-   "lado": "l",
+   "esperado": 35.77,
+   "prob": 0.851,
+   "cuota_minima": 1.22,
+   "ventaja": 0.319,
+   "kelly": 0.579,
+   "clave": "tiros",
+   "lado": "t",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 5.8,
-     "tiros_puerta_contra": 5.2,
+     "tiros": 17.8,
+     "tiros_contra": 12.2,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 2.14,
-     "tiros_puerta_contra": 8.43,
+     "tiros": 8.43,
+     "tiros_contra": 24.29,
      "n": 7
     }
    }
@@ -144,12 +117,12 @@
    "partido": "Venezia - Bolonia",
    "mercado": "Número total de tiros por parte de Bolonia (Resuelta usando Opta Data)",
    "seleccion": "Más de 12.5",
-   "cuota": 1.68,
+   "cuota": 1.67,
    "esperado": 16.96,
    "prob": 0.784,
    "cuota_minima": 1.33,
-   "ventaja": 0.317,
-   "kelly": 0.466,
+   "ventaja": 0.309,
+   "kelly": 0.461,
    "clave": "tiros",
    "lado": "v",
    "datos": {
@@ -171,12 +144,12 @@
    "partido": "Jong Ajax - Heracles Almelo",
    "mercado": "Total de Tiros de Esquina a favor de Heracles Almelo",
    "seleccion": "Menos de 8.5",
-   "cuota": 1.33,
+   "cuota": 1.32,
    "esperado": 2.89,
    "prob": 0.985,
    "cuota_minima": 1.06,
-   "ventaja": 0.31,
-   "kelly": 0.939,
+   "ventaja": 0.3,
+   "kelly": 0.938,
    "clave": "corners",
    "lado": "v",
    "datos": {
@@ -196,14 +169,41 @@
    "inicio": "2026-11-27 14:00",
    "liga": "Eredivisie",
    "partido": "FC Groningen - Willem II",
+   "mercado": "Total de tiros a puerta por parte de FC Groningen (Resuelta usando Opta Data)",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.48,
+   "esperado": 9.16,
+   "prob": 0.861,
+   "cuota_minima": 1.21,
+   "ventaja": 0.274,
+   "kelly": 0.571,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.14,
+     "tiros_puerta_contra": 8.43,
+     "n": 7
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
    "mercado": "Paradas del Portero - Willem II (Resuelta usando Opta Data)",
    "seleccion": "Más de 3.5",
-   "cuota": 1.67,
+   "cuota": 1.61,
    "esperado": 5.48,
    "prob": 0.77,
    "cuota_minima": 1.35,
-   "ventaja": 0.286,
-   "kelly": 0.426,
+   "ventaja": 0.239,
+   "kelly": 0.392,
    "clave": "atajadas",
    "lado": "v",
    "datos": {
@@ -225,12 +225,12 @@
    "partido": "Brest - París FC",
    "mercado": "Total de tiros a puerta por parte de París FC (Resuelta usando Opta Data)",
    "seleccion": "Menos de 5.5",
-   "cuota": 1.42,
+   "cuota": 1.41,
    "esperado": 3.13,
    "prob": 0.877,
    "cuota_minima": 1.19,
-   "ventaja": 0.246,
-   "kelly": 0.585,
+   "ventaja": 0.237,
+   "kelly": 0.578,
    "clave": "tiros_puerta",
    "lado": "v",
    "datos": {
@@ -243,114 +243,6 @@
      "tiros_puerta": 3.4,
      "tiros_puerta_contra": 3.8,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de tarjetas - FC Groningen",
-   "seleccion": "Menos de 0.5",
-   "cuota": 2.5,
-   "esperado": 0.85,
-   "prob": 0.49,
-   "cuota_minima": 2.12,
-   "ventaja": 0.224,
-   "kelly": 0.149,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 0.9,
-     "tarjetas_contra": 1.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.57,
-     "tarjetas_contra": 1.29,
-     "n": 7
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de tarjetas - Chelsea",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.58,
-   "esperado": 1.61,
-   "prob": 0.769,
-   "cuota_minima": 1.35,
-   "ventaja": 0.215,
-   "kelly": 0.371,
-   "clave": "tarjetas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.4,
-     "tarjetas_contra": 1.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 2.6,
-     "tarjetas_contra": 2.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:45",
-   "liga": "Serie A",
-   "partido": "Venezia - Bolonia",
-   "mercado": "Total de tarjetas - Bolonia",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.38,
-   "esperado": 1.08,
-   "prob": 0.878,
-   "cuota_minima": 1.18,
-   "ventaja": 0.211,
-   "kelly": 0.556,
-   "clave": "tarjetas",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.0,
-     "tarjetas_contra": 1.17,
-     "n": 6
-    },
-    "visita_fuera": {
-     "tarjetas": 1.7,
-     "tarjetas_contra": 1.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de tiros a puerta por parte de Willem II (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 3.5",
-   "cuota": 1.57,
-   "esperado": 2.37,
-   "prob": 0.77,
-   "cuota_minima": 1.35,
-   "ventaja": 0.209,
-   "kelly": 0.367,
-   "clave": "tiros_puerta",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 5.8,
-     "tiros_puerta_contra": 5.2,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 2.14,
-     "tiros_puerta_contra": 8.43,
-     "n": 7
     }
    }
   },
@@ -383,6 +275,33 @@
   },
   {
    "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 27.5",
+   "cuota": 1.54,
+   "esperado": 22.69,
+   "prob": 0.784,
+   "cuota_minima": 1.33,
+   "ventaja": 0.207,
+   "kelly": 0.383,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.1,
+     "tiros_contra": 10.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.0,
+     "tiros_contra": 12.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 15:00",
    "liga": "Championship",
    "partido": "Southampton - Middlesbrough",
    "mercado": "Paradas del Portero - Southampton (Resuelta usando Opta Data)",
@@ -409,17 +328,44 @@
    }
   },
   {
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Número total de tiros por parte de Nottingham Forest (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 14.5",
+   "cuota": 1.61,
+   "esperado": 11.86,
+   "prob": 0.738,
+   "cuota_minima": 1.41,
+   "ventaja": 0.187,
+   "kelly": 0.307,
+   "clave": "tiros",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros": 14.1,
+     "tiros_contra": 10.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 12.0,
+     "tiros_contra": 12.0,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 14:45",
    "liga": "Serie A",
    "partido": "Venezia - Bolonia",
    "mercado": "Total de tiros a puerta por parte de Bolonia (Resuelta usando Opta Data)",
    "seleccion": "Más de 3.5",
-   "cuota": 1.42,
+   "cuota": 1.43,
    "esperado": 6.18,
    "prob": 0.828,
    "cuota_minima": 1.26,
-   "ventaja": 0.176,
-   "kelly": 0.419,
+   "ventaja": 0.184,
+   "kelly": 0.429,
    "clave": "tiros_puerta",
    "lado": "v",
    "datos": {
@@ -432,6 +378,33 @@
      "tiros_puerta": 4.6,
      "tiros_puerta_contra": 2.9,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de tarjetas - Willem II",
+   "seleccion": "Menos de 1.5",
+   "cuota": 2.0,
+   "esperado": 1.48,
+   "prob": 0.592,
+   "cuota_minima": 1.76,
+   "ventaja": 0.184,
+   "kelly": 0.184,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 0.9,
+     "tarjetas_contra": 1.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.57,
+     "tarjetas_contra": 1.29,
+     "n": 7
     }
    }
   },
@@ -517,87 +490,6 @@
    }
   },
   {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Número total de tiros por parte de Willem II (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 9.5",
-   "cuota": 1.73,
-   "esperado": 8.14,
-   "prob": 0.676,
-   "cuota_minima": 1.54,
-   "ventaja": 0.169,
-   "kelly": 0.231,
-   "clave": "tiros",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "tiros": 17.8,
-     "tiros_contra": 12.2,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 8.43,
-     "tiros_contra": 24.29,
-     "n": 7
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:45",
-   "liga": "Ligue 1",
-   "partido": "Brest - París FC",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 8.5",
-   "cuota": 2.1,
-   "esperado": 8.33,
-   "prob": 0.557,
-   "cuota_minima": 1.87,
-   "ventaja": 0.169,
-   "kelly": 0.154,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 3.3,
-     "corners_contra": 4.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 4.0,
-     "corners_contra": 6.0,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Número total de tiros por parte de Nottingham Forest (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 14.5",
-   "cuota": 1.58,
-   "esperado": 11.86,
-   "prob": 0.738,
-   "cuota_minima": 1.41,
-   "ventaja": 0.165,
-   "kelly": 0.285,
-   "clave": "tiros",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros": 14.1,
-     "tiros_contra": 10.7,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 12.0,
-     "tiros_contra": 12.0,
-     "n": 10
-    }
-   }
-  },
-  {
    "inicio": "2026-11-27 15:00",
    "liga": "Championship",
    "partido": "Southampton - Middlesbrough",
@@ -625,28 +517,28 @@
    }
   },
   {
-   "inicio": "2026-11-27 14:45",
-   "liga": "Serie A",
-   "partido": "Venezia - Bolonia",
-   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
-   "seleccion": "Más de 27.5",
-   "cuota": 2.5,
-   "esperado": 27.27,
-   "prob": 0.462,
-   "cuota_minima": 2.25,
-   "ventaja": 0.155,
-   "kelly": 0.104,
-   "clave": "tiros",
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.34,
+   "esperado": 7.16,
+   "prob": 0.863,
+   "cuota_minima": 1.21,
+   "ventaja": 0.156,
+   "kelly": 0.459,
+   "clave": "tiros_puerta",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "tiros": 13.67,
-     "tiros_contra": 16.83,
-     "n": 6
+     "tiros_puerta": 3.5,
+     "tiros_puerta_contra": 2.9,
+     "n": 10
     },
     "visita_fuera": {
-     "tiros": 12.3,
-     "tiros_contra": 10.9,
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 5.5,
      "n": 10
     }
    }
@@ -679,82 +571,55 @@
    }
   },
   {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "Jong Ajax - Heracles Almelo",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 11.5",
+   "cuota": 1.61,
+   "esperado": 9.64,
+   "prob": 0.711,
+   "cuota_minima": 1.46,
+   "ventaja": 0.145,
+   "kelly": 0.237,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 3.3,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 3.8,
+     "corners_contra": 6.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:45",
+   "liga": "Ligue 1",
+   "partido": "Brest - París FC",
    "mercado": "Total de Tiros (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 28.5",
-   "cuota": 1.4,
-   "esperado": 22.69,
-   "prob": 0.823,
-   "cuota_minima": 1.26,
-   "ventaja": 0.152,
-   "kelly": 0.38,
+   "seleccion": "Menos de 24.5",
+   "cuota": 2.08,
+   "esperado": 24.1,
+   "prob": 0.55,
+   "cuota_minima": 1.89,
+   "ventaja": 0.145,
+   "kelly": 0.134,
    "clave": "tiros",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "tiros": 14.1,
-     "tiros_contra": 10.7,
+     "tiros": 15.3,
+     "tiros_contra": 12.1,
      "n": 10
     },
     "visita_fuera": {
-     "tiros": 12.0,
-     "tiros_contra": 12.0,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 10.5",
-   "cuota": 1.33,
-   "esperado": 7.16,
-   "prob": 0.863,
-   "cuota_minima": 1.21,
-   "ventaja": 0.147,
-   "kelly": 0.446,
-   "clave": "tiros_puerta",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.5,
-     "tiros_puerta_contra": 2.9,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 5.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de tiros a puerta por parte de Nottingham Forest (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 4.5",
-   "cuota": 1.89,
-   "esperado": 4.13,
-   "prob": 0.607,
-   "cuota_minima": 1.71,
-   "ventaja": 0.147,
-   "kelly": 0.165,
-   "clave": "tiros_puerta",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tiros_puerta": 3.5,
-     "tiros_puerta_contra": 2.9,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 5.5,
+     "tiros": 11.7,
+     "tiros_contra": 11.0,
      "n": 10
     }
    }
@@ -763,16 +628,16 @@
    "inicio": "2026-11-27 14:00",
    "liga": "Eredivisie",
    "partido": "FC Groningen - Willem II",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Más de 8.5",
-   "cuota": 1.47,
-   "esperado": 11.53,
-   "prob": 0.776,
-   "cuota_minima": 1.34,
-   "ventaja": 0.141,
-   "kelly": 0.3,
+   "mercado": "Total de tiros a puerta por parte de Willem II (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.48,
+   "esperado": 2.37,
+   "prob": 0.77,
+   "cuota_minima": 1.35,
+   "ventaja": 0.14,
+   "kelly": 0.291,
    "clave": "tiros_puerta",
-   "lado": "t",
+   "lado": "v",
    "datos": {
     "local_casa": {
      "tiros_puerta": 5.8,
@@ -814,6 +679,33 @@
    }
   },
   {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Más de 8.5",
+   "cuota": 1.46,
+   "esperado": 11.53,
+   "prob": 0.776,
+   "cuota_minima": 1.34,
+   "ventaja": 0.133,
+   "kelly": 0.289,
+   "clave": "tiros_puerta",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 5.8,
+     "tiros_puerta_contra": 5.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 2.14,
+     "tiros_puerta_contra": 8.43,
+     "n": 7
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 14:45",
    "liga": "Serie A",
    "partido": "Venezia - Bolonia",
@@ -841,17 +733,71 @@
    }
   },
   {
+   "inicio": "2026-11-27 14:45",
+   "liga": "Serie A",
+   "partido": "Venezia - Bolonia",
+   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
+   "seleccion": "Más de 26.5",
+   "cuota": 2.17,
+   "esperado": 27.27,
+   "prob": 0.519,
+   "cuota_minima": 2.0,
+   "ventaja": 0.127,
+   "kelly": 0.108,
+   "clave": "tiros",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "tiros": 13.67,
+     "tiros_contra": 16.83,
+     "n": 6
+    },
+    "visita_fuera": {
+     "tiros": 12.3,
+     "tiros_contra": 10.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:45",
+   "liga": "Ligue 1",
+   "partido": "Brest - París FC",
+   "mercado": "Total de tarjetas - Brest",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.87,
+   "esperado": 1.45,
+   "prob": 0.601,
+   "cuota_minima": 1.73,
+   "ventaja": 0.123,
+   "kelly": 0.142,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 2.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.8,
+     "tarjetas_contra": 1.5,
+     "n": 10
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 15:00",
    "liga": "Premier League",
    "partido": "Nottingham Forest - Chelsea",
    "mercado": "Total de tarjetas - Nottingham Forest",
    "seleccion": "Menos de 2.5",
-   "cuota": 1.54,
+   "cuota": 1.53,
    "esperado": 1.77,
    "prob": 0.732,
    "cuota_minima": 1.42,
-   "ventaja": 0.127,
-   "kelly": 0.235,
+   "ventaja": 0.12,
+   "kelly": 0.226,
    "clave": "tarjetas",
    "lado": "l",
    "datos": {
@@ -864,60 +810,6 @@
      "tarjetas": 2.6,
      "tarjetas_contra": 2.3,
      "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:45",
-   "liga": "Ligue 1",
-   "partido": "Brest - París FC",
-   "mercado": "Total de Tiros (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 23.5",
-   "cuota": 2.3,
-   "esperado": 24.1,
-   "prob": 0.49,
-   "cuota_minima": 2.12,
-   "ventaja": 0.127,
-   "kelly": 0.097,
-   "clave": "tiros",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "tiros": 15.3,
-     "tiros_contra": 12.1,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tiros": 11.7,
-     "tiros_contra": 11.0,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de Tiros de Esquina a favor de Willem II",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.18,
-   "esperado": 2.07,
-   "prob": 0.953,
-   "cuota_minima": 1.09,
-   "ventaja": 0.125,
-   "kelly": 0.694,
-   "clave": "corners",
-   "lado": "v",
-   "datos": {
-    "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 4.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 2.0,
-     "corners_contra": 8.29,
-     "n": 7
     }
    }
   },
@@ -952,79 +844,25 @@
    "inicio": "2026-11-27 14:45",
    "liga": "Ligue 1",
    "partido": "Brest - París FC",
-   "mercado": "Total de tarjetas - Brest",
-   "seleccion": "Menos de 1.5",
-   "cuota": 1.86,
-   "esperado": 1.45,
-   "prob": 0.601,
-   "cuota_minima": 1.73,
+   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 10.5",
+   "cuota": 1.29,
+   "esperado": 7.12,
+   "prob": 0.866,
+   "cuota_minima": 1.2,
    "ventaja": 0.117,
-   "kelly": 0.136,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 1.7,
-     "tarjetas_contra": 2.4,
-     "n": 10
-    },
-    "visita_fuera": {
-     "tarjetas": 1.8,
-     "tarjetas_contra": 1.5,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 14:45",
-   "liga": "Serie A",
-   "partido": "Venezia - Bolonia",
-   "mercado": "Total de tarjetas - Venezia",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.44,
-   "esperado": 1.58,
-   "prob": 0.774,
-   "cuota_minima": 1.34,
-   "ventaja": 0.115,
-   "kelly": 0.261,
-   "clave": "tarjetas",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "tarjetas": 2.0,
-     "tarjetas_contra": 1.17,
-     "n": 6
-    },
-    "visita_fuera": {
-     "tarjetas": 1.7,
-     "tarjetas_contra": 1.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de tiros a puerta por parte de Chelsea (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.25,
-   "esperado": 3.02,
-   "prob": 0.888,
-   "cuota_minima": 1.17,
-   "ventaja": 0.111,
-   "kelly": 0.442,
+   "kelly": 0.402,
    "clave": "tiros_puerta",
-   "lado": "v",
+   "lado": "t",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 3.5,
-     "tiros_puerta_contra": 2.9,
+     "tiros_puerta": 5.3,
+     "tiros_puerta_contra": 3.7,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 4.0,
-     "tiros_puerta_contra": 5.5,
+     "tiros_puerta": 3.4,
+     "tiros_puerta_contra": 3.8,
      "n": 10
     }
    }
@@ -1032,27 +870,27 @@
   {
    "inicio": "2026-11-27 14:00",
    "liga": "Eredivisie",
-   "partido": "Jong Ajax - Heracles Almelo",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 12.5",
-   "cuota": 1.41,
-   "esperado": 9.64,
-   "prob": 0.786,
-   "cuota_minima": 1.32,
-   "ventaja": 0.109,
-   "kelly": 0.265,
-   "clave": "corners",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.43,
+   "esperado": 2.33,
+   "prob": 0.774,
+   "cuota_minima": 1.34,
+   "ventaja": 0.107,
+   "kelly": 0.249,
+   "clave": "tarjetas",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 3.3,
+     "tarjetas": 0.9,
+     "tarjetas_contra": 1.7,
      "n": 10
     },
     "visita_fuera": {
-     "corners": 3.8,
-     "corners_contra": 6.9,
-     "n": 10
+     "tarjetas": 1.57,
+     "tarjetas_contra": 1.29,
+     "n": 7
     }
    }
   },
@@ -1087,26 +925,134 @@
    "inicio": "2026-11-27 14:45",
    "liga": "Ligue 1",
    "partido": "Brest - París FC",
-   "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
-   "seleccion": "Menos de 10.5",
-   "cuota": 1.27,
-   "esperado": 7.12,
-   "prob": 0.866,
-   "cuota_minima": 1.2,
-   "ventaja": 0.099,
-   "kelly": 0.368,
-   "clave": "tiros_puerta",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.67,
+   "esperado": 8.33,
+   "prob": 0.661,
+   "cuota_minima": 1.57,
+   "ventaja": 0.104,
+   "kelly": 0.155,
+   "clave": "corners",
    "lado": "t",
    "datos": {
     "local_casa": {
-     "tiros_puerta": 5.3,
-     "tiros_puerta_contra": 3.7,
+     "corners": 3.3,
+     "corners_contra": 4.7,
      "n": 10
     },
     "visita_fuera": {
-     "tiros_puerta": 3.4,
-     "tiros_puerta_contra": 3.8,
+     "corners": 4.0,
+     "corners_contra": 6.0,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de tiros a puerta por parte de Chelsea (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.24,
+   "esperado": 3.02,
+   "prob": 0.888,
+   "cuota_minima": 1.17,
+   "ventaja": 0.102,
+   "kelly": 0.424,
+   "clave": "tiros_puerta",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.5,
+     "tiros_puerta_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 5.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:45",
+   "liga": "Ligue 1",
+   "partido": "Brest - París FC",
+   "mercado": "Total de Tiros de Esquina a favor de París FC",
+   "seleccion": "Menos de 4.5",
+   "cuota": 2.0,
+   "esperado": 4.51,
+   "prob": 0.55,
+   "cuota_minima": 1.89,
+   "ventaja": 0.1,
+   "kelly": 0.1,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 3.3,
+     "corners_contra": 4.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 4.0,
+     "corners_contra": 6.0,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de tiros a puerta por parte de Nottingham Forest (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.47,
+   "esperado": 4.13,
+   "prob": 0.748,
+   "cuota_minima": 1.39,
+   "ventaja": 0.099,
+   "kelly": 0.211,
+   "clave": "tiros_puerta",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tiros_puerta": 3.5,
+     "tiros_puerta_contra": 2.9,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros_puerta": 4.0,
+     "tiros_puerta_contra": 5.5,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de Tiros de Esquina a favor de Willem II",
+   "seleccion": "Menos de 5.5",
+   "cuota": 1.15,
+   "esperado": 2.07,
+   "prob": 0.953,
+   "cuota_minima": 1.09,
+   "ventaja": 0.096,
+   "kelly": 0.642,
+   "clave": "corners",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.0,
+     "corners_contra": 8.29,
+     "n": 7
     }
    }
   },
@@ -1133,33 +1079,6 @@
     "visita_fuera": {
      "tarjetas": 2.6,
      "tarjetas_contra": 2.3,
-     "n": 10
-    }
-   }
-  },
-  {
-   "inicio": "2026-11-27 15:00",
-   "liga": "Premier League",
-   "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 8.5",
-   "cuota": 2.6,
-   "esperado": 9.57,
-   "prob": 0.421,
-   "cuota_minima": 2.47,
-   "ventaja": 0.095,
-   "kelly": 0.06,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 4.6,
-     "corners_contra": 4.2,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 5.9,
-     "corners_contra": 4.6,
      "n": 10
     }
    }
@@ -1219,29 +1138,29 @@
    }
   },
   {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Menos de 2.5",
-   "cuota": 1.8,
-   "esperado": 2.33,
-   "prob": 0.604,
-   "cuota_minima": 1.72,
-   "ventaja": 0.087,
-   "kelly": 0.109,
-   "clave": "tarjetas",
-   "lado": "t",
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de Tiros de Esquina a favor de Nottingham Forest",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.29,
+   "esperado": 4.07,
+   "prob": 0.843,
+   "cuota_minima": 1.23,
+   "ventaja": 0.088,
+   "kelly": 0.303,
+   "clave": "corners",
+   "lado": "l",
    "datos": {
     "local_casa": {
-     "tarjetas": 0.9,
-     "tarjetas_contra": 1.7,
+     "corners": 4.6,
+     "corners_contra": 4.2,
      "n": 10
     },
     "visita_fuera": {
-     "tarjetas": 1.57,
-     "tarjetas_contra": 1.29,
-     "n": 7
+     "corners": 5.9,
+     "corners_contra": 4.6,
+     "n": 10
     }
    }
   },
@@ -1268,6 +1187,33 @@
     "visita_fuera": {
      "tiros_puerta": 4.6,
      "tiros_puerta_contra": 2.9,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:45",
+   "liga": "Serie A",
+   "partido": "Venezia - Bolonia",
+   "mercado": "Total de tarjetas - Venezia",
+   "seleccion": "Menos de 2.5",
+   "cuota": 1.4,
+   "esperado": 1.58,
+   "prob": 0.774,
+   "cuota_minima": 1.34,
+   "ventaja": 0.084,
+   "kelly": 0.21,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.17,
+     "n": 6
+    },
+    "visita_fuera": {
+     "tarjetas": 1.7,
+     "tarjetas_contra": 1.3,
      "n": 10
     }
    }
@@ -1300,6 +1246,33 @@
    }
   },
   {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Número total de tiros por parte de Willem II (Resuelta usando Opta Data)",
+   "seleccion": "Menos de 9.5",
+   "cuota": 1.6,
+   "esperado": 8.14,
+   "prob": 0.676,
+   "cuota_minima": 1.54,
+   "ventaja": 0.081,
+   "kelly": 0.135,
+   "clave": "tiros",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tiros": 17.8,
+     "tiros_contra": 12.2,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tiros": 8.43,
+     "tiros_contra": 24.29,
+     "n": 7
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 15:00",
    "liga": "Championship",
    "partido": "Southampton - Middlesbrough",
@@ -1327,19 +1300,73 @@
    }
   },
   {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 2.33,
+   "esperado": 10.19,
+   "prob": 0.464,
+   "cuota_minima": 2.24,
+   "ventaja": 0.08,
+   "kelly": 0.06,
+   "clave": "corners",
+   "lado": "t",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.0,
+     "corners_contra": 8.29,
+     "n": 7
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 15:00",
    "liga": "Premier League",
    "partido": "Nottingham Forest - Chelsea",
-   "mercado": "Total de Tiros de Esquina a favor de Nottingham Forest",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.28,
-   "esperado": 4.07,
-   "prob": 0.843,
-   "cuota_minima": 1.23,
-   "ventaja": 0.079,
-   "kelly": 0.284,
+   "mercado": "Total de tarjetas - Chelsea",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.21,
+   "esperado": 1.61,
+   "prob": 0.891,
+   "cuota_minima": 1.17,
+   "ventaja": 0.078,
+   "kelly": 0.371,
+   "clave": "tarjetas",
+   "lado": "v",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 1.4,
+     "tarjetas_contra": 1.4,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 2.6,
+     "tarjetas_contra": 2.3,
+     "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 15:00",
+   "liga": "Premier League",
+   "partido": "Nottingham Forest - Chelsea",
+   "mercado": "Total de Tiros de Esquina",
+   "seleccion": "Menos de 9.5",
+   "cuota": 2.04,
+   "esperado": 9.57,
+   "prob": 0.529,
+   "cuota_minima": 1.97,
+   "ventaja": 0.078,
+   "kelly": 0.075,
    "clave": "corners",
-   "lado": "l",
+   "lado": "t",
    "datos": {
     "local_casa": {
      "corners": 4.6,
@@ -1354,17 +1381,44 @@
    }
   },
   {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de Tiros de Esquina a favor de FC Groningen",
+   "seleccion": "Más de 5.5",
+   "cuota": 1.41,
+   "esperado": 8.11,
+   "prob": 0.761,
+   "cuota_minima": 1.37,
+   "ventaja": 0.074,
+   "kelly": 0.18,
+   "clave": "corners",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "corners": 5.6,
+     "corners_contra": 4.5,
+     "n": 10
+    },
+    "visita_fuera": {
+     "corners": 2.0,
+     "corners_contra": 8.29,
+     "n": 7
+    }
+   }
+  },
+  {
    "inicio": "2026-11-27 15:00",
    "liga": "Premier League",
    "partido": "Nottingham Forest - Chelsea",
    "mercado": "Número total de tiros por parte de Chelsea (Resuelta usando Opta Data)",
    "seleccion": "Menos de 13.5",
-   "cuota": 1.44,
+   "cuota": 1.43,
    "esperado": 10.82,
    "prob": 0.749,
    "cuota_minima": 1.39,
-   "ventaja": 0.078,
-   "kelly": 0.178,
+   "ventaja": 0.071,
+   "kelly": 0.164,
    "clave": "tiros",
    "lado": "v",
    "datos": {
@@ -1377,6 +1431,33 @@
      "tiros": 12.0,
      "tiros_contra": 12.0,
      "n": 10
+    }
+   }
+  },
+  {
+   "inicio": "2026-11-27 14:00",
+   "liga": "Eredivisie",
+   "partido": "FC Groningen - Willem II",
+   "mercado": "Total de tarjetas - FC Groningen",
+   "seleccion": "Menos de 1.5",
+   "cuota": 1.36,
+   "esperado": 0.85,
+   "prob": 0.786,
+   "cuota_minima": 1.32,
+   "ventaja": 0.07,
+   "kelly": 0.193,
+   "clave": "tarjetas",
+   "lado": "l",
+   "datos": {
+    "local_casa": {
+     "tarjetas": 0.9,
+     "tarjetas_contra": 1.7,
+     "n": 10
+    },
+    "visita_fuera": {
+     "tarjetas": 1.57,
+     "tarjetas_contra": 1.29,
+     "n": 7
     }
    }
   },
@@ -1408,46 +1489,19 @@
    }
   },
   {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de Tiros de Esquina",
-   "seleccion": "Menos de 9.5",
-   "cuota": 2.3,
-   "esperado": 10.19,
-   "prob": 0.464,
-   "cuota_minima": 2.24,
-   "ventaja": 0.066,
-   "kelly": 0.051,
-   "clave": "corners",
-   "lado": "t",
-   "datos": {
-    "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 4.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 2.0,
-     "corners_contra": 8.29,
-     "n": 7
-    }
-   }
-  },
-  {
    "inicio": "2026-11-27 14:45",
    "liga": "Serie A",
    "partido": "Venezia - Bolonia",
-   "mercado": "Total de tarjetas",
-   "seleccion": "Menos de 6.5",
-   "cuota": 1.11,
-   "esperado": 2.67,
-   "prob": 0.958,
+   "mercado": "Total de tarjetas - Bolonia",
+   "seleccion": "Menos de 3.5",
+   "cuota": 1.12,
+   "esperado": 1.08,
+   "prob": 0.952,
    "cuota_minima": 1.09,
-   "ventaja": 0.064,
-   "kelly": 0.579,
+   "ventaja": 0.066,
+   "kelly": 0.549,
    "clave": "tarjetas",
-   "lado": "t",
+   "lado": "v",
    "datos": {
     "local_casa": {
      "tarjetas": 2.0,
@@ -1462,44 +1516,17 @@
    }
   },
   {
-   "inicio": "2026-11-27 14:00",
-   "liga": "Eredivisie",
-   "partido": "FC Groningen - Willem II",
-   "mercado": "Total de Tiros de Esquina a favor de FC Groningen",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.24,
-   "esperado": 8.11,
-   "prob": 0.856,
-   "cuota_minima": 1.22,
-   "ventaja": 0.061,
-   "kelly": 0.255,
-   "clave": "corners",
-   "lado": "l",
-   "datos": {
-    "local_casa": {
-     "corners": 5.6,
-     "corners_contra": 4.5,
-     "n": 10
-    },
-    "visita_fuera": {
-     "corners": 2.0,
-     "corners_contra": 8.29,
-     "n": 7
-    }
-   }
-  },
-  {
    "inicio": "2026-11-27 14:45",
    "liga": "Serie A",
    "partido": "Venezia - Bolonia",
    "mercado": "Total de Tiros de Esquina a favor de Bolonia",
-   "seleccion": "Más de 4.5",
-   "cuota": 1.89,
+   "seleccion": "Más de 5.5",
+   "cuota": 2.55,
    "esperado": 5.25,
-   "prob": 0.561,
-   "cuota_minima": 1.85,
-   "ventaja": 0.06,
-   "kelly": 0.068,
+   "prob": 0.418,
+   "cuota_minima": 2.49,
+   "ventaja": 0.065,
+   "kelly": 0.042,
    "clave": "corners",
    "lado": "v",
    "datos": {
@@ -1571,27 +1598,27 @@
   },
   {
    "inicio": "2026-11-27 14:45",
-   "liga": "Ligue 1",
-   "partido": "Brest - París FC",
-   "mercado": "Total de Tiros de Esquina a favor de París FC",
-   "seleccion": "Menos de 5.5",
-   "cuota": 1.53,
-   "esperado": 4.51,
-   "prob": 0.688,
-   "cuota_minima": 1.51,
-   "ventaja": 0.053,
-   "kelly": 0.1,
-   "clave": "corners",
-   "lado": "v",
+   "liga": "Serie A",
+   "partido": "Venezia - Bolonia",
+   "mercado": "Total de tarjetas",
+   "seleccion": "Menos de 6.5",
+   "cuota": 1.1,
+   "esperado": 2.67,
+   "prob": 0.958,
+   "cuota_minima": 1.09,
+   "ventaja": 0.054,
+   "kelly": 0.541,
+   "clave": "tarjetas",
+   "lado": "t",
    "datos": {
     "local_casa": {
-     "corners": 3.3,
-     "corners_contra": 4.7,
-     "n": 10
+     "tarjetas": 2.0,
+     "tarjetas_contra": 1.17,
+     "n": 6
     },
     "visita_fuera": {
-     "corners": 4.0,
-     "corners_contra": 6.0,
+     "tarjetas": 1.7,
+     "tarjetas_contra": 1.3,
      "n": 10
     }
    }

@@ -1,6 +1,94 @@
 {
- "actualizado": "2026-11-27T00:56-05:00",
+ "actualizado": "2026-11-27T06:51-05:00",
  "umbral": 0.02,
- "picks": [],
- "errores": []
+ "picks": [
+  {
+   "inicio": "2026-11-27T18:00-05:00",
+   "liga": "Brasil",
+   "partido": "Fluminense vs Cruzeiro",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 4.2,
+   "prob_pinnacle": 0.244,
+   "cuota_justa": 4.1,
+   "ventaja": 0.025,
+   "kelly": 0.008,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.277,
+    "rachas": 0.208,
+    "cruces": 0.333
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  }
+ ],
+ "errores": [
+  {
+   "inicio": "2026-11-27T20:00-05:00",
+   "liga": "MLS",
+   "partido": "Columbus Crew vs Inter Miami",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 7.0,
+   "prob_pinnacle": 0.15,
+   "cuota_justa": 6.67,
+   "ventaja": 0.05,
+   "kelly": 0.008,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.095,
+    "rachas": 0.0,
+    "cruces": 0.2
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "rachas"
+   ]
+  },
+  {
+   "inicio": "2026-11-27T18:00-05:00",
+   "liga": "Brasil",
+   "partido": "Fluminense vs Cruzeiro",
+   "mercado": "Total de goles",
+   "seleccion": "Menos de 1.5",
+   "cuota_betplay": 4.2,
+   "prob_pinnacle": 0.244,
+   "cuota_justa": 4.1,
+   "ventaja": 0.025,
+   "kelly": 0.008,
+   "idea": "goles-OT_UNDER",
+   "senales": {
+    "modelo": 0.277,
+    "rachas": 0.208,
+    "cruces": 0.333
+   },
+   "veredicto": "respaldado",
+   "en_contra": [],
+   "misma_idea": []
+  },
+  {
+   "inicio": "2026-11-27T18:00-05:00",
+   "liga": "Brasil",
+   "partido": "Fluminense vs Cruzeiro",
+   "mercado": "Resultado Final",
+   "seleccion": "1",
+   "cuota_betplay": 2.14,
+   "prob_pinnacle": 0.479,
+   "cuota_justa": 2.09,
+   "ventaja": 0.025,
+   "kelly": 0.022,
+   "idea": "local",
+   "senales": {
+    "modelo": 0.466,
+    "rachas": 0.708,
+    "cruces": 0.0
+   },
+   "veredicto": "en contra",
+   "en_contra": [
+    "cruces"
+   ]
+  }
+ ]
 }
