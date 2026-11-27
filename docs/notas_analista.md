@@ -40,3 +40,4 @@
 - Aplica sus reglas: grupo con n ≥ 20 y acierto real 8+ puntos bajo lo prometido → recorta esas probabilidades o deja ese mercado; n < 20 → solo alerta, pero dilo en los avisos.
 - Alerta al 26-nov: "córners menos" va 1 de 5 (prometía 69 %). Hasta que haya más casos, exige más margen en "menos córners" de un equipo, sobre todo si ese equipo necesita ganar o va de favorito.
 - Cada error nuevo (dato malo, sesgo, regla mal aplicada) se anota aquí con fecha, en una línea, para no repetirlo.
+- 26-nov: la corrida soltó Milan menos de 3.5 córners (1.95, mínimo 1.89) y Real Sociedad más de 4.5 córners, y los dos se dieron (Milan 1 córner, RS 7). Regla: si un pick del día anterior sigue en o por encima de su mínimo, no lo quites solo porque bajó la cuota; quítalo únicamente con un dato nuevo concreto (baja, alineación, árbitro) y dilo.
