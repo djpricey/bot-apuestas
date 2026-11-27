@@ -1,209 +1,8 @@
 {
- "actualizado": "2026-11-26T19:30-05:00",
+ "actualizado": "2026-11-26T21:52-05:00",
  "edge_min": 0.05,
  "escalera": null,
  "partidos": [
-  {
-   "inicio": "2026-11-26T20:00-05:00",
-   "mercados": [],
-   "recomendacion": [
-    {
-     "seleccion": "Más de 1.5 goles",
-     "prob_modelo": 0.701,
-     "prob_datos": 0.8,
-     "prob": 0.701,
-     "cuota_minima": 1.48,
-     "por": "Más de 1.5 en 90 % de los de Pachuca y 70 % de los de Guadalajara Chivas"
-    }
-   ],
-   "nota_recomendacion": "",
-   "forma": {
-    "local": {
-     "n": 10,
-     "desde": "2026-09-12",
-     "g": 5,
-     "e": 2,
-     "p": 3,
-     "gf": 2.1,
-     "gc": 1.2,
-     "o15": 0.9,
-     "o25": 0.8,
-     "u35": 0.7,
-     "btts": 0.6,
-     "marco": 0.9,
-     "cero": 0.3,
-     "ultimos": [
-      "21/11/26 Pachuca 2-0 Toluca",
-      "07/11/26 Atlas 1-4 Pachuca",
-      "31/10/26 Pachuca 3-0 Tigres UANL",
-      "26/10/26 Club America 1-2 Pachuca",
-      "22/10/26 Pachuca 1-2 Cruz Azul",
-      "19/10/26 Monterrey 2-1 Pachuca",
-      "12/10/26 Pachuca 3-3 Necaxa",
-      "27/09/26 Santos Laguna 1-0 Pachuca",
-      "21/09/26 Pachuca 2-2 Club Tijuana",
-      "12/09/26 Atlante 0-3 Pachuca"
-     ]
-    },
-    "visita": {
-     "n": 10,
-     "desde": "2026-09-14",
-     "g": 5,
-     "e": 4,
-     "p": 1,
-     "gf": 1.5,
-     "gc": 0.9,
-     "o15": 0.7,
-     "o25": 0.3,
-     "u35": 0.8,
-     "btts": 0.5,
-     "marco": 0.9,
-     "cero": 0.4,
-     "ultimos": [
-      "22/11/26 Guadalajara Chivas 1-0 Cruz Azul",
-      "09/11/26 Club Leon 1-1 Guadalajara Chivas",
-      "01/11/26 Guadalajara Chivas 4-2 Atlante",
-      "25/10/26 Monterrey 0-1 Guadalajara Chivas",
-      "21/10/26 Guadalajara Chivas 1-0 Necaxa",
-      "18/10/26 Guadalajara Chivas 1-1 Tigres UANL",
-      "11/10/26 Atlas 1-1 Guadalajara Chivas",
-      "27/09/26 Guadalajara Chivas 0-2 Queretaro",
-      "20/09/26 Club America 2-2 Guadalajara Chivas",
-      "14/09/26 Guadalajara Chivas 3-0 UNAM Pumas"
-     ]
-    }
-   },
-   "h2h": [
-    "2026 Pachuca 1-1 Guadalajara Chivas",
-    "2026 Guadalajara Chivas 2-0 Pachuca",
-    "2025 Pachuca 0-1 Guadalajara Chivas",
-    "2025 Guadalajara Chivas 2-1 Pachuca"
-   ],
-   "fecha": "2026-11-27",
-   "hora_uk": "01:00",
-   "hora_col": "",
-   "liga": "México",
-   "local": "Pachuca",
-   "visita": "Guadalajara Chivas",
-   "neutral": false,
-   "p1": 0.4,
-   "px": 0.288,
-   "p2": 0.312,
-   "over25": 0.442,
-   "btts": 0.503,
-   "marcador": "1-1",
-   "goles_local": 1.31,
-   "goles_visita": 1.13,
-   "c1": null,
-   "cx": null,
-   "c2": null,
-   "co25": null,
-   "cu25": null,
-   "mercado": null,
-   "final": null,
-   "peso_modelo": 0.0,
-   "valor": [],
-   "bajas": {
-    "local": [],
-    "visita": []
-   },
-   "pinnacle": {
-    "c1": 2.86,
-    "cx": 3.16,
-    "c2": 2.71,
-    "p1x2": [
-     0.338,
-     0.306,
-     0.356
-    ],
-    "totales": {
-     "1.5": {
-      "mas": 1.284,
-      "menos": 3.74,
-      "p_mas": 0.744
-     },
-     "2": {
-      "mas": 1.462,
-      "menos": 2.8,
-      "p_mas": 0.657
-     },
-     "2.25": {
-      "mas": 1.729,
-      "menos": 2.17,
-      "p_mas": 0.557
-     },
-     "2.5": {
-      "mas": 2.0,
-      "menos": 1.869,
-      "p_mas": 0.483
-     },
-     "2.75": {
-      "mas": 2.26,
-      "menos": 1.68,
-      "p_mas": 0.426
-     },
-     "3": {
-      "mas": 2.7,
-      "menos": 1.49,
-      "p_mas": 0.356
-     },
-     "3.5": {
-      "mas": 3.32,
-      "menos": 1.343,
-      "p_mas": 0.288
-     },
-     "4.5": {
-      "mas": 6.22,
-      "menos": 1.132,
-      "p_mas": 0.154
-     }
-    },
-    "btts": {
-     "si": 1.689,
-     "no": 2.21,
-     "p_si": 0.567
-    },
-    "fuente": "Pinnacle vía OddsPapi"
-   },
-   "fuente_cuotas": null,
-   "stats": {
-    "local_casa": {
-     "n": 10,
-     "goles": 1.8,
-     "goles_contra": 1.3,
-     "tiros": null,
-     "tiros_contra": null,
-     "tiros_puerta": null,
-     "tiros_puerta_contra": null,
-     "corners": null,
-     "corners_contra": null,
-     "tarjetas": null,
-     "tarjetas_contra": null,
-     "faltas": null,
-     "faltas_contra": null,
-     "atajadas": null,
-     "atajadas_rival": null
-    },
-    "visita_fuera": {
-     "n": 10,
-     "goles": 1.4,
-     "goles_contra": 1.1,
-     "tiros": null,
-     "tiros_contra": null,
-     "tiros_puerta": null,
-     "tiros_puerta_contra": null,
-     "corners": null,
-     "corners_contra": null,
-     "tarjetas": null,
-     "tarjetas_contra": null,
-     "faltas": null,
-     "faltas_contra": null,
-     "atajadas": null,
-     "atajadas_rival": null
-    }
-   },
-   "pinnacle_anterior": "2026-11-26T06:54-05:00"
-  },
   {
    "inicio": "2026-11-26T22:10-05:00",
    "mercados": [],
@@ -424,23 +223,15 @@
    "betplay": {
     "id": 1029967646,
     "nombre": "Club León - Cruz Azul",
-    "n_mercados": 61,
+    "n_mercados": 60,
     "mercados": [
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.2
-     },
      {
       "mercado": "Marca al menos 2 goles",
       "en": "To score at least 2 goals",
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 2.0,
-      "cuota": 9.5
+      "cuota": 8.5
      },
      {
       "mercado": "Total de goles",
@@ -448,7 +239,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.5,
-      "cuota": 2.6
+      "cuota": 2.63
      },
      {
       "mercado": "Total de goles",
@@ -456,7 +247,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.5,
-      "cuota": 1.44
+      "cuota": 1.43
      },
      {
       "mercado": "Total de tiros a puerta por parte de Cruz Azul (Resuelta usando Opta Data)",
@@ -464,7 +255,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 1.63
+      "cuota": 1.65
      },
      {
       "mercado": "Total de tiros a puerta por parte de Cruz Azul (Resuelta usando Opta Data)",
@@ -472,7 +263,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 4.5,
-      "cuota": 2.0
+      "cuota": 1.98
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -480,7 +271,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.35
+      "cuota": 2.3
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -488,7 +279,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 9.5,
-      "cuota": 1.86
+      "cuota": 1.91
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -496,7 +287,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 9.5,
-      "cuota": 1.71
+      "cuota": 1.67
      },
      {
       "mercado": "Hándicap",
@@ -512,23 +303,7 @@
       "tipo": "OT_TWO",
       "op": "Cruz Azul",
       "linea": -0.5,
-      "cuota": 1.98
-     },
-     {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 4.4
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 11.0
+      "cuota": 2.0
      },
      {
       "mercado": "1º goleador",
@@ -536,15 +311,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 15.0
-     },
-     {
-      "mercado": "Marca al menos 3 goles",
-      "en": "To score at least 3 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 3.0,
-      "cuota": 46.0
+      "cuota": 14.0
      },
      {
       "mercado": "Total asiático",
@@ -552,7 +319,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.0,
-      "cuota": 2.04
+      "cuota": 2.07
      },
      {
       "mercado": "Total asiático",
@@ -560,7 +327,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.0,
-      "cuota": 1.7
+      "cuota": 1.68
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -584,7 +351,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 12.5,
-      "cuota": 1.23
+      "cuota": 1.22
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -592,7 +359,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 12.5,
-      "cuota": 3.4
+      "cuota": 3.5
      },
      {
       "mercado": "Apuesta sin empate - 2.ª parte",
@@ -608,15 +375,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 1.58
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 36.0
+      "cuota": 1.57
      },
      {
       "mercado": "Apuesta sin empate",
@@ -633,14 +392,6 @@
       "op": "2",
       "linea": null,
       "cuota": 1.5
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 1.5,
-      "cuota": 2.85
      },
      {
       "mercado": "Hándicap Asiático ",
@@ -672,7 +423,7 @@
       "tipo": "OT_TWO",
       "op": "Cruz Azul",
       "linea": -1.5,
-      "cuota": 3.5
+      "cuota": 3.6
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -688,7 +439,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 5.8
+      "cuota": 5.5
      },
      {
       "mercado": "Hándicap",
@@ -712,7 +463,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.0,
-      "cuota": 1.61
+      "cuota": 1.63
      },
      {
       "mercado": "Total asiático - 1.ª parte",
@@ -720,7 +471,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.0,
-      "cuota": 2.18
+      "cuota": 2.15
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -728,7 +479,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 2.5
+      "cuota": 2.4
      },
      {
       "mercado": "Hándicap asiático - 1.ª parte",
@@ -736,7 +487,7 @@
       "tipo": "OT_UNTYPED",
       "op": "Club León",
       "linea": 0.25,
-      "cuota": 1.66
+      "cuota": 1.65
      },
      {
       "mercado": "Hándicap asiático - 1.ª parte",
@@ -752,7 +503,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 6.0
+      "cuota": 5.75
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -760,7 +511,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 6.5
+      "cuota": 7.0
      },
      {
       "mercado": "Total de goles - 2.ª parte",
@@ -768,7 +519,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.9
+      "cuota": 1.88
      },
      {
       "mercado": "Total de goles - 2.ª parte",
@@ -776,7 +527,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 1.81
+      "cuota": 1.83
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -784,7 +535,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.6
+      "cuota": 4.5
      },
      {
       "mercado": "Ambos Equipos Marcarán - 2.ª parte",
@@ -792,7 +543,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 2.7
+      "cuota": 2.75
      },
      {
       "mercado": "Ambos Equipos Marcarán - 2.ª parte",
@@ -800,7 +551,7 @@
       "tipo": "OT_NO",
       "op": "No",
       "linea": null,
-      "cuota": 1.35
+      "cuota": 1.34
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -808,15 +559,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.7
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.4
+      "cuota": 2.65
      },
      {
       "mercado": "Hándicap 3-Way - 1ª parte",
@@ -840,7 +583,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": -1.0,
-      "cuota": 1.26
+      "cuota": 1.25
      },
      {
       "mercado": "Total de goles - 0:00-4:59",
@@ -848,7 +591,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 6.0
+      "cuota": 6.1
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -856,63 +599,39 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
+      "cuota": 2.3
+     },
+     {
+      "mercado": "1º goleador",
+      "en": "1st Goalscorer",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 19.0
+     },
+     {
+      "mercado": "Total de Tiros de Esquina a favor de Club León",
+      "en": "Total Corners by Club León",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 3.5,
+      "cuota": 1.35
+     },
+     {
+      "mercado": "Total de Tiros de Esquina a favor de Club León",
+      "en": "Total Corners by Club León",
+      "tipo": "OT_UNDER",
+      "op": "Menos de",
+      "linea": 3.5,
       "cuota": 2.7
      },
      {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 21.0
-     },
-     {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 6.0
-     },
-     {
-      "mercado": "Total de Tiros de Esquina a favor de Club León",
-      "en": "Total Corners by Club León",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 3.5,
-      "cuota": 1.34
-     },
-     {
-      "mercado": "Total de Tiros de Esquina a favor de Club León",
-      "en": "Total Corners by Club León",
-      "tipo": "OT_UNDER",
-      "op": "Menos de",
-      "linea": 3.5,
-      "cuota": 2.75
-     },
-     {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
       "en": "Player's shots on target (Settled using Opta data)",
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 3.3
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 51.0
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 5.8
+      "cuota": 3.2
      },
      {
       "mercado": "1º goleador",
@@ -920,7 +639,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 29.0
+      "cuota": 26.0
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -928,7 +647,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 6.5,
-      "cuota": 3.1
+      "cuota": 3.15
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -936,15 +655,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 6.5,
-      "cuota": 1.27
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 2.15
+      "cuota": 1.26
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -952,7 +663,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.0
+      "cuota": 3.9
      },
      {
       "mercado": "Marca al menos 2 goles",
@@ -960,15 +671,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 2.0,
-      "cuota": 18.0
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.7
+      "cuota": 16.0
      },
      {
       "mercado": "2ª parte",
@@ -1000,31 +703,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 7.5
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 3.9
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 4.3
-     },
-     {
-      "mercado": "Marca al menos 3 goles",
-      "en": "To score at least 3 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 3.0,
-      "cuota": 46.0
+      "cuota": 7.0
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1048,7 +727,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 1.98
+      "cuota": 1.93
      },
      {
       "mercado": "1º goleador",
@@ -1064,7 +743,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": null,
-      "cuota": 3.4
+      "cuota": 3.45
      },
      {
       "mercado": "Descanso",
@@ -1072,7 +751,7 @@
       "tipo": "OT_CROSS",
       "op": "X",
       "linea": null,
-      "cuota": 2.23
+      "cuota": 2.2
      },
      {
       "mercado": "Descanso",
@@ -1080,7 +759,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 2.5
+      "cuota": 2.55
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -1088,7 +767,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.49
+      "cuota": 1.45
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1112,7 +791,7 @@
       "tipo": "OT_NO",
       "op": "No",
       "linea": null,
-      "cuota": 2.3
+      "cuota": 2.28
      },
      {
       "mercado": "Total de goles",
@@ -1128,7 +807,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": 2.0,
-      "cuota": 1.07
+      "cuota": 1.06
      },
      {
       "mercado": "Hándicap 3-Way - 1ª parte",
@@ -1152,7 +831,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 1.7
+      "cuota": 1.71
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Club León",
@@ -1160,7 +839,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 4.5,
-      "cuota": 1.92
+      "cuota": 1.9
      },
      {
       "mercado": "Total de goles - 1.ª parte",
@@ -1168,7 +847,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.28
+      "cuota": 1.3
      },
      {
       "mercado": "Total de goles - 1.ª parte",
@@ -1176,7 +855,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 3.25
+      "cuota": 3.15
      },
      {
       "mercado": "1º goleador",
@@ -1184,15 +863,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 18.0
-     },
-     {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 5.0
+      "cuota": 17.0
      },
      {
       "mercado": "Anotará",
@@ -1216,7 +887,7 @@
       "tipo": "OT_ONE_OR_TWO",
       "op": "12",
       "linea": null,
-      "cuota": 1.5
+      "cuota": 1.53
      },
      {
       "mercado": "Doble Oportunidad - 1.ª parte",
@@ -1224,7 +895,7 @@
       "tipo": "OT_CROSS_OR_TWO",
       "op": "X2",
       "linea": null,
-      "cuota": 1.23
+      "cuota": 1.22
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -1232,23 +903,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.8
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 14.0
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 1.24
+      "cuota": 1.2
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1256,15 +911,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 2.08
-     },
-     {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 5.1
+      "cuota": 1.95
      },
      {
       "mercado": "Anotará",
@@ -1272,7 +919,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 11.0
+      "cuota": 10.0
      },
      {
       "mercado": "Marca al menos 2 goles",
@@ -1288,7 +935,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 4.0
+      "cuota": 3.8
      },
      {
       "mercado": "Más Tiros a puerta (Resuelta usando Opta Data)",
@@ -1320,23 +967,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.8
-     },
-     {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 5.5
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 6.25
+      "cuota": 5.75
      },
      {
       "mercado": "Total de goles de Club León - 1ª parte",
@@ -1355,20 +986,12 @@
       "cuota": 1.08
      },
      {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 6.5
-     },
-     {
       "mercado": "Total de goles - 1.ª parte",
       "en": "Total Goals - 1st Half",
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 2.5,
-      "cuota": 5.5
+      "cuota": 5.6
      },
      {
       "mercado": "Total de goles - 1.ª parte",
@@ -1384,7 +1007,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 3.6
+      "cuota": 3.65
      },
      {
       "mercado": "Ambos Equipos Marcarán - 1.ª parte",
@@ -1395,20 +1018,12 @@
       "cuota": 1.19
      },
      {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 3.0
-     },
-     {
       "mercado": "Anotará",
       "en": "To Score",
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 8.5
+      "cuota": 8.0
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Club León",
@@ -1416,7 +1031,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 5.5,
-      "cuota": 2.25
+      "cuota": 2.28
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Club León",
@@ -1424,23 +1039,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 5.5,
-      "cuota": 1.5
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 1.5,
-      "cuota": 3.1
-     },
-     {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 7.0
+      "cuota": 1.48
      },
      {
       "mercado": "Anotará",
@@ -1448,15 +1047,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 3.5
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 81.0
+      "cuota": 3.3
      },
      {
       "mercado": "Total de tiros a puerta por parte de Cruz Azul (Resuelta usando Opta Data)",
@@ -1480,7 +1071,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.25,
-      "cuota": 2.02
+      "cuota": 2.05
      },
      {
       "mercado": "Total asiático - 1.ª parte",
@@ -1488,7 +1079,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.25,
-      "cuota": 1.71
+      "cuota": 1.68
      },
      {
       "mercado": "Más Tiros de Esquina",
@@ -1496,7 +1087,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": null,
-      "cuota": 1.95
+      "cuota": 1.97
      },
      {
       "mercado": "Más Tiros de Esquina",
@@ -1512,7 +1103,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 1.95
+      "cuota": 1.93
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1520,15 +1111,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.4
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.0
+      "cuota": 4.5
      },
      {
       "mercado": "Total de goles",
@@ -1536,7 +1119,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 5.5,
-      "cuota": 8.5
+      "cuota": 9.0
      },
      {
       "mercado": "Total de goles",
@@ -1547,20 +1130,12 @@
       "cuota": 1.03
      },
      {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 26.0
-     },
-     {
       "mercado": "Total de goles de Club León - 1ª parte",
       "en": "Total Goals by Club León - 1st Half",
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.08
+      "cuota": 2.1
      },
      {
       "mercado": "Total de goles de Club León - 1ª parte",
@@ -1568,7 +1143,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 1.67
+      "cuota": 1.66
      },
      {
       "mercado": "Total de tiros a puerta por parte de Club León (Resuelta usando Opta Data)",
@@ -1592,15 +1167,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 3.7
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 4.6
+      "cuota": 3.5
      },
      {
       "mercado": "Ambos Equipos Marcarán",
@@ -1608,7 +1175,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 1.52
+      "cuota": 1.53
      },
      {
       "mercado": "Ambos Equipos Marcarán",
@@ -1616,7 +1183,7 @@
       "tipo": "OT_NO",
       "op": "No",
       "linea": null,
-      "cuota": 2.28
+      "cuota": 2.25
      },
      {
       "mercado": "Total de tiros a puerta por parte de Club León (Resuelta usando Opta Data)",
@@ -1624,7 +1191,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 2.0
+      "cuota": 2.04
      },
      {
       "mercado": "Total de tiros a puerta por parte de Club León (Resuelta usando Opta Data)",
@@ -1632,7 +1199,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 4.5,
-      "cuota": 1.64
+      "cuota": 1.62
      },
      {
       "mercado": "Total de goles de Club León - 2ª parte",
@@ -1640,7 +1207,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.77
+      "cuota": 1.79
      },
      {
       "mercado": "Total de goles de Club León - 2ª parte",
@@ -1648,7 +1215,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 1.94
+      "cuota": 1.93
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -1664,7 +1231,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.25,
-      "cuota": 2.3
+      "cuota": 2.33
      },
      {
       "mercado": "Total asiático",
@@ -1672,15 +1239,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.25,
-      "cuota": 1.55
-     },
-     {
-      "mercado": "Marca al menos 3 goles",
-      "en": "To score at least 3 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 3.0,
-      "cuota": 51.0
+      "cuota": 1.54
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -1688,7 +1247,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 3.9
+      "cuota": 3.7
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -1704,7 +1263,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 7.0
+      "cuota": 7.5
      },
      {
       "mercado": "Total de goles de Cruz Azul - 1ª parte",
@@ -1712,7 +1271,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 4.8
+      "cuota": 5.0
      },
      {
       "mercado": "Total de goles de Cruz Azul - 1ª parte",
@@ -1723,20 +1282,12 @@
       "cuota": 1.14
      },
      {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 10.0
-     },
-     {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
       "en": "Player's shots on target (Settled using Opta data)",
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 4.4
+      "cuota": 4.3
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1752,7 +1303,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 3.7
+      "cuota": 3.65
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -1760,7 +1311,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 8.5,
-      "cuota": 2.63
+      "cuota": 2.6
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -1768,7 +1319,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 8.5,
-      "cuota": 1.38
+      "cuota": 1.4
      },
      {
       "mercado": "Total de tiros a puerta por parte de Club León (Resuelta usando Opta Data)",
@@ -1776,7 +1327,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.5,
-      "cuota": 1.46
+      "cuota": 1.47
      },
      {
       "mercado": "Total de tiros a puerta por parte de Club León (Resuelta usando Opta Data)",
@@ -1784,7 +1335,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.5,
-      "cuota": 2.35
+      "cuota": 2.32
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -1792,7 +1343,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 9.5,
-      "cuota": 2.02
+      "cuota": 1.98
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -1800,7 +1351,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 9.5,
-      "cuota": 1.65
+      "cuota": 1.68
      },
      {
       "mercado": "Total de goles",
@@ -1808,7 +1359,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 12.0
+      "cuota": 11.5
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1816,7 +1367,7 @@
       "tipo": "OT_TWO_TWO",
       "op": "2/2",
       "linea": null,
-      "cuota": 3.25
+      "cuota": 3.3
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1824,7 +1375,7 @@
       "tipo": "OT_ONE_ONE",
       "op": "1/1",
       "linea": null,
-      "cuota": 5.2
+      "cuota": 5.25
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1832,7 +1383,7 @@
       "tipo": "OT_ONE_CROSS",
       "op": "1/X",
       "linea": null,
-      "cuota": 12.5
+      "cuota": 12.0
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1840,7 +1391,7 @@
       "tipo": "OT_ONE_TWO",
       "op": "1/2",
       "linea": null,
-      "cuota": 19.0
+      "cuota": 20.0
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1864,7 +1415,7 @@
       "tipo": "OT_CROSS_TWO",
       "op": "X/2",
       "linea": null,
-      "cuota": 5.3
+      "cuota": 5.1
      },
      {
       "mercado": "Primera parte/Tiempo reglamentario",
@@ -1880,7 +1431,7 @@
       "tipo": "OT_TWO_CROSS",
       "op": "2/X",
       "linea": null,
-      "cuota": 12.5
+      "cuota": 12.0
      },
      {
       "mercado": "Total de goles - 1.ª parte",
@@ -1888,7 +1439,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 2.43
+      "cuota": 2.45
      },
      {
       "mercado": "Total de goles - 1.ª parte",
@@ -1896,15 +1447,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.5
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 1.23
+      "cuota": 1.49
      },
      {
       "mercado": "Total de goles",
@@ -1912,7 +1455,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 1.18
+      "cuota": 1.19
      },
      {
       "mercado": "Total de goles",
@@ -1920,7 +1463,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 4.35
+      "cuota": 4.25
      },
      {
       "mercado": "Total de goles de Club León",
@@ -1928,7 +1471,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.27
+      "cuota": 1.28
      },
      {
       "mercado": "Total de goles de Club León",
@@ -1936,7 +1479,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 3.3
+      "cuota": 3.2
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -1944,15 +1487,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 5.0
-     },
-     {
-      "mercado": "Marca al menos 3 goles",
-      "en": "To score at least 3 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 3.0,
-      "cuota": 67.0
+      "cuota": 4.6
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -1960,7 +1495,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 2.2
+      "cuota": 2.18
      },
      {
       "mercado": "Victoria de Club León sin recibir goles en contra",
@@ -1976,15 +1511,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 12.0
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 7.0
+      "cuota": 11.5
      },
      {
       "mercado": "Ganador del intervalo - 0:00-14:59",
@@ -1992,7 +1519,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": null,
-      "cuota": 6.4
+      "cuota": 6.25
      },
      {
       "mercado": "Ganador del intervalo - 0:00-14:59",
@@ -2008,7 +1535,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 5.0
+      "cuota": 5.1
      },
      {
       "mercado": "Total de goles - 2.ª parte",
@@ -2032,7 +1559,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 2.4
+      "cuota": 2.43
      },
      {
       "mercado": "Total de goles de Club León",
@@ -2040,7 +1567,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.49
+      "cuota": 1.48
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2056,7 +1583,7 @@
       "tipo": "OT_CROSS",
       "op": "X",
       "linea": 1.0,
-      "cuota": 3.8
+      "cuota": 3.7
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2064,7 +1591,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": 1.0,
-      "cuota": 3.6
+      "cuota": 3.65
      },
      {
       "mercado": "Total de goles",
@@ -2072,7 +1599,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 4.75
+      "cuota": 4.8
      },
      {
       "mercado": "Total de goles",
@@ -2088,7 +1615,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": 1.0,
-      "cuota": 1.44
+      "cuota": 1.43
      },
      {
       "mercado": "Hándicap 3-Way - 1ª parte",
@@ -2107,20 +1634,12 @@
       "cuota": 7.0
      },
      {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 1.5,
-      "cuota": 2.05
-     },
-     {
       "mercado": "1º goleador",
       "en": "1st Goalscorer",
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 8.0
+      "cuota": 7.5
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -2128,15 +1647,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.42
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.85
+      "cuota": 1.3
      },
      {
       "mercado": "Siguiente Tiro de Esquina. Sin Tiro de Esquina no hay apuesta (1)",
@@ -2144,7 +1655,7 @@
       "tipo": "OT_ONE",
       "op": "1",
       "linea": null,
-      "cuota": 1.85
+      "cuota": 1.87
      },
      {
       "mercado": "Siguiente Tiro de Esquina. Sin Tiro de Esquina no hay apuesta (1)",
@@ -2152,7 +1663,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 1.82
+      "cuota": 1.8
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -2160,7 +1671,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 10.5,
-      "cuota": 1.63
+      "cuota": 1.62
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -2168,7 +1679,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 10.5,
-      "cuota": 2.05
+      "cuota": 2.08
      },
      {
       "mercado": "Doble Oportunidad",
@@ -2200,7 +1711,7 @@
       "tipo": "OT_UNTYPED",
       "op": "0-4",
       "linea": null,
-      "cuota": 23.0
+      "cuota": 25.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2216,7 +1727,7 @@
       "tipo": "OT_UNTYPED",
       "op": "0-1",
       "linea": null,
-      "cuota": 8.0
+      "cuota": 7.5
      },
      {
       "mercado": "Resultado Correcto",
@@ -2224,7 +1735,7 @@
       "tipo": "OT_UNTYPED",
       "op": "1-1",
       "linea": null,
-      "cuota": 6.0
+      "cuota": 6.1
      },
      {
       "mercado": "Resultado Correcto",
@@ -2248,7 +1759,7 @@
       "tipo": "OT_UNTYPED",
       "op": "0-3",
       "linea": null,
-      "cuota": 12.5
+      "cuota": 12.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2280,7 +1791,7 @@
       "tipo": "OT_UNTYPED",
       "op": "4-1",
       "linea": null,
-      "cuota": 36.0
+      "cuota": 35.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2296,7 +1807,7 @@
       "tipo": "OT_UNTYPED",
       "op": "3-0",
       "linea": null,
-      "cuota": 21.0
+      "cuota": 23.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2312,7 +1823,7 @@
       "tipo": "OT_UNTYPED",
       "op": "2-4",
       "linea": null,
-      "cuota": 25.0
+      "cuota": 26.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2320,7 +1831,7 @@
       "tipo": "OT_UNTYPED",
       "op": "2-5",
       "linea": null,
-      "cuota": 56.0
+      "cuota": 61.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2328,7 +1839,7 @@
       "tipo": "OT_UNTYPED",
       "op": "0-2",
       "linea": null,
-      "cuota": 9.0
+      "cuota": 8.5
      },
      {
       "mercado": "Resultado Correcto",
@@ -2344,7 +1855,7 @@
       "tipo": "OT_UNTYPED",
       "op": "3-4",
       "linea": null,
-      "cuota": 46.0
+      "cuota": 41.0
      },
      {
       "mercado": "Resultado Correcto",
@@ -2390,14 +1901,6 @@
       "mercado": "Resultado Correcto",
       "en": "Correct Score",
       "tipo": "OT_UNTYPED",
-      "op": "5-1",
-      "linea": null,
-      "cuota": 81.0
-     },
-     {
-      "mercado": "Resultado Correcto",
-      "en": "Correct Score",
-      "tipo": "OT_UNTYPED",
       "op": "2-3",
       "linea": null,
       "cuota": 13.0
@@ -2424,7 +1927,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 5.5,
-      "cuota": 2.23
+      "cuota": 2.25
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -2440,7 +1943,7 @@
       "tipo": "OT_UNTYPED",
       "op": "Club León",
       "linea": 0.25,
-      "cuota": 1.95
+      "cuota": 1.94
      },
      {
       "mercado": "Hándicap Asiático ",
@@ -2448,15 +1951,7 @@
       "tipo": "OT_UNTYPED",
       "op": "Cruz Azul",
       "linea": -0.25,
-      "cuota": 1.78
-     },
-     {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 10.5
+      "cuota": 1.77
      },
      {
       "mercado": "Paradas del Portero (Resuelta usando Opta Data)",
@@ -2464,7 +1959,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 6.5,
-      "cuota": 1.9
+      "cuota": 1.91
      },
      {
       "mercado": "1º goleador",
@@ -2472,7 +1967,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 14.0
+      "cuota": 13.0
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -2480,7 +1975,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 11.5,
-      "cuota": 1.4
+      "cuota": 1.37
      },
      {
       "mercado": "Total de Tiros de Esquina",
@@ -2488,7 +1983,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 11.5,
-      "cuota": 2.6
+      "cuota": 2.65
      },
      {
       "mercado": "Hándicap Asiático ",
@@ -2520,15 +2015,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 9.0
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 2.05
+      "cuota": 8.0
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -2536,7 +2023,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 10.5,
-      "cuota": 2.43
+      "cuota": 2.5
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -2544,7 +2031,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 10.5,
-      "cuota": 1.41
+      "cuota": 1.38
      },
      {
       "mercado": "Anotará",
@@ -2552,7 +2039,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 3.0
+      "cuota": 2.9
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -2560,7 +2047,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 2.08
+      "cuota": 1.95
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2576,7 +2063,7 @@
       "tipo": "OT_CROSS",
       "op": "X",
       "linea": -1.0,
-      "cuota": 4.7
+      "cuota": 4.8
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2584,7 +2071,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": -1.0,
-      "cuota": 1.32
+      "cuota": 1.3
      },
      {
       "mercado": "Total asiático",
@@ -2592,7 +2079,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 2.75,
-      "cuota": 1.79
+      "cuota": 1.81
      },
      {
       "mercado": "Total asiático",
@@ -2600,7 +2087,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 2.75,
-      "cuota": 1.93
+      "cuota": 1.9
      },
      {
       "mercado": "Anotará",
@@ -2608,7 +2095,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 6.0
+      "cuota": 5.6
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -2616,7 +2103,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.0
+      "cuota": 4.3
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -2624,7 +2111,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.5,
-      "cuota": 7.5
+      "cuota": 8.0
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -2635,20 +2122,12 @@
       "cuota": 1.03
      },
      {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 11.0
-     },
-     {
       "mercado": "Total de goles",
       "en": "Total Goals",
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 2.5,
-      "cuota": 1.62
+      "cuota": 1.64
      },
      {
       "mercado": "Total de goles",
@@ -2656,7 +2135,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 2.5,
-      "cuota": 2.15
+      "cuota": 2.12
      },
      {
       "mercado": "1º goleador",
@@ -2664,15 +2143,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 21.0
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 4.1
+      "cuota": 20.0
      },
      {
       "mercado": "Total de goles de Cruz Azul - 1ª parte",
@@ -2680,7 +2151,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.79
+      "cuota": 1.8
      },
      {
       "mercado": "Total de goles de Cruz Azul - 1ª parte",
@@ -2688,7 +2159,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 0.5,
-      "cuota": 1.93
+      "cuota": 1.92
      },
      {
       "mercado": "Total de goles de Cruz Azul - 2ª parte",
@@ -2696,7 +2167,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 3.45
+      "cuota": 3.5
      },
      {
       "mercado": "Total de goles de Cruz Azul - 2ª parte",
@@ -2704,15 +2175,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.27
-     },
-     {
-      "mercado": "Da una asistencia (resuelta usando datos Opta)",
-      "en": "To give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 3.9
+      "cuota": 1.26
      },
      {
       "mercado": "Marca al menos 2 goles",
@@ -2720,31 +2183,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 2.0,
-      "cuota": 10.5
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 1.95
-     },
-     {
-      "mercado": "Hándicap Asiático ",
-      "en": "Asian Handicap",
-      "tipo": "OT_UNTYPED",
-      "op": "Club León",
-      "linea": -0.25,
-      "cuota": 2.7
-     },
-     {
-      "mercado": "Hándicap Asiático ",
-      "en": "Asian Handicap",
-      "tipo": "OT_UNTYPED",
-      "op": "Cruz Azul",
-      "linea": 0.25,
-      "cuota": 1.41
+      "cuota": 9.0
      },
      {
       "mercado": "1º goleador",
@@ -2752,7 +2191,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 26.0
+      "cuota": 25.0
      },
      {
       "mercado": "1º goleador",
@@ -2768,7 +2207,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 2.43
+      "cuota": 2.45
      },
      {
       "mercado": "Total asiático - 1.ª parte",
@@ -2776,7 +2215,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.5
+      "cuota": 1.49
      },
      {
       "mercado": "Resultado Final",
@@ -2792,7 +2231,7 @@
       "tipo": "OT_CROSS",
       "op": "X",
       "linea": null,
-      "cuota": 3.6
+      "cuota": 3.55
      },
      {
       "mercado": "Resultado Final",
@@ -2872,7 +2311,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 8.5,
-      "cuota": 2.17
+      "cuota": 2.14
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -2880,7 +2319,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 3.6
+      "cuota": 3.5
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2896,7 +2335,7 @@
       "tipo": "OT_CROSS",
       "op": "X",
       "linea": 2.0,
-      "cuota": 5.6
+      "cuota": 5.75
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -2920,7 +2359,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 2.5,
-      "cuota": 1.24
+      "cuota": 1.25
      },
      {
       "mercado": "Total de goles - 2.ª parte",
@@ -2944,7 +2383,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 3.35
+      "cuota": 3.4
      },
      {
       "mercado": "Primer gol (Empate: sin goles)",
@@ -2968,7 +2407,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 1.77
+      "cuota": 1.78
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -2976,7 +2415,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 3.7
+      "cuota": 3.6
      },
      {
       "mercado": "Resultado Correcto - 1.ª parte",
@@ -2984,7 +2423,7 @@
       "tipo": "OT_UNTYPED",
       "op": "0-0",
       "linea": null,
-      "cuota": 3.1
+      "cuota": 3.05
      },
      {
       "mercado": "Resultado Correcto - 1.ª parte",
@@ -3056,15 +2495,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.5
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 3.4
+      "cuota": 3.2
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -3072,7 +2503,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.8
+      "cuota": 4.7
      },
      {
       "mercado": "Total asiático",
@@ -3080,7 +2511,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.5,
-      "cuota": 2.55
+      "cuota": 2.6
      },
      {
       "mercado": "Total asiático",
@@ -3088,7 +2519,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.5,
-      "cuota": 1.45
+      "cuota": 1.44
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -3096,7 +2527,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 1.83
+      "cuota": 1.84
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -3104,23 +2535,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 1.5,
-      "cuota": 1.85
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 3.2
-     },
-     {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 11.0
+      "cuota": 1.84
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -3128,7 +2543,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.6
+      "cuota": 2.5
      },
      {
       "mercado": "Club León gana al menos una parte",
@@ -3152,7 +2567,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 7.0
+      "cuota": 6.5
      },
      {
       "mercado": "Anotará",
@@ -3160,7 +2575,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 2.55
+      "cuota": 2.45
      },
      {
       "mercado": "Total de goles de Club León",
@@ -3176,7 +2591,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 1.65
+      "cuota": 1.6
      },
      {
       "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
@@ -3192,15 +2607,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 20.0
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 46.0
+      "cuota": 21.0
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -3208,7 +2615,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 7.5,
-      "cuota": 1.27
+      "cuota": 1.28
      },
      {
       "mercado": "Total de tiros a puerta (Resuelta usando Opta Data)",
@@ -3216,7 +2623,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 7.5,
-      "cuota": 3.0
+      "cuota": 2.95
      },
      {
       "mercado": "Da una asistencia (resuelta usando datos Opta)",
@@ -3224,7 +2631,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 4.5
+      "cuota": 4.3
      },
      {
       "mercado": "1º goleador",
@@ -3232,7 +2639,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 21.0
+      "cuota": 20.0
      },
      {
       "mercado": "1º goleador",
@@ -3240,15 +2647,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 5.5
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 51.0
+      "cuota": 5.2
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -3256,15 +2655,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 1.5,
-      "cuota": 3.1
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 1.97
+      "cuota": 2.9
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -3272,7 +2663,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 2.5,
-      "cuota": 3.65
+      "cuota": 3.7
      },
      {
       "mercado": "Total de goles de Cruz Azul",
@@ -3288,7 +2679,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 8.0
+      "cuota": 7.5
      },
      {
       "mercado": "Doble Oportunidad - 2.ª parte",
@@ -3304,7 +2695,7 @@
       "tipo": "OT_ONE_OR_TWO",
       "op": "12",
       "linea": null,
-      "cuota": 1.37
+      "cuota": 1.38
      },
      {
       "mercado": "Doble Oportunidad - 2.ª parte",
@@ -3312,15 +2703,7 @@
       "tipo": "OT_CROSS_OR_TWO",
       "op": "X2",
       "linea": null,
-      "cuota": 1.27
-     },
-     {
-      "mercado": "Anotará",
-      "en": "To Score",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 4.6
+      "cuota": 1.26
      },
      {
       "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
@@ -3328,7 +2711,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 4.5
+      "cuota": 4.3
      },
      {
       "mercado": "Anotará",
@@ -3336,7 +2719,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 5.0
+      "cuota": 4.7
      },
      {
       "mercado": "Anotará",
@@ -3344,7 +2727,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 5.8
+      "cuota": 5.75
      },
      {
       "mercado": "Anotará",
@@ -3352,7 +2735,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 10.5
+      "cuota": 10.0
      },
      {
       "mercado": "Gol en ambas mitades",
@@ -3360,7 +2743,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": null,
-      "cuota": 1.5
+      "cuota": 1.52
      },
      {
       "mercado": "Gol en ambas mitades",
@@ -3368,7 +2751,7 @@
       "tipo": "OT_NO",
       "op": "No",
       "linea": null,
-      "cuota": 2.25
+      "cuota": 2.2
      },
      {
       "mercado": "Total de goles - 0:00-14:59",
@@ -3376,15 +2759,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 0.5,
-      "cuota": 2.7
-     },
-     {
-      "mercado": "Marca al menos 2 goles",
-      "en": "To score at least 2 goals",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 2.0,
-      "cuota": 51.0
+      "cuota": 2.75
      },
      {
       "mercado": "Ganador del intervalo - 0:00-4:59",
@@ -3408,31 +2783,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 11.0
-     },
-     {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 14.0
-     },
-     {
-      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
-      "en": "Player's shots on target (Settled using Opta data)",
-      "tipo": "OT_OVER",
-      "op": "Más de",
-      "linea": 0.5,
-      "cuota": 1.44
-     },
-     {
-      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
-      "en": "To score or give an assist (Settled using Opta data)",
-      "tipo": "OT_YES",
-      "op": "Sí",
-      "linea": 1.0,
-      "cuota": 2.8
+      "cuota": 11.5
      },
      {
       "mercado": "Anotará",
@@ -3440,7 +2791,7 @@
       "tipo": "OT_YES",
       "op": "Sí",
       "linea": 1.0,
-      "cuota": 2.65
+      "cuota": 2.5
      },
      {
       "mercado": "Apuesta sin empate - 1.ª parte",
@@ -3456,7 +2807,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": null,
-      "cuota": 1.57
+      "cuota": 1.58
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -3464,7 +2815,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 4.5,
-      "cuota": 1.68
+      "cuota": 1.7
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -3472,7 +2823,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 4.5,
-      "cuota": 1.94
+      "cuota": 1.92
      },
      {
       "mercado": "Hándicap asiático - 1.ª parte",
@@ -3480,7 +2831,7 @@
       "tipo": "OT_UNTYPED",
       "op": "Club León",
       "linea": 0.5,
-      "cuota": 1.45
+      "cuota": 1.44
      },
      {
       "mercado": "Hándicap asiático - 1.ª parte",
@@ -3488,7 +2839,7 @@
       "tipo": "OT_UNTYPED",
       "op": "Cruz Azul",
       "linea": -0.5,
-      "cuota": 2.55
+      "cuota": 2.6
      },
      {
       "mercado": "Total asiático",
@@ -3496,7 +2847,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 2.5,
-      "cuota": 1.63
+      "cuota": 1.65
      },
      {
       "mercado": "Total asiático",
@@ -3504,15 +2855,39 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 2.5,
-      "cuota": 2.15
+      "cuota": 2.12
      },
      {
-      "mercado": "1º goleador",
-      "en": "1st Goalscorer",
-      "tipo": "OT_YES",
-      "op": "Sí",
+      "mercado": "Hándicap Asiático ",
+      "en": "Asian Handicap",
+      "tipo": "OT_UNTYPED",
+      "op": "Club León",
       "linea": 1.0,
-      "cuota": 4.7
+      "cuota": 1.35
+     },
+     {
+      "mercado": "Hándicap Asiático ",
+      "en": "Asian Handicap",
+      "tipo": "OT_UNTYPED",
+      "op": "Cruz Azul",
+      "linea": -1.0,
+      "cuota": 2.95
+     },
+     {
+      "mercado": "Total de Tiros de Esquina",
+      "en": "Total Corners",
+      "tipo": "OT_UNDER",
+      "op": "Menos de",
+      "linea": 7.5,
+      "cuota": 3.5
+     },
+     {
+      "mercado": "Total de Tiros de Esquina",
+      "en": "Total Corners",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 7.5,
+      "cuota": 1.22
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Club León",
@@ -3520,7 +2895,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 6.5,
-      "cuota": 3.05
+      "cuota": 3.15
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Club León",
@@ -3528,7 +2903,7 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 6.5,
-      "cuota": 1.27
+      "cuota": 1.26
      },
      {
       "mercado": "Hándicap 3-Way",
@@ -3552,7 +2927,7 @@
       "tipo": "OT_TWO",
       "op": "2",
       "linea": 3.0,
-      "cuota": 14.0
+      "cuota": 15.0
      },
      {
       "mercado": "Total de Tiros de Esquina a favor de Cruz Azul",
@@ -3576,7 +2951,7 @@
       "tipo": "OT_OVER",
       "op": "Más de",
       "linea": 3.5,
-      "cuota": 1.27
+      "cuota": 1.28
      },
      {
       "mercado": "Total de tiros a puerta por parte de Cruz Azul (Resuelta usando Opta Data)",
@@ -3584,7 +2959,103 @@
       "tipo": "OT_UNDER",
       "op": "Menos de",
       "linea": 3.5,
-      "cuota": 3.05
+      "cuota": 3.0
+     },
+     {
+      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
+      "en": "To score or give an assist (Settled using Opta data)",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 5.6
+     },
+     {
+      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
+      "en": "Player's shots on target (Settled using Opta data)",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 1.5,
+      "cuota": 3.4
+     },
+     {
+      "mercado": "Marca al menos 2 goles",
+      "en": "To score at least 2 goals",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 2.0,
+      "cuota": 14.0
+     },
+     {
+      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
+      "en": "Player's shots on target (Settled using Opta data)",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 0.5,
+      "cuota": 3.9
+     },
+     {
+      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
+      "en": "Player's shots on target (Settled using Opta data)",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 2.5,
+      "cuota": 3.5
+     },
+     {
+      "mercado": "1º goleador",
+      "en": "1st Goalscorer",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 21.0
+     },
+     {
+      "mercado": "1º goleador",
+      "en": "1st Goalscorer",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 7.0
+     },
+     {
+      "mercado": "Disparos a puerta del jugador (Resuelta usando Opta Data)",
+      "en": "Player's shots on target (Settled using Opta data)",
+      "tipo": "OT_OVER",
+      "op": "Más de",
+      "linea": 0.5,
+      "cuota": 1.56
+     },
+     {
+      "mercado": "Anotará",
+      "en": "To Score",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 3.1
+     },
+     {
+      "mercado": "Anotará",
+      "en": "To Score",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 8.5
+     },
+     {
+      "mercado": "Da una asistencia (resuelta usando datos Opta)",
+      "en": "To give an assist (Settled using Opta data)",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 3.1
+     },
+     {
+      "mercado": "Marca o da una asistencia (resuelta usando datos Opta)",
+      "en": "To score or give an assist (Settled using Opta data)",
+      "tipo": "OT_YES",
+      "op": "Sí",
+      "linea": 1.0,
+      "cuota": 1.98
      }
     ]
    }
