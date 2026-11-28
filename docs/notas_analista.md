@@ -58,3 +58,6 @@ Pedido del usuario: "seamos más cuidadosos con los siguientes 4 escalones". Hoy
 - 28-nov: antes de usar una media de córners de casa, mira si la infla un solo partido (Preston 5.6 con un 16 contra Lincoln → 4.1 sin él; Angers 6.0 con un 12). Usa mediana o quita el atípico.
 - 28-nov: MLS ronda 1 (al mejor de 3): el local del partido 2 perdió el 1 y está obligado; los "menos de 4.5 goles" a 1.25–1.32 no sirven para la escalera cuidadosa.
 - 28-nov: escalón 10 saltado otra vez (2.º día). Si mañana tampoco hay, dilo igual: la regla del modo cuidadoso permite saltar días.
+
+## PEDIDO DEL USUARIO PARA EL DOMINGO 29-NOV (hecho el sábado 4 a. m.)
+"Revisa todo lo que haya mañana": revisión a fondo de TODOS los partidos del domingo, todos los mercados (1X2, doble oportunidad, goles, ambos marcan, hándicaps, córners y tarjetas totales y por equipo). Incluir sí o sí los partidos colombianos (Medellín–Once Caldas y el resto de cuadrangulares del domingo) con árbitro designado y su promedio (valuestats), y la Liguilla MX. Para tarjetas en Colombia, el árbitro pesa mucho (ej. 27-nov: árbitro de 6.5 amarillas → más de 6.5 tarjetas ganó). Buscar escalón 10 en modo cuidadoso. Borrar este bloque cuando quede hecho.
