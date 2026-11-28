@@ -53,3 +53,8 @@ Pedido del usuario: "seamos más cuidadosos con los siguientes 4 escalones". Hoy
 
 - 27-nov: escalón 10 saltado (modo cuidadoso): ninguna línea 1.25–1.60 tenía 75 % con dos fuentes y colchón. Lección: en ligas sin Pinnacle, revisa los marcadores reales de los últimos partidos de la misma fase (Bucaramanga 5 y 4 goles en cuadrangulares) antes de proponer "menos de 3.5" de escalera aunque BetPlay dé 74 %.
 - 27-nov: antes de publicar un "más goles" por promedios de temporada, contrástalo con un modelo externo (Sports Mole/Opta) y con la cuota: el revisor tumbó Groningen–Willem II más de 3.5 (2.12) porque el 50 % propio era optimista.
+
+- 28-nov: hoy.json ya trae Pinnacle para ligas domésticas (Premier, Championship, Serie A, Ligue 1, MLS, Liga MX, Brasil, Argentina). Usar Pinnacle (método potencia) como ancla en esas ligas; la nota de arriba sobre "Pinnacle solo copas" quedó vieja.
+- 28-nov: antes de usar una media de córners de casa, mira si la infla un solo partido (Preston 5.6 con un 16 contra Lincoln → 4.1 sin él; Angers 6.0 con un 12). Usa mediana o quita el atípico.
+- 28-nov: MLS ronda 1 (al mejor de 3): el local del partido 2 perdió el 1 y está obligado; los "menos de 4.5 goles" a 1.25–1.32 no sirven para la escalera cuidadosa.
+- 28-nov: escalón 10 saltado otra vez (2.º día). Si mañana tampoco hay, dilo igual: la regla del modo cuidadoso permite saltar días.
